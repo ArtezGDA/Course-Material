@@ -46,7 +46,8 @@ Combine the illustrations and code snippets in a relevant and meaningful way. If
 
 ###Planning
 
-Create a journal, notebook or blog about your research.
+Create a journal, notebook or blog about your research.  
+Visit a botanic garden for inspiration.  
 (to be expanded)
 
 ###Evaluation
@@ -58,4 +59,16 @@ Process, Structure, Insight, Coding Skills, textual contents (quality of the wri
 
 ###Literature
 
-Yet to be determined.
+####Inspiration & L-systems
+- [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf) (Mathematic Scientific Paper)
+
+####Fibonacci
+- [Vi Heart - SpongeBob's Pineapple (video)](https://www.youtube.com/watch?v=gBxeju8dMho)
+
+####Code Snippets & Animation
+- [Bret Victor's article Learnable Programming](http://worrydream.com/LearnableProgramming/)
+
+####Article with animation and code illustrations
+- [Visualizing Algorithms](http://bost.ocks.org/mike/algorithms/)
+
+(to be expanded)
