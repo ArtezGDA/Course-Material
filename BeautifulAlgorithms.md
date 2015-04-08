@@ -46,11 +46,79 @@ Combine the illustrations and code snippets in a relevant and meaningful way. If
 
 ###Planning
 
-#####For next week:
+#####1 april 2015:
+- Introduction to the assignment.
+- Fibonacci
+
+**Homework:**  
 Create a journal, notebook or blog about your research.  
 Visit a botanic garden for inspiration.  
 Start your exploration of these algorithms.  
-(to be expanded)
+
+#####8 april 2015:
+
+- Perlin Noise
+
+**Homework:**  
+Pick your topic
+Research further
+Make notes.
+
+#####15 april 2015:
+
+- Binary Tree Search & Sort
+
+**Homework:**  
+Outline of article
+
+#####22 april 2015:
+
+- Recursive functions
+
+**Homework:**  
+1st draft of article
+
+#####29 april 2015:
+
+- L-systems
+
+**Homework:**  
+Sketch illustrations
+Finish text of article
+
+#####13 may 2015:
+
+- ...
+
+**Homework:**  
+Finish illustrations
+
+#####20 may 2015:
+
+- ...
+
+**Homework:**  
+Animate illustrations
+
+#####27 may 2015:
+
+- ...
+
+**Homework:**  
+Prepare presentation for in class
+
+#####3 june 2015:
+
+- Group presentation. (Semi deadline)
+
+**Homework:**  
+Finish article
+
+#####10 june 2015:
+
+- Deadline
+- Evaluation. (One-on-one evaluation)
+
 
 ###Evaluation
 
@@ -72,5 +140,6 @@ Process, Structure, Insight, Coding Skills, textual contents (quality of the wri
 
 #####Article with animation and code illustrations
 - [Visualizing Algorithms](http://bost.ocks.org/mike/algorithms/)
+- [NOS - Vluchten over Oost-Oekraïne](http://app.nos.nl/datavisualisatie/vluchten-over-oost-oekraine/)
 
 (to be expanded)
