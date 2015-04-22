@@ -135,6 +135,15 @@ Process, Structure, Insight, Coding Skills, textual contents (quality of the wri
 #####Fibonacci
 - [Vi Heart - SpongeBob's Pineapple (video)](https://www.youtube.com/watch?v=gBxeju8dMho)
 
+#####Sorting Algorithms
+- [4 x sorting algorithms played out : O(n2) and O(n log n) ](https://www.youtube.com/watch?v=INHF_5RIxTE)
+- [Heap sort algorithm played out](https://www.youtube.com/watch?v=ZbUbCe0WpBE)
+- [Heap Sort Animation](https://www.cs.usfca.edu/~galles/visualization/HeapSort.html)
+- [Comparison of 9 sorting algorithms](https://www.youtube.com/watch?v=ZZuD6iUe3Pc)
+
+#####Binary Tree Search
+- [Binary Tree Search(Wikipedia article)](http://en.wikipedia.org/wiki/Binary_search_tree)
+
 #####Code Snippets & Animation
 - [Bret Victor's article Learnable Programming](http://worrydream.com/LearnableProgramming/)
 
