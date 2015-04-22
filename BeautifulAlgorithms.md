@@ -144,6 +144,9 @@ Process, Structure, Insight, Coding Skills, textual contents (quality of the wri
 #####Binary Tree Search
 - [Binary Tree Search(Wikipedia article)](http://en.wikipedia.org/wiki/Binary_search_tree)
 
+#####Recursive Functions
+- [two simple examples in Python and Processing](https://github.com/ArtezGDA/recursiveExamples)
+
 #####Code Snippets & Animation
 - [Bret Victor's article Learnable Programming](http://worrydream.com/LearnableProgramming/)
 
