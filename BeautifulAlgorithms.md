@@ -150,6 +150,13 @@ Process, Structure, Insight, Coding Skills, textual contents (quality of the wri
 #####Code Snippets & Animation
 - [Bret Victor's article Learnable Programming](http://worrydream.com/LearnableProgramming/)
 
+#####Visual explanations to replace Math
+- [Visual animated proof of Pythagorean Theorem](https://www.youtube.com/watch?v=FtzXvjjM2nM)
+- [Bret Victor's article Kill Math](http://worrydream.com/KillMath/)
+- [Bret Victor's Interactive Exploration of a Dynamical System (video)](https://vimeo.com/23839605)
+- Feynman Diagrams
+- [Visualizing different sorting algorithms](http://infosthetics.com/archives/2014/03/sorting_understanding_how_famous_sorting_algorithms_work.html)
+
 #####Article with animation and code illustrations
 - [Visualizing Algorithms](http://bost.ocks.org/mike/algorithms/)
 - [NOS - Vluchten over Oost-Oekraïne](http://app.nos.nl/datavisualisatie/vluchten-over-oost-oekraine/)
