@@ -2,6 +2,13 @@
 
 This repository holds the official course material as part of the ***Media Design*** course at **Artez Graphic Design Arnhem** (ArtezGDA). It contains Notes, Assignments, including learning goals, planning and evaluation criteria.
 
+### Table of Contents
+
+- [Software](Software.md) (needed to be installed on your laptop)
+- [Create an account on GitHub](GitHub.md)
+- [Coding Tools](CodingTools.md)
+- [Assignments](#Assignments) 
+
 ## Assignments
 
 ### 1. Algorithmic nature
