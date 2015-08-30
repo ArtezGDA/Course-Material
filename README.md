@@ -7,7 +7,7 @@ This repository holds the official course material as part of the ***Media Desig
 - [Software](Software.md) (needed to be installed on your laptop)
 - [Create an account on GitHub](GitHub.md)
 - [Coding Tools](CodingTools.md)
-- [Assignments](#Assignments) 
+- [Assignments](#assignments) 
 
 ## Assignments
 
