@@ -1,11 +1,11 @@
 ##Department: Graphic Design
 
 - Course: Media Design
-- Year: 2014-2015, 2nd year
+- Year: 2015-2016, 2nd year
 - Teacher: Dirk van Oosterbosch
-- Semester: 2
+- Semester: 1
 
-#Assignment: Beautiful Algorithms
+#Assignment: Algorithmic Nature
 
 ###Learning Goals
 
@@ -17,11 +17,11 @@ Something about inspired by nature, spring, botanic gardens and algorithms which
 
 **Study these five algorithms** (ordered from simple to advanced)
 
-- Fibonacci
-- Recursive functions
-- Perlin Noise (1D, 2D, 3D)
-- Binary Tree sorting
+- fibonacci
+- perlin noise
+- recursion
 - L-systems
+- flocking
 
 **Write article about the algorithm**. Topics can include: the invention or history of the algorithm, explanation of the problems that this algorithm solves, examples and use cases of application of the algorithm, explanations of the workings, effects of the algorithm compared to alternative approaches. The article should contain at least 500 words of your own text [1](#footnote1) [2](#footnote2)
 
