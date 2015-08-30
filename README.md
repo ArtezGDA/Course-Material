@@ -32,5 +32,12 @@ Study the following 5 algorithms and create computer generated sketches and draw
 
 ## Notes
 
+- be on time!
+Rules: ...
 
+- bron behandeling
+
+- communicate through urls and code on github
+
+- planning!
 
