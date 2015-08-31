@@ -1,25 +1,58 @@
 #Software
 
-1. GitHub app.
-Een makkelijke app om de studenten met git (en vooral github) te laten werken:
-info: https://desktop.github.com
-download: https://central.github.com/mac/latest
+This software needs to be installed on your own computer (provided you have a Mac that can run all this). Some of the following are applications that can simply be installed by dragging them to the *Applications* folder. Others are command line tools and plugins that require a bit more work.
 
-2. Gapplin
-Een simpele, gratis SVG viewer. Niks fancy, wel ongeveer 100x sneller dan Illustrator. En live updatend.
-info: http://gapplin.wolfrosch.com
-download: via de Mac App Store (http://appstore.com/mac/Gapplin)
+##Apps
 
-3. Plotdevice
-Een open source Mac app en graphics language voor het maken van tekeningen door middel van python code. 
-info: http://plotdevice.io
-dowload: http://plotdevice.io/app/PlotDevice_app-0.10.0.zip
+###GitHub app
 
-en tot slot:
+An easy and accessible app to have you work with `git` (and especially GitHub)
 
-4. Mou
-Een zeer handige editor voor markdown (.md bestanden), waarbij je 1 één overzicht de code en het resultaat ziet.
-Mou is de enige (mogelijk binnenkort) betaalde app van de vier.
-Mou was tot op heden gratis, maar ze reppen van een betaalde versie die eind augustus (nu dus), gelanceerd zal worden. Ik heb geen idee wat dat met de huidige gratis beta versie zal doen. En ik weet ook niet of er vanuit Artez budget beschikbaar is voor software, maar $15 als preorder prijs, vond ik zo schappelijk, dat ik al heb besteld. 
-info: http://25.io/mou/
-preorder: http://25.io/mou/store/
+- info: https://desktop.github.com
+- download: https://central.github.com/mac/latest
+
+### Gapplin
+
+A simple, free **SVG** viewer. Nothing fancy, except just about 100x faster than Illustrator if you want to preview an svg file. And it updates live, so you see the svg file change as you work on it.
+
+- info: http://gapplin.wolfrosch.com
+- download: via de Mac App Store (http://appstore.com/mac/Gapplin)
+
+### Plotdevice
+
+An open source Mac app and graphics language for drawing through *python* code.
+
+- info: http://plotdevice.io
+- dowload: http://plotdevice.io/app/PlotDevice_app-0.10.0.zip
+
+and finally:
+
+### Mou
+
+A very convenient editor for markdown (`.md`) files, which lets you see both the code and the result in one view.
+
+Possibly Mou will be a paid app soon, as they just announced their 1.0 version.
+
+Currently you can download the free beta version, but I don't know if that will stay available and what will happen with it.
+
+Their preorder price is $15, which is Ok considering the usefulness.
+
+- info: http://25.io/mou/
+- preorder: http://25.io/mou/store/
+
+## Other apps 
+
+- Sublime Text
+- Textmate (as Sublime Text alternative)
+
+## Command line tools
+
+- git
+- zsh
+- .zsh dotfiles
+- ...
+
+## Python Modules
+
+- ipython
+- ...
