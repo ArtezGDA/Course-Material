@@ -20,7 +20,7 @@ Study the following 5 algorithms and create computer generated sketches and draw
 - perlin noise
 - recursion
 - L-systems
-- flocking
+- *flocking (if time permits)*
 
 [Read full assignent](AlgorithmicNature.md)
 
@@ -28,13 +28,15 @@ Study the following 5 algorithms and create computer generated sketches and draw
 *Text in -> Text out*  
 *Deadline: January 7th 2016*
 
+<!--[Read full assignent](Documentation.md)-->
+
 ### 3. Hack your tool
 *() -> ()*  
-*Deadline:*
+<!--*Deadline:*-->
 
 ### 4. Data Poster
 *Data in -> Awesome out*  
-*Deadline:*
+<!--*Deadline:*-->
 
 ## Notes
 

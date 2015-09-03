@@ -42,8 +42,10 @@ Their preorder price is $15, which is Ok considering the usefulness.
 
 ## Other apps 
 
-- Sublime Text
-- Textmate (as Sublime Text alternative)
+- Text editor:
+	- Sublime Text
+	- Textmate (as Sublime Text alternative)
+	- Atom (as alternative)
 
 ## Command line tools
 

@@ -22,7 +22,7 @@ Study the following 5 algorithms and create computer generated sketches and draw
 - perlin noise
 - recursion
 - L-systems
-- flocking
+- *flocking (if time permits)*
 
 *(ordered from simple to advanced)*
 
@@ -43,32 +43,38 @@ To make the assignment a little more interesting and concrete, these are the lim
 #####Week 1:
 *September 3rd 2015*
 
+- Introduction to the Media Design course.
 - Introduction to the assignment.
-- Fibonacci
 
-**Homework:**  
-Create a journal, notebook or blog about your research.  
-Visit a botanic garden or zoo for inspiration.  
+**Homework:**
+
+- Create an account on GitHub, let me and your class know your account handle and accept the invitation to the shared repository.
+- Download and install the [software](Software.md)
+- Create a journal, notebook or blog about your research.
+ 	1. Document your programming efforts, ideas and sketches
+	2. Collect frustrations with digital tools
+- Visit a botanic garden or zoo for inspiration.
+- Watch Vi-Heart's video about Spongebob (see [literature](#literature))
 
 #####Week 2:
 *September 10th 2015*
 
-- Perlin Noise
+- Fibonacci
 
 #####Week 3:
 *September 17th 2015*
 
-- Recursive functions
+- Perlin Noise
 
 #####Week 4:
 *September 24th 2015*
 
-- L-systems
+- Recursive functions
 
 #####Week 5:
 *October 1st 2015*
 
-- Flocking
+- L-systems
 
 #####Week 6:
 *October 8th 2015*
