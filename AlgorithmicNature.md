@@ -85,11 +85,18 @@ To make the assignment a little more interesting and concrete, these are the lim
 ##Evaluation
 
 Criteria for judging the work:
-Process, Structure, Insight, Coding Skills.
+
+- The **creative process**,
+- the digital process and **workflow** of creating procedural drawings,
+- **insight** in the algorithmic aspects of nature,
+- acquired **coding skills** and
+- the **expressive qualities** within the limitation of the assigment.
 
 ##Literature
 
-- Herman de Vries
+#####*! To be expanded ...* 
+
+<!--- Herman de Vries-->
 
 #####Fibonacci
 - [Vi Heart - SpongeBob's Pineapple (video)](https://www.youtube.com/watch?v=gBxeju8dMho)
@@ -97,5 +104,6 @@ Process, Structure, Insight, Coding Skills.
 #####Inspiration & L-systems
 - [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf) (Mathematic Scientific Paper)
 
-#####Recursive Functions
+<!--#####Recursive Functions
 - [two simple examples in Python and Processing](https://github.com/ArtezGDA/recursiveExamples)
+-->
