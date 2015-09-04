@@ -12,6 +12,13 @@
 
 Develop an understanding of algorithms and how to use them to create procedural drawings. Acquire an insight in the process of producing visuals through computer code. Being able to produce visually interesting works using procedural drawings. Collect a set of techniques that you will able to use in future works.
 
+----
+[![Alt text for your video](http://img.youtube.com/vi/9HI8FerKr6Q/0.jpg)](http://www.youtube.com/watch?v=9HI8FerKr6Q)
+
+**a unified approach to grown structures**  
+(by *Neri Oxman, Christoph Bader & Dominik Kolb*. from https://www.behance.net/gallery/21605971/Neri-Oxman-Wanderers)
+
+----
 ##Description
 
 Study the following 5 algorithms and create computer generated sketches and drawings using them. From each of these algorithms an example in code will be given. The assignment is to take this example and experiment with it further, creating unique and interesting drawings / sketches.
@@ -38,6 +45,15 @@ To make the assignment a little more interesting and concrete, these are the lim
 - use python as programing language
 - publish source code and results on gitHub
 
+----
+![](images/herman_de_vries1.jpg)
+![](images/herman_de_vries2.jpg)
+![](images/herman_de_vries3.jpg)
+![](images/herman_de_vries4.jpg)
+**Random drawings (toevalstekeningen)**  
+(by *Herman de Vries*, 1971-1972, [KrollerMuller Museum](http://krollermuller.nl/herman-de-vries-toevalstekeningen))
+
+----
 ##Planning
 
 #####Week 1:
@@ -101,8 +117,12 @@ Criteria for judging the work:
 #####Fibonacci
 - [Vi Heart - SpongeBob's Pineapple (video)](https://www.youtube.com/watch?v=gBxeju8dMho)
 
-#####Inspiration & L-systems
+#####L-systems
 - [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf) (Mathematic Scientific Paper)
+
+#####Inspiration
+
+http://www.blurrypaths.com/tagged/coding
 
 <!--#####Recursive Functions
 - [two simple examples in Python and Processing](https://github.com/ArtezGDA/recursiveExamples)
