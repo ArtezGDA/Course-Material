@@ -46,10 +46,10 @@ To make the assignment a little more interesting and concrete, these are the lim
 - publish source code and results on gitHub
 
 ----
-![](images/herman_de_vries1.jpg)
-![](images/herman_de_vries2.jpg)
-![](images/herman_de_vries3.jpg)
-![](images/herman_de_vries4.jpg)
+![](images/herman_de_vries_1.jpg)
+![](images/herman_de_vries_2.jpg)
+![](images/herman_de_vries_3.jpg)
+![](images/herman_de_vries_4.jpg)
 **Random drawings (toevalstekeningen)**  
 (by *Herman de Vries*, 1971-1972, [KrollerMuller Museum](http://krollermuller.nl/herman-de-vries-toevalstekeningen))
 
@@ -110,19 +110,23 @@ Criteria for judging the work:
 
 ##Literature
 
-#####*! To be expanded ...* 
-
-<!--- Herman de Vries-->
-
 #####Fibonacci
 - [Vi Heart - SpongeBob's Pineapple (video)](https://www.youtube.com/watch?v=gBxeju8dMho)
 
 #####L-systems
 - [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf) (Mathematic Scientific Paper)
 
+#####Nature + Code
+
+- [**Hello World!**](http://hello-world.cc/?page_id=16) (Documentary 2013) ([Watch on Vimeo](https://vimeo.com/60735314))
+- [**Nature of Code** - Vimeo Video channel by *Daniel Shiffman*](https://vimeo.com/channels/natureofcode)
+
 #####Inspiration
 
-http://www.blurrypaths.com/tagged/coding
+- [**How algorithms shape our world** - *Kevin Slavin*](http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world?language=en) (TED Talk, 2011)
+- [Blurry-paths Tumbler Blog](http://www.blurrypaths.com/tagged/coding)
+
+*Liturature to be expanded ...* 
 
 <!--#####Recursive Functions
 - [two simple examples in Python and Processing](https://github.com/ArtezGDA/recursiveExamples)
