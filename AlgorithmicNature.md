@@ -108,6 +108,13 @@ Criteria for judging the work:
 - acquired **coding skills** and
 - the **expressive qualities** within the limitation of the assigment.
 
+----
+
+![Jared Tarbell](http://www.creativityfuse.com/wp-content/uploads/2010/10/Jared-Tarbell-Substrate-June-2003.jpg)
+**Substrate**  
+(by *Jared Tarbell*, 2003, [www.complexification.net](http://www.complexification.net/gallery/machines/substrate/))
+
+----
 ##Literature
 
 #####Fibonacci
