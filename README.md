@@ -6,7 +6,8 @@ This is the official course material for the ***Media Design*** course at **Arte
 
 - [Create an account on GitHub](GitHub.md)
 - [Software](Software.md) (needed to be installed on your laptop)
-- [Assignments](#assignments) 
+- [Assignments](#assignments)
+- [Documentation](https://github.com/ArtezGDA/Algorithmic-Nature/wiki)
 
 ## Assignments
 
@@ -45,3 +46,7 @@ Read the [Rules](Rules.md) (about presence, copyrights, attribution, code sharin
 ## Extra
 
 - To be expanded: [Coding Tools](CodingTools.md) as alternatives and inspiration
+
+###Documentation
+
+There is a [wiki](https://github.com/ArtezGDA/Algorithmic-Nature/wiki) as a shared point of documentation, where technical terms, coding solutions and a glossary can be collectively and collaboratively be written.
