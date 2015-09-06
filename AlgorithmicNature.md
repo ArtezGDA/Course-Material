@@ -51,7 +51,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 ![](images/herman_de_vries_3.jpg)
 ![](images/herman_de_vries_4.jpg)
 **Random drawings (toevalstekeningen)**  
-(by *Herman de Vries*, 1971-1972, [KrollerMuller Museum](http://krollermuller.nl/herman-de-vries-toevalstekeningen))
+(by *Herman de Vries*, 1971-1972, [Kröller-Müller Museum](http://krollermuller.nl/herman-de-vries-toevalstekeningen))
 
 ----
 ##Planning
