@@ -77,10 +77,22 @@ To make the assignment a little more interesting and concrete, these are the lim
 
 - Fibonacci
 
+**Homework:**
+
+- Create multiple "sketches" (or drawings) with PlotDevice, using the _Fibonacci_ algorithm.
+- Read / Follow / Study the PlotDevice tutorial, especially:
+	- chapter 3 - [Primitives](http://plotdevice.io/tut/Primitives) 	 
+	- chapter 6 - [Geometry](http://plotdevice.io/tut/Geometry)
+	
+
 #####Week 3:
 *September 17th 2015*
 
 - Perlin Noise
+
+**Homework:**
+
+- *to be determined*
 
 #####Week 4:
 *September 24th 2015*
