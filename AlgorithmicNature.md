@@ -86,23 +86,54 @@ To make the assignment a little more interesting and concrete, these are the lim
 	
 
 #####Week 3:
-*September 17th 2015*
+*September 17th 2015*  
+*- Lessons are canceled -*
 
+**Homework:**
+
+- CODE:
+	- Extend the previous homework: create at least **6  sketches** (procedural drawings made with PlotDevice)
+	- Export these 6 sketches as a *200 x 200* pixel `.png` file
+	- Read / Follow / Study the PlotDevice tutorial, specifically:
+		- chapter 9: [Variables](http://plotdevice.io/tut/Variables.html)
+		- chapter 13: [Repetition](http://plotdevice.io/tut/Repetition.html)
+- GIT:
+	- Make sure that your GitHub account has your **full name** and an **avatar** image. (for those who haven't done that yet)
+	- Accept the invitation to the *ArtezGDA Students* team on GitHub. (for those who haven't done that yet)
+	- Test your access to the *Algorithmic-Nature* repository by editing a page on the [wiki](https://github.com/ArtezGDA/Algorithmic-Nature/wiki) 
+	- Install git on your laptop (follow the [guide](https://help.github.com/articles/set-up-git/) on GitHub)
+	- Read two beginners guides to **git** (both conveniently called *Git for Designers*):
+		- Read the (short) introduction at [treehouse](http://blog.teamtreehouse.com/git-for-designers-part-1) (from the top to *Step 1: Install and Configure Git* )
+		- Follow the tutorial from [tutsplus](http://code.tutsplus.com/tutorials/git-for-designers--pre-54689) (from '*The Basic Cycle*' to '*Ignoring Files*'). This will teach you:
+			- `git init`
+			- `git status`
+			- `git add`
+			- `git commit`
+			- `git log`
+			- `git revert`
+			- `git branch`
+			- `git checkout`
+			- `git merge`
+	
+
+#####Week 4:
+*September 24th 2015*
+
+- Working with git
 - Perlin Noise
 
 **Homework:**
 
 - *to be determined*
 
-#####Week 4:
-*September 24th 2015*
-
-- Recursive functions
-
 #####Week 5:
 *October 1st 2015*
 
-- L-systems
+- Recursive functions
+
+**Homework:**
+
+- *to be determined*
 
 #####Week 6:
 *October 8th 2015*
@@ -144,6 +175,16 @@ Criteria for judging the work:
 
 - [**How algorithms shape our world** - *Kevin Slavin*](http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world?language=en) (TED Talk, 2011)
 - [Blurry-paths Tumbler Blog](http://www.blurrypaths.com/tagged/coding)
+
+#####Coding
+
+- [PlotDevice Tutorial](http://plotdevice.io/tut/)
+
+#####Git
+
+- Treehouse's [Git for Designers](http://blog.teamtreehouse.com/git-for-designers-part-1) article
+- Tutsplus' [Git for Designers](http://code.tutsplus.com/tutorials/git-for-designers--pre-54689) tutorial
+
 
 *Liturature to be expanded ...* 
 
