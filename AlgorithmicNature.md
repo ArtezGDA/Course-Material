@@ -120,15 +120,28 @@ To make the assignment a little more interesting and concrete, these are the lim
 *September 24th 2015*
 
 - Working with git
-- Perlin Noise
+- Rotation and nested for loops (see [extra_01_rotation_matrix.pv](https://github.com/ArtezGDA/Algorithmic-Nature/blob/master/Fibonacci/extra_01_rotation_matrix.pv))
+- Building a Fibonacci spiral (see [07_fibonacci_spiral.pv](https://github.com/ArtezGDA/Algorithmic-Nature/blob/master/Fibonacci/07_fibonacci_spiral.pv))
 
 **Homework:**
 
-- *to be determined*
+- Study the examples demonstrated in class (see the two examples above)
+- Create 5 new sketches based on `random` (and on `for` loops, and possible `if`'s). See the random example [01_random_dots.pv](https://github.com/ArtezGDA/Algorithmic-Nature/blob/master/PerlinNoise/01_random_dots.pv).
+- Install the python package called '*noise*':
+	- `sudo easy_install noise`
+	- Make sure the last line says: "*Finished processing dependencies for noise*"
+- Make sure your github account is fully annotated (with full name and personal avatar)
+- Add the code for your sketches and exported 200x200 pixel png images to your folder on github (in the Algorithmic-Nature repository)
+- Edit the `.md` file with your name (in the root of the Algorithmic-Nature repository):
+	- Add the (at least 10) exported images to that `.md` file, so they are visible when you browse github.
+	- Add a link to the source code of each sketch.
+	- (Have a look at this .e.g. readme of how that's done)
+
 
 #####Week 5:
 *October 1st 2015*
 
+- Perlin Noise
 - Recursive functions
 
 **Homework:**
