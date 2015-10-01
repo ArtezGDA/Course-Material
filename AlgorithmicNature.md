@@ -37,9 +37,9 @@ Study the following 5 algorithms and create computer generated sketches and draw
 
 To make the assignment a little more interesting and concrete, these are the limitation the drawings or sketches should adhere to:
 
-- the canvas of the drawings are square (dimension should not matter if you use vectors)
+- the canvas of the drawings are square (dimension should not matter if you use vectors, but you'll have to export an image (or thumbnail image) of 200 x 200 pixels)
 - only use black and white and greyscales
-- take a model from nature as inspiration
+- (take a model from nature as inspiration)
 - the drawings must be procedural, meaning a computer renders them based on your rules
 - you must code the drawings your self
 - use python as programing language
@@ -142,17 +142,47 @@ To make the assignment a little more interesting and concrete, these are the lim
 *October 1st 2015*
 
 - Perlin Noise
-- Recursive functions
 
 **Homework:**
 
-- *to be determined*
+- Create 5 new sketches based on Perlin Noise
+- Sync all work to GitHub and update your `.md` file accordingly
 
 #####Week 6:
 *October 8th 2015*
 
+- Recursive functions
+
+**Homework:**
+
+- Create 5 new sketches based on Recursive Functions
+- Sync all work to GitHub and update your `.md` file accordingly
+
+#####Week 7:
+*October 15th 2015*
+
 - Evaluation. (One-on-one evaluation)
 
+##### Autumn Holliday:
+*No classes*
+
+#####Week 8:
+*Monday 26th of October  2015*
+
+- **Final deadline of this assignment**:
+	- Fully fledged GitHub account, personal overview `.md` page in the [*Algorithmic-Nature*](https://github.com/ArtezGDA/Algorithmic-Nature) repository and uploaded 20 of the following sketches:
+	- 5 sketches using Fibonacci
+	- 5 sketches using Random
+	- 5 sketches using Perlin Noise
+	- 5 sketches using Recursive Functions
+	
+The grade for this assignment will be composed from the quality of these 5 subtasks:
+
+- A: on-time, original, sufficient, according to the specs: 2 points
+- B: almost perfect: 1 points
+- C: insufficient or missing: 0 points
+
+(So it's relatively easy to get a grade A. 2 + 2 + 2 + 2 + 2 = 10 points :-)
 
 ##Evaluation
 
