@@ -147,6 +147,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 
 - Create 5 new sketches based on Perlin Noise
 - Sync all work to GitHub and update your `.md` file accordingly
+- Read chapter 14: [Commands](http://plotdevice.io/tut/Commands)
 
 #####Week 6:
 *October 8th 2015*
