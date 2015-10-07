@@ -228,10 +228,3 @@ Criteria for judging the work:
 
 - Treehouse's [Git for Designers](http://blog.teamtreehouse.com/git-for-designers-part-1) article
 - Tutsplus' [Git for Designers](http://code.tutsplus.com/tutorials/git-for-designers--pre-54689) tutorial
-
-
-*Liturature to be expanded ...* 
-
-<!--#####Recursive Functions
-- [two simple examples in Python and Processing](https://github.com/ArtezGDA/recursiveExamples)
--->
