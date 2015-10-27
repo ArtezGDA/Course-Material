@@ -10,10 +10,40 @@
 
 ##Learning Goals
 
-Develop an understanding of algorithms and how to use them to create procedural drawings. Acquire an insight in the process of producing visuals through computer code. Being able to produce visually interesting works using procedural drawings. Collect a set of techniques that you will able to use in future works.
+Develop an understanding of how text is represented and stored in a computer. And acquire the skills of how to manipulate those texts in an automated fashion.  
+Familiarize yourself with operating the computer using a text-based interface, a.k.a. the **CLI** (*command line interface*), a.k.a. **the Terminal**.  
+Gain insight in the limitations, process and effects of remediation. And develop the skills of automating the generation of PDF documents from large text files.
 
 ----
 ##Description
+
+####Text Input/Output
+
+Collect texts from the collective gitHub repository and remediate this into two forms: an interactive text format and an generated PDF booklet.
+
+###### Input:
+
+Collect text from the collective repository of the previous assignment on gitHub. Select one or more of the following sources:
+
+- comments in code (`#`)
+- docstrings (`"""..."""`)
+- commit messages 
+- *README.md* files
+
+###### Output:
+
+Code a system that is able to output parts of the text, based on dynamic properties or a different form of text input. (This makes it interactive). Choose one of the following forms:
+
+- man page
+- twitterbot
+- push notifications (received on an Apple Watch) 
+- text adventure
+- ... (other terminal based text input -> output program)
+
+###### Static output:
+
+Additional to the interactive form the text should be remediated into, create a booklet in paper, printed from a PDF document, which is automatically generated from a text file, using PlotDevice.
+
 
 ----
 ##Planning
@@ -22,7 +52,8 @@ Develop an understanding of algorithms and how to use them to create procedural 
 *October 29th 2015*
 
 - Introduction to the **textIO** assignment
-- Collections: Arrays and Dictionaries **\*\*\***
+- Introduction to [text in python](Lesson_01a_Text_in_python.md)
+- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) **\*\*\***
 
 **Homework:**
 
@@ -85,5 +116,11 @@ Make first prototype.
 
 ----
 ##Literature
+
+- Remediation by Jay David Bolter and Richard Grusin (MIT press)
+
+mail library
+mail frans boven: ipython
+
 
 ... to be continued
