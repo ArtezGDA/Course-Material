@@ -15,21 +15,14 @@ This is the official course material for the ***Media Design*** course at **Arte
 *Text in -> Image out*  
 ***Deadline**: October 15th 2015*
 
-Study the following 5 algorithms and create computer generated sketches and drawings using them.
-
-- fibonacci
-- perlin noise
-- recursion
-- L-systems
-- *flocking (if time permits)*
-
-[Read full assignent](AlgorithmicNature.md)
+[Study the following algorithms and create computer generated sketches and drawings using them.](AlgorithmicNature.md):  
+fibonacci, random & perlin noise, recursion
 
 ### 2. RTFM: Text Documentation
 *Text in -> Text out*  
 *Deadline: January 7th 2016*
 
-<!--[Read full assignent](Documentation.md)-->
+[Collect, Remediate and Design text through text](textIO.md)
 
 ### 3. Hack your tool
 *() -> ()*  
