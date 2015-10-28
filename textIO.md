@@ -57,7 +57,7 @@ Additional to the interactive form the text should be remediated into, create a 
 
 **Homework:**
 
-Exercises with Arrays and Dictionaries
+[Exercises](Homework_01_Collections.md) with Arrays and Dictionaries
 
 #####Week 2:
 *November 12th 2015*
@@ -114,13 +114,19 @@ Make first prototype.
 
 ##Evaluation
 
+Demonstration of text manipulation skills using python and the command line.  
+Applying a succesful process, following these steps:  
+concept, prototype, design, execution.  
+Seizure of the creative possibilities within the strict confines of the assignment and the textual and technical medium.
+
 ----
 ##Literature
 
-- Remediation by Jay David Bolter and Richard Grusin (MIT press)
-
-mail library
-mail frans boven: ipython
-
+- **Remediation**, Understanding New Media
+	- *Jay David Bolter* and *Richard Grusin* (MIT Press, 1998)
+- **The Pattern on the Stone**, the simple ideas that make computers work
+	- *W. Daniel Hillis* (Basic Books, 1998)
+- **Program or Be Programmed**: Ten Commands for a Digital Age
+	- *Douglas Rushkoff* (OR Books, 2011)
 
 ... to be continued
