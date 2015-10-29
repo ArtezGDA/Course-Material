@@ -124,9 +124,25 @@ for book in library:
 
 ##### Get all keys of a dictionary
 
+The `keys()` function:
+
+`d.keys()`  
+returns an array of all the keys  
+`['foo', 'bar']`
+
 ##### Does the list contains this?
 
+The `in` keyword
+
+`"red" in screen_colors` ... `True`  
+`"geen kleur" in screen_colors` ... `False`
+
 ##### Does the dict has this key?
+
+The `has_key()` function:
+
+`d.has_key('f')` ... `False`  
+`d.has_key('foo')` ... `True`  
 
 ##### Sorting
 
@@ -134,10 +150,30 @@ Return a sorted list:
 
 `sorted(a)` ... `[1, 3, 4, 5]`
 
+`a` is still `[1, 5, 3, 4]`
+
 Modify the list to be sorted
 
 `a.sort()`
 
+returns nothing, but changes the list itself.  
+`a` is now `[1, 3, 4, 5]`
+
 ## JSON import & export
 
 ## Advanced tricks
+
+- inverse
+- list comprehension (quick create list from other list)
+	- `[x * 2 for x in range(5)]`
+	- outputs: `[0, 2, 4, 6, 8]`
+- list functions:
+	- filter,
+	- map,
+	- reduce,
+	- zip
+- Simple reduce functions:
+	- sum
+	- min
+	- max
+	
