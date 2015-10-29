@@ -69,3 +69,19 @@ Float precision
 `"%.2f" % (7.5)`  
 gives:  
 `'7.50'`
+
+##### Count chacters
+
+`len("abacadabra hocus pocus")`  
+returns  
+`22`
+
+#### More advanced stuff you could do with strings
+
+- convert a number to a string
+- convert a string into a number (if applicable)
+- make lowercase / UPPERCASE / Capitalize Each Word
+- count the number of occurances of a substring (or single character)
+- split string into (an array) of words
+- strip off characters from the beginning or end (e.g. whitespace)
+- ...
