@@ -53,7 +53,7 @@ Additional to the interactive form the text should be remediated into, create a 
 
 - Introduction to the **textIO** assignment
 - Introduction to [text in python](Lesson_01a_Text_in_python.md)
-- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) **\*\*\* **
+- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) **\*\*\*_**
 
 **Homework:**
 
