@@ -11,18 +11,18 @@ This is the official course material for the ***Media Design*** course at **Arte
 
 ## Assignments
 
-### 1. Algorithmic nature
+### 1. Algorithmic Nature
 *Text in -> Image out*  
 ***Deadline**: October 15th 2015*
 
 [Study the following algorithms and create computer generated sketches and drawings using them.](AlgorithmicNature.md):  
 fibonacci, random & perlin noise, recursion
 
-### 2. RTFM: Text Documentation
+### 2. Text-IO
 *Text in -> Text out*  
 *Deadline: January 7th 2016*
 
-[Collect, Remediate and Design text through text](textIO.md)
+[**Text-IO**: Collect, Remediate and Work with text through text](textIO.md)
 
 ### 3. Hack your tool
 *() -> ()*  
