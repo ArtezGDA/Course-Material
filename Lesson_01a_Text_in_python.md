@@ -44,6 +44,16 @@ myFunc.func_doc
 help(myFunc)
 ```
 
+The `help()` tool will open a special help screen, where you can read all about the topic. As example, try the following with the previously installed *noise* library.
+
+```
+import noise
+help(noise)
+```
+
+**Note:** to exit the `help()` screen, press the **Q** key.
+
+
 ##### String concatenation
 
 `"Hello " + "World"`  

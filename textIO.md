@@ -53,7 +53,7 @@ Additional to the interactive form the text should be remediated into, create a 
 
 - Introduction to the **textIO** assignment
 - Introduction to [text in python](Lesson_01a_Text_in_python.md)
-- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) **\*\*\***
+- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) ** \*\*\* **
 
 **Homework:**
 
@@ -62,7 +62,7 @@ Additional to the interactive form the text should be remediated into, create a 
 #####Week 2:
 *November 12th 2015*
 
-- Terminal and the shell **\*\*\***
+- Terminal and the shell ** \*\*\* **
 
 **Homework:**
 
@@ -84,14 +84,14 @@ Make first prototype.
 #####Week 4:
 *November 26th 2015*
 
-- GitHub API from python **\*\*\***
+- GitHub API from python ** \*\*\* **
 
 **Homework:**
 
 #####Week 5:
 *December 3rd 2015*
 
-- Regular Expressions **\*\*\***
+- Regular Expressions ** \*\*\* **
 
 **Homework:**
 
@@ -110,7 +110,7 @@ Make first prototype.
 
 - Evaluation
 
-**\*\*\*** : This lesson will deal with an advanced technical topic. Make sure you don't miss this week and prepare yourself well.
+** \*\*\* ** : This lesson will deal with an advanced technical topic. Make sure you don't miss this week and prepare yourself well.
 
 ##Evaluation
 

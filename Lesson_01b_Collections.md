@@ -71,7 +71,7 @@ where `foo` and `bar` are keys, and `42` and `"Hello"` their values
 ##### Get 1 element
 
 `d['foo']` ... `42`  
-`player1['name]` ... `"Dirk"` 
+`player1['name']` ... `"Dirk"` 
 
 ##### Set 1 element
 
