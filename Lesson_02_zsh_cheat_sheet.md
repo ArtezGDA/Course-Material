@@ -46,6 +46,12 @@
 ...  
 `^x^c`  
 
+----
+
+For the following you will need **Homebrew**. Install `brew` from the [Homebrew](http://brew.sh/index.html) website: 
+
+----
+
 #####Fortune
 Install with  
 `brew install fortune`  
