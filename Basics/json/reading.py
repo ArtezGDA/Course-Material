@@ -46,8 +46,12 @@ def main():
 def pretty_print_lottery(lottery_data):
 	for lottery in lottery_data:
 		print "Lottery data for %s:" % (lottery['month'])
-		print "\tnumbers: %s" % (lottery['numbers'])
-		print "\tjackpot: %d" % (lottery['jackpot'])
+		arrayOfNumbers = lottery['numbers']
+		total = sum(arrayOfNumbers)
+		print "\tthis month we drew %d numbers (with a total of %d):" % (len(arrayOfNumbers), total)
+		for number in arrayOfNumbers:
+			print"\t\t%d" % (number)
+		print "\tAnd the lucky number is: %d" % (lottery['jackpot'])
 
 if __name__ == '__main__':
 	main()
