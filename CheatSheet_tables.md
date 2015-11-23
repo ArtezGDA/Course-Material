@@ -2,9 +2,9 @@
 
 | Command      | Shortcut   | Result                                                                                    |
 |:-------------|:-----------|:------------------------------------------------------------------------------------------|
-| `cd`         |            | ***C**hange **D**irectory*: go to the directory (needs a *path* as argument)              |
+| `cd`         |            | **C**hange **D**irectory: go to the directory (needs a *path* as argument)              |
 | ⇥            |            | Use the **tab** key to *autocomplete*                                                     |
-| `ls`         |            | ***L***i***s***t files in current directory                                               |
+| `ls`         |            | **L**i**s**t files in current directory                                               |
 | `ls -l`      | `l`        | List files with *long format*                                                             |
 | `ls -al`     | `ll`       | List *all* files in long format                                                           |
 | `pwd`        |            | ***P**rint **W**orking **D**irectory*: see the current path                               |
