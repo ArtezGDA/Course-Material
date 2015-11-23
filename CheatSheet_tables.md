@@ -42,27 +42,27 @@
 
 ## File Handling
 
-| Keyword | Meaning                                | Example                                                             |
-|:--------|:---------------------------------------|:--------------------------------------------------------------------|
-| `cp`    | **C**o**p**y                           | `cp file.txt ~/Desktop` or `cp file.txt file2.txt` (does duplicate) |
-| `mv`    | **M**o**v**e                           | `mv file.txt ~/Desktop` or `mv file.txt file2.txt` (does rename)    |
-| `touch` | Make new file or set modification date | `touch empty.txt`                                                   |
-| `ln`    | **L**i**n**k: make alias               | `ln -s ~/Documents/MediaDesign/text-IO/Dirk/ ~/Desktop/textio`      |
-| `rm`    | **R**e**m**ove: delete a file          | **NOTE!**: `rm` hard deletes a file directly. (no way to undo)      |
+| Keyword | Meaning                          | Example                                                                  |
+|:--------|:---------------------------------|:-------------------------------------------------------------------------|
+| `cp`    | **C**o**p**y or duplicate        | `cp file.txt ~/Desktop` or `cp file.txt file2.txt`                       |
+| `mv`    | **M**o**v**e or rename           | `mv file.txt ~/Desktop` or `mv file.txt file2.txt`                       |
+| `touch` | Create new file or make *dirty*  | `touch empty.txt`                                                        |
+| `ln`    | **L**i**n**k: make alias         | `ln -s ~/Documents/MediaDesign/text-IO/Dirk/ ~/Desktop/textio`           |
+| `rm`    | **R**e**m**ove: delete a file    | **NOTE**: `rm` hard deletes a file directly! (no way to undo)            |
 
 ## Logging in
 
-| Command  | Meaning                                         | Example                                                 |
-|----------|-------------------------------------------------|---------------------------------------------------------|
-| `ssh`    | **S**ecure **Sh**ell: log into somewhere remote | `ssh local@domain_of_other_computer.somewhere`          |
-| `whoami` | Display as who you are currently logged in      |                                                         |
-| `logout` | To log out of the current shell                 |                                                         |
-| `sudo`   | **Su**peruser **Do**: do as admin               | `sudo mkdir /Library/Logs/Test`                         |
+| Command  | Meaning                                         | Example                                                  |
+|:---------|:------------------------------------------------|:---------------------------------------------------------|
+| `ssh`    | **S**ecure **Sh**ell: log into somewhere remote | `ssh local@domain_of_other_computer.somewhere`           |
+| `whoami` | Display as who you are currently logged in      |                                                          |
+| `logout` | To log out of the current shell                 |                                                          |
+| `sudo`   | **Su**peruser **Do**: do as admin               | `sudo mkdir /Library/Logs/Test`                          |
 
 ## Processes & Inspection
 
 | Command    | Meaning                           | Example                                                                  |
-|------------|-----------------------------------|--------------------------------------------------------------------------|
+|:-----------|:----------------------------------|:-------------------------------------------------------------------------|
 | `ps`       | Show running processes            | `ps -ax` Show *all* processes as root                                    |
 | `top`      | Show the most consuming processes | This is live. Type `Q` to quit.                                          |
 | `df`       | **D**isplay **F**ree disk space   |                                                                          |
@@ -72,19 +72,17 @@
 
 ## History
 
-| Command               | Shortcut | Meaning                                                                        |
-|-----------------------|----------|--------------------------------------------------------------------------------|
-| `history`             |          | Display the history of commands                                                |
-| `history 1 | grep $@` | `gh`     | **G**rep **H**istory: search history of commands for anything with this word   |
-
-arrow up/down for history
-alt . for previous last word
-ctrl r (search history)
-!!
-!abc
-!123
-
-- pijljes / alt . / history / gh / !! nn
+| Command               | Shortcut | Meaning                                                                            |
+|:----------------------|:---------|:-----------------------------------------------------------------------------------|
+| `history`             |          | Display the history of commands                                                    |
+| ⇡                     |          | Select previous command(s)                                                         |
+| ⇣                     |          | Select next command(s)                                                             |
+| `history 1 | grep $@` | `gh`     | **G**rep **H**istory: search history of commands for anything with this word       |
+| ⌃r                    |          | (Ctrl r) Search used commands interactively                                        |
+| ⌥.                    |          | (Alt dot) Complete the command with previously used last argument                  |
+| `!!`                  |          | Repeat previous command                                                            |
+| `!`abc                |          | Repeat command with string `abc`                                                   |
+| `!`123                |          | Repeat history command, number `123`                                               |
 
 ## Command Line Navigation
 
