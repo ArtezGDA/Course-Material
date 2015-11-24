@@ -140,7 +140,7 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 | `less`   | Like more, but with **more** options                 | `less mobydick.txt`                                 |
 | `tail`   | Prints the end of the file                           | `tail /var/log/system.log`                          |
 | `head`   | Prints the top of the file                           | `head mobydick.txt`                                 |
-| `man `   | **Man**ual page for ...                              | try `man cp` or `man man`                               |
+| `man `   | **Man**ual page for ...                              | try `man cp` or `man man`                           |
 
 ## Navigation while in `more` / `less` / `man`
 
@@ -163,14 +163,16 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 | `find`   |                             | Search files from a specified directory                                              |
 |          | `find . -name "*.txt"`      |    Find all text files from the current directory                                    |
 |          | `find . -type d "m*"`       |    Find all directories whose name starts with an "m"                                |
-| `locate` | `locate HelveticaNeue`      | Search your whole computer to files with the given string in their name or directory. `locate` needs first to index the system before it can find stuff on it. |
+| `locate` | `locate HelveticaNeue`      | Search your whole computer to files with the given string in their path              |
+|          |                             |     `locate` needs first to index your system before you can use it.                 |
 | `grep`   |                             | Search for a pattern within the contents of files                                    |
 |          | `grep 'Ishmael' md.txt`     |    Print all occurances (in context) of 'Ishmael' in the file mb.txt                 |
 |          | `grep -n 'Ishmael' md.txt`  |    `-n`: Print the line number in front of the result.                               |
 |          | `grep -c 'Ishmael' md.txt`  |    `-c`: Count the number of occurances                                              |
-|          | `grep -c -i 'whale' md.txt` |    `-i`: Search *case insensitive*. Finds occurances of 'whale', 'Whale', or 'WHALE' |
+|          | `grep -c -i 'whale' md.txt` |    `-i`: Search *case insensitive*.                                                  |
+|          |                             |        Finds occurances of 'whale', 'Whale', or 'WHALE'                              |
 
-## Input / Output
+## Input / Output (Combine commands and programs)
 
 | Keyword   | Name            | Purpose                          | Example                                                     |
 |:----------|:----------------|:------------------------------------------------------|:---------------------------------------|
@@ -180,13 +182,14 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 | `<`       | Redirect Input  | Use a file as keyboard input into a command           | `mail me@myself.com < todo.txt`        |
 | `` ` ` `` | Backticks       | Use the output of one command as argument of a 2nd    | ``cd `pwd` ``                          |
 
-| Command   | Purpose                                                         | Example                                               |
-|:----------|:----------------------------------------------------------------|:------------------------------------------------------|
-| `pbcopy`  | Send the stdin (standard in) to the clipboard                   | `echo "Hello World" | pbcopy`                         |
-|           |                                                                 | `cat modydick.txt | grep 'Ishmael' | pbcopy`          |
-| `pbpaste` | Send the contents of the clipboard to the stdout (standard out) | ``echo `pbpaste` ``                                   |
-| `open`    | Open with its default application (needs file argument)         | `open image.png`                                      |
-|           |                                                                 | `open .` *Opens the current directory in the Finder*  |
+| Command   | Purpose                                                  | Example                                               |
+|:----------|:---------------------------------------------------------|:------------------------------------------------------|
+| `pbcopy`  | Send the stdin to the clipboard                          | `echo "Hello World" | pbcopy`                         |
+|           | (**stdin**: *standard input*)                            | `cat modydick.txt | grep 'Ishmael' | pbcopy`          |
+| `pbpaste` | Send the contents of the clipboard to the stdout         | ``echo `pbpaste` ``                                   |
+|           | (**stdout**: *standard output*)                          | ``echo `pbpaste` ``                                   |
+| `open`    | Open file with its default application                   | `open image.png`                                      |
+|           |                                                          | `open .` *Opens the current directory in the Finder*  |
 
 ----
 
