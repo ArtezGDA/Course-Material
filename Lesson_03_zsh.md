@@ -142,7 +142,7 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 | `head`   | Prints the top of the file                           | `head mobydick.txt`                                 |
 | `man `   | **Man**ual page for ...                              | try `man cp` or `man man`                           |
 
-## Navigation while in `more` / `less` / `man`
+## Navigation within `more` / `less` / `man`
 
 | Command               | Result                                |
 |:----------------------|:--------------------------------------|
@@ -169,7 +169,7 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 |          | `grep 'Ishmael' md.txt`     | *Print all occurances (in context) of 'Ishmael' in the file mb.txt*          |
 |          | `grep -n 'Ishmael' md.txt`  | `-n`: *Print the line number in front of the result.*                        |
 |          | `grep -c 'Ishmael' md.txt`  | `-c`: *Count the number of occurances*                                       |
-|          | `grep -c -i 'whale' md.txt` | `-i`: *Search **case insensitive**: finds 'whale', 'Whale', or 'WHALE'*      |
+|          | `grep -c -i 'whale' md.txt` | `-i`: *Search* case **i**nsensitive*: finds 'whale', 'Whale', or 'WHALE'*      |
 
 ## Input / Output (Combine commands and programs)
 

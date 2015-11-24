@@ -20,7 +20,7 @@
 | `.`     | Current directory             |                                                                             |
 | `..`    | Parent directory              | `cd ..` or `cat ../../../file.txt`                                          |
 | `/`     | Root directory                | `cd /` or `ls /Volumes`                                                     |
-| `?`     | Single wildcard character     | use `T?m.md` to find *Tim.md*, *Tom.md* or *Tam.md*, but not *Theorem.md*   |
+| `?`     | Single wildcard character     | use `T?m.md` to find *Tim.md*, *Tom.md* or *Tam.md*, but not *TamTam.md*    |
 | `*`     | Multiple wildcard characters  | `ls *.png` to list all .png files in the current directory                  |
 
 | Command    | is Shortcut for  | Result                                                                                |
@@ -61,11 +61,11 @@
 
 ## Internet
 
-| Command  | Meaning                               | Example                                                                    |
-|:---------|:--------------------------------------|:---------------------------------------------------------------------------|
-| `curl`   | Print contents from a **url**         | `curl www.artez.nl`                                                        |
-|          | To download a file:                   | `curl http://www.gutenberg.org/cache/epub/2701/pg2701.txt > mobydick.txt`  |
-| `ping`   | Ping to a url to check the connection | `ping google.com` (type **⌃ c** to cancel)                                 |
+| Command  | Meaning                               | Example                                                                   |
+|:---------|:--------------------------------------|:--------------------------------------------------------------------------|
+| `curl`   | Print contents from a **url**         | `curl www.artez.nl`                                                       |
+|          | To download a file:                   | `curl http://www.gutenberg.org/cache/epub/2701/pg2701.txt > mobydick.txt` |
+| `ping`   | Ping to a url to check the connection | `ping google.com` (type **⌃ c** to cancel)                                |
 
 ## Processes & Inspection
 
@@ -117,9 +117,9 @@
 | `less`   | Like more, but with **more** options                 | `less mobydick.txt`                                 |
 | `tail`   | Prints the end of the file                           | `tail /var/log/system.log`                          |
 | `head`   | Prints the top of the file                           | `head mobydick.txt`                                 |
-| `man `   | **Man**ual page for ...                              | try `man cp` or `man man`                               |
+| `man `   | **Man**ual page for ...                              | try `man cp` or `man man`                           |
 
-## Navigation while in `more` / `less` / `man`
+## Navigation within `more` / `less` / `man`
 
 | Command               | Result                                |
 |:----------------------|:--------------------------------------|
@@ -135,19 +135,20 @@
 
 ## Finding stuff
 
-| Command  | Example                     | Result                                                                               |
-|:---------|-----------------------------|:-------------------------------------------------------------------------------------|
-| `find`   |                             | Search files from a specified directory                                              |
-|          | `find . -name "*.txt"`      |    Find all text files from the current directory                                    |
-|          | `find . -type d "m*"`       |    Find all directories whose name starts with an "m"                                |
-| `locate` | `locate HelveticaNeue`      | Search your whole computer to files with the given string in their name or directory. `locate` needs first to index the system before it can find stuff on it. |
-| `grep`   |                             | Search for a pattern within the contents of files                                    |
-|          | `grep 'Ishmael' md.txt`     |    Print all occurances (in context) of 'Ishmael' in the file mb.txt                 |
-|          | `grep -n 'Ishmael' md.txt`  |    `-n`: Print the line number in front of the result.                               |
-|          | `grep -c 'Ishmael' md.txt`  |    `-c`: Count the number of occurances                                              |
-|          | `grep -c -i 'whale' md.txt` |    `-i`: Search *case insensitive*. Finds occurances of 'whale', 'Whale', or 'WHALE' |
+| Command  | Example                     | Result                                                                       |
+|:---------|-----------------------------|:-----------------------------------------------------------------------------|
+| `find`   |                             | Search files from a specified directory                                      |
+|          | `find . -name "*.txt"`      | *Find all text files from the current directory*                             |
+|          | `find . -type d "m*"`       | *Find all directories whose name starts with an "m"*                         |
+| `locate` | `locate HelveticaNeue`      | Search your whole computer to files with the given string in their path      |
+|          |                             | (`locate` needs first to index your system before you can use it.)           |
+| `grep`   |                             | Search for a pattern within the contents of files                            |
+|          | `grep 'Ishmael' md.txt`     | *Print all occurances (in context) of 'Ishmael' in the file mb.txt*          |
+|          | `grep -n 'Ishmael' md.txt`  | `-n`: *Print the line number in front of the result.*                        |
+|          | `grep -c 'Ishmael' md.txt`  | `-c`: *Count the number of occurances*                                       |
+|          | `grep -c -i 'whale' md.txt` | `-i`: *Search* case **i**nsensitive*: finds 'whale', 'Whale', or 'WHALE'*      |
 
-## Input / Output
+## Input / Output (Combine commands and programs)
 
 | Keyword   | Name            | Purpose                          | Example                                                     |
 |:----------|:----------------|:------------------------------------------------------|:---------------------------------------|
@@ -157,10 +158,11 @@
 | `<`       | Redirect Input  | Use a file as keyboard input into a command           | `mail me@myself.com < todo.txt`        |
 | `` ` ` `` | Backticks       | Use the output of one command as argument of a 2nd    | ``cd `pwd` ``                          |
 
-| Command   | Purpose                                                         | Example                                               |
-|:----------|:----------------------------------------------------------------|:------------------------------------------------------|
-| `pbcopy`  | Send the stdin (standard in) to the clipboard                   | `echo "Hello World" | pbcopy`                         |
-|           |                                                                 | `cat modydick.txt | grep 'Ishmael' | pbcopy`          |
-| `pbpaste` | Send the contents of the clipboard to the stdout (standard out) | ``echo `pbpaste` ``                                   |
-| `open`    | Open with its default application (needs file argument)         | `open image.png`                                      |
-|           |                                                                 | `open .` *Opens the current directory in the Finder*  |
+| Command   | Purpose                                                  | Example                                               |
+|:----------|:---------------------------------------------------------|:------------------------------------------------------|
+| `pbcopy`  | Send the stdin to the clipboard                          | `echo "Hello World" | pbcopy`                         |
+|           | (**stdin**: *standard input*)                            | `cat modydick.txt | grep 'Ishmael' | pbcopy`          |
+| `pbpaste` | Send the contents of the clipboard to the stdout         | ``echo `pbpaste` ``                                   |
+|           | (**stdout**: *standard output*)                          | ``echo `pbpaste` ``                                   |
+| `open`    | Open file with its default application                   | `open image.png`                                      |
+| `open .`  | Opens the current directory in the Finder                |                                                       |
