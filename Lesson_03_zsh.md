@@ -189,7 +189,7 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 | `pbpaste` | Send the contents of the clipboard to the stdout         | ``echo `pbpaste` ``                                   |
 |           | (**stdout**: *standard output*)                          | ``echo `pbpaste` ``                                   |
 | `open`    | Open file with its default application                   | `open image.png`                                      |
-|           |                                                          | `open .` *Opens the current directory in the Finder*  |
+| `open .`  | Opens the current directory in the Finder                |                                                       |
 
 ----
 
