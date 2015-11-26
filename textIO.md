@@ -68,11 +68,14 @@ Additional to the interactive form the text should be remediated into, create a 
 *November 26th 2015*
 
 - Terminal and the shell **\*\*\*_**
+- Install zsh, dotfiles and alt key: follow [zsh dotfiles repo](https://github.com/irlabs/zsh-dotfiles)'s guide
+- The lesson follows the [ZSH cheat sheet](Lesson_03_zsh.md)
 
 **Homework:**
 
+- Get the [zsh_testfiles.tar](zsh_testfiles.tar)
 - [Exercises with the shell](Homework_03_zsh.md)
-- **Final concept**
+- **Final concept** for a text tool which consumes input and produces output
 
 #####Week 4:
 *December 3rd 2015*
