@@ -53,7 +53,7 @@ Additional to the interactive form the text should be remediated into, create a 
 
 - Introduction to the **textIO** assignment
 - Introduction to [text in python](Lesson_01a_Text_in_python.md)
-- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) **\*\*\*_**
+- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) __\*\*\*__
 
 **Homework:**
 
@@ -67,7 +67,7 @@ Additional to the interactive form the text should be remediated into, create a 
 #####Week 3:
 *November 26th 2015*
 
-- Terminal and the shell **\*\*\*_**
+- Terminal and the shell __\*\*\*__
 - Install zsh, dotfiles and alt key: follow [zsh dotfiles repo](https://github.com/irlabs/zsh-dotfiles)'s guide
 - The lesson follows the [ZSH cheat sheet](Lesson_03_zsh.md)
 
@@ -93,14 +93,14 @@ Make first prototype.
 #####Week 5:
 *December 10th 2015*
 
-- GitHub API from python **\*\*\*_**
+- GitHub API from python __\*\*\*__
 
 **Homework:**
 
 #####Week 6:
 *December 17th 2015*
 
-- Regular Expressions **\*\*\*_**
+- Regular Expressions __\*\*\*__
 
 
 ##### Christmas Hollidays
@@ -110,7 +110,7 @@ Make first prototype.
 
 - Evaluation
 
-**\*\*\*_** : This lesson will deal with an advanced technical topic. Make sure you don't miss this week and prepare yourself well.
+__\*\*\*__ : This lesson will deal with an advanced technical topic. Make sure you don't miss this week and prepare yourself well.
 
 ##Evaluation
 
