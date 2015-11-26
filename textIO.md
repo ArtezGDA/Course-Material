@@ -71,7 +71,7 @@ Additional to the interactive form the text should be remediated into, create a 
 
 **Homework:**
 
-- Exercises with the shell.
+- [Exercises with the shell](Homework_03_zsh.md)
 - **Final concept**
 
 #####Week 4:
