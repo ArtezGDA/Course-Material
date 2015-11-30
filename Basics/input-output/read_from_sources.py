@@ -2,7 +2,7 @@
 
 # read_from_sources.py
 
-"""Example scripts to read input from different sources
+"""Example script to read input from different sources
 
 This script demonstrates how to read from different inputs:
 

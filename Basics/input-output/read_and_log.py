@@ -1,17 +1,19 @@
 #!/usr/bin/python
 
-# read_from_prefered.py
+# read_and_log.py
 
-"""Example scripts to read input from one of two possible sources:
+"""Example script to read input from two possible sources and outputs to two different targets.
+
+This script reads from one of two possible sources:
 from the standard input (stdin) or if the stdin is empty,
 from the arguments given on the command line.
 
-This script also logs to an external logfile.
+Additionally this script logs to an external logfile.
 (the example.log file in the same directory).
-It is useful to log to a file, so you can inspect the process of your coding.
+It is useful to log to a file, so you can inspect the process of your coding (debug).
 
-And in this script you probably don't want to print to the standard out (stdout),
-because you want to use the stdout for an other output: the main output of the script. 
+These debug (and inspection) messages you probably don't want to have printed to the
+standard out (stdout), 'cause you're using the stdout for an other output: the main purpose of the script. 
 """
 
 import sys

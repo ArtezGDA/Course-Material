@@ -2,7 +2,7 @@
 
 # read_from_prefered.py
 
-"""Example scripts to read input from one of two possible sources:
+"""Example script to read input from one of two possible sources:
 from the standard input (stdin) or if the stdin is empty,
 from the arguments given on the command line.
 """
