@@ -53,25 +53,32 @@ Additional to the interactive form the text should be remediated into, create a 
 
 - Introduction to the **textIO** assignment
 - Introduction to [text in python](Lesson_01a_Text_in_python.md)
-- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) **\*\*\*_**
+- Collections: [Arrays and Dictionaries](Lesson_01b_Collections.md) __\*\*\*__
 
 **Homework:**
 
 [Exercises](Homework_01_Collections.md) with Arrays and Dictionaries
 
 #####Week 2:
-*November 12th 2015*
+*November 19th 2015*  
 
-- Terminal and the shell **\*\*\*_**
+- Extended demonstration of collections and datastructures
+
+#####Week 3:
+*November 26th 2015*
+
+- Terminal and the shell __\*\*\*__
+- Install zsh, dotfiles and alt key: follow [zsh dotfiles repo](https://github.com/irlabs/zsh-dotfiles)'s guide
+- The lesson follows the [ZSH cheat sheet](Lesson_03_zsh.md)
 
 **Homework:**
 
-Exercises with the shell.
+- Get the [zsh_testfiles.tar](zsh_testfiles.tar)
+- [Exercises with the shell](Homework_03_zsh.md)
+- **Final concept** for a text tool which consumes input and produces output
 
-**Final concept**
-
-#####Week 3:
-*November 19th 2015*  
+#####Week 4:
+*December 3rd 2015*
 
 - Introduction to scraping
 - Group talks discussing the concepts
@@ -81,36 +88,29 @@ Exercises with the shell.
 Collect texts from sources manually.
 Make first prototype.
 
-#####Week 4:
-*November 26th 2015*
-
-- GitHub API from python **\*\*\*_**
-
 **Homework:**
 
 #####Week 5:
-*December 3rd 2015*
+*December 10th 2015*
 
-- Regular Expressions **\*\*\*_**
+- GitHub API from python __\*\*\*__
 
 **Homework:**
 
 #####Week 6:
-*December 10th 2015*
-
-**Homework:**
-
-#####Week 7:
 *December 17th 2015*
+
+- Regular Expressions __\*\*\*__
+
 
 ##### Christmas Hollidays
 
-#####Week 8:
+#####Week 7:
 *January 7th 2016*
 
 - Evaluation
 
-**\*\*\*_** : This lesson will deal with an advanced technical topic. Make sure you don't miss this week and prepare yourself well.
+__\*\*\*__ : This lesson will deal with an advanced technical topic. Make sure you don't miss this week and prepare yourself well.
 
 ##Evaluation
 
