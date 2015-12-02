@@ -2,7 +2,14 @@
 
 # input_files.py
 
-"""Example 
+"""Example script that can be given one or more files on the command line.
+It outputs the name of the file and the first line of the file itself.
+
+As example, it can be executed by running the following command:  
+`find . -name '*.md' | xargs python ./Basics/filter-files/files_input.py`  
+(This searches for all the `.md` files from the current directory, and then send the output of these files rto this script).
+
+As a simple example, this script just prints the name of the file and the first line of content
 """
 
 import os
@@ -43,6 +50,7 @@ def main():
 	# Print the first line of each file
 	for file in commandLineFiles:
 		with open(file, 'r') as f:
+			print "file %s:" % (file)
 			lines = f.readlines()
 			print lines[0]
 	
