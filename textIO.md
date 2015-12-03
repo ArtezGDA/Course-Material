@@ -85,10 +85,12 @@ Additional to the interactive form the text should be remediated into, create a 
 
 **Homework:**
 
-Collect texts from sources manually.
-Make first prototype.
-
-**Homework:**
+- Split up Room assignment into 1. data file and 2. formatting output script
+- Review each others work (room datastructure + iTunes datastructure)
+- Complete and verify group assignment (font)
+- For tool & booklet:
+ - Collect texts from sources manually.
+ - Make first prototype.
 
 #####Week 5:
 *December 10th 2015*
@@ -96,6 +98,7 @@ Make first prototype.
 - GitHub API from python __\*\*\*__
 
 **Homework:**
+
 
 #####Week 6:
 *December 17th 2015*

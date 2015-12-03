@@ -7,7 +7,7 @@ It outputs the name of the file and the first line of the file itself.
 
 As example, it can be executed by running the following command:  
 `find . -name '*.md' | xargs python ./Basics/filter-files/files_input.py`  
-(This searches for all the `.md` files from the current directory, and then send the output of these files rto this script).
+(This searches for all the `.md` files from the current directory, and then send the output of these files to this script).
 
 As a simple example, this script just prints the name of the file and the first line of content
 """
