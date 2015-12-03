@@ -1,11 +1,19 @@
 #!/usr/bin/python
 
-# find_md_links.py
+# find_md_links_color.py
 
-"""Example script, expanding on `files_input.py`.
-As the example before, this script can be given one or more files on the command line.
+"""Example script, expanding on `find_md_links.py`.
+As the example before, this script can be given one or more files on the command line,
+and finds all the markdown formatted links in them
 
-Assuming these are all markdown (`.md`) files, the script will then search these files
+Additionally it colors the output.
+
+This script is dependend on the colored module. Make sure it is installed with:  
+`sudo easy_install colored`
+
+----
+
+Assuming the given files are all markdown (`.md`) files, the script will then search these files
 for markdown formatted links (`[title of the link](url_or_markdown_file)`), and print
 them to the standard out.
 
@@ -20,6 +28,9 @@ import os
 import sys
 import glob
 import re
+
+from colored import fg, attr
+
 
 def getFilesFromArguments():
 	"""Get the files delivered on the command line,
@@ -72,6 +83,31 @@ def findLinks(line):
 	
 	return re.findall(pattern, line, re.VERBOSE)
 
+def allLinksInFile(file):
+	"""Returns an array of all the links in the given file.
+	For each link, only the target url is returned.
+	"""
+	# Start with an empty array
+	links = []
+	#
+	# Go over each line in the file
+	lines = file.readlines()
+	for line in lines:
+		# Find all markdown links in the each line
+		# and go over each
+		for link in findLinks(line):
+			# Append the target url to the links array
+			links.append(link[1])
+	return links
+
+def highlightMdFiles(linktarget):
+	"""Returns a string with colors for printing on the command line.
+	If the url is a local hosted markdown file, it will be highlighted
+	"""
+	if linktarget.endswith(".md"):
+		return "%s%s%s%s" % (fg(1), attr('bold'), linktarget, attr(0))
+	return linktarget
+
 def main():
 	"""Opens the files deliverd to this script
 	and prints all the links, using nice colors.
@@ -84,15 +120,11 @@ def main():
 	for file in commandLineFiles:
 		# 'Open' the file and print its filename 
 		with open(file, 'r') as f:
-			print "links in %s:" % (file)
-			# Go over each line in the file
-			lines = f.readlines()
-			for line in lines:
-				# Find all markdown links in the each line
-				# and go over each
-				for link in findLinks(line):
-					# Print just the link-to url or file
-					print "\t%s" % (link[1])
+			links = allLinksInFile(f)
+			nolinkstext = len(links) == 0 and " (contains no links)" or ""
+			print "links in %s%s:%s%s" % (attr('bold'), file, attr(0), nolinkstext)
+			for link in links:
+				print "\t%s" % (highlightMdFiles(link))
 				
 	
 if __name__ == '__main__':
