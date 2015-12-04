@@ -100,12 +100,17 @@ def allLinksInFile(file):
 			links.append(link[1])
 	return links
 
-def highlightMdFiles(linktarget):
+def highlightMdFilesAndGitHubLinks(linktarget):
 	"""Returns a string with colors for printing on the command line.
-	If the url is a local hosted markdown file, it will be highlighted
+	
+	If the url is a local hosted markdown file, it will be highlighted in red
+	If the url is a github url, it will be highlighted in aqua
+	If the url is anything else, it will just be returned as is.
 	"""
 	if linktarget.endswith(".md"):
 		return "%s%s%s%s" % (fg(1), attr('bold'), linktarget, attr(0))
+	if linktarget.startswith("https://github.com/"):
+		return "%s%s%s%s" % (fg(30), attr('bold'), linktarget, attr(0))
 	return linktarget
 
 def main():
@@ -121,10 +126,11 @@ def main():
 		# 'Open' the file and print its filename 
 		with open(file, 'r') as f:
 			links = allLinksInFile(f)
-			nolinkstext = len(links) == 0 and " (contains no links)" or ""
-			print "links in %s%s:%s%s" % (attr('bold'), file, attr(0), nolinkstext)
+			# Prints either "(contains no links)" or "contains n links:" where n > 0
+			nolinkstext = len(links) > 0 and " contains %d links:" % (len(links)) or " (contains no links)"
+			print "%s%s:%s%s" % (attr('bold'), file, attr(0), nolinkstext)
 			for link in links:
-				print "\t%s" % (highlightMdFiles(link))
+				print "\t%s" % (highlightMdFilesAndGitHubLinks(link))
 				
 	
 if __name__ == '__main__':
