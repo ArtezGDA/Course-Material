@@ -124,7 +124,8 @@ Seizure of the creative possibilities within the strict confines of the assignme
 
 ----
 ##Literature
-
+- **Eerste hulp bij hacken**, Doe het op de command line
+	- *Dimitri Tokmetzis* ([De Correspondent](https://decorrespondent.nl/3322/Eerste-hulp-bij-hacken-Doe-het-op-de-command-line/161771434-63756bb6), 2015)
 - **Remediation**, Understanding New Media
 	- *Jay David Bolter* and *Richard Grusin* (MIT Press, 1998)
 - **The Pattern on the Stone**, the simple ideas that make computers work
