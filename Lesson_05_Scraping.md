@@ -91,7 +91,7 @@ By selecting the scopes you made sure this password can only be used for a limit
 Committing secret keys, tokens and passwords is really **the very last thing you want to do**. So let's make sure it doesn't happen. The best trick for this is to store the token in a seperate file, and make sure the file is never added to Github.
 
 1. Create a new file called `secret_password.py`
-2. In that file create a dictionary like the following:
+2. In that file create a dictionary like the following:  
 	```
 	github_account = {'user': "your_user_name", 'password': "the_token_1234abcdef9876543210"}
 	``` 
@@ -103,9 +103,11 @@ Committing secret keys, tokens and passwords is really **the very last thing you
 	g = Github(github_account['user'], github_account['password'])
 	```
 4. To make sure the password file is not accidently added to Github, add the file to the *git ignores*. (The *git ignores* is a set of filenames or patterns of filesnames of files you want to have ignored from the git system, so they are not added or updated. **Warning**, these ignores can still be added if you really wish to do so, so keep making sure you don't add them later).
-5. Create a file called `.gitignore` and add the following in it:  
-	```# ignore these files and patterns
+5. Create a file called `.gitignore` and add the following in it:
+	```
+	# ignore these files and patterns
 	secret_password.py
+	
 	```
 6. Type `git status` to verify that the password file won't be committed but the `.gitignore` will.
 
@@ -188,12 +190,14 @@ To find out how we could figure out this ourselves, use the following route:
 		- ...
 	- For now, let's use the name:
 		- `c.author.name` or `gc.author.name`
-7. Finally type a for loop in *iPython* to combine all this:  
-	```for commit in repo.get_commits():
+7. Finally type a for loop in *iPython* to combine all this:
+	```
+	for commit in repo.get_commits():
 		a = commit.author.name
 		t = commit.commit.last_modified
 		m = commit.commit.message
 		print "%s (%s): %s" % (a, t, m)
+		
 	```
 
 ### Write this all out in a python script
