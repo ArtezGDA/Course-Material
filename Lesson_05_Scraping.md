@@ -110,9 +110,71 @@ Committing secret keys, tokens and passwords is really the very last thing you w
 
 ### Continue the tutorial
 
-Print out a list of repositories you commit to:
+Print out a list of repositories you can commit to:
 
 ```
 for repo in g.get_user().get_repos():
 	print repo.name
+```
+
+So what exactly happens here? And where is the documentation? Let's break these two lines up into smaller bits:
+
+- `for e in a_collection:` should be recognized as familiar *for loop*
+- `g.get_user()`: a method `get_user()` on the Github instance `g` of above.
+	- Let's find the documentation of this method. It's part of the [**Main class: Github** reference](http://pygithub.readthedocs.org/en/latest/github.html)
+	- Jump to the section about the [`get_user()`](http://pygithub.readthedocs.org/en/latest/github.html#github.MainClass.Github.get_user) method
+	- You see that it returns a `github.NamedUser.NamedUser` object. Open the documentation on [NamedUser](http://pygithub.readthedocs.org/en/latest/github_objects/NamedUser.html)
+- `.get_repos()`: is a method called on this NamedUser object.
+	- Read the documentation on the [`get_repos()`](http://pygithub.readthedocs.org/en/latest/github_objects/NamedUser.html#github.NamedUser.NamedUser.get_repos) method
+	- You see the return type is a `github.PaginatedList.PaginatedList` of `github.Repository.Repository`s
+	- The *Paginated List* means that it will not return these repositories all in once, but in smaller quanties (pages), so the network and other systems can manage giant lists more easily. Luckily for us, we can still just use *Paginated Lists* like in a for loop, like we do with *lists*.
+- Inside the for loop the `repo` variable represent each repository in turn.
+	- Open the documentation from the [`github.Repository.Repository`](http://pygithub.readthedocs.org/en/latest/github_objects/Repository.html) link from above.
+	- Find the `name` property: [`name`](http://pygithub.readthedocs.org/en/latest/github_objects/Repository.html#github.Repository.Repository.name)
+	- And see what other things can be found out about a repository.
+	
+### Get a list of all commit (for a single repository)
+
+- Get a repository (`g.get_repo()`)
+	- (full_name!) and what goes wrong if you take the name
+- Use tab complete (ipython) to see the possibilities
+- Get the commits (`repo.get_commits()`) -> `github.PaginatedList.PaginatedList` of `github.Commit.Commit`
+- Get one commit and investigate `ci = repo.get_commits()[0]` (most recent commit)
+- ci. tab to autocomplete
+- Read the documentation. ... Relalize there are two types: `github.Commit.Commit` and `github.GitCommit.GitCommit`. We want the latter
+- `gc = ci.commit`
+- Investigate that gc object. See we have
+	- author
+	- last_modified (which is probably a date)
+	- message
+	- parent (if we which to draw a graph from this)
+- Message and last_modified are straight forward, but what about the author?
+- Investigate the `github.GitAuthor.GitAuthor` model. Is has
+	- name
+	- email
+- Let's use the name
+
+### Write this all out in a python script
+
+```
+	# Setup
+	from github import Github
+	from secret_password import github_account
+
+	g = Github(github_account['user'], github_account['password'])
+	
+	# Get the repository from its full name
+	repo = g.get_repo('ArtezGDA/Algorithmic-Nature')
+	
+	# Iterate through all commits
+	for commit in repo.get_commits():
+	
+		# Get the required information
+		gc = commit.commit # GitCommit object
+		author_name = gc.author.name
+		time_modified = gc.last_modified
+		message = gc.message
+		
+		# print the results
+		print "%s - %s: %s" % (time_modified, author_name, message)"
 ```
