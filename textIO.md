@@ -80,7 +80,6 @@ Additional to the interactive form the text should be remediated into, create a 
 #####Week 4:
 *December 3rd 2015*
 
-- Introduction to scraping
 - Group talks discussing the concepts
 
 **Homework:**
@@ -95,17 +94,49 @@ Additional to the interactive form the text should be remediated into, create a 
 #####Week 5:
 *December 10th 2015*
 
+- Introduction to [Scraping](Lesson_05_Scraping.md)
 - GitHub API from python __\*\*\*__
 
 **Homework:**
 
+- Review the group assignment of another group
+- Make tool into standalone script
+- Finish and publish **Notes about frustrations** and difficulties **with digital tools**
 
 #####Week 6:
 *December 17th 2015*
 
-- Regular Expressions __\*\*\*__
+- Regular Expressions __\*\*\*__ (Postponed)
+
+**Homework:**
+
+- **Write proper documentation for your tool**:
+ - Create a good name for the tool
+ - Put the tool in a specific subfolder in your folder
+ - Add a README.md file to that folder
+ - In the README.md describe all the neccessary elements of documentation:
+  - What your tool is and what it does
+  - How to install your tool
+  - Screenshots of your tool
+  - Examples how to use your tool
+  - Dependencies on other tools / python modules / versions of the OS
+  - License (MIT License)
+ - Split up your tool into functional blocks of code (with each its own `.py` file?)
+ - Add a `def main():` to your main python file
+ - Split up the python file into well-named functions
+ - Add comments at the top of each file:
+  - The name of the file
+  - The author and the license
+  - Explanation of what is does in docstring (` """ multiline text """ `)
+ - Add a docstring (`"""..."""`) to each function, explaining:
+  - what it does
+  - what arguments or parameters it takes
+  - what kind of return value it outputs
+ - Add comments (`#`) in your code to explain to yourself and others what the code there does
+ - Write proper commit messages when commit the code and changes to the repository
 
 
+----
 ##### Christmas Hollidays
 
 #####Week 7:
@@ -119,7 +150,7 @@ __\*\*\*__ : This lesson will deal with an advanced technical topic. Make sure y
 
 Demonstration of text manipulation skills using python and the command line.  
 Applying a succesful process, following these steps:  
-concept, prototype, design, execution.  
+concept, prototype, design, execution, documentation 
 Seizure of the creative possibilities within the strict confines of the assignment and the textual and technical medium.
 
 ----
