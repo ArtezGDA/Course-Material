@@ -27,7 +27,7 @@ The process of scraping can be compared to the process of mine a rare ore:
 - [scrape Disney's box office from Wikipedia](https://github.com/ArtezGDA/python-web-scraper)
 - [json reading and writing](https://github.com/ArtezGDA/Course-Material/tree/master/Basics/json)
 - [find links in markdown files](https://github.com/ArtezGDA/Course-Material/tree/master/Basics/filter-files)
-- use an API ...
+- use an API ... (read on)
 
 ## GitHub API
 
@@ -38,7 +38,7 @@ An API (Application Programming Interface), is a layer of access (and interactiv
 A quick online search for `Github API` brings you to the official API page:  
 [GitHub API v3 | GitHub Developer Guide](https://developer.github.com/v3/)
 
-This API is the most basic form of their API, which works with simple HTTP GET requests, and parsing the response. The benefit of such a HTTP API, is that is so simple that every type of device or language can use this.
+This API is the most basic form of their API, which works with simple HTTP GET requests, and parsing the response. The benefit of such a HTTP API, is that is so simple that every type of device or language can use this. However, simple in this case also means its more work, and complicated to use it.
 
 For our case, we want to look a bit further and go look for a Python API.
 
@@ -66,8 +66,8 @@ g = Github("user", "password")
 
 Ofcourse you should replace the *user* and *password* with a valid username and password for Github. But there are two major security issues with just using your normal Github password:
 
-1. This is your root password for everything on Github, so also editing, deletion and changing your profile. You do not want scraping script to be able to do this. What if you make a mistake?
-2. You surely DO NOT want to publish your password online. (Which is what you will be doing when you put your scraping script on Github again)
+1. You use your root password for everything on Github, so also editing, deletion and changing your profile. You do not want a simple scraping script to be able to do this. What if you make a mistake?
+2. You surely **DO NOT** want to publish your passwords online. (Which is what you will be doing when you make your scraping script available on Github)
 
 So we need to be safe and find a secure way around these threats.
 
@@ -82,11 +82,13 @@ So we need to be safe and find a secure way around these threats.
 7. Click **Generate token**
 8. Copy the resulted token and store it in a safe file
 
-By selecting the scopes you made sure this password can only be used for a limited set of actions, you approved off. Further more, if you're done with it or the password might have been compromised, you can just toss it away and create a new one.
+![Create a Personal Access Token for your script](images/personal_access_token.png)
+
+By selecting the scopes you made sure this password can only be used for a limited set of actions, you approved off. Further more, if you're done with it or if the password might have been compromised, you can just toss it away and create a new one.
 
 #### Step 2. Make sure you do not commit the token.
 
-Committing secret keys, tokens and passwords is really the very last thing you want to do. So let's make sure it doesn't happen. The best trick is to store the token in a seperate file, and make sure the file is never added to Github.
+Committing secret keys, tokens and passwords is really **the very last thing you want to do**. So let's make sure it doesn't happen. The best trick for this is to store the token in a seperate file, and make sure the file is never added to Github.
 
 1. Create a new file called `secret_password.py`
 2. In that file create a dictionary like the following:
@@ -100,10 +102,9 @@ Committing secret keys, tokens and passwords is really the very last thing you w
 
 	g = Github(github_account['user'], github_account['password'])
 	```
-4. To make sure the password file is not accidently added to Github, add the file to the git ignores. (The git ignores is a set of files you want to have ignored from the git system, so they are not added or updated. Warning, these ignores can still be added if you really wish to do so, so keep making sure you don't add them later).
-5. Create a file called `.gitignore` and add the following in it:
-	```
-	# ignore these files and patterns
+4. To make sure the password file is not accidently added to Github, add the file to the *git ignores*. (The *git ignores* is a set of filenames or patterns of filesnames of files you want to have ignored from the git system, so they are not added or updated. **Warning**, these ignores can still be added if you really wish to do so, so keep making sure you don't add them later).
+5. Create a file called `.gitignore` and add the following in it:  
+	```# ignore these files and patterns
 	secret_password.py
 	```
 6. Type `git status` to verify that the password file won't be committed but the `.gitignore` will.
@@ -119,7 +120,7 @@ for repo in g.get_user().get_repos():
 
 So what exactly happens here? And where is the documentation? Let's break these two lines up into smaller bits:
 
-- `for e in a_collection:` should be recognized as familiar *for loop*
+- You should recognize `for e in a_collection:` as a familiar *for loop*
 - `g.get_user()`: a method `get_user()` on the Github instance `g` of above.
 	- Let's find the documentation of this method. It's part of the [**Main class: Github** reference](http://pygithub.readthedocs.org/en/latest/github.html)
 	- Jump to the section about the [`get_user()`](http://pygithub.readthedocs.org/en/latest/github.html#github.MainClass.Github.get_user) method
@@ -135,16 +136,16 @@ So what exactly happens here? And where is the documentation? Let's break these 
 	
 ### Get a list of all commit (for a single repository)
 
-That was the purpose of this excersise to begin with: a nice list of all commit messages from everybody.
+That was the purpose of this excersise to begin with, wasn't it? A nice list of all commit messages from everybody.
 
-To find out how we could get there, take the following steps:
+To find out how we could figure out this ourselves, use the following route:
 
 1. Get a single repository with [`g.get_repo()`](http://pygithub.readthedocs.org/en/latest/github.html#github.MainClass.Github.get_repo)
 	- The documentation tells us that we need to give it its `full_name` or its `id`. We don't know its id, so we'll use the full_name.
-	- If, in the example above you `print repo.full_name`, you get the full names
-	- Use that to get the repo: `repo = g.get_repo('ArtezGDA/Algorithmic-Nature')`
+	- If, in the example above, you `print repo.full_name`, you get the full names
+	- Use those to get the repo: `repo = g.get_repo('ArtezGDA/Algorithmic-Nature')`
 	- What if you would use a wrong name? (like the non-full `name`?)
-		- Unfortunatelty, the error is not so clear. You can do `repo = g.get_repo('blah')` without complaints.
+		- Unfortunatelty, the error is not so clear. You *can* do `repo = g.get_repo('blah')` without complaints.
 		- And `repo` will just be a github.Repository.Repository type. ...
 		- But if you try to access specific properties (like its name): `repo.name` will 'throw' this
 		- `UnknownObjectException: 404 { ... 'Not Found'}`
@@ -166,7 +167,7 @@ To find out how we could get there, take the following steps:
 	- type `c.` and TAB to autocomplete
 	- See it has some 21 things that you can do with it, but no *message*
 	- Read the documentation on [`github.Commit.Commit`](http://pygithub.readthedocs.org/en/latest/github_objects/Commit.html#github.Commit.Commit)
-	- Realize there are two types: [`github.Commit.Commit`](http://pygithub.readthedocs.org/en/latest/github_objects/Commit.html#github.Commit.Commit) and [`github.GitCommit.GitCommit`](http://pygithub.readthedocs.org/en/latest/github_objects/GitCommit.html#github.GitCommit.GitCommit). We want the latter!
+	- Realize there are **two** types: [`github.Commit.Commit`](http://pygithub.readthedocs.org/en/latest/github_objects/Commit.html#github.Commit.Commit) and [`github.GitCommit.GitCommit`](http://pygithub.readthedocs.org/en/latest/github_objects/GitCommit.html#github.GitCommit.GitCommit). We want the latter!
 	- And see that you can get the `github.GitCommit.GitCommit` from the `github.Commit.Commit`, using the [`.commit`](http://pygithub.readthedocs.org/en/latest/github_objects/Commit.html#github.Commit.Commit.commit) property.
 5. Get that `github.GitCommit.GitCommit`:
 	- type `gc = c.commit`
@@ -187,12 +188,12 @@ To find out how we could get there, take the following steps:
 		- ...
 	- For now, let's use the name:
 		- `c.author.name` or `gc.author.name`
-7. Finally type a for loop in *iPython* to combine all this:
-	- ```for commit in repo.get_commits():
-			a = commit.author.name
-			t = commit.commit.last_modified
-			m = commit.commit.message
-			print "%s (%s): %s" % (a, t, m)
+7. Finally type a for loop in *iPython* to combine all this:  
+	```for commit in repo.get_commits():
+		a = commit.author.name
+		t = commit.commit.last_modified
+		m = commit.commit.message
+		print "%s (%s): %s" % (a, t, m)
 	```
 
 ### Write this all out in a python script
