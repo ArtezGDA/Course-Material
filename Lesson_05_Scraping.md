@@ -135,26 +135,69 @@ So what exactly happens here? And where is the documentation? Let's break these 
 	
 ### Get a list of all commit (for a single repository)
 
-- Get a repository (`g.get_repo()`)
-	- (full_name!) and what goes wrong if you take the name
-- Use tab complete (ipython) to see the possibilities
-- Get the commits (`repo.get_commits()`) -> `github.PaginatedList.PaginatedList` of `github.Commit.Commit`
-- Get one commit and investigate `ci = repo.get_commits()[0]` (most recent commit)
-- ci. tab to autocomplete
-- Read the documentation. ... Relalize there are two types: `github.Commit.Commit` and `github.GitCommit.GitCommit`. We want the latter
-- `gc = ci.commit`
-- Investigate that gc object. See we have
-	- author
-	- last_modified (which is probably a date)
-	- message
-	- parent (if we which to draw a graph from this)
-- Message and last_modified are straight forward, but what about the author?
-- Investigate the `github.GitAuthor.GitAuthor` model. Is has
-	- name
-	- email
-- Let's use the name
+That was the purpose of this excersise to begin with: a nice list of all commit messages from everybody.
+
+To find out how we could get there, take the following steps:
+
+1. Get a single repository with [`g.get_repo()`](http://pygithub.readthedocs.org/en/latest/github.html#github.MainClass.Github.get_repo)
+	- The documentation tells us that we need to give it its `full_name` or its `id`. We don't know its id, so we'll use the full_name.
+	- If, in the example above you `print repo.full_name`, you get the full names
+	- Use that to get the repo: `repo = g.get_repo('ArtezGDA/Algorithmic-Nature')`
+	- What if you would use a wrong name? (like the non-full `name`?)
+		- Unfortunatelty, the error is not so clear. You can do `repo = g.get_repo('blah')` without complaints.
+		- And `repo` will just be a github.Repository.Repository type. ...
+		- But if you try to access specific properties (like its name): `repo.name` will 'throw' this
+		- `UnknownObjectException: 404 { ... 'Not Found'}`
+		- That just means it cannot find the repository with the given id or full_name, but that it was the repository which cannot be found, is for you to deduct yourself. :(
+2. Use `ipython`'s tab auto-completion to see the possibilities of an object:
+	- After you created a [github.Repository.Repository](http://pygithub.readthedocs.org/en/latest/github_objects/Repository.html) with `repo = g.get_repo('...')`,
+	- type `repo.` and press the TAB key (do not yet press RETURN)
+	- *iPython* will show all the 158 possibilities with a Repository.
+	- type `get` and press TAB (it now reads `repo.get_`)
+	- *iPython* will limit the possibilities to only those starting with `.get`
+	- type `com` (it now reads `repo.get_com`) and press TAB
+	- *iPython* will show the remaining 4 possibilities. There it is: **`.get_commits`**
+3. Look up the documentation about [`get_commits()`](http://pygithub.readthedocs.org/en/latest/github_objects/Repository.html#github.Repository.Repository.get_commits)
+	- You see that it returns a `github.PaginatedList.PaginatedList` of `github.Commit.Commit`s
+	- Get one commit and investigate that one: `c = repo.get_commits()[0]`
+		- the `c` will just be a quick variable name for *commit*
+		- the `[0]`, the first element of the *PaginatedList* will be the most recent commit.
+4. Investigate the `github.Commit.Commit`:
+	- type `c.` and TAB to autocomplete
+	- See it has some 21 things that you can do with it, but no *message*
+	- Read the documentation on [`github.Commit.Commit`](http://pygithub.readthedocs.org/en/latest/github_objects/Commit.html#github.Commit.Commit)
+	- Realize there are two types: [`github.Commit.Commit`](http://pygithub.readthedocs.org/en/latest/github_objects/Commit.html#github.Commit.Commit) and [`github.GitCommit.GitCommit`](http://pygithub.readthedocs.org/en/latest/github_objects/GitCommit.html#github.GitCommit.GitCommit). We want the latter!
+	- And see that you can get the `github.GitCommit.GitCommit` from the `github.Commit.Commit`, using the [`.commit`](http://pygithub.readthedocs.org/en/latest/github_objects/Commit.html#github.Commit.Commit.commit) property.
+5. Get that `github.GitCommit.GitCommit`:
+	- type `gc = c.commit`
+	- Investigate that gc object. See we have:
+		- `.author`
+		- `.last_modified` (which is probably a date)
+		- `.message`
+		- `.parent` (if we which to draw a (tree) graph from these commits)
+6. The *Message* and *last_modified* are straight forward, but what about the author?
+	- Investigate the [`github.GitAuthor.GitAuthor`](http://pygithub.readthedocs.org/en/latest/github_objects/GitAuthor.html#github.GitAuthor.GitAuthor) object
+	- Is has two useful properties:
+		- `.name`
+		- `.email`
+	- Also realize that there is the `.author` property of the `github.Commit.Commit` object which is a [`github.NamedUser.NamedUser`](http://pygithub.readthedocs.org/en/latest/github_objects/NamedUser.html#github.NamedUser.NamedUser)
+	- The `github.NamedUser.NamedUser` has other interesting properties:
+		- `.login`
+		- `.location`
+		- ...
+	- For now, let's use the name:
+		- `c.author.name` or `gc.author.name`
+7. Finally type a for loop in *iPython* to combine all this:
+	- ```for commit in repo.get_commits():
+			a = commit.author.name
+			t = commit.commit.last_modified
+			m = commit.commit.message
+			print "%s (%s): %s" % (a, t, m)
+	```
 
 ### Write this all out in a python script
+
+If you compress all of the above into one python script, it will be about something like the following:
 
 ```
 	# Setup
@@ -169,7 +212,7 @@ So what exactly happens here? And where is the documentation? Let's break these 
 	# Iterate through all commits
 	for commit in repo.get_commits():
 	
-		# Get the required information
+		# Get the desired information
 		gc = commit.commit # GitCommit object
 		author_name = gc.author.name
 		time_modified = gc.last_modified
@@ -178,3 +221,52 @@ So what exactly happens here? And where is the documentation? Let's break these 
 		# print the results
 		print "%s - %s: %s" % (time_modified, author_name, message)"
 ```
+
+### Export it as a .json file
+
+This is nice, because it prints out all data to the command line. Still, every time it takes a while before it scraped all of the commit messages. And you might want to do something more with the data. So let's save it in a `.json` file, which we can open and read in later.
+
+Have a look at the basic example about [writing and reading json files](Basics/json/README.md).
+
+Change the script to the following:
+
+```
+	# Setup
+	from github import Github
+	from secret_password import github_account
+	import json
+
+	g = Github(github_account['user'], github_account['password'])
+	
+	# Get the repository from its full name
+	repo = g.get_repo('ArtezGDA/Algorithmic-Nature')
+	
+	# Store all commits in a list of dicts
+	commitsList = []
+	
+	# Iterate through all commits
+	for commit in repo.get_commits():
+		
+		# Create an empty dict
+		commitDict = {}
+		
+		# fill the dict with the desired information
+		gc = commit.commit # GitCommit object
+		commitDict['author_name'] = gc.author.name
+		commitDict['last_modified'] = gc.last_modified
+		commitDict['message'] = gc.message
+		
+		# Append the new dict to the list
+		commitsList.append(commitDict)
+		
+		# Print some info as progress.
+		# This step is not needed, but without printing progress, you do not know if the script has crashed or still is busy.
+		print "read commit by %s" % (gc.author.name)
+		
+	# Save as json
+	jsonfile = "all_commits.json"
+	with open(jsonfile, 'w') as outputFile:
+		json.dump(commitsList, outputFile)
+```
+
+Run it. And there you have it, a `.json` file with all the commit messages from everyone.
