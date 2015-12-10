@@ -24,9 +24,9 @@ The process of scraping can be compared to the process of mine a rare ore:
 
 ### Examples
 
-- [scrape Disney's box office from Wikipedia](https://github.com/ArtezGDA/python-web-scraper)
 - [json reading and writing](https://github.com/ArtezGDA/Course-Material/tree/master/Basics/json)
 - [find links in markdown files](https://github.com/ArtezGDA/Course-Material/tree/master/Basics/filter-files)
+- [scrape Disney's box office from Wikipedia](https://github.com/ArtezGDA/python-web-scraper)
 - use an API ... (read on)
 
 ## GitHub API
