@@ -115,23 +115,23 @@ Additional to the interactive form the text should be remediated into, create a 
  - Put the tool in a specific subfolder in your folder
  - Add a README.md file to that folder
  - In the README.md describe all the neccessary elements of documentation:
-  - What your tool is and what it does
-  - How to install your tool
-  - Screenshots of your tool
-  - Examples how to use your tool
-  - Dependencies on other tools / python modules / versions of the OS
-  - License (MIT License)
+   - What your tool is and what it does
+   - How to install your tool
+   - Screenshots of your tool
+   - Examples how to use your tool
+   - Dependencies on other tools / python modules / versions of the OS
+   - License (MIT License)
  - Split up your tool into functional blocks of code (with each its own `.py` file?)
  - Add a `def main():` to your main python file
  - Split up the python file into well-named functions
  - Add comments at the top of each file:
-  - The name of the file
-  - The author and the license
-  - Explanation of what is does in docstring (` """ multiline text """ `)
+   - The name of the file
+   - The author and the license
+   - Explanation of what is does in docstring (` """ multiline text """ `)
  - Add a docstring (`"""..."""`) to each function, explaining:
-  - what it does
-  - what arguments or parameters it takes
-  - what kind of return value it outputs
+   - what it does
+   - what arguments or parameters it takes
+   - what kind of return value it outputs
  - Add comments (`#`) in your code to explain to yourself and others what the code there does
  - Write proper commit messages when commit the code and changes to the repository
 
