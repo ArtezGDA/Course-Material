@@ -24,9 +24,12 @@ fibonacci, random & perlin noise, recursion
 
 [**Text-IO**: Collect, Remediate and Work with text through text](textIO.md)
 
-### 3. Hack your tool
-*() -> ()*  
-<!--*Deadline:*-->
+### 3. Tool
+
+*Hack your own tool*
+***Deadline**: March 17th 2016*
+
+[**Tool**: Create your own useful tool to create other works](Tool.md)
 
 ### 4. Data Poster
 *Data in -> Awesome out*  
