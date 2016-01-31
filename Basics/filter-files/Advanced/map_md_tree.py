@@ -23,6 +23,33 @@ This will search for all the `.md` files from the current directory,
 and will find and map all the markdown links in these files.
 """
 
+# TODO:
+#
+# In order to make this script work, we need to do the following:
+# - from the given files, find the common ancestor in the directory path
+# - Store the common directory path. (e.g. ~/Work/Project/)
+# - Split up each file into:
+# 	- file for python (the thing that this script can handle) (e.g. ~/Work/Project/Documentation/README.md)
+#	- the directory of the file stripped from the common directory path. (e.g. Documentation/)
+# 	- the name of the file without directory path (README.md)
+#	- the combination of the two later to match with links later
+#
+# - For each link in the files, analyse whether
+# 	- the link is an external link
+#	- the link is a github link
+#		- As later addition:
+#		- the link is a github link to our current repository (git remote -v)
+#		- in this case -> translate the link to a local link	
+#	- the link an anchor on the same page
+#	- the link is a local file
+#   - the link is a local markdown file
+#
+# - For all the local markdown files:
+#	- Split each linked markdown file into:
+#		- directory path from the common directory path
+#		- the name of the file without directory path
+#		- the combination of the latter to match with files above
+
 
 import os
 import sys
