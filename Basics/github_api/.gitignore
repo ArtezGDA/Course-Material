@@ -1,2 +1,3 @@
 # ignore these files and patterns
 secret_password.py
+all_commits.json

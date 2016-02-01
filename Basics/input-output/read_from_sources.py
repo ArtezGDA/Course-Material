@@ -34,6 +34,7 @@ def readFromInteractiveInput():
 	print "Hi, this is the interactive mode."
 	typed_in = raw_input("What is your name? ")
 	print "Hello %s, thanks for your input!" % (typed_in)
+	return typed_in
 
 def main():
 	"""Multiple possible ways to read inputs"""

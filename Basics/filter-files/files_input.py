@@ -40,7 +40,7 @@ def getFilesFromArguments():
 
 
 def main():
-	"""Opens the files deliverd to this script
+	"""Opens the files delivered to this script
 	and print the first line.
 	"""
 	#
