@@ -36,6 +36,10 @@ Volgende week verwacht ik daarvoor een concept.
 #####Week 2:
 *February 4th 2016*
 
+- Presenting the color picker concept in small groups
+- What is sketching vs prototyping.
+- Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
+
 **Homework:**
 
 - Create a demo for the color picker
@@ -44,6 +48,7 @@ Volgende week verwacht ik daarvoor een concept.
 #####Week 3:
 *February 11th 2016*
 
+- Build your own scrape tool
 - Class presentations: the color pickers!
 - Present concept for real your own tool
 
@@ -62,6 +67,8 @@ Volgende week verwacht ik daarvoor een concept.
 
 #####Week 5:
 *March 3rd 2016*
+
+- Applescripts
 
 **Homework:**
 
