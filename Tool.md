@@ -95,4 +95,9 @@ Volgende week verwacht ik daarvoor een concept.
 
 ----
 ##Literature
+
+- **Sketching User Experiences**, getting the design right and the right design
+	- *Bill Buxton* (Morgan Kaufmann, 2007)
+
+
 ... to be continued
