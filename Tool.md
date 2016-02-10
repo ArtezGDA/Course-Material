@@ -8,6 +8,8 @@
 ###Assignment #3:
 #Tool
 
+##### [Group Work Repository](https://github.com/ArtezGDA/Tool-Assignment)
+
 ## Introduction
 
 As a designer you should not only develop the skills and have the obligation to produce your own work, you should also develop the skills and have the obligation to build or repair your **own tools**. Just as a carpenter should know how to sharpen his saw, or build his own workbench, a designer should know how to repair the short comings of Illustrator, or build a very own font-generator.
@@ -18,11 +20,23 @@ Therefor this assignment is all about not taking for granted these apps, operati
 
 ##Description
 
-**bedenk een concept voor een nieuw type color-picker.**
 
-Jullie gaan de komende 6 weken jullie eigen digitale gereedschappen maken. En om daar mee te beginnen gaan we eerst een color picker maken: dus een gereedschap om een kleur te selecteren. Bedenk in welke (digitale) situatie je een kleur zou willen kunnen selecteren, opslaan of kiezen. En bedenk hoe dat handiger zou kunnen dan met je bestaande workflow, waar de knelpunten zijn met die huidige tools en hoe een nieuwe tool dat op zou kunnen lossen.
+##### Color Picker
 
-Volgende week verwacht ik daarvoor een concept.
+**Design a new type of color picker**
+
+The first part of this assignment is making a color picker: a tool to select, pick or save a color. Analyse in which digital workflow the current color picking tools are insufficient. Describe the situation, the short comings of the current tools, and how a new tool could solve that.
+
+Sketch a concept. Then design and present a prototype.
+
+##### Your Own Tool
+
+**Create a tool that streamline your workflow**
+
+For your own tool you take this analysis one step further: analyse bottlenecks and imprecision in your current workflows (for any of your courses).  
+Design a tool that could streamline or perfect that workflow. Describe the concept and make sketches of the new flow and of details in the interface.  
+Produce a prototype of the tool that you can demo.  
+Create a proof of concept using code, to demonstrate the main premise of the tool.
 
 ----
 ##Learning Goals
