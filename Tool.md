@@ -61,7 +61,7 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 
 - What is sketching vs prototyping.
 - Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
-- Presenting the color picker concept in small groups
+- Group talks: Presenting the color picker concept
 
 **Homework:**
 
@@ -71,9 +71,8 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 #####Week 3:
 *February 11th 2016*
 
-- Build your own scrape tool
+- Scrape a web page with Xpath and Google spreadsheets
 - Class presentations: the color pickers!
-- Present concept for real your own tool
 
 **Homework:**
 
@@ -84,8 +83,11 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 *February 18th 2016*
 
 - Regular Expressions __\*\*\*__
+- Class talks: Present concept for your own tool
 
 **Homework:**
+
+- Prepare a demo for your own tool
 
 ##### Holliday
 
@@ -93,13 +95,21 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 *March 3rd 2016*
 
 - Applescripts
+- Group talks: Present the demo of your own tool
 
 **Homework:**
+
+- Work on Proof of Concept
 
 #####Week 6:
 *March 10th 2016*
 
+- (Technical topic)
+- Group talks
+
 **Homework:**
+
+- Finalize Proof of Concept and Demo
 
 #####Week 7:
 *March 17th 2016*
