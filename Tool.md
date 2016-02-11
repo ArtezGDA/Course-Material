@@ -78,6 +78,7 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 **Homework:**
 
 - Write and sketch the concept for your own tool
+- Watch Bret Victor's *Inventing on Principle*
 
 #####Week 4:
 *February 18th 2016*
@@ -112,6 +113,9 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 
 - **Sketching User Experiences**, getting the design right and the right design
 	- *Bill Buxton* (Morgan Kaufmann, 2007)
+
+- Inventing on Principle ([Video](https://vimeo.com/36579366))
+	- *Bret Victor* (2012)
 
 
 ... to be continued
