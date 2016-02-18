@@ -82,7 +82,7 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 #####Week 4:
 *February 18th 2016*
 
-- Regular Expressions __\*\*\*__
+- Regular Expressions: [Regex Tools and Tutorials](Lesson_08_Regex.md)
 - Class talks: Present concept for your own tool
 
 **Homework:**
