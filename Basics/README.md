@@ -8,3 +8,4 @@ Take from these examples what you need to do.
 - `.json` reading and writing
 - `filter-files` example (searches `.md` files for links)
 - using the *Github API* to scrape commits in a repository
+- display a *random notification* every n seconds
