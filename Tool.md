@@ -71,7 +71,7 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 #####Week 3:
 *February 11th 2016*
 
-- Scrape a web page with Xpath and Google spreadsheets
+- Scrape a web page with [Xpath and Google spreadsheets](Lesson_07_Scraping_with_Xpath.md)
 - Class presentations: the color pickers!
 
 **Homework:**
