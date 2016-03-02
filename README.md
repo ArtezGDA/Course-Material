@@ -26,7 +26,7 @@ _**Deadline**: January 7th 2016_
 
 ### 3. Tool
 
-*Hack your own tool*
+*Hack your own tool*  
 _**Deadline**: March 17th 2016_
 
 [**Tool**: Create your own useful tool to create other works](Tool.md)
