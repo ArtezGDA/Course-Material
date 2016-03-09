@@ -111,6 +111,7 @@ Establish a critical position towards the status quo of available digital tools,
 **Homework:**
 
 - Finalize Proof of Concept and Demo
+- [Write proper documentation for your tool!](HowToWriteGoodDocumentation.md)
 
 #####Week 7:
 *March 17th 2016*
