@@ -41,6 +41,7 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 ----
 ##Learning Goals
 
+Establish a critical position towards the status quo of available digital tools, applications, operating systems and devices. Verbalize the shortcomings, failures, lacks and mismatches of their designed workflow. Develop the skills and insights to create and present a clear, well informed and convincing demo of a non-existing tool. Acquire the technical understanding and skills to code the essence of a workflow-enhancing tool.
 
 ----
 ##Planning
@@ -118,6 +119,19 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 
 ##Evaluation
 
+Your *critcal analysis*, *concepts*, *demos* and *proof of concept* will be judged according to their **qualities**, the displayed **insights**, the general **applicability** and **usefulness** of the tool and your means to explain, **demonstrate** and examplify its functions and applications.
+
+The final grade for this assignment is constructed from these parts:
+
+- color picker:
+	- concept of color picker (1)
+	- demo of color picker (2)
+- your own tool:
+	- analysis of current status quo & concept for tool (2)
+	- demo of tool (2)
+	- proof of concept (2)
+	- proper documentation about your tool on github (1)
+
 ----
 ##Literature
 
@@ -126,6 +140,3 @@ Create a proof of concept using code, to demonstrate the main premise of the too
 
 - Inventing on Principle ([Video](https://vimeo.com/36579366))
 	- *Bret Victor* (2012)
-
-
-... to be continued
