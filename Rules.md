@@ -8,6 +8,8 @@ Class starts at `09:15` in the morning and `13:15` in the afternoon. There is an
 
 If you enter the class after this, you will be marked as absent and not be allowed to join the class until after the tea break.
 
+Engagement and working along with the code examples and tutorials is even more important than your physical presence. Therefor, if you spend the lesson doing other stuff, irrelevant to this course, then you could as well be absent. So you will be marked as absent.
+
 Per semester you are allowed to be absent a *maximum of three times*. This only counts if you provide a valid reason for your absence, before the class starts, if possible.
 
 If you exceed this maximum, or cannot provide a valid reason for your absence, you will receive an insufficient mark for this class.

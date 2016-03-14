@@ -13,27 +13,27 @@ This is the official course material for the ***Media Design*** course at **Arte
 
 ### 1. Algorithmic Nature
 *Text in -> Image out*  
-***Deadline**: October 15th 2015*
+_**Deadline**: October 15th 2015_
 
 [Study the following algorithms and create computer generated sketches and drawings using them.](AlgorithmicNature.md):  
 fibonacci, random & perlin noise, recursion
 
 ### 2. Text-IO
 *Text in -> Text out*  
-*Deadline: January 7th 2016*
+_**Deadline**: January 7th 2016_
 
 [**Text-IO**: Collect, Remediate and Work with text through text](textIO.md)
 
 ### 3. Tool
 
-*Hack your own tool*
-***Deadline**: March 17th 2016*
+*Hack your own tool*  
+_**Deadline**: March 17th 2016_
 
 [**Tool**: Create your own useful tool to create other works](Tool.md)
 
 ### 4. Data Poster
 *Data in -> Awesome out*  
-<!--*Deadline:*-->
+<!--_**Deadline:** ..._-->
 
 ## Notes
 
