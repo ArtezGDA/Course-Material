@@ -7,6 +7,11 @@
 
 import re
 
+# For Measuring the time it takes to perform the regexes
+# Current time in microseconds!
+import time
+current_time = lambda: int(round(time.time() * 1000000))
+
 def pulp_fiction_scene_as_lines():
 	"""Return the script of the 'What'-scene from Pulp Fiction as list of lines of text."""
 	lines_of_text = [
@@ -90,8 +95,12 @@ def findall_demo():
 	corpus = "\n".join(pulp_fiction_scene_as_lines())
 	
 	# Find all occurances of words starting with a upper case letter
+	measurementA = current_time()
 	all_occurances = re.findall(r'\b[A-Z]\w*', corpus)
+	measurementB = current_time()
+	
 	print all_occurances
+	print "Finding these took %d microseconds" % (measurementB - measurementA)
 	# >>> ['I', 'I', 'I', 'Please', 'What', ... , 'Mrs', 'Wallace']
 
 	# Use the finditer function and a for loop to get a list of matches
@@ -126,11 +135,16 @@ def compile_regex_demo():
 	corpus = "\n".join(pulp_fiction_scene_as_lines())
 	
 	# Create a compiled regular expression and keep it in a variable
+	measurementA = current_time()
 	uppercase_pattern = re.compile(r'\b[A-Z]\w*')
 	
 	# Use the compiled regex to find all
+	measurementB = current_time()
 	all_occurances = uppercase_pattern.findall(corpus)
+	measurementC = current_time()
+
 	print all_occurances
+	print "Finding these took %d microseconds, includig compilation %d microseconds" % (measurementC - measurementB, measurementC - measurementA)
 	# Yield the same results as before but now faster
 	# >>> ['I', 'I', 'I', 'Please', 'What', ... , 'Mrs', 'Wallace']
 	
