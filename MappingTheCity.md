@@ -8,8 +8,8 @@
 ###Assignment #4:
 #Mapping the City
 
-##### [Shared Data Repository](https://github.com/ArtezGDA/MappingTheCity-Data)
-##### [Design Work Repository](https://github.com/ArtezGDA/MappingTheCity-Maps)
+##### [Shared Data Repository: MappingTheCity-Data](https://github.com/ArtezGDA/MappingTheCity-Data)
+##### [Design Work Repository: MappingTheCity-Maps](https://github.com/ArtezGDA/MappingTheCity-Maps)
 
 ## Introduction
 
