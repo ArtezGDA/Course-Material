@@ -13,23 +13,36 @@
 
 ## Introduction
 
+For decades there is a global shift going of people moving from rural to urban areas. The same can be said of (digital) information. Cities are a concentration of vast quantaties of ever increasing data. This assigment is about getting a grasp on these vast amounts of data, and being able to use this data to perform research and to tell meaningfull stories and demonstrate analytical insights.
 
 ##Description
 
-1. - Watch 3 movies:
-1.1. Revolution OS (available on youtube)
-1.2. Everything is a Remix (4 part series) (website) 1.3. R.I.P. a Remix Manifesto
-2. - From these movies develop your own opinion, stance and vision on remixing, open source, copyrights and/or patents.
-3. - With this vision and these movies as inspiration, find a rich data source with [points in time | geographical locations | network of connections] to illustrate your point.
-4. Parse this data, filter it, mine it, scrape additional data, combine it and refine it, while documenting your process as open source on github.
-5. Design a poster that plots out the data as representational map of your story.
-6. Iterate the poster three times.
+- Do research. Find data sources. 
+- From the data develop your own opinion, stance and vision on cities, agglomerations and urbanization.
+- Select a rich data source with [points in time | geographical locations | network of connections] to illustrate your point.
+- Parse this data, filter it, mine it, scrape additional data, combine it and refine it, while documenting your process as open source on github.
+- Design a poster that plots out the data as representational map of your story.
+- Iterate the poster three times.
+
+The assignment is a two part assignment:
+
+- Collaborative Group assigment:
+	- Collection and Grooming of the data
+	- Store in [Shared Data Repository](https://github.com/ArtezGDA/MappingTheCity-Data)
+- Individual assignment:
+	- Constructing your own story and designing the poster
+	- Store in [Design Work Repository](https://github.com/ArtezGDA/MappingTheCity-Maps)
+
+Images:
+- process diagram
+- napoleon's march
+- piedmont poster
+- amsterdam age of houses
 
 ----
 ##Learning Goals
 
-Acquire an insight into big data research and creating information graphics. Develop a vision about open source and copyright.
-Make the process of creating a meaningful and readable map from structured data your own. Being able to independently create a concept, draft and multiple iterations of a research based map.
+Acquire a fluency into working with big data research and creating information graphics. Articulate a vision or insight about cities and urbanization. Familiarize yourself with the process of creating a meaningful and readable map from structured data. Being able to independently create a concept, draft and multiple iterations of a research based map or poster.
 
 ----
 ##Planning
@@ -50,34 +63,47 @@ graphiz & dot
 *March 24th 2016*
 
 - Introduction to the **Mapping the City** assignment
-- ...
+- Formation of teams for the collaborative part of the assignment
 
 **Homework:**
 
 - Pick topic & Find data sources
-- ...
+- Team work to research and select the best data sources
+- Investigate the data
+- Make an analysis of its structure and properties
 
 #####Week 2:
 *March 31st 2016*
 
-- ...
+- Lecture: from scraping to poster
 
 **Homework:**
 
-- ...
+- Scrape the data from the sources.
+- Create and groom one or more `.json` files.
+- Document the purpose, contents, structure, and attributes of your `.json` files.
+- Make open source:
+	- the source data (or link to live data)
+	- your analysis of the data
+	- your methods and tools to scrape and groom the data
+	- the structured .json files
 
 #####Week 3:
 *April 7th 2016*
 
-- ...
+- Group Presentation of the found and groomed data
+- Plenary Discussion
+- Collaborative organization and categorization of the data
+- Demonstration of some simple techniques to visualize the data 
 
 **Homework:**
 
-- ...
+- Create the first iteration of the poster
 
 #####Week 4:
 *April 14th 2016*
 
+- Group presentation of the first iteration of the poster
 - ...
 
 **Homework:**
@@ -100,14 +126,14 @@ graphiz & dot
 
 **Homework:**
 
-- ...
+- Finalizing the second iteration of the poster
 
 ##### Ascension Day
 
 #####Week 7:
 *May 12th 2016*
 
-- ...
+- Group presentation of the second iteration of the poster
 
 **Homework:**
 
@@ -129,16 +155,13 @@ graphiz & dot
 
 **Homework:**
 
-- ...
+- Create the final iteration of the poster
 
 #####Week 10:
 *June 2nd 2016*
 
-- ...
-
-**Homework:**
-
-- ...
+- Group Presentation of the final poster (and previous iterations)
+- Celebrations
 
 #####Week 11:
 *June 9th 2016*
@@ -160,28 +183,54 @@ or a combination of two or three of the above
 ----
 ##Literature
 
-Movies:
-Bret Victor: Media For Thinking The Unthinkable http://worrydream.com/#!/MediaForThinkingTheUnthinkable
-Books:
-- Edward R. Tufte: The Visual Display of Quantitative Information
-- Edward R. Tufte: Envisioning Information
-- Edward R. Tufte: Beautiful Evidence
-- Edward R. Tufte: Visual Explanations: Images and Quantities, Evidence and Narrative
-- Stephen Few: Now You See It: Simple Visualization Techniques for Quantitative Analysis
-- Stephen Few: Show Me the Numbers: Designing Tables and Graphs to Enlighten
-- Casey Reas: Form+Code in Design, Art, and Architecture (Design Briefs) - Manuel Lima: The Book of Trees: Visualizing Branches of Knowledge
-- Nathan Yau: Visualize This: The FlowingData Guide to Design, Visualization, and Statistics
-- Julie Steele: Beautiful Visualization: Looking at Data through the Eyes of Experts (Theory in Practice)
-- Gilles Berton: data flow ; design graphique et visualisation d'information - Robert Klanten: Data Flow 2: Visualizing Information in Graphic Design
-- Hartmut Bohnacker: Generative Design: Visualize, Program, and Create with Processing
-- David McCandless: Knowledge Is Beautiful: Impossible Ideas, Invisible
-Patterns, Hidden Connections--Visualized
-Websites:
-Information Aesthetics
-http://infosthetics.com
-Visual Complexity
-http://www.visualcomplexity.com/vc/
-The Design of Information
-http://blog.threestory.com
-List of possible tools
-http://www.creativebloq.com/design-tools/data-visualization-712402
+#### Movies:
+
+- Media For Thinking The Unthinkable
+	 - Bret Victor [video talk & lecture notes](http://worrydream.com/#!/MediaForThinkingTheUnthinkable) (40 min, 2013)
+
+#### Books:
+
+- **The Visual Display of Quantitative Information**
+	- *Edward R. Tufte* (Graphics Press, 1992)
+- **Envisioning Information**
+	- *Edward R. Tufte* (Graphics Press, 1990)
+- **Beautiful Evidence**
+	- *Edward R. Tufte* (Graphics Press, 2006)
+- **Visual Explanations**: Images and Quantities, Evidence and Narrative
+	- *Edward R. Tufte* (Graphics Press, 1997)
+- **Now You See It**: Simple Visualization Techniques for Quantitative Analysis
+	- *Stephen Few* (Analytics Press, 2009)
+- **Show Me the Numbers**: Designing Tables and Graphs to Enlighten
+	- *Stephen Few* (Analytics Press, 2012)
+- **Form+Code** in Design, Art, and Architecture (Design Briefs)
+	- *Casey Reas* (Princeton Architectural Press, 2010)
+- **The Book of Trees**: Visualizing Branches of Knowledge
+	- *Manuel Lima* (Princeton Architectural Press, 2014)
+- **Visual Complexity**: Mapping Patterns of Information
+	- *Manuel Lima* (Princeton Architectural Press, 2011)
+- **Visualize This**: The FlowingData Guide to Design, Visualization, and Statistics
+	- *Nathan Yau* (Wiley, 2011)
+- **Visual Insights**: A Practical Guide to Making Sence  of Data
+	- *Katy Bömer & David E. Polley* (MIT Press, 2014)
+- **Beautiful Visualization**: Looking at Data through the Eyes of Experts (Theory in Practice)
+	- *Julie Steele* (O'Reilly Media, 2010)
+- **Data Flow**: Visualising Information in Graphic Design
+	- Robert Klanten (Die Gestalten Verlag, 2008)
+- **Data Flow 2**: Visualizing Information in Graphic Design
+	- Robert Klanten (Die Gestalten Verlag, 2010)
+- **Generative Design**: Visualize, Program, and Create with Processing
+	- *Hartmut Bohnacker* (Princeton Architectural Press, 2012) 
+- **Knowledge Is Beautiful**: Impossible Ideas, Invisible Patterns, Hidden Connections--Visualized
+	- *David McCandless* (Harper Design, 2014)
+
+#### Websites:
+- Information Aesthetics
+	- [infosthetics.com](http://infosthetics.com)
+- Visual Complexity
+	- [visualcomplexity.com](http://www.visualcomplexity.com/vc/)
+- The Design of Information
+	- [blog.threestory.com](http://blog.threestory.com)
+	
+##### Extra:	
+- List of possible tools
+	- [list of design tools](http://www.creativebloq.com/design-tools/data-visualization-712402)

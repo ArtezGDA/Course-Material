@@ -138,6 +138,5 @@ The final grade for this assignment is constructed from these parts:
 
 - **Sketching User Experiences**, getting the design right and the right design
 	- *Bill Buxton* (Morgan Kaufmann, 2007)
-
-- Inventing on Principle ([Video](https://vimeo.com/36579366))
+- **Inventing on Principle** ([Video](https://vimeo.com/36579366))
 	- *Bret Victor* (2012)
