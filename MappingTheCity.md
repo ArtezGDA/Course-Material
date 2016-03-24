@@ -27,6 +27,7 @@ For decades there is a global shift going of people moving from rural to urban a
 The assignment is a two part assignment:
 
 - Collaborative Group assigment:
+	- Group of maximum 3 people (team up coders with non-coders)
 	- Collection and Grooming of the data
 	- Store in [Shared Data Repository](https://github.com/ArtezGDA/MappingTheCity-Data)
 - Individual assignment:
