@@ -31,9 +31,12 @@ _**Deadline**: March 17th 2016_
 
 [**Tool**: Create your own useful tool to create other works](Tool.md)
 
-### 4. Data Poster
+### 4. Mapping the City
+
 *Data in -> Awesome out*  
-<!--_**Deadline:** ..._-->
+_**Deadline:** June 2nd 2016_
+
+[**Mapping the City**: Use city big data to chart diagrams and maps](MappingTheCity.md)
 
 ## Notes
 
