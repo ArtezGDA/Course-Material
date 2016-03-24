@@ -17,6 +17,9 @@ For decades there is a global shift going of people moving from rural to urban a
 
 ##Description
 
+![Diagram showing the process of scraping and visualizing](images/diagram_process_of_scraping_and_visualizing.png)
+*Diagram showing the process of scraping and visualizing (from Visualizing Data, O'Reilly)*
+
 - Do research. Find data sources. 
 - From the data develop your own opinion, stance and vision on cities, agglomerations and urbanization.
 - Select a rich data source with [points in time | geographical locations | network of connections] to illustrate your point.
@@ -33,12 +36,6 @@ The assignment is a two part assignment:
 - Individual assignment:
 	- Constructing your own story and designing the poster
 	- Store in [Design Work Repository](https://github.com/ArtezGDA/MappingTheCity-Maps)
-
-Images:
-- process diagram
-- napoleon's march
-- piedmont poster
-- amsterdam age of houses
 
 ----
 ##Learning Goals
@@ -182,6 +179,27 @@ The data source (and consequently the poster) should contain at least
 or a combination of two or three of the above
 
 ----
+
+### Examples of Data Visualization Maps
+
+![Napolean and Hannibal](images/map_example_Napoleon_and_Hannibal.jpg)  
+*War Marches by Hannibal and Napolean*
+
+![Origin of Species - Ben Fry](images/map_example_Ben_Fry__Origin_of_Species.png)  
+*Origin of Species - Ben Fry*
+
+![Data of Piedmond, Italy](images/map_example_Piedmond.jpg)  
+
+![They Rule, relations in a map](images/map_example_They_Rule.png)  
+*They Rule*
+
+![Code commits visualized](images/map_example_code_swarm.png)  
+
+![Dutch buildings by year of construction](images/map_example_amsterdam_building_by_year.png)
+*Dutch buildings by year of construction([http://code.waag.org/buildings/](http://code.waag.org/buildings/))*
+
+----
+
 ##Literature
 
 #### Movies:
