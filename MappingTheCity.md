@@ -17,12 +17,16 @@ For decades there is a global shift going of people moving from rural to urban a
 
 ##Description
 
-- Do research. Find data sources. 
-- From the data develop your own opinion, stance and vision on cities, agglomerations and urbanization.
-- Select a rich data source with [points in time | geographical locations | network of connections] to illustrate your point.
-- Parse this data, filter it, mine it, scrape additional data, combine it and refine it, while documenting your process as open source on github.
-- Design a poster that plots out the data as representational map of your story.
-- Iterate the poster three times.
+![Diagram showing the process of scraping and visualizing](images/diagram_process_of_scraping_and_visualizing.png)
+*Diagram showing the process of scraping and visualizing (from Visualizing Data, Ben Fry, O'Reilly 2008)*
+
+#### Iterations
+
+For every complex project, whether that is an interactive or static work, the final quality will greatly benefit from doing small iterations instead of attempting to do all in one final stretch. Especially in a project where data is researched, scraped and visualized, iterations will present the opportunity to reflect on the work and to refine, enrich and amend the data and the end result.
+
+That is why for this assignment we will do **three** iterations of a poster.
+
+#### Two-part assignment
 
 The assignment is a two part assignment:
 
@@ -34,33 +38,49 @@ The assignment is a two part assignment:
 	- Constructing your own story and designing the poster
 	- Store in [Design Work Repository](https://github.com/ArtezGDA/MappingTheCity-Maps)
 
-Images:
-- process diagram
-- napoleon's march
-- piedmont poster
-- amsterdam age of houses
+#### Getting the data
+
+- Do research. Find data sources. 
+- From the data develop your own opinion, stance and vision on cities, agglomerations and urbanization.
+- To illustrate your point, select one or more rich data sources with either:
+	 - points in time
+	 - geographical locations
+	 - network of connections
+- Groom the data into one or more `.json` files, ready to be used:
+	- Parse this data,
+	- Filter it,
+	- Mine it,
+	- Scrape additional data,
+	- Combine it and
+	- Refine it,
+- All of this, while documenting your process and results open source on github.
+
+#### Telling the story
+
+- Design a poster that plots out the data as representational map of your story.
+- Iterate the poster three times.
 
 ----
-##Learning Goals
+## Learning Goals
 
 Acquire a fluency into working with big data research and creating information graphics. Articulate a vision or insight about cities and urbanization. Familiarize yourself with the process of creating a meaningful and readable map from structured data. Being able to independently create a concept, draft and multiple iterations of a research based map or poster.
 
 ----
-##Planning
+## Planning
 
-python: ipython, csv, xml, json & svg
-javascript: paper.js, D3.js
-FIRST DRAFT
-regex
-python: map, reduce
-python: database (sqlite) & django
-SECOND DRAFT
-javascript: TileMill / MapBox / Modest Maps
-javascript: Illustrator Scripting git
-graphiz & dot
+The complete planning of the next 11 weeks is not final yet, but we will go over these topics:
 
+- Data formats for storing research data: csv, xml, **json**, database
+- Scraping ... again
+- Python: map, reduce, filter
+- Python: database (sqlite) & SQL
+- Javascript: TileMill / MapBox / Modest Maps
+- Javascript: Illustrator Scripting
+- Extra tools as inspiration:
+	- Graphiz & dot
+	- D3.js
 
-#####Week 1:
+####Week 1:
 *March 24th 2016*
 
 - Introduction to the **Mapping the City** assignment
@@ -73,7 +93,7 @@ graphiz & dot
 - Investigate the data
 - Make an analysis of its structure and properties
 
-#####Week 2:
+####Week 2:
 *March 31st 2016*
 
 - Lecture: from scraping to poster
@@ -89,7 +109,7 @@ graphiz & dot
 	- your methods and tools to scrape and groom the data
 	- the structured .json files
 
-#####Week 3:
+####Week 3:
 *April 7th 2016*
 
 - Group Presentation of the found and groomed data
@@ -101,17 +121,17 @@ graphiz & dot
 
 - Create the first iteration of the poster
 
-#####Week 4:
+####Week 4:
 *April 14th 2016*
 
-- Group presentation of the first iteration of the poster
+- Group presentation of the **first iteration** of the poster
 - ...
 
 **Homework:**
 
 - ...
 
-#####Week 5:
+####Week 5:
 *April 21st 2016*
 
 - ...
@@ -120,7 +140,7 @@ graphiz & dot
 
 - ...
 
-#####Week 6:
+####Week 6:
 *April 28th 2016*
 
 - ...
@@ -129,18 +149,18 @@ graphiz & dot
 
 - Finalizing the second iteration of the poster
 
-##### Ascension Day
+#### Ascension Day
 
-#####Week 7:
+####Week 7:
 *May 12th 2016*
 
-- Group presentation of the second iteration of the poster
+- Group presentation of the **second iteration** of the poster
 
 **Homework:**
 
 - ...
 
-#####Week 8:
+####Week 8:
 *May 19th 2016*
 
 - ...
@@ -149,7 +169,7 @@ graphiz & dot
 
 - ...
 
-#####Week 9:
+####Week 9:
 *May 26th 2016*
 
 - ...
@@ -158,30 +178,72 @@ graphiz & dot
 
 - Create the final iteration of the poster
 
-#####Week 10:
+####Week 10:
 *June 2nd 2016*
 
-- Group Presentation of the final poster (and previous iterations)
+- Group Presentation of the **third iteration** of the poster (and bring previous iterations)
 - Celebrations
 
-#####Week 11:
+**Homework:**
+
+- Finalize the online Documentation on GitHub
+
+####Week 11:
 *June 9th 2016*
 
 - Evaluation
 
 ##Evaluation
 
-Group Presentation & Plenary discussion
 Criteria for judging the work:
-Process, Structure, Insight, Coding Skills, Persuasiveness and relevance, Truthfulness, Open Source, Quantity of the Data (see below) and Communicating Quality of the Design and Presentation.
-Finally, to make sure the poster is coded (and not drawn by hand), there is a formal criteria on the quantity of data:
-The data source (and consequently the poster) should contain at least
->100 relations / links / connections,
-> 250 locations on a map,
-> 500 points in time,
-or a combination of two or three of the above
+Process, Structure, Insight, Coding Skills, Persuasiveness and Relevance, Truthfulness, Open Source, Quantity of the Data (see below) and Communicating Quality of the Design and Presentation.
+
+Finally, to make sure the poster is coded (and not drawn by hand), there is a formal criteria on the *quantity* of data. The data source and the poster should contain at least:
+
+- over > 100 relations / links / connections,
+- over > 250 locations on a map,
+- over > 500 points in time,
+
+**or** a combination of those.
 
 ----
+
+### Examples of Data Visualization Maps
+
+##### Geographical Diagram
+![Napolean and Hannibal](images/map_example_Napoleon_and_Hannibal.jpg)  
+*War Marches by Hannibal and Napolean*
+
+----
+
+##### Evolving data: differences over time
+![Origin of Species - Ben Fry](images/map_example_Ben_Fry__Origin_of_Species.png)  
+*Origin of Species - Ben Fry*
+
+----
+
+##### Evolving data: differences per file and per user
+![Code commits visualized](images/map_example_code_swarm.png)  
+
+----
+
+##### Visualizing Statistics of Tourism
+![Data of Piedmond, Italy](images/map_example_Piedmond.jpg)  
+
+----
+
+##### Charting Relations of Power
+![They Rule, relations in a map](images/map_example_They_Rule.png)  
+*They Rule*
+
+----
+
+##### Archeology and city expansion
+![Dutch buildings by year of construction](images/map_example_amsterdam_building_by_year.png)
+*Dutch buildings by year of construction([http://code.waag.org/buildings/](http://code.waag.org/buildings/))*
+
+----
+
 ##Literature
 
 #### Movies:
@@ -232,6 +294,6 @@ or a combination of two or three of the above
 - The Design of Information
 	- [blog.threestory.com](http://blog.threestory.com)
 	
-##### Extra:	
+#### Extra:	
 - List of possible tools
 	- [list of design tools](http://www.creativebloq.com/design-tools/data-visualization-712402)
