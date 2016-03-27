@@ -212,7 +212,7 @@ Finally, to make sure the poster is coded (and not drawn by hand), there is a fo
 
 ##### Geographical Diagram
 ![Napolean and Hannibal](images/map_example_Napoleon_and_Hannibal.jpg)  
-*War Marches by Hannibal and Napolean*
+*Figurative Map of [...] marches by Hannibal and Napolean - Charles Joseph Minard (1861)*
 
 ----
 
