@@ -1,1280 +1,1280 @@
 [
-	{
-		"country": "Afghanistan",
-		"cities": [
-			"Kabul",
-			"Kandahar",
-			"Herat",
-			"Mazar-i-Sharif",
-			"Kunduz",
-			"Taloqan",
-			"Jalalabad",
-			"Puli Khumri",
-			"Charikar",
-			"Sheberghan",
-			"Ghazni",
-			"Sar-e Pol city",
-			"Khost",
-			"Chaghcharan",
-			"Mihtarlam",
-			"Farah, Afghanistan",
-			"Pul-i-Alam",
-			"Samangan",
-			"Lashkar Gah",
-			"Balkh",
-			"Haraiva",
-			"Arachosia"
-		],
-		"citiesList": "List of cities in Afghanistan"
-	},
-	{
-		"country": "Albania",
-		"cities": [
-			"Tirana",
-			"Durrës",
-			"Vlorë",
-			"Elbasan",
-			"Shkodër",
-			"Korçë",
-			"Fier",
-			"Kamëz",
-			"Berat",
-			"Lushnjë",
-			"Sarandë",
-			"Paskuqan",
-			"Kavajë",
-			"Pogradec",
-			"Gjirokastër"
-		],
-		"citiesList": "List of cities in Albania"
-	},
-	{
-		"country": "Algeria",
-		"cities": [
-			"Algiers",
-			"Oran",
-			"Constantine, Algeria",
-			"Annaba",
-			"Blida",
-			"Batna, Algeria",
-			"Djelfa",
-			"Sétif",
-			"Sidi Bel Abbès",
-			"Biskra",
-			"Tébessa",
-			"El Oued",
-			"Skikda",
-			"Tiaret",
-			"Béjaïa",
-			"Tlemcen",
-			"Ouargla",
-			"Béchar",
-			"Mostaganem",
-			"Bordj Bou Arréridj",
-			"Chlef",
-			"Souk Ahras",
-			"Médéa",
-			"El Eulma",
-			"Touggourt",
-			"Ghardaïa",
-			"Saïda, Algeria",
-			"Laghouat",
-			"M'Sila",
-			"Jijel",
-			"Relizane",
-			"Guelma",
-			"Aïn Beïda, Oum El Bouaghi",
-			"Khenchela",
-			"Bou Saâda",
-			"Mascara, Algeria",
-			"Tindouf",
-			"Tizi Ouzou"
-		],
-		"citiesList": "List of cities in Algeria"
-	},
-	{
-		"country": "Andorra",
-		"cities": [
-			"Canillo",
-			"L'Aldosa de Canillo",
-			"L'Armiana",
-			"Bordes d'Envalira",
-			"El Forn",
-			"Incles",
-			"Meritxell",
-			"Molleres",
-			"Els Plans",
-			"Prats, Andorra",
-			"Ransol",
-			"Sant Pere, Andorra",
-			"Soldeu",
-			"El Tarter",
-			"El Vilar",
-			"Encamp",
-			"Les Bons",
-			"Grau Roig",
-			"Pas de la Casa",
-			"Vila, Andorra",
-			"Ordino",
-			"Ansalonga",
-			"Arans",
-			"La Cortinada",
-			"Llorts",
-			"Segudet",
-			"El Serrat",
-			"Sornàs",
-			"La Massana",
-			"L'Aldosa de la Massana",
-			"Anyós",
-			"Arinsal",
-			"Erts",
-			"Escàs",
-			"Pal, Andorra",
-			"Sispony",
-			"Xixerella",
-			"Andorra la Vella",
-			"La Margineda",
-			"Santa Coloma d'Andorra",
-			"Sant Julià de Lòria",
-			"Aixàs",
-			"Aixirivall",
-			"Aixovall",
-			"Auvinyà",
-			"Bixessarri",
-			"Canolich",
-			"Certers",
-			"Fontaneda, Andorra",
-			"Juberri",
-			"Llumeneres",
-			"Nagol",
-			"Escaldes-Engordany",
-			"Engolasters",
-			"El Fener",
-			"Els Vilars d'Engordany",
-			"El Pas de la Casa"
-		],
-		"citiesList": "List of cities in Andorra"
-	},
-	{
-		"country": "Angola",
-		"cities": [
-			"Ambriz",
-			"Andulo",
-			"Bailundo",
-			"Balombo",
-			"Baía Farta",
-			"Benguela",
-			"Bibala",
-			"Huambo Province",
-			"Lunda Sul Province",
-			"Bungo, Angola",
-			"Malanje Province",
-			"Cabinda (city)",
-			"Bengo Province",
-			"Cacolo",
-			"Caconda",
-			"Cacuso",
-			"Cafunfo",
-			"Cahama",
-			"Caimbambo",
-			"Lunda Norte Province",
-			"Calonda",
-			"Bié Province",
-			"Cuanza Sul Province",
-			"Caluquembe",
-			"Cuanza Norte Province",
-			"Camacupa",
-			"Camanongue",
-			"Cambambe",
-			"Namibe Province",
-			"Moxico Province",
-			"Cangandala",
-			"Cangumbe",
-			"Huíla Province",
-			"Capenda Camulemba",
-			"Cassongue",
-			"Catabola",
-			"Catchiungo",
-			"Catumbela",
-			"Caungula",
-			"Caxito",
-			"Caála",
-			"Cela, Angola",
-			"Chiange",
-			"Chibia",
-			"Chipindo",
-			"Chissamba",
-			"Cunene Province",
-			"Chitembo",
-			"Conda",
-			"Cuando Cubango Province",
-			"Cuangar",
-			"Cuango, Angola",
-			"Cubal",
-			"Cuchi",
-			"Cuilo",
-			"Cuima",
-			"Cuimba",
-			"Cuito Cuanavale",
-			"Cuvelai",
-			"Dala, Angola",
-			"Uíge Province",
-			"Didimbo",
-			"Benguela Province",
-			"Dondo, Angola",
-			"Dongo, Huila, Angola",
-			"Dundo",
-			"Ekunha",
-			"Funda",
-			"Gabela, Angola",
-			"Ganda, Angola",
-			"Golungo Alto",
-			"Huambo",
-			"Humpata",
-			"Jamba, Cuando Cubango",
-			"Jamba, Huíla",
-			"Kuito",
-			"Lobito",
-			"Lombe",
-			"Longa, Angola",
-			"Longonjo",
-			"Luacano",
-			"Luanda",
-			"Luau, Cuanza Sul",
-			"Luau, Moxico",
-			"Lubango",
-			"Lucala",
-			"Lucapa",
-			"Luena, Moxico Province",
-			"Lumeje",
-			"Lândana",
-			"Malanje",
-			"Cabinda Province",
-			"Marimba, Angola",
-			"Massango",
-			"Matala, Angola",
-			"Mavinga",
-			"Mbanza-Congo",
-			"Menongue",
-			"Muconda",
-			"Mucusso",
-			"Mungo, Angola",
-			"Mussende",
-			"Zaire Province",
-			"N'dalatando",
-			"N'zeto",
-			"Namacunde",
-			"Namibe",
-			"Negage",
-			"Nharea",
-			"Nzagi (Andrada)",
-			"Ondjiva",
-			"Porto Amboim",
-			"Quela, Angola",
-			"Quibala",
-			"Quibaxe",
-			"Quilengues",
-			"Quimbele",
-			"Quipungo",
-			"Quirima",
-			"Sacomar, Angola",
-			"Saurimo",
-			"Songo, Angola",
-			"Soyo",
-			"Sumbe",
-			"Tchindjenje",
-			"Techamutete",
-			"Tombua",
-			"Uku, Angola",
-			"Ukuma",
-			"Uíge",
-			"Viana, Angola",
-			"Waku Kungo",
-			"Xangongo",
-			"Xá-Muteba"
-		],
-		"citiesList": "List of cities and towns in Angola"
-	},
-	{
-		"country": "Antigua and Barbuda",
-		"cities": [
-			"All Saints, Antigua and Barbuda",
-			"Bolans",
-			"Cedar Grove, Antigua and Barbuda",
-			"Codrington, Barbuda",
-			"Dickenson Bay",
-			"English Harbour",
-			"Falmouth, Antigua and Barbuda",
-			"Freetown, Antigua and Barbuda",
-			"Jennings, Antigua and Barbuda",
-			"Liberta, Antigua",
-			"Old Road",
-			"Parham, Antigua and Barbuda",
-			"Pigotts",
-			"Potter's Village",
-			"Seaview Farm",
-			"St. John's, Antigua and Barbuda",
-			"Swetes",
-			"Willikies"
-		],
-		"citiesList": "List of cities in Antigua and Barbuda"
-	},
-	{
-		"country": "Argentina",
-		"cities": [
-			"Buenos Aires",
-			"Córdoba, Argentina",
-			"Rosario, Santa Fe",
-			"Mendoza, Argentina",
-			"La Plata",
-			"San Miguel de Tucumán",
-			"Mar del Plata",
-			"Salta",
-			"Santa Fe, Argentina",
-			"San Juan, Argentina",
-			"Resistencia, Chaco",
-			"Neuquén",
-			"Santiago del Estero",
-			"Corrientes",
-			"Avellaneda",
-			"Bahía Blanca",
-			"San Salvador de Jujuy",
-			"Quilmes",
-			"Lanús",
-			"Comodoro Rivadavia",
-			"Concordia, Entre Ríos"
-		],
-		"citiesList": "List of cities in Argentina"
-	},
-	{
-		"country": "Armenia",
-		"cities": [
-			"Abovyan",
-			"Agarak, Syunik",
-			"Akhtala",
-			"Alaverdi",
-			"Aparan",
-			"Ararat, Armenia",
-			"Armavir, Armenia",
-			"Artashat, Armenia",
-			"Artik",
-			"Ashtarak",
-			"Ayrum",
-			"Berd",
-			"Byureghavan",
-			"Chambarak",
-			"Charentsavan",
-			"Dastakert",
-			"Dilijan",
-			"Gavar",
-			"Goris",
-			"Gyumri",
-			"Hrazdan",
-			"Ijevan",
-			"Jermuk",
-			"Kajaran",
-			"Kapan",
-			"Maralik",
-			"Martuni, Armenia",
-			"Masis, Armenia",
-			"Meghri",
-			"Metsamor",
-			"Nor Hachen",
-			"Noyemberyan",
-			"Sevan, Armenia",
-			"Shamlugh",
-			"Sisian",
-			"Spitak",
-			"Stepanavan",
-			"Talin, Armenia",
-			"Tashir",
-			"Tsaghkadzor",
-			"Tumanyan, Armenia",
-			"Vagharshapat",
-			"Vanadzor",
-			"Vardenis",
-			"Vayk",
-			"Vedi",
-			"Yeghegnadzor",
-			"Yeghvard",
-			"Yerevan"
-		],
-		"citiesList": "List of municipalities of Armenia"
-	},
-	{
-		"country": "Australia",
-		"citiesList": "List of cities in Australia"
-	},
-	{
-		"country": "Austria",
-		"citiesList": "List of cities and towns in Austria"
-	},
-	{
-		"country": "Azerbaijan",
-		"citiesList": "List of cities in Azerbaijan"
-	},
-	{
-		"country": "The Bahamas",
-		"citiesList": "List of cities in the Bahamas"
-	},
-	{
-		"country": "Bahrain",
-		"citiesList": "List of cities in Bahrain"
-	},
-	{
-		"country": "Bangladesh",
-		"citiesList": "List of cities and towns in Bangladesh"
-	},
-	{
-		"country": "Barbados",
-		"citiesList": "List of cities, towns and villages in Barbados"
-	},
-	{
-		"country": "Belarus",
-		"citiesList": "List of cities and towns in Belarus"
-	},
-	{
-		"country": "Belgium",
-		"citiesList": "List of cities in Belgium"
-	},
-	{
-		"country": "Belize",
-		"citiesList": "Districts of Belize"
-	},
-	{
-		"country": "Benin",
-		"citiesList": "List of cities in Benin"
-	},
-	{
-		"country": "Bhutan",
-		"citiesList": "List of cities in Bhutan"
-	},
-	{
-		"country": "Bolivia",
-		"citiesList": "List of Bolivian cities by population"
-	},
-	{
-		"country": "Bosnia and Herzegovina",
-		"citiesList": "List of cities in Bosnia and Herzegovina"
-	},
-	{
-		"country": "Botswana",
-		"citiesList": "List of cities in Botswana"
-	},
-	{
-		"country": "Brazil",
-		"citiesList": "Municipalities of Brazil"
-	},
-	{
-		"country": "Brunei",
-		"citiesList": "List of cities and towns in Brunei"
-	},
-	{
-		"country": "Bulgaria",
-		"citiesList": "List of cities and towns in Bulgaria"
-	},
-	{
-		"country": "Burkina Faso",
-		"citiesList": "List of cities in Burkina Faso"
-	},
-	{
-		"country": "Burundi",
-		"citiesList": "List of cities in Burundi"
-	},
-	{
-		"country": "Cambodia",
-		"citiesList": "List of cities in Cambodia"
-	},
-	{
-		"country": "Cameroon",
-		"citiesList": "List of municipalities of Cameroon"
-	},
-	{
-		"country": "Canada",
-		"citiesList": "List of cities in Canada"
-	},
-	{
-		"country": "Cape Verde",
-		"citiesList": "List of cities and towns in Cabo Verde"
-	},
-	{
-		"country": "Cayman Islands",
-		"citiesList": "List of cities in the Cayman Islands"
-	},
-	{
-		"country": "Central African Republic",
-		"citiesList": "List of cities in the Central African Republic"
-	},
-	{
-		"country": "Chad",
-		"citiesList": "List of cities in Chad"
-	},
-	{
-		"country": "Chile",
-		"citiesList": "List of cities in Chile"
-	},
-	{
-		"country": "China",
-		"citiesList": "List of cities in China"
-	},
-	{
-		"country": "Colombia",
-		"citiesList": "List of cities in Colombia"
-	},
-	{
-		"country": "Comoros",
-		"citiesList": "List of cities in the Comoros"
-	},
-	{
-		"country": "Democratic Republic of the Congo",
-		"citiesList": "List of cities in the Democratic Republic of the Congo"
-	},
-	{
-		"country": "Republic of the Congo",
-		"citiesList": "List of cities in the Republic of the Congo"
-	},
-	{
-		"country": "Costa Rica",
-		"citiesList": "List of cities in Costa Rica"
-	},
-	{
-		"country": "Côte d'Ivoire",
-		"citiesList": "List of cities in Ivory Coast"
-	},
-	{
-		"country": "Croatia",
-		"citiesList": "List of cities and towns in Croatia"
-	},
-	{
-		"country": "Cuba",
-		"citiesList": "List of cities in Cuba"
-	},
-	{
-		"country": "Cyprus",
-		"citiesList": "List of cities, towns and villages in Cyprus"
-	},
-	{
-		"country": "Czech Republic",
-		"citiesList": "Statutory city (Czech Republic)"
-	},
-	{
-		"country": "Denmark",
-		"citiesList": "List of cities in Denmark by population"
-	},
-	{
-		"country": "Akrotiri and Dhekelia",
-		"citiesList": "Akrotiri and Dhekelia"
-	},
-	{
-		"country": "Djibouti",
-		"citiesList": "List of localities in Djibouti"
-	},
-	{
-		"country": "Dominica",
-		"citiesList": "List of towns and villages in Dominica"
-	},
-	{
-		"country": "Dominican Republic",
-		"citiesList": "List of cities in the Dominican Republic"
-	},
-	{
-		"country": "East Timor",
-		"citiesList": "List of cities, towns and villages in East Timor"
-	},
-	{
-		"country": "Ecuador",
-		"citiesList": "List of cities in Ecuador"
-	},
-	{
-		"country": "Egypt",
-		"citiesList": "List of cities in Egypt"
-	},
-	{
-		"country": "El Salvador",
-		"citiesList": "List of cities in El Salvador"
-	},
-	{
-		"country": "Equatorial Guinea",
-		"citiesList": "List of cities in Equatorial Guinea"
-	},
-	{
-		"country": "Eritrea",
-		"citiesList": "List of cities in Eritrea"
-	},
-	{
-		"country": "Estonia",
-		"citiesList": "List of cities and towns in Estonia"
-	},
-	{
-		"country": "Ethiopia",
-		"citiesList": "List of cities and towns in Ethiopia"
-	},
-	{
-		"country": "Falkland Islands",
-		"citiesList": "List of settlements in the Falkland Islands"
-	},
-	{
-		"country": "Faroe Islands",
-		"citiesList": "List of municipalities of the Faroe Islands"
-	},
-	{
-		"country": "Fiji",
-		"citiesList": "List of cities and towns in Fiji"
-	},
-	{
-		"country": "Finland",
-		"citiesList": "List of cities and towns in Finland"
-	},
-	{
-		"country": "France",
-		"citiesList": "List of communes in France with over 20,000 inhabitants"
-	},
-	{
-		"country": "French Guiana",
-		"citiesList": "List of cities in French Guiana"
-	},
-	{
-		"country": "French Polynesia",
-		"citiesList": "List of cities in French Polynesia"
-	},
-	{
-		"country": "Gabon",
-		"citiesList": "List of cities in Gabon"
-	},
-	{
-		"country": "Gambia",
-		"citiesList": "List of cities in The Gambia"
-	},
-	{
-		"country": "Georgia (country)",
-		"citiesList": "List of cities and towns in Georgia (country)"
-	},
-	{
-		"country": "Germany",
-		"citiesList": "List of cities and towns in Germany"
-	},
-	{
-		"country": "Ghana",
-		"citiesList": "List of cities in Ghana"
-	},
-	{
-		"country": "Gibraltar",
-		"citiesList": "Gibraltar"
-	},
-	{
-		"country": "Greece",
-		"citiesList": "List of cities in Greece"
-	},
-	{
-		"country": "Greenland",
-		"citiesList": "List of cities and towns in Greenland"
-	},
-	{
-		"country": "Grenada",
-		"citiesList": "List of cities in Grenada"
-	},
-	{
-		"country": "Guadeloupe",
-		"citiesList": "Communes of the Guadeloupe department"
-	},
-	{
-		"country": "Guam",
-		"citiesList": "List of populated places in Guam"
-	},
-	{
-		"country": "Guatemala",
-		"citiesList": "List of places in Guatemala"
-	},
-	{
-		"country": "Guinea",
-		"citiesList": "List of cities in Guinea"
-	},
-	{
-		"country": "Guinea-Bissau",
-		"citiesList": "List of cities in Guinea-Bissau"
-	},
-	{
-		"country": "Guyana",
-		"citiesList": "List of cities and towns in Guyana"
-	},
-	{
-		"country": "Haiti",
-		"citiesList": "List of cities in Haiti"
-	},
-	{
-		"country": "Honduras",
-		"citiesList": "List of cities in Honduras"
-	},
-	{
-		"country": "Hong Kong",
-		"citiesList": "List of towns in Hong Kong"
-	},
-	{
-		"country": "Hungary",
-		"citiesList": "List of cities and towns in Hungary"
-	},
-	{
-		"country": "Iceland",
-		"citiesList": "List of cities and towns in Iceland"
-	},
-	{
-		"country": "India",
-		"citiesList": "List of cities in India by population"
-	},
-	{
-		"country": "Indonesia",
-		"citiesList": "List of cities in Indonesia"
-	},
-	{
-		"country": "Iran",
-		"citiesList": "List of cities in Iran"
-	},
-	{
-		"country": "Iraq",
-		"citiesList": "List of cities in Iraq"
-	},
-	{
-		"country": "Ireland",
-		"citiesList": "City status in Ireland"
-	},
-	{
-		"country": "Ireland",
-		"citiesList": "City status in Ireland"
-	},
-	{
-		"country": "Isle of Man",
-		"citiesList": "List of places in the Isle of Man"
-	},
-	{
-		"country": "Israel",
-		"citiesList": "List of cities in Israel"
-	},
-	{
-		"country": "Italy",
-		"citiesList": "List of cities in Italy"
-	},
-	{
-		"country": "Jamaica",
-		"citiesList": "List of cities and towns in Jamaica"
-	},
-	{
-		"country": "Japan",
-		"citiesList": "List of cities in Japan"
-	},
-	{
-		"country": "Jordan",
-		"citiesList": "List of cities in Jordan"
-	},
-	{
-		"country": "Kazakhstan",
-		"citiesList": "List of cities in Kazakhstan"
-	},
-	{
-		"country": "Kenya",
-		"citiesList": "List of cities in Kenya"
-	},
-	{
-		"country": "Kiribati",
-		"citiesList": "List of towns and villages in Kiribati"
-	},
-	{
-		"country": "Kuwait",
-		"citiesList": "Areas of Kuwait"
-	},
-	{
-		"country": "Kyrgyzstan",
-		"citiesList": "List of cities in Kyrgyzstan"
-	},
-	{
-		"country": "Kosovo",
-		"citiesList": "List of cities in Kosovo"
-	},
-	{
-		"country": "Laos",
-		"citiesList": "List of cities in Laos"
-	},
-	{
-		"country": "Latvia",
-		"citiesList": "List of cities and towns in Latvia"
-	},
-	{
-		"country": "Lebanon",
-		"citiesList": "List of cities and towns in Lebanon"
-	},
-	{
-		"country": "Lesotho",
-		"citiesList": "List of cities in Lesotho"
-	},
-	{
-		"country": "Liberia",
-		"citiesList": "List of cities in Liberia"
-	},
-	{
-		"country": "Libya",
-		"citiesList": "List of cities in Libya"
-	},
-	{
-		"country": "Liechtenstein",
-		"citiesList": "Municipalities of Liechtenstein"
-	},
-	{
-		"country": "Lithuania",
-		"citiesList": "List of cities in Lithuania"
-	},
-	{
-		"country": "Luxembourg",
-		"citiesList": "List of cities in Luxembourg"
-	},
-	{
-		"country": "Macau",
-		"citiesList": "Civic and Municipal Affairs Bureau"
-	},
-	{
-		"country": "Republic of Macedonia",
-		"citiesList": "List of cities in the Republic of Macedonia"
-	},
-	{
-		"country": "Madagascar",
-		"citiesList": "List of cities in Madagascar"
-	},
-	{
-		"country": "Malawi",
-		"citiesList": "List of cities in Malawi"
-	},
-	{
-		"country": "Malaysia",
-		"citiesList": "List of cities in Malaysia"
-	},
-	{
-		"country": "Maldives",
-		"citiesList": "List of cities, towns and villages in the Maldives"
-	},
-	{
-		"country": "Mali",
-		"citiesList": "List of cities in Mali"
-	},
-	{
-		"country": "Malta",
-		"citiesList": "List of cities in Malta"
-	},
-	{
-		"country": "Marshall Islands",
-		"citiesList": "List of cities in the Marshall Islands"
-	},
-	{
-		"country": "Mauritania",
-		"citiesList": "List of cities in Mauritania"
-	},
-	{
-		"country": "Mauritius",
-		"citiesList": "List of places in Mauritius"
-	},
-	{
-		"country": "Mayotte",
-		"citiesList": "List of cities in Mayotte"
-	},
-	{
-		"country": "Mexico",
-		"citiesList": "List of cities in Mexico"
-	},
-	{
-		"country": "Federated States of Micronesia",
-		"citiesList": "Administrative divisions of the Federated States of Micronesia"
-	},
-	{
-		"country": "Moldova",
-		"citiesList": "List of cities in Moldova"
-	},
-	{
-		"country": "Monaco",
-		"citiesList": "Monaco"
-	},
-	{
-		"country": "Mongolia",
-		"citiesList": "List of cities in Mongolia"
-	},
-	{
-		"country": "Montenegro",
-		"citiesList": "List of cities in Montenegro"
-	},
-	{
-		"country": "Montserrat",
-		"citiesList": "Montserrat"
-	},
-	{
-		"country": "Morocco",
-		"citiesList": "List of cities in Morocco"
-	},
-	{
-		"country": "Mozambique",
-		"citiesList": "List of cities in Mozambique"
-	},
-	{
-		"country": "Myanmar",
-		"citiesList": "List of cities in Myanmar"
-	},
-	{
-		"country": "Namibia",
-		"citiesList": "List of cities and towns in Namibia"
-	},
-	{
-		"country": "Nauru",
-		"citiesList": "List of settlements in Nauru"
-	},
-	{
-		"country": "Nepal",
-		"citiesList": "List of cities in Nepal"
-	},
-	{
-		"country": "Netherlands",
-		"citiesList": "List of municipalities of the Netherlands"
-	},
-	{
-		"country": "Netherlands Antilles",
-		"citiesList": "List of cities in the Netherlands Antilles"
-	},
-	{
-		"country": "New Caledonia",
-		"citiesList": "List of cities in New Caledonia"
-	},
-	{
-		"country": "New Zealand",
-		"citiesList": "List of cities in New Zealand"
-	},
-	{
-		"country": "Nicaragua",
-		"citiesList": "Municipalities of Nicaragua"
-	},
-	{
-		"country": "Niger",
-		"citiesList": "List of cities in Niger"
-	},
-	{
-		"country": "Nigeria",
-		"citiesList": "List of cities in Nigeria"
-	},
-	{
-		"country": "Niue",
-		"citiesList": "List of villages in Niue"
-	},
-	{
-		"country": "North Korea",
-		"citiesList": "List of cities in North Korea"
-	},
-	{
-		"country": "Northern Cyprus",
-		"citiesList": "List of populated places in Northern Cyprus"
-	},
-	{
-		"country": "Northern Mariana Islands",
-		"citiesList": "List of populated places in the Northern Mariana Islands"
-	},
-	{
-		"country": "Norway",
-		"citiesList": "List of towns and cities in Norway"
-	},
-	{
-		"country": "Oman",
-		"citiesList": "List of cities in Oman"
-	},
-	{
-		"country": "Pakistan",
-		"citiesList": "List of cities in Pakistan"
-	},
-	{
-		"country": "Palau",
-		"citiesList": "List of cities, towns, and villages in Palau"
-	},
-	{
-		"country": "Palestinian National Authority",
-		"citiesList": "List of cities administered by the State of Palestine"
-	},
-	{
-		"country": "Panama",
-		"citiesList": "List of cities in Panama"
-	},
-	{
-		"country": "Papua New Guinea",
-		"citiesList": "List of cities and towns in Papua New Guinea"
-	},
-	{
-		"country": "Paraguay",
-		"citiesList": "List of cities in Paraguay"
-	},
-	{
-		"country": "Peru",
-		"citiesList": "List of cities in Peru"
-	},
-	{
-		"country": "Philippines",
-		"citiesList": "List of cities in the Philippines"
-	},
-	{
-		"country": "Pitcairn Islands",
-		"citiesList": "Pitcairn Islands"
-	},
-	{
-		"country": "Poland",
-		"citiesList": "List of cities and towns in Poland"
-	},
-	{
-		"country": "Portugal",
-		"citiesList": "List of cities in Portugal"
-	},
-	{
-		"country": "Puerto Rico",
-		"citiesList": "Municipalities of Puerto Rico"
-	},
-	{
-		"country": "Qatar",
-		"citiesList": "List of cities in Qatar"
-	},
-	{
-		"country": "Romania",
-		"citiesList": "List of cities and towns in Romania"
-	},
-	{
-		"country": "Russia",
-		"citiesList": "List of cities and towns in Russia"
-	},
-	{
-		"country": "Rwanda",
-		"citiesList": "List of cities in Rwanda"
-	},
-	{
-		"country": "Saint Kitts and Nevis",
-		"citiesList": "List of cities and towns in Saint Kitts and Nevis"
-	},
-	{
-		"country": "Saint Lucia",
-		"citiesList": "List of cities in Saint Lucia"
-	},
-	{
-		"country": "Saint Pierre and Miquelon",
-		"citiesList": "List of cities in Saint-Pierre and Miquelon"
-	},
-	{
-		"country": "Saint Vincent and the Grenadines",
-		"citiesList": "List of cities, towns and villages in Saint Vincent and the Grenadines"
-	},
-	{
-		"country": "Samoa",
-		"citiesList": "List of cities, towns and villages in Samoa"
-	},
-	{
-		"country": "San Marino",
-		"citiesList": "Municipalities of San Marino"
-	},
-	{
-		"country": "São Tomé and Príncipe",
-		"citiesList": "List of cities and towns in São Tomé and Príncipe"
-	},
-	{
-		"country": "Saudi Arabia",
-		"citiesList": "List of cities and towns in Saudi Arabia"
-	},
-	{
-		"country": "Senegal",
-		"citiesList": "List of cities in Senegal"
-	},
-	{
-		"country": "Serbia",
-		"citiesList": "List of cities in Serbia"
-	},
-	{
-		"country": "Seychelles",
-		"citiesList": "List of cities in Seychelles"
-	},
-	{
-		"country": "Sierra Leone",
-		"citiesList": "List of cities in Sierra Leone"
-	},
-	{
-		"country": "Singapore",
-		"citiesList": "List of places in Singapore"
-	},
-	{
-		"country": "Slovakia",
-		"citiesList": "List of cities and towns in Slovakia"
-	},
-	{
-		"country": "Slovenia",
-		"citiesList": "List of cities and towns in Slovenia"
-	},
-	{
-		"country": "Solomon Islands",
-		"citiesList": "List of cities, towns and villages in the Solomon Islands"
-	},
-	{
-		"country": "Somalia",
-		"citiesList": "List of cities in Somalia"
-	},
-	{
-		"country": "Somaliland",
-		"citiesList": "List of cities in Somaliland (page does not exist)"
-	},
-	{
-		"country": "South Africa",
-		"citiesList": "List of municipalities in South Africa"
-	},
-	{
-		"country": "South Korea",
-		"citiesList": "List of cities in South Korea"
-	},
-	{
-		"country": "South Ossetia",
-		"citiesList": "South Ossetia"
-	},
-	{
-		"country": "Spain",
-		"citiesList": "List of municipalities of Spain"
-	},
-	{
-		"country": "Sri Lanka",
-		"citiesList": "List of cities in Sri Lanka"
-	},
-	{
-		"country": "Sudan",
-		"citiesList": "List of cities in Sudan"
-	},
-	{
-		"country": "Suriname",
-		"citiesList": "List of cities and towns in Suriname"
-	},
-	{
-		"country": "Svalbard",
-		"citiesList": "Svalbard"
-	},
-	{
-		"country": "Swaziland",
-		"citiesList": "List of cities in Swaziland"
-	},
-	{
-		"country": "Sweden",
-		"citiesList": "List of cities in Sweden"
-	},
-	{
-		"country": "Switzerland",
-		"citiesList": "List of cities in Switzerland"
-	},
-	{
-		"country": "Syria",
-		"citiesList": "List of cities in Syria"
-	},
-	{
-		"country": "Republic of China",
-		"citiesList": "List of cities in Taiwan"
-	},
-	{
-		"country": "Tajikistan",
-		"citiesList": "List of cities in Tajikistan"
-	},
-	{
-		"country": "Tanzania",
-		"citiesList": "List of cities in Tanzania"
-	},
-	{
-		"country": "Thailand",
-		"citiesList": "List of cities in Thailand"
-	},
-	{
-		"country": "Togo",
-		"citiesList": "List of cities in Togo"
-	},
-	{
-		"country": "Tokelau",
-		"citiesList": "List of villages in Tokelau"
-	},
-	{
-		"country": "Tonga",
-		"citiesList": "List of islands and towns in Tonga"
-	},
-	{
-		"country": "Transnistria",
-		"citiesList": "Transnistria"
-	},
-	{
-		"country": "Trinidad and Tobago",
-		"citiesList": "List of cities and towns in Trinidad and Tobago"
-	},
-	{
-		"country": "Tunisia",
-		"citiesList": "List of cities in Tunisia"
-	},
-	{
-		"country": "Turkey",
-		"citiesList": "List of cities in Turkey"
-	},
-	{
-		"country": "Turkmenistan",
-		"citiesList": "List of cities in Turkmenistan"
-	},
-	{
-		"country": "Turks and Caicos Islands",
-		"citiesList": "List of cities in the Turks and Caicos Islands"
-	},
-	{
-		"country": "Tuvalu",
-		"citiesList": "List of villages and neighbourhoods in Tuvalu"
-	},
-	{
-		"country": "Uganda",
-		"citiesList": "List of cities and towns in Uganda"
-	},
-	{
-		"country": "Ukraine",
-		"citiesList": "List of cities in Ukraine"
-	},
-	{
-		"country": "United Arab Emirates",
-		"citiesList": "List of cities in the United Arab Emirates"
-	},
-	{
-		"country": "United Kingdom",
-		"citiesList": "List of cities in the United Kingdom"
-	},
-	{
-		"country": "United States",
-		"citiesList": "List of cities in the United States"
-	},
-	{
-		"country": "Uruguay",
-		"citiesList": "List of cities in Uruguay"
-	},
-	{
-		"country": "Uzbekistan",
-		"citiesList": "List of cities in Uzbekistan"
-	},
-	{
-		"country": "Vanuatu",
-		"citiesList": "List of cities in Vanuatu"
-	},
-	{
-		"country": "Venezuela",
-		"citiesList": "List of cities in Venezuela"
-	},
-	{
-		"country": "Vietnam",
-		"citiesList": "List of cities in Vietnam"
-	},
-	{
-		"country": "United States Virgin Islands",
-		"citiesList": "List of settlements in the United States Virgin Islands"
-	},
-	{
-		"country": "Western Sahara",
-		"citiesList": "List of cities in Western Sahara"
-	},
-	{
-		"country": "Yemen",
-		"citiesList": "List of cities in Yemen"
-	},
-	{
-		"country": "Zambia",
-		"citiesList": "List of cities and towns in Zambia"
-	},
-	{
-		"country": "Zimbabwe",
-		"citiesList": "List of cities and towns in Zimbabwe"
-	}
+  {
+    "country": "Afghanistan", 
+    "cities": [
+      "Kabul", 
+      "Kandahar", 
+      "Herat", 
+      "Mazar-i-Sharif", 
+      "Kunduz", 
+      "Taloqan", 
+      "Jalalabad", 
+      "Puli Khumri", 
+      "Charikar", 
+      "Sheberghan", 
+      "Ghazni", 
+      "Sar-e Pol city", 
+      "Khost", 
+      "Chaghcharan", 
+      "Mihtarlam", 
+      "Farah, Afghanistan", 
+      "Pul-i-Alam", 
+      "Samangan", 
+      "Lashkar Gah", 
+      "Balkh", 
+      "Haraiva", 
+      "Arachosia"
+    ], 
+    "citiesList": "List of cities in Afghanistan"
+  }, 
+  {
+    "country": "Albania", 
+    "cities": [
+      "Tirana", 
+      "Durr\u00ebs", 
+      "Vlor\u00eb", 
+      "Elbasan", 
+      "Shkod\u00ebr", 
+      "Kor\u00e7\u00eb", 
+      "Fier", 
+      "Kam\u00ebz", 
+      "Berat", 
+      "Lushnj\u00eb", 
+      "Sarand\u00eb", 
+      "Paskuqan", 
+      "Kavaj\u00eb", 
+      "Pogradec", 
+      "Gjirokast\u00ebr"
+    ], 
+    "citiesList": "List of cities in Albania"
+  }, 
+  {
+    "country": "Algeria", 
+    "cities": [
+      "Algiers", 
+      "Oran", 
+      "Constantine, Algeria", 
+      "Annaba", 
+      "Blida", 
+      "Batna, Algeria", 
+      "Djelfa", 
+      "S\u00e9tif", 
+      "Sidi Bel Abb\u00e8s", 
+      "Biskra", 
+      "T\u00e9bessa", 
+      "El Oued", 
+      "Skikda", 
+      "Tiaret", 
+      "B\u00e9ja\u00efa", 
+      "Tlemcen", 
+      "Ouargla", 
+      "B\u00e9char", 
+      "Mostaganem", 
+      "Bordj Bou Arr\u00e9ridj", 
+      "Chlef", 
+      "Souk Ahras", 
+      "M\u00e9d\u00e9a", 
+      "El Eulma", 
+      "Touggourt", 
+      "Gharda\u00efa", 
+      "Sa\u00efda, Algeria", 
+      "Laghouat", 
+      "M'Sila", 
+      "Jijel", 
+      "Relizane", 
+      "Guelma", 
+      "A\u00efn Be\u00efda, Oum El Bouaghi", 
+      "Khenchela", 
+      "Bou Sa\u00e2da", 
+      "Mascara, Algeria", 
+      "Tindouf", 
+      "Tizi Ouzou"
+    ], 
+    "citiesList": "List of cities in Algeria"
+  }, 
+  {
+    "country": "Andorra", 
+    "cities": [
+      "Canillo", 
+      "L'Aldosa de Canillo", 
+      "L'Armiana", 
+      "Bordes d'Envalira", 
+      "El Forn", 
+      "Incles", 
+      "Meritxell", 
+      "Molleres", 
+      "Els Plans", 
+      "Prats, Andorra", 
+      "Ransol", 
+      "Sant Pere, Andorra", 
+      "Soldeu", 
+      "El Tarter", 
+      "El Vilar", 
+      "Encamp", 
+      "Les Bons", 
+      "Grau Roig", 
+      "Pas de la Casa", 
+      "Vila, Andorra", 
+      "Ordino", 
+      "Ansalonga", 
+      "Arans", 
+      "La Cortinada", 
+      "Llorts", 
+      "Segudet", 
+      "El Serrat", 
+      "Sorn\u00e0s", 
+      "La Massana", 
+      "L'Aldosa de la Massana", 
+      "Any\u00f3s", 
+      "Arinsal", 
+      "Erts", 
+      "Esc\u00e0s", 
+      "Pal, Andorra", 
+      "Sispony", 
+      "Xixerella", 
+      "Andorra la Vella", 
+      "La Margineda", 
+      "Santa Coloma d'Andorra", 
+      "Sant Juli\u00e0 de L\u00f2ria", 
+      "Aix\u00e0s", 
+      "Aixirivall", 
+      "Aixovall", 
+      "Auviny\u00e0", 
+      "Bixessarri", 
+      "Canolich", 
+      "Certers", 
+      "Fontaneda, Andorra", 
+      "Juberri", 
+      "Llumeneres", 
+      "Nagol", 
+      "Escaldes-Engordany", 
+      "Engolasters", 
+      "El Fener", 
+      "Els Vilars d'Engordany", 
+      "El Pas de la Casa"
+    ], 
+    "citiesList": "List of cities in Andorra"
+  }, 
+  {
+    "country": "Angola", 
+    "cities": [
+      "Ambriz", 
+      "Andulo", 
+      "Bailundo", 
+      "Balombo", 
+      "Ba\u00eda Farta", 
+      "Benguela", 
+      "Bibala", 
+      "Huambo Province", 
+      "Lunda Sul Province", 
+      "Bungo, Angola", 
+      "Malanje Province", 
+      "Cabinda (city)", 
+      "Bengo Province", 
+      "Cacolo", 
+      "Caconda", 
+      "Cacuso", 
+      "Cafunfo", 
+      "Cahama", 
+      "Caimbambo", 
+      "Lunda Norte Province", 
+      "Calonda", 
+      "Bi\u00e9 Province", 
+      "Cuanza Sul Province", 
+      "Caluquembe", 
+      "Cuanza Norte Province", 
+      "Camacupa", 
+      "Camanongue", 
+      "Cambambe", 
+      "Namibe Province", 
+      "Moxico Province", 
+      "Cangandala", 
+      "Cangumbe", 
+      "Hu\u00edla Province", 
+      "Capenda Camulemba", 
+      "Cassongue", 
+      "Catabola", 
+      "Catchiungo", 
+      "Catumbela", 
+      "Caungula", 
+      "Caxito", 
+      "Ca\u00e1la", 
+      "Cela, Angola", 
+      "Chiange", 
+      "Chibia", 
+      "Chipindo", 
+      "Chissamba", 
+      "Cunene Province", 
+      "Chitembo", 
+      "Conda", 
+      "Cuando Cubango Province", 
+      "Cuangar", 
+      "Cuango, Angola", 
+      "Cubal", 
+      "Cuchi", 
+      "Cuilo", 
+      "Cuima", 
+      "Cuimba", 
+      "Cuito Cuanavale", 
+      "Cuvelai", 
+      "Dala, Angola", 
+      "U\u00edge Province", 
+      "Didimbo", 
+      "Benguela Province", 
+      "Dondo, Angola", 
+      "Dongo, Huila, Angola", 
+      "Dundo", 
+      "Ekunha", 
+      "Funda", 
+      "Gabela, Angola", 
+      "Ganda, Angola", 
+      "Golungo Alto", 
+      "Huambo", 
+      "Humpata", 
+      "Jamba, Cuando Cubango", 
+      "Jamba, Hu\u00edla", 
+      "Kuito", 
+      "Lobito", 
+      "Lombe", 
+      "Longa, Angola", 
+      "Longonjo", 
+      "Luacano", 
+      "Luanda", 
+      "Luau, Cuanza Sul", 
+      "Luau, Moxico", 
+      "Lubango", 
+      "Lucala", 
+      "Lucapa", 
+      "Luena, Moxico Province", 
+      "Lumeje", 
+      "L\u00e2ndana", 
+      "Malanje", 
+      "Cabinda Province", 
+      "Marimba, Angola", 
+      "Massango", 
+      "Matala, Angola", 
+      "Mavinga", 
+      "Mbanza-Congo", 
+      "Menongue", 
+      "Muconda", 
+      "Mucusso", 
+      "Mungo, Angola", 
+      "Mussende", 
+      "Zaire Province", 
+      "N'dalatando", 
+      "N'zeto", 
+      "Namacunde", 
+      "Namibe", 
+      "Negage", 
+      "Nharea", 
+      "Nzagi (Andrada)", 
+      "Ondjiva", 
+      "Porto Amboim", 
+      "Quela, Angola", 
+      "Quibala", 
+      "Quibaxe", 
+      "Quilengues", 
+      "Quimbele", 
+      "Quipungo", 
+      "Quirima", 
+      "Sacomar, Angola", 
+      "Saurimo", 
+      "Songo, Angola", 
+      "Soyo", 
+      "Sumbe", 
+      "Tchindjenje", 
+      "Techamutete", 
+      "Tombua", 
+      "Uku, Angola", 
+      "Ukuma", 
+      "U\u00edge", 
+      "Viana, Angola", 
+      "Waku Kungo", 
+      "Xangongo", 
+      "X\u00e1-Muteba"
+    ], 
+    "citiesList": "List of cities and towns in Angola"
+  }, 
+  {
+    "country": "Antigua and Barbuda", 
+    "cities": [
+      "All Saints, Antigua and Barbuda", 
+      "Bolans", 
+      "Cedar Grove, Antigua and Barbuda", 
+      "Codrington, Barbuda", 
+      "Dickenson Bay", 
+      "English Harbour", 
+      "Falmouth, Antigua and Barbuda", 
+      "Freetown, Antigua and Barbuda", 
+      "Jennings, Antigua and Barbuda", 
+      "Liberta, Antigua", 
+      "Old Road", 
+      "Parham, Antigua and Barbuda", 
+      "Pigotts", 
+      "Potter's Village", 
+      "Seaview Farm", 
+      "St. John's, Antigua and Barbuda", 
+      "Swetes", 
+      "Willikies"
+    ], 
+    "citiesList": "List of cities in Antigua and Barbuda"
+  }, 
+  {
+    "country": "Argentina", 
+    "cities": [
+      "Buenos Aires", 
+      "C\u00f3rdoba, Argentina", 
+      "Rosario, Santa Fe", 
+      "Mendoza, Argentina", 
+      "La Plata", 
+      "San Miguel de Tucum\u00e1n", 
+      "Mar del Plata", 
+      "Salta", 
+      "Santa Fe, Argentina", 
+      "San Juan, Argentina", 
+      "Resistencia, Chaco", 
+      "Neuqu\u00e9n", 
+      "Santiago del Estero", 
+      "Corrientes", 
+      "Avellaneda", 
+      "Bah\u00eda Blanca", 
+      "San Salvador de Jujuy", 
+      "Quilmes", 
+      "Lan\u00fas", 
+      "Comodoro Rivadavia", 
+      "Concordia, Entre R\u00edos"
+    ], 
+    "citiesList": "List of cities in Argentina"
+  }, 
+  {
+    "country": "Armenia", 
+    "cities": [
+      "Abovyan", 
+      "Agarak, Syunik", 
+      "Akhtala", 
+      "Alaverdi", 
+      "Aparan", 
+      "Ararat, Armenia", 
+      "Armavir, Armenia", 
+      "Artashat, Armenia", 
+      "Artik", 
+      "Ashtarak", 
+      "Ayrum", 
+      "Berd", 
+      "Byureghavan", 
+      "Chambarak", 
+      "Charentsavan", 
+      "Dastakert", 
+      "Dilijan", 
+      "Gavar", 
+      "Goris", 
+      "Gyumri", 
+      "Hrazdan", 
+      "Ijevan", 
+      "Jermuk", 
+      "Kajaran", 
+      "Kapan", 
+      "Maralik", 
+      "Martuni, Armenia", 
+      "Masis, Armenia", 
+      "Meghri", 
+      "Metsamor", 
+      "Nor Hachen", 
+      "Noyemberyan", 
+      "Sevan, Armenia", 
+      "Shamlugh", 
+      "Sisian", 
+      "Spitak", 
+      "Stepanavan", 
+      "Talin, Armenia", 
+      "Tashir", 
+      "Tsaghkadzor", 
+      "Tumanyan, Armenia", 
+      "Vagharshapat", 
+      "Vanadzor", 
+      "Vardenis", 
+      "Vayk", 
+      "Vedi", 
+      "Yeghegnadzor", 
+      "Yeghvard", 
+      "Yerevan"
+    ], 
+    "citiesList": "List of municipalities of Armenia"
+  }, 
+  {
+    "country": "Australia", 
+    "citiesList": "List of cities in Australia"
+  }, 
+  {
+    "country": "Austria", 
+    "citiesList": "List of cities and towns in Austria"
+  }, 
+  {
+    "country": "Azerbaijan", 
+    "citiesList": "List of cities in Azerbaijan"
+  }, 
+  {
+    "country": "The Bahamas", 
+    "citiesList": "List of cities in the Bahamas"
+  }, 
+  {
+    "country": "Bahrain", 
+    "citiesList": "List of cities in Bahrain"
+  }, 
+  {
+    "country": "Bangladesh", 
+    "citiesList": "List of cities and towns in Bangladesh"
+  }, 
+  {
+    "country": "Barbados", 
+    "citiesList": "List of cities, towns and villages in Barbados"
+  }, 
+  {
+    "country": "Belarus", 
+    "citiesList": "List of cities and towns in Belarus"
+  }, 
+  {
+    "country": "Belgium", 
+    "citiesList": "List of cities in Belgium"
+  }, 
+  {
+    "country": "Belize", 
+    "citiesList": "Districts of Belize"
+  }, 
+  {
+    "country": "Benin", 
+    "citiesList": "List of cities in Benin"
+  }, 
+  {
+    "country": "Bhutan", 
+    "citiesList": "List of cities in Bhutan"
+  }, 
+  {
+    "country": "Bolivia", 
+    "citiesList": "List of Bolivian cities by population"
+  }, 
+  {
+    "country": "Bosnia and Herzegovina", 
+    "citiesList": "List of cities in Bosnia and Herzegovina"
+  }, 
+  {
+    "country": "Botswana", 
+    "citiesList": "List of cities in Botswana"
+  }, 
+  {
+    "country": "Brazil", 
+    "citiesList": "Municipalities of Brazil"
+  }, 
+  {
+    "country": "Brunei", 
+    "citiesList": "List of cities and towns in Brunei"
+  }, 
+  {
+    "country": "Bulgaria", 
+    "citiesList": "List of cities and towns in Bulgaria"
+  }, 
+  {
+    "country": "Burkina Faso", 
+    "citiesList": "List of cities in Burkina Faso"
+  }, 
+  {
+    "country": "Burundi", 
+    "citiesList": "List of cities in Burundi"
+  }, 
+  {
+    "country": "Cambodia", 
+    "citiesList": "List of cities in Cambodia"
+  }, 
+  {
+    "country": "Cameroon", 
+    "citiesList": "List of municipalities of Cameroon"
+  }, 
+  {
+    "country": "Canada", 
+    "citiesList": "List of cities in Canada"
+  }, 
+  {
+    "country": "Cape Verde", 
+    "citiesList": "List of cities and towns in Cabo Verde"
+  }, 
+  {
+    "country": "Cayman Islands", 
+    "citiesList": "List of cities in the Cayman Islands"
+  }, 
+  {
+    "country": "Central African Republic", 
+    "citiesList": "List of cities in the Central African Republic"
+  }, 
+  {
+    "country": "Chad", 
+    "citiesList": "List of cities in Chad"
+  }, 
+  {
+    "country": "Chile", 
+    "citiesList": "List of cities in Chile"
+  }, 
+  {
+    "country": "China", 
+    "citiesList": "List of cities in China"
+  }, 
+  {
+    "country": "Colombia", 
+    "citiesList": "List of cities in Colombia"
+  }, 
+  {
+    "country": "Comoros", 
+    "citiesList": "List of cities in the Comoros"
+  }, 
+  {
+    "country": "Democratic Republic of the Congo", 
+    "citiesList": "List of cities in the Democratic Republic of the Congo"
+  }, 
+  {
+    "country": "Republic of the Congo", 
+    "citiesList": "List of cities in the Republic of the Congo"
+  }, 
+  {
+    "country": "Costa Rica", 
+    "citiesList": "List of cities in Costa Rica"
+  }, 
+  {
+    "country": "C\u00f4te d'Ivoire", 
+    "citiesList": "List of cities in Ivory Coast"
+  }, 
+  {
+    "country": "Croatia", 
+    "citiesList": "List of cities and towns in Croatia"
+  }, 
+  {
+    "country": "Cuba", 
+    "citiesList": "List of cities in Cuba"
+  }, 
+  {
+    "country": "Cyprus", 
+    "citiesList": "List of cities, towns and villages in Cyprus"
+  }, 
+  {
+    "country": "Czech Republic", 
+    "citiesList": "Statutory city (Czech Republic)"
+  }, 
+  {
+    "country": "Denmark", 
+    "citiesList": "List of cities in Denmark by population"
+  }, 
+  {
+    "country": "Akrotiri and Dhekelia", 
+    "citiesList": "Akrotiri and Dhekelia"
+  }, 
+  {
+    "country": "Djibouti", 
+    "citiesList": "List of localities in Djibouti"
+  }, 
+  {
+    "country": "Dominica", 
+    "citiesList": "List of towns and villages in Dominica"
+  }, 
+  {
+    "country": "Dominican Republic", 
+    "citiesList": "List of cities in the Dominican Republic"
+  }, 
+  {
+    "country": "East Timor", 
+    "citiesList": "List of cities, towns and villages in East Timor"
+  }, 
+  {
+    "country": "Ecuador", 
+    "citiesList": "List of cities in Ecuador"
+  }, 
+  {
+    "country": "Egypt", 
+    "citiesList": "List of cities in Egypt"
+  }, 
+  {
+    "country": "El Salvador", 
+    "citiesList": "List of cities in El Salvador"
+  }, 
+  {
+    "country": "Equatorial Guinea", 
+    "citiesList": "List of cities in Equatorial Guinea"
+  }, 
+  {
+    "country": "Eritrea", 
+    "citiesList": "List of cities in Eritrea"
+  }, 
+  {
+    "country": "Estonia", 
+    "citiesList": "List of cities and towns in Estonia"
+  }, 
+  {
+    "country": "Ethiopia", 
+    "citiesList": "List of cities and towns in Ethiopia"
+  }, 
+  {
+    "country": "Falkland Islands", 
+    "citiesList": "List of settlements in the Falkland Islands"
+  }, 
+  {
+    "country": "Faroe Islands", 
+    "citiesList": "List of municipalities of the Faroe Islands"
+  }, 
+  {
+    "country": "Fiji", 
+    "citiesList": "List of cities and towns in Fiji"
+  }, 
+  {
+    "country": "Finland", 
+    "citiesList": "List of cities and towns in Finland"
+  }, 
+  {
+    "country": "France", 
+    "citiesList": "List of communes in France with over 20,000 inhabitants"
+  }, 
+  {
+    "country": "French Guiana", 
+    "citiesList": "List of cities in French Guiana"
+  }, 
+  {
+    "country": "French Polynesia", 
+    "citiesList": "List of cities in French Polynesia"
+  }, 
+  {
+    "country": "Gabon", 
+    "citiesList": "List of cities in Gabon"
+  }, 
+  {
+    "country": "Gambia", 
+    "citiesList": "List of cities in The Gambia"
+  }, 
+  {
+    "country": "Georgia (country)", 
+    "citiesList": "List of cities and towns in Georgia (country)"
+  }, 
+  {
+    "country": "Germany", 
+    "citiesList": "List of cities and towns in Germany"
+  }, 
+  {
+    "country": "Ghana", 
+    "citiesList": "List of cities in Ghana"
+  }, 
+  {
+    "country": "Gibraltar", 
+    "citiesList": "Gibraltar"
+  }, 
+  {
+    "country": "Greece", 
+    "citiesList": "List of cities in Greece"
+  }, 
+  {
+    "country": "Greenland", 
+    "citiesList": "List of cities and towns in Greenland"
+  }, 
+  {
+    "country": "Grenada", 
+    "citiesList": "List of cities in Grenada"
+  }, 
+  {
+    "country": "Guadeloupe", 
+    "citiesList": "Communes of the Guadeloupe department"
+  }, 
+  {
+    "country": "Guam", 
+    "citiesList": "List of populated places in Guam"
+  }, 
+  {
+    "country": "Guatemala", 
+    "citiesList": "List of places in Guatemala"
+  }, 
+  {
+    "country": "Guinea", 
+    "citiesList": "List of cities in Guinea"
+  }, 
+  {
+    "country": "Guinea-Bissau", 
+    "citiesList": "List of cities in Guinea-Bissau"
+  }, 
+  {
+    "country": "Guyana", 
+    "citiesList": "List of cities and towns in Guyana"
+  }, 
+  {
+    "country": "Haiti", 
+    "citiesList": "List of cities in Haiti"
+  }, 
+  {
+    "country": "Honduras", 
+    "citiesList": "List of cities in Honduras"
+  }, 
+  {
+    "country": "Hong Kong", 
+    "citiesList": "List of towns in Hong Kong"
+  }, 
+  {
+    "country": "Hungary", 
+    "citiesList": "List of cities and towns in Hungary"
+  }, 
+  {
+    "country": "Iceland", 
+    "citiesList": "List of cities and towns in Iceland"
+  }, 
+  {
+    "country": "India", 
+    "citiesList": "List of cities in India by population"
+  }, 
+  {
+    "country": "Indonesia", 
+    "citiesList": "List of cities in Indonesia"
+  }, 
+  {
+    "country": "Iran", 
+    "citiesList": "List of cities in Iran"
+  }, 
+  {
+    "country": "Iraq", 
+    "citiesList": "List of cities in Iraq"
+  }, 
+  {
+    "country": "Ireland", 
+    "citiesList": "City status in Ireland"
+  }, 
+  {
+    "country": "Ireland", 
+    "citiesList": "City status in Ireland"
+  }, 
+  {
+    "country": "Isle of Man", 
+    "citiesList": "List of places in the Isle of Man"
+  }, 
+  {
+    "country": "Israel", 
+    "citiesList": "List of cities in Israel"
+  }, 
+  {
+    "country": "Italy", 
+    "citiesList": "List of cities in Italy"
+  }, 
+  {
+    "country": "Jamaica", 
+    "citiesList": "List of cities and towns in Jamaica"
+  }, 
+  {
+    "country": "Japan", 
+    "citiesList": "List of cities in Japan"
+  }, 
+  {
+    "country": "Jordan", 
+    "citiesList": "List of cities in Jordan"
+  }, 
+  {
+    "country": "Kazakhstan", 
+    "citiesList": "List of cities in Kazakhstan"
+  }, 
+  {
+    "country": "Kenya", 
+    "citiesList": "List of cities in Kenya"
+  }, 
+  {
+    "country": "Kiribati", 
+    "citiesList": "List of towns and villages in Kiribati"
+  }, 
+  {
+    "country": "Kuwait", 
+    "citiesList": "Areas of Kuwait"
+  }, 
+  {
+    "country": "Kyrgyzstan", 
+    "citiesList": "List of cities in Kyrgyzstan"
+  }, 
+  {
+    "country": "Kosovo", 
+    "citiesList": "List of cities in Kosovo"
+  }, 
+  {
+    "country": "Laos", 
+    "citiesList": "List of cities in Laos"
+  }, 
+  {
+    "country": "Latvia", 
+    "citiesList": "List of cities and towns in Latvia"
+  }, 
+  {
+    "country": "Lebanon", 
+    "citiesList": "List of cities and towns in Lebanon"
+  }, 
+  {
+    "country": "Lesotho", 
+    "citiesList": "List of cities in Lesotho"
+  }, 
+  {
+    "country": "Liberia", 
+    "citiesList": "List of cities in Liberia"
+  }, 
+  {
+    "country": "Libya", 
+    "citiesList": "List of cities in Libya"
+  }, 
+  {
+    "country": "Liechtenstein", 
+    "citiesList": "Municipalities of Liechtenstein"
+  }, 
+  {
+    "country": "Lithuania", 
+    "citiesList": "List of cities in Lithuania"
+  }, 
+  {
+    "country": "Luxembourg", 
+    "citiesList": "List of cities in Luxembourg"
+  }, 
+  {
+    "country": "Macau", 
+    "citiesList": "Civic and Municipal Affairs Bureau"
+  }, 
+  {
+    "country": "Republic of Macedonia", 
+    "citiesList": "List of cities in the Republic of Macedonia"
+  }, 
+  {
+    "country": "Madagascar", 
+    "citiesList": "List of cities in Madagascar"
+  }, 
+  {
+    "country": "Malawi", 
+    "citiesList": "List of cities in Malawi"
+  }, 
+  {
+    "country": "Malaysia", 
+    "citiesList": "List of cities in Malaysia"
+  }, 
+  {
+    "country": "Maldives", 
+    "citiesList": "List of cities, towns and villages in the Maldives"
+  }, 
+  {
+    "country": "Mali", 
+    "citiesList": "List of cities in Mali"
+  }, 
+  {
+    "country": "Malta", 
+    "citiesList": "List of cities in Malta"
+  }, 
+  {
+    "country": "Marshall Islands", 
+    "citiesList": "List of cities in the Marshall Islands"
+  }, 
+  {
+    "country": "Mauritania", 
+    "citiesList": "List of cities in Mauritania"
+  }, 
+  {
+    "country": "Mauritius", 
+    "citiesList": "List of places in Mauritius"
+  }, 
+  {
+    "country": "Mayotte", 
+    "citiesList": "List of cities in Mayotte"
+  }, 
+  {
+    "country": "Mexico", 
+    "citiesList": "List of cities in Mexico"
+  }, 
+  {
+    "country": "Federated States of Micronesia", 
+    "citiesList": "Administrative divisions of the Federated States of Micronesia"
+  }, 
+  {
+    "country": "Moldova", 
+    "citiesList": "List of cities in Moldova"
+  }, 
+  {
+    "country": "Monaco", 
+    "citiesList": "Monaco"
+  }, 
+  {
+    "country": "Mongolia", 
+    "citiesList": "List of cities in Mongolia"
+  }, 
+  {
+    "country": "Montenegro", 
+    "citiesList": "List of cities in Montenegro"
+  }, 
+  {
+    "country": "Montserrat", 
+    "citiesList": "Montserrat"
+  }, 
+  {
+    "country": "Morocco", 
+    "citiesList": "List of cities in Morocco"
+  }, 
+  {
+    "country": "Mozambique", 
+    "citiesList": "List of cities in Mozambique"
+  }, 
+  {
+    "country": "Myanmar", 
+    "citiesList": "List of cities in Myanmar"
+  }, 
+  {
+    "country": "Namibia", 
+    "citiesList": "List of cities and towns in Namibia"
+  }, 
+  {
+    "country": "Nauru", 
+    "citiesList": "List of settlements in Nauru"
+  }, 
+  {
+    "country": "Nepal", 
+    "citiesList": "List of cities in Nepal"
+  }, 
+  {
+    "country": "Netherlands", 
+    "citiesList": "List of municipalities of the Netherlands"
+  }, 
+  {
+    "country": "Netherlands Antilles", 
+    "citiesList": "List of cities in the Netherlands Antilles"
+  }, 
+  {
+    "country": "New Caledonia", 
+    "citiesList": "List of cities in New Caledonia"
+  }, 
+  {
+    "country": "New Zealand", 
+    "citiesList": "List of cities in New Zealand"
+  }, 
+  {
+    "country": "Nicaragua", 
+    "citiesList": "Municipalities of Nicaragua"
+  }, 
+  {
+    "country": "Niger", 
+    "citiesList": "List of cities in Niger"
+  }, 
+  {
+    "country": "Nigeria", 
+    "citiesList": "List of cities in Nigeria"
+  }, 
+  {
+    "country": "Niue", 
+    "citiesList": "List of villages in Niue"
+  }, 
+  {
+    "country": "North Korea", 
+    "citiesList": "List of cities in North Korea"
+  }, 
+  {
+    "country": "Northern Cyprus", 
+    "citiesList": "List of populated places in Northern Cyprus"
+  }, 
+  {
+    "country": "Northern Mariana Islands", 
+    "citiesList": "List of populated places in the Northern Mariana Islands"
+  }, 
+  {
+    "country": "Norway", 
+    "citiesList": "List of towns and cities in Norway"
+  }, 
+  {
+    "country": "Oman", 
+    "citiesList": "List of cities in Oman"
+  }, 
+  {
+    "country": "Pakistan", 
+    "citiesList": "List of cities in Pakistan"
+  }, 
+  {
+    "country": "Palau", 
+    "citiesList": "List of cities, towns, and villages in Palau"
+  }, 
+  {
+    "country": "Palestinian National Authority", 
+    "citiesList": "List of cities administered by the State of Palestine"
+  }, 
+  {
+    "country": "Panama", 
+    "citiesList": "List of cities in Panama"
+  }, 
+  {
+    "country": "Papua New Guinea", 
+    "citiesList": "List of cities and towns in Papua New Guinea"
+  }, 
+  {
+    "country": "Paraguay", 
+    "citiesList": "List of cities in Paraguay"
+  }, 
+  {
+    "country": "Peru", 
+    "citiesList": "List of cities in Peru"
+  }, 
+  {
+    "country": "Philippines", 
+    "citiesList": "List of cities in the Philippines"
+  }, 
+  {
+    "country": "Pitcairn Islands", 
+    "citiesList": "Pitcairn Islands"
+  }, 
+  {
+    "country": "Poland", 
+    "citiesList": "List of cities and towns in Poland"
+  }, 
+  {
+    "country": "Portugal", 
+    "citiesList": "List of cities in Portugal"
+  }, 
+  {
+    "country": "Puerto Rico", 
+    "citiesList": "Municipalities of Puerto Rico"
+  }, 
+  {
+    "country": "Qatar", 
+    "citiesList": "List of cities in Qatar"
+  }, 
+  {
+    "country": "Romania", 
+    "citiesList": "List of cities and towns in Romania"
+  }, 
+  {
+    "country": "Russia", 
+    "citiesList": "List of cities and towns in Russia"
+  }, 
+  {
+    "country": "Rwanda", 
+    "citiesList": "List of cities in Rwanda"
+  }, 
+  {
+    "country": "Saint Kitts and Nevis", 
+    "citiesList": "List of cities and towns in Saint Kitts and Nevis"
+  }, 
+  {
+    "country": "Saint Lucia", 
+    "citiesList": "List of cities in Saint Lucia"
+  }, 
+  {
+    "country": "Saint Pierre and Miquelon", 
+    "citiesList": "List of cities in Saint-Pierre and Miquelon"
+  }, 
+  {
+    "country": "Saint Vincent and the Grenadines", 
+    "citiesList": "List of cities, towns and villages in Saint Vincent and the Grenadines"
+  }, 
+  {
+    "country": "Samoa", 
+    "citiesList": "List of cities, towns and villages in Samoa"
+  }, 
+  {
+    "country": "San Marino", 
+    "citiesList": "Municipalities of San Marino"
+  }, 
+  {
+    "country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+    "citiesList": "List of cities and towns in S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+  }, 
+  {
+    "country": "Saudi Arabia", 
+    "citiesList": "List of cities and towns in Saudi Arabia"
+  }, 
+  {
+    "country": "Senegal", 
+    "citiesList": "List of cities in Senegal"
+  }, 
+  {
+    "country": "Serbia", 
+    "citiesList": "List of cities in Serbia"
+  }, 
+  {
+    "country": "Seychelles", 
+    "citiesList": "List of cities in Seychelles"
+  }, 
+  {
+    "country": "Sierra Leone", 
+    "citiesList": "List of cities in Sierra Leone"
+  }, 
+  {
+    "country": "Singapore", 
+    "citiesList": "List of places in Singapore"
+  }, 
+  {
+    "country": "Slovakia", 
+    "citiesList": "List of cities and towns in Slovakia"
+  }, 
+  {
+    "country": "Slovenia", 
+    "citiesList": "List of cities and towns in Slovenia"
+  }, 
+  {
+    "country": "Solomon Islands", 
+    "citiesList": "List of cities, towns and villages in the Solomon Islands"
+  }, 
+  {
+    "country": "Somalia", 
+    "citiesList": "List of cities in Somalia"
+  }, 
+  {
+    "country": "Somaliland", 
+    "citiesList": "List of cities in Somaliland (page does not exist)"
+  }, 
+  {
+    "country": "South Africa", 
+    "citiesList": "List of municipalities in South Africa"
+  }, 
+  {
+    "country": "South Korea", 
+    "citiesList": "List of cities in South Korea"
+  }, 
+  {
+    "country": "South Ossetia", 
+    "citiesList": "South Ossetia"
+  }, 
+  {
+    "country": "Spain", 
+    "citiesList": "List of municipalities of Spain"
+  }, 
+  {
+    "country": "Sri Lanka", 
+    "citiesList": "List of cities in Sri Lanka"
+  }, 
+  {
+    "country": "Sudan", 
+    "citiesList": "List of cities in Sudan"
+  }, 
+  {
+    "country": "Suriname", 
+    "citiesList": "List of cities and towns in Suriname"
+  }, 
+  {
+    "country": "Svalbard", 
+    "citiesList": "Svalbard"
+  }, 
+  {
+    "country": "Swaziland", 
+    "citiesList": "List of cities in Swaziland"
+  }, 
+  {
+    "country": "Sweden", 
+    "citiesList": "List of cities in Sweden"
+  }, 
+  {
+    "country": "Switzerland", 
+    "citiesList": "List of cities in Switzerland"
+  }, 
+  {
+    "country": "Syria", 
+    "citiesList": "List of cities in Syria"
+  }, 
+  {
+    "country": "Republic of China", 
+    "citiesList": "List of cities in Taiwan"
+  }, 
+  {
+    "country": "Tajikistan", 
+    "citiesList": "List of cities in Tajikistan"
+  }, 
+  {
+    "country": "Tanzania", 
+    "citiesList": "List of cities in Tanzania"
+  }, 
+  {
+    "country": "Thailand", 
+    "citiesList": "List of cities in Thailand"
+  }, 
+  {
+    "country": "Togo", 
+    "citiesList": "List of cities in Togo"
+  }, 
+  {
+    "country": "Tokelau", 
+    "citiesList": "List of villages in Tokelau"
+  }, 
+  {
+    "country": "Tonga", 
+    "citiesList": "List of islands and towns in Tonga"
+  }, 
+  {
+    "country": "Transnistria", 
+    "citiesList": "Transnistria"
+  }, 
+  {
+    "country": "Trinidad and Tobago", 
+    "citiesList": "List of cities and towns in Trinidad and Tobago"
+  }, 
+  {
+    "country": "Tunisia", 
+    "citiesList": "List of cities in Tunisia"
+  }, 
+  {
+    "country": "Turkey", 
+    "citiesList": "List of cities in Turkey"
+  }, 
+  {
+    "country": "Turkmenistan", 
+    "citiesList": "List of cities in Turkmenistan"
+  }, 
+  {
+    "country": "Turks and Caicos Islands", 
+    "citiesList": "List of cities in the Turks and Caicos Islands"
+  }, 
+  {
+    "country": "Tuvalu", 
+    "citiesList": "List of villages and neighbourhoods in Tuvalu"
+  }, 
+  {
+    "country": "Uganda", 
+    "citiesList": "List of cities and towns in Uganda"
+  }, 
+  {
+    "country": "Ukraine", 
+    "citiesList": "List of cities in Ukraine"
+  }, 
+  {
+    "country": "United Arab Emirates", 
+    "citiesList": "List of cities in the United Arab Emirates"
+  }, 
+  {
+    "country": "United Kingdom", 
+    "citiesList": "List of cities in the United Kingdom"
+  }, 
+  {
+    "country": "United States", 
+    "citiesList": "List of cities in the United States"
+  }, 
+  {
+    "country": "Uruguay", 
+    "citiesList": "List of cities in Uruguay"
+  }, 
+  {
+    "country": "Uzbekistan", 
+    "citiesList": "List of cities in Uzbekistan"
+  }, 
+  {
+    "country": "Vanuatu", 
+    "citiesList": "List of cities in Vanuatu"
+  }, 
+  {
+    "country": "Venezuela", 
+    "citiesList": "List of cities in Venezuela"
+  }, 
+  {
+    "country": "Vietnam", 
+    "citiesList": "List of cities in Vietnam"
+  }, 
+  {
+    "country": "United States Virgin Islands", 
+    "citiesList": "List of settlements in the United States Virgin Islands"
+  }, 
+  {
+    "country": "Western Sahara", 
+    "citiesList": "List of cities in Western Sahara"
+  }, 
+  {
+    "country": "Yemen", 
+    "citiesList": "List of cities in Yemen"
+  }, 
+  {
+    "country": "Zambia", 
+    "citiesList": "List of cities and towns in Zambia"
+  }, 
+  {
+    "country": "Zimbabwe", 
+    "citiesList": "List of cities and towns in Zimbabwe"
+  }
 ]

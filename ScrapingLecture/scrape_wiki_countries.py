@@ -6,6 +6,7 @@ import wikipedia
 from bs4 import BeautifulSoup
 import urllib
 import json
+from tqdm import tqdm
 
 
 def main():
@@ -35,7 +36,9 @@ def main():
 	#
 	# Then continue getting the cities
 	numberOfCities = 0
-	for c in citiesData[:8]:
+	pBarCountries = tqdm(citiesData[:8], leave=True, nested=True)
+	for c in pBarCountries:
+		pBarCountries.set_description("Processing %s" % c['country'])
 		p = wikipedia.page(c['citiesList'])
 		p.url
 		r = urllib.urlopen(p.url).read()
@@ -83,7 +86,7 @@ def main():
 		c['cities'] = cities
 	# Save a file, with all cities by countries
 	with open("cities.json", 'w') as outputFile:
-	   json.dump(citiesData, outputFile)
+	   json.dump(citiesData, outputFile, indent=2)
 	print "Found list of %d cities" % (numberOfCities)
 	
 	

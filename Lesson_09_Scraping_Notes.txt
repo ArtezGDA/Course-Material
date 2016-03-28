@@ -391,3 +391,14 @@ Excellent!
 Let's put this in a file, and run it from there.
 
 ---> move this all to GitHub!
+
+You see that just getting the cities from the first 8 countries, already takes quite an amount of time. If we're going to run it on the whole list, we want to see some feedback during the process.
+
+Install the tqdm module
+https://github.com/tqdm/tqdm
+sudo easy_install tqdm
+
+from tqdm import tqdm
+
+for i in tqdm(range(10)):
+    # do something
