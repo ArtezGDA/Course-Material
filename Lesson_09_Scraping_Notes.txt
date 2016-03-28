@@ -34,3 +34,360 @@ http://gis.stackexchange.com/questions/78838/how-to-convert-projected-coordinate
 Wikipedia pages:
 
 https://en.wikipedia.org/wiki/Lists_of_cities_by_country
+
+----
+
+Wikipedia scraping
+
+python module: *wikipedia*
+[Quick Start](https://wikipedia.readthedocs.org/en/latest/quickstart.html#quickstart)
+[Full Documentation](https://wikipedia.readthedocs.org/en/latest/code.html#api)
+
+
+import wikipedia
+wikipedia.page("Lists_of_cities_by_country")
+p = wikipedia.page("Lists_of_cities_by_country")
+p.sections
+p.categories
+p.links
+
+(p.links returns a list, of *all* links, alphabetically ... not what we want)
+So let's try to scrape the list by parsing the DOM tree (with Beautiful Soup)
+
+
+from bs4 import BeautifulSoup
+import urllib
+r = urllib.urlopen("https://en.wikipedia.org/wiki/Lists_of_cities_by_country").read()
+soup = BeautifulSoup(r)
+type(soup)
+soup.findAll("li")
+listitems = soup.findAll("li")
+
+len(listitems)
+> 353 
+(too much list items)
+
+(So we need to find another way to get the prefered list items, ... maybe use the flag):
+Find all flags, then get the (parent) item that holds that flag, that parent item will probably contain the two links: the list of cities PLUS the name of the country
+
+flags = soup.find_all("span", "flagicon")
+flags = soup.find_all("span", class_="flagicon")
+len(flags)
+listitems = []
+for f in flags:
+    listitems.append(f.parent)
+len(listitems)
+listitems[0]
+
+Check if we have all the countries by printing just the countries
+
+l = listitems[0]
+l.findChildren("a")
+len(l.findChildren("a"))
+l.findChildren("a")[-1]
+l.findChildren("a")[-1]['title']
+l.findChildren("a")[-1].text
+
+for l in listitems:
+    print l.findChildren("a")[-1]['title']
+
+Fine!
+
+Finally check if the list is sane, by counting the number of links of each item:
+
+for l in listitems:
+   print len(l.findChildren("a")), l.findChildren("a")[-1]['title']
+   
+Oh, there is a problem with Vatican City. ... Let's skip that one by ensuring the len( ... "a") is bigger or equal to 3.
+And there is a problem with Ireland, because it has two flags. (Let's leave that in for now)
+
+
+Now, list find all the "List of cities in ..." pages, and store them together with the country, in list, like this:
+[
+	{'citiesList': "List of cities in Brazil", 'country': "Brazil"},
+	{...},
+	...
+]
+
+citiesData = []
+for l in listitems:
+    if len(l.findChildren("a")) >= 3:
+        country = {}
+        country['citiesList'] = l.findChildren("a")[-2]['title']
+        country['country'] = l.findChildren("a")[-1]['title']
+        citiesData.append(country)
+
+As a step in between, lets save this list.
+
+import json
+with open("countries.json", 'w') as outputFile:
+   json.dump(citiesData, outputFile)
+
+----
+
+Now, let's continue and dive in the pages listing the cities. ...
+
+There are many different types of pages, using tables, using lists, multiple tables, duplicates, historic names ... This will be lots of stuff we don't want. What would be the best approach?
+
+My attempt will be the following:
+- searching the DOM tree (with Beautiful Soup):
+- if there are tables, use the first column of the table which has a link with a title
+- if there are no tables, use all li (listitems)
+- only store the city if it is not a duplicate
+
+
+First let's see if we can find the tables
+
+c = citiesData[0]
+p = wikipedia.page(c['citiesList'])
+p.url
+r = urllib.urlopen(p.url).read()
+soup = BeautifulSoup(r)
+tables = soup.findAll('table', class_="wikitable")
+len(tables)
+
+> 2
+
+Ok. Let's try this with the first table we find
+
+t = tables[0]
+
+Get all rows:
+
+t.findAll('tr')
+
+try with the first, and then second row
+
+tr = t.findAll('tr')[0]
+tr
+tr = t.findAll('tr')[1]
+tr
+
+find the first td in a row
+
+td = tr.findAll('td')[0]
+
+Finally, get the a.
+
+td.find('a')
+
+
+Now let's put this together, and try it out for Afganistan
+
+c = citiesData[0]
+
+cities = []
+
+for t in tables:
+    for tr in t.findAll('tr'):
+        for td in tr.findAll('td'):
+            link = td.find('a')
+            if link:
+                cityName = link['title']
+                if cityName:
+                    # ...
+                    cities.append(cityName)
+				
+> Error
+What is link?
+ <a href="#cite_note-2">[2]</a>
+ 
+It has no attribute title, so it is not good
+
+link.has_attr('title')
+> False
+
+Change the code:
+
+for t in tables:
+    for tr in t.findAll('tr'):
+        for td in tr.findAll('td'):
+            link = td.find('a')
+            if link and link.has_attr('title'):
+                cityName = link['title']
+                if cityName:
+                    # ...
+                    cities.append(cityName)
+
+
+Almost good: it has doubles, and it also contains:
+'Laghman, Jowzjan (page does not exist)'
+
+Let's exclude that one:
+
+cityName.endswith('(page does not exist)')
+> True
+
+for t in tables:
+    for tr in t.findAll('tr'):
+        for td in tr.findAll('td'):
+            link = td.find('a')
+            if link and link.has_attr('title'):
+                cityName = link['title']
+                if cityName and not cityName.endswith('(page does not exist)'):
+                    # ...
+                    cities.append(cityName)
+
+Now, let's remove the duplicates:
+
+'Kabul' in cities
+> True
+
+'New York' in cities
+> False
+
+Expand the # ...
+
+for t in tables:
+    for tr in t.findAll('tr'):
+        for td in tr.findAll('td'):
+            link = td.find('a')
+            if link and link.has_attr('title'):
+                cityName = link['title']
+                # remove duplicates and broken pages
+                if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+                    cities.append(cityName)
+
+----
+
+All fine and well, but what if the row, contains more valid links?
+
+Try with Algeria
+
+c = citiesData[2] 
+p = wikipedia.page(c['citiesList'])
+p.url
+r = urllib.urlopen(p.url).read()
+soup = BeautifulSoup(r)
+tables = soup.findAll('table', class_="wikitable")
+len(tables)
+
+(Same block code as before)
+
+So, again, modify it a bit (add the break)
+
+for t in tables:
+    for tr in t.findAll('tr'):
+        for td in tr.findAll('td'):
+            link = td.find('a')
+            if link and link.has_attr('title'):
+                cityName = link['title']
+                # remove duplicates and broken pages
+                if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+                    cities.append(cityName)
+                    break
+
+----
+
+Now let's try this when there are no tables:
+
+Trying this out with: List of cities in Antigua and Barbuda
+
+c = citiesData[5]
+p = wikipedia.page(c['citiesList'])
+r = urllib.urlopen(p.url).read()
+soup = BeautifulSoup(r)
+tables = soup.findAll('table', class_="wikitable")
+len(tables)
+
+First, what if we would just get all the list items?
+
+lis = soup.findAll('li')
+len(lis)
+
+> 147
+Clearly, that's way too much. We need to filter it down.
+
+Maybe: only get the list items inside the mw-content-text div
+
+div = soup.find('div', id="mw-content-text")
+
+Note: find just returns the first object found, where findAll returns a list [] of objects.
+
+len(div.findAll('li'))
+
+> 79 
+
+That is still to much. Let's narrow it down further. There is a difference between all descendents and just the first level children:
+
+len(div.findAll('ul'))
+> 5
+len(div.findAll('ul', recursive=False))
+> 1
+
+We need to be looking or ul and ol (unordered and ordered lists)
+
+uls = div.findAll('ul', recursive=False)
+
+Test with only the first
+
+ul = uls[0]
+ul.findAll('a')
+
+ols = div.findAll('ol', recursive=False)
+
+Test with only the first
+
+ol = ols[0]
+ol.findAll('a')
+
+----
+
+Let's put this *ALL* together:
+
+
+But let's limit it to the first 8 for now. Later, we'll remove the [:8]
+
+for c in citiesData[:8]:
+    p = wikipedia.page(c['citiesList'])
+    p.url
+    r = urllib.urlopen(p.url).read()
+    soup = BeautifulSoup(r)
+    tables = soup.findAll('table', class_="wikitable")
+    # create an empty cities list
+    cities = []
+    if len(tables) > 0:
+        # First the case when there are tables
+        #
+        for t in tables:
+            for tr in t.findAll('tr'):
+                for td in tr.findAll('td'):
+                    link = td.find('a')
+                    if link and link.has_attr('title'):
+                        cityName = link['title']
+                        # remove duplicates and broken pages
+                        if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+                            cities.append(cityName)
+                            break
+        
+    else:
+        # Find all valid links in list items
+        div = soup.find('div', id="mw-content-text")
+        # Search all unordered lists
+        for ul in div.findAll('ul', recursive=False):
+            for link in ul.findAll('a'):
+                if link.has_attr('title'):
+                    cityName = link['title']
+                    # remove duplicates and broken pages
+                    if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+                        cities.append(cityName)
+        # Search all ordered lists        
+        for ol in div.findAll('ol', recursive=False):
+            for link in ol.findAll('a'):
+                if link.has_attr('title'):
+                    cityName = link['title']
+                    # remove duplicates and broken pages
+                    if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+                        cities.append(cityName)
+    # Now, our cities list is filled with cities, but what to do with it.
+    #
+    # Let's append it to the dictionary c, we already had
+    c['cities'] = cities
+
+
+
+Excellent!
+
+Let's put this in a file, and run it from there.
+
+---> move this all to GitHub!
