@@ -411,12 +411,34 @@ This will take approx. 5 minutes
 
 ----
 
-There is only one problem:
+There are still a few problema:
 
 cat cities.json | grep "page does"
 > "citiesList": "List of cities in Somaliland (page does not exist)"
 
 So also we need to filter out the non-existing pages with list of cities. To bad for Somaliland, but we'll have to ignore it.
 
+----
+
+Also, there is still a problem with:
+- Kenya
+- Netherlands
+- Northern Cyprus
+- Pakistan
+- Somalia
+
+Let's at least fix the case for the Netherlands.
+We do this by not only looking for the first td with a valid link, but also a th with a valid link. This will give more noise, but also include the Dutch cities.
+
+----
+
+Next up, is verifying a city really is a city, ... getting the lat-lon coordinates and getting the population ...
+
+----
+
+Alternative approach:
+Find the cities by clever use of categories ...?
+Starting point:
+https://en.wikipedia.org/wiki/Category:Cities_by_country
 
 

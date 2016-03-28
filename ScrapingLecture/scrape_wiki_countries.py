@@ -54,6 +54,14 @@ def main():
 				#
 				for t in tables:
 					for tr in t.findAll('tr'):
+						for th in tr.findAll('th'):
+							link = th.find('a')
+							if link and link.has_attr('title'):
+								cityName = link['title']
+								# remove duplicates and broken pages
+								if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+									cities.append(cityName)
+									break
 						for td in tr.findAll('td'):
 							link = td.find('a')
 							if link and link.has_attr('title'):
@@ -82,7 +90,7 @@ def main():
 							# remove duplicates and broken pages
 							if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
 								cities.append(cityName)
-			numberOfCities += len(citiesData)
+			numberOfCities += len(cities)
 			# Now, our cities list is filled with cities, but what to do with it.
 			#
 			# Let's append it to the dictionary c, we already had
