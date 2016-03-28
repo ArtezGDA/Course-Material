@@ -36,60 +36,61 @@ def main():
 	#
 	# Then continue getting the cities
 	numberOfCities = 0
-	pBarCountries = tqdm(citiesData[:8], leave=True, nested=True)
+	pBarCountries = tqdm(citiesData, leave=True, nested=True)
 	for c in pBarCountries:
 		pBarCountries.set_description("Processing %s" % c['country'])
-		p = wikipedia.page(c['citiesList'])
-		p.url
-		r = urllib.urlopen(p.url).read()
-		soup = BeautifulSoup(r)
-		tables = soup.findAll('table', class_="wikitable")
-		# create an empty cities list
-		cities = []
-		if len(tables) > 0:
-			# First the case when there are tables
-			#
-			for t in tables:
-				for tr in t.findAll('tr'):
-					for td in tr.findAll('td'):
-						link = td.find('a')
-						if link and link.has_attr('title'):
+		# citiesList must be a exiting link
+		listPage = c['citiesList']
+		if not listPage.endswith('(page does not exist)'):
+			p = wikipedia.page(listPage)
+			p.url
+			r = urllib.urlopen(p.url).read()
+			soup = BeautifulSoup(r)
+			tables = soup.findAll('table', class_="wikitable")
+			# create an empty cities list
+			cities = []
+			if len(tables) > 0:
+				# First the case when there are tables
+				#
+				for t in tables:
+					for tr in t.findAll('tr'):
+						for td in tr.findAll('td'):
+							link = td.find('a')
+							if link and link.has_attr('title'):
+								cityName = link['title']
+								# remove duplicates and broken pages
+								if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+									cities.append(cityName)
+									break
+		
+			else:
+				# Find all valid links in list items
+				div = soup.find('div', id="mw-content-text")
+				# Search all unordered lists
+				for ul in div.findAll('ul', recursive=False):
+					for link in ul.findAll('a'):
+						if link.has_attr('title'):
 							cityName = link['title']
 							# remove duplicates and broken pages
 							if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
 								cities.append(cityName)
-								break
-		
-		else:
-			# Find all valid links in list items
-			div = soup.find('div', id="mw-content-text")
-			# Search all unordered lists
-			for ul in div.findAll('ul', recursive=False):
-				for link in ul.findAll('a'):
-					if link.has_attr('title'):
-						cityName = link['title']
-						# remove duplicates and broken pages
-						if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
-							cities.append(cityName)
-			# Search all ordered lists		  
-			for ol in div.findAll('ol', recursive=False):
-				for link in ol.findAll('a'):
-					if link.has_attr('title'):
-						cityName = link['title']
-						# remove duplicates and broken pages
-						if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
-							cities.append(cityName)
-		numberOfCities += len(citiesData)
-		# Now, our cities list is filled with cities, but what to do with it.
-		#
-		# Let's append it to the dictionary c, we already had
-		c['cities'] = cities
+				# Search all ordered lists		  
+				for ol in div.findAll('ol', recursive=False):
+					for link in ol.findAll('a'):
+						if link.has_attr('title'):
+							cityName = link['title']
+							# remove duplicates and broken pages
+							if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
+								cities.append(cityName)
+			numberOfCities += len(citiesData)
+			# Now, our cities list is filled with cities, but what to do with it.
+			#
+			# Let's append it to the dictionary c, we already had
+			c['cities'] = cities
 	# Save a file, with all cities by countries
 	with open("cities.json", 'w') as outputFile:
 	   json.dump(citiesData, outputFile, indent=2)
 	print "Found list of %d cities" % (numberOfCities)
-	
-	
 	
 
 if __name__ == '__main__':

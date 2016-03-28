@@ -402,3 +402,21 @@ from tqdm import tqdm
 
 for i in tqdm(range(10)):
     # do something
+    
+----
+
+Now, let's try it for all countries!
+
+This will take approx. 5 minutes
+
+----
+
+There is only one problem:
+
+cat cities.json | grep "page does"
+> "citiesList": "List of cities in Somaliland (page does not exist)"
+
+So also we need to filter out the non-existing pages with list of cities. To bad for Somaliland, but we'll have to ignore it.
+
+
+
