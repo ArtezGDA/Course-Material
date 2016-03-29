@@ -547,6 +547,45 @@ possibleCityLinks will be a list of lists [[]]
 
 ----
 
+Now, that that's done. Let try this for all countries!
+
+...
+
+Ooooh... This will take 1 and a half hour!
+
+Ooooooh - 2 ... and we hit a bug:
+
+Traceback (most recent call last):
+  File "scrape_wiki_countries.py", line 122, in <module>
+    main()
+  File "scrape_wiki_countries.py", line 108, in main
+    if appendLinkToCities(link, cities, cityDicts):
+  File "scrape_wiki_countries.py", line 17, in appendLinkToCities
+    p = wikipedia.page(cityName)
+  File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 276, in page
+  File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 299, in __init__
+  File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 345, in __load
+wikipedia.exceptions.PageError: Page id "catolica" does not match any pages. Try another id!
+
+PageError?
+
+Do not understand ... but hey, let's try solve it. Let's make an exception for this error.
+Later we get another error
+
+DisambiguationError
+
+Maybe it is trying to find the wrong pages when we do
+
+    p = wikipedia.page(cityName)
+
+Let's read the documentation again, and discover that auto_suggest is True by default. We might not want that:
+
+	p = wikipedia.page(cityName, auto_suggest=False)
+    
+Hey, now it is faster too!
+
+----
+
 Alternative approach:
 Find the cities by clever use of categories ...?
 Starting point:

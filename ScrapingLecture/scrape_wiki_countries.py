@@ -14,7 +14,7 @@ def appendLinkToCities(link, cityNameList, cityDictList):
 		# remove duplicates and broken pages
 		if cityName and not cityName.endswith('(page does not exist)') and not cityName in cityNameList:
 			# Check if this possible city has a coordinate
-			p = wikipedia.page(cityName)
+			p = wikipedia.page(cityName, auto_suggest=False)
 			try:
 				coord = p.coordinates
 				cityDict = {}
@@ -57,13 +57,13 @@ def main():
 	#
 	# Then continue getting the cities
 	numberOfCities = 0
-	pBarCountries = tqdm(citiesData[:2], leave=True, nested=True)
+	pBarCountries = tqdm(citiesData, leave=True, nested=True)
 	for c in pBarCountries:
 		pBarCountries.set_description("Processing %s" % c['country'])
 		# citiesList must be a exiting link
 		listPage = c['citiesList']
 		if not listPage.endswith('(page does not exist)'):
-			p = wikipedia.page(listPage)
+			p = wikipedia.page(listPage, auto_suggest=False)
 			p.url
 			r = urllib.urlopen(p.url).read()
 			soup = BeautifulSoup(r)
