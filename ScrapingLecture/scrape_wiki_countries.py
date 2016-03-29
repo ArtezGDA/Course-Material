@@ -14,18 +14,21 @@ def appendLinkToCities(link, cityNameList, cityDictList):
 		# remove duplicates and broken pages
 		if cityName and not cityName.endswith('(page does not exist)') and not cityName in cityNameList:
 			# Check if this possible city has a coordinate
-			p = wikipedia.page(cityName, auto_suggest=False)
 			try:
-				coord = p.coordinates
-				cityDict = {}
-				cityDict['name'] = cityName
-				cityDict['lat'] = float(coord[0])
-				cityDict['lon'] = float(coord[1])
-				cityDict['url'] = p.url
-				cityDictList.append(cityDict)
-				cityNameList.append(cityName)
-				return True
-			except KeyError:
+				p = wikipedia.page(cityName, auto_suggest=False)
+				try:
+					coord = p.coordinates
+					cityDict = {}
+					cityDict['name'] = cityName
+					cityDict['lat'] = float(coord[0])
+					cityDict['lon'] = float(coord[1])
+					cityDict['url'] = p.url
+					cityDictList.append(cityDict)
+					cityNameList.append(cityName)
+					return True
+				except KeyError:
+					return False
+			except wikipedia.exceptions.DisambiguationError:
 				return False
 	return False
 

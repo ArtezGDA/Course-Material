@@ -586,6 +586,10 @@ Hey, now it is faster too!
 
 ----
 
+Snag! Another DisambiguationError with the City Aw in Bahrain
+Guess we need the try: any way
+
+
 Alternative approach:
 Find the cities by clever use of categories ...?
 Starting point:
