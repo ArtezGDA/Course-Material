@@ -8,6 +8,15 @@ import urllib
 import json
 from tqdm import tqdm
 
+def appendLinkToCities(link, cityNameList):
+	if link and link.has_attr('title'):
+		cityName = link['title']
+		# remove duplicates and broken pages
+		if cityName and not cityName.endswith('(page does not exist)') and not cityName in cityNameList:
+			cityNameList.append(cityName)
+			return True
+	return False
+	
 
 def main():
 	"""Does all the scraping work"""
@@ -56,40 +65,23 @@ def main():
 					for tr in t.findAll('tr'):
 						for th in tr.findAll('th'):
 							link = th.find('a')
-							if link and link.has_attr('title'):
-								cityName = link['title']
-								# remove duplicates and broken pages
-								if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
-									cities.append(cityName)
-									break
+							if appendLinkToCities(link, cities):
+								break
 						for td in tr.findAll('td'):
 							link = td.find('a')
-							if link and link.has_attr('title'):
-								cityName = link['title']
-								# remove duplicates and broken pages
-								if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
-									cities.append(cityName)
-									break
-		
+							if appendLinkToCities(link, cities):
+								break
 			else:
 				# Find all valid links in list items
 				div = soup.find('div', id="mw-content-text")
 				# Search all unordered lists
 				for ul in div.findAll('ul', recursive=False):
 					for link in ul.findAll('a'):
-						if link.has_attr('title'):
-							cityName = link['title']
-							# remove duplicates and broken pages
-							if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
-								cities.append(cityName)
+						appendLinkToCities(link, cities)
 				# Search all ordered lists		  
 				for ol in div.findAll('ol', recursive=False):
 					for link in ol.findAll('a'):
-						if link.has_attr('title'):
-							cityName = link['title']
-							# remove duplicates and broken pages
-							if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
-								cities.append(cityName)
+						appendLinkToCities(link, cities)
 			numberOfCities += len(cities)
 			# Now, our cities list is filled with cities, but what to do with it.
 			#

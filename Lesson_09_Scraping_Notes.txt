@@ -434,6 +434,79 @@ We do this by not only looking for the first td with a valid link, but also a th
 
 Next up, is verifying a city really is a city, ... getting the lat-lon coordinates and getting the population ...
 
+First try it with a simple "city" or not city:
+
+- "Kabul"
+- "Amsterdam"
+- "Geographic coordinate system"
+
+p = wikipedia.page("Kabul")
+p.coordinates
+
+p = wikipedia.page("Amsterdam")
+p.coordinates
+
+p = wikipedia.page("Geographic coordinate system")
+p.coordinates
+
+> KeyError
+
+So how can we make sure we don't get this error? We don't know if the page has a coordinate or not...
+Option 1: We check for a category:
+
+p = wikipedia.page("Amsterdam")
+p.categories
+
+It contains the category "Coordinates on Wikidata"
+
+p = wikipedia.page("Geographic coordinate system")
+p.categories
+
+It doesn't contain that category.
+
+How do we check for that? With the in keyword
+
+"Coordinates on Wikidata" in p.categories
+> False
+
+p = wikipedia.page("Kabul")
+"Coordinates on Wikidata" in p.categories
+> True
+
+Option 2: We can also use the KeyError as an "Exception"
+
+try:
+    # do something what could trigger an error
+except Error:
+    # catch the error
+
+In this case:
+
+try:
+    coord = p.coordinates
+except KeyError:
+    print "no coordinates"
+
+----
+
+So let's build this into the code we already have for finding the cities.
+
+We should change some things first:
+1. Not only store a list of cities (cities = []), where each element is a string,
+    but also a list of cityDicts [{}, {}, ...], where each element is a dict, with more information about the city  
+    1.b. We keep the original list, to skip duplicates as before.
+2. Refactor some code, because we're now doing the same thing 4 times
+3. This will take considerably longer than before:
+    3a. So we'll limit the list to only the first 8 countries
+    3b. And we'll add a new progress bar
+
+As the first thing to do, we start with the refactor, so the rest of the work will be easier:
+
+2.
+
+
+
+
 ----
 
 Alternative approach:
