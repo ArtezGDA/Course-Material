@@ -534,7 +534,16 @@ float(coord[0])
 Try this with a very limited set [:2]
 And let's also store the url ... could be useful later.
 
+----
 
+Wow, this really takes a lot of time ... Let's add another progress bar.
+
+How to do this? We have several for loops, finding links. ...
+Let's refactor: 
+    First find all possible links (all anchors)
+    Then proceess these anchors and add the successful ones
+
+possibleCityLinks will be a list of lists [[]]
 
 ----
 

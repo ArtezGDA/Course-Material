@@ -73,30 +73,40 @@ def main():
 			# (the second to store more info per city)
 			cities = []
 			cityDicts = []
+			possibleCityLinks = []
 			if len(tables) > 0:
 				# First the case when there are tables
 				#
 				for t in tables:
 					for tr in t.findAll('tr'):
+						allLinks = []
 						for th in tr.findAll('th'):
 							link = th.find('a')
-							if appendLinkToCities(link, cities, cityDicts):
-								break
+							if link:
+								allLinks.append(link)
 						for td in tr.findAll('td'):
 							link = td.find('a')
-							if appendLinkToCities(link, cities, cityDicts):
-								break
+							if link:
+								allLinks.append(link)
+						possibleCityLinks.append(allLinks)		
 			else:
-				# Find all valid links in list items
+				# Find all links in list items
 				div = soup.find('div', id="mw-content-text")
 				# Search all unordered lists
 				for ul in div.findAll('ul', recursive=False):
 					for link in ul.findAll('a'):
-						appendLinkToCities(link, cities, cityDicts)
+						possibleCityLinks.append([link])
 				# Search all ordered lists		  
 				for ol in div.findAll('ol', recursive=False):
 					for link in ol.findAll('a'):
-						appendLinkToCities(link, cities, cityDicts)
+						possibleCityLinks.append([link])
+			# Find first valid link
+			pBarCities = tqdm(possibleCityLinks, leave=True, nested=True)
+			for allLinks in pBarCities:
+				# Find first valid link in the links
+				for link in allLinks:
+					if appendLinkToCities(link, cities, cityDicts):
+						break
 			numberOfCities += len(cityDicts)
 			# Now, our cities list is filled with cities, but what to do with it.
 			#
