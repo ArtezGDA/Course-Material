@@ -8,15 +8,18 @@ import urllib
 import json
 from tqdm import tqdm
 
-def appendLinkToCities(link, cityNameList):
+def appendLinkToCities(link, cityNameList, cityDictList):
 	if link and link.has_attr('title'):
 		cityName = link['title']
 		# remove duplicates and broken pages
 		if cityName and not cityName.endswith('(page does not exist)') and not cityName in cityNameList:
 			cityNameList.append(cityName)
+			cityDict = {}
+			cityDict['name'] = cityName
+			cityDictList.append(cityDict)
 			return True
 	return False
-	
+
 
 def main():
 	"""Does all the scraping work"""
@@ -56,8 +59,11 @@ def main():
 			r = urllib.urlopen(p.url).read()
 			soup = BeautifulSoup(r)
 			tables = soup.findAll('table', class_="wikitable")
-			# create an empty cities list
+			# create two empty cities list
+			# (one just for the city names, to prevent duplicates)
+			# (the second to store more info per city)
 			cities = []
+			cityDicts = []
 			if len(tables) > 0:
 				# First the case when there are tables
 				#
@@ -65,11 +71,11 @@ def main():
 					for tr in t.findAll('tr'):
 						for th in tr.findAll('th'):
 							link = th.find('a')
-							if appendLinkToCities(link, cities):
+							if appendLinkToCities(link, cities, cityDicts):
 								break
 						for td in tr.findAll('td'):
 							link = td.find('a')
-							if appendLinkToCities(link, cities):
+							if appendLinkToCities(link, cities, cityDicts):
 								break
 			else:
 				# Find all valid links in list items
@@ -77,16 +83,16 @@ def main():
 				# Search all unordered lists
 				for ul in div.findAll('ul', recursive=False):
 					for link in ul.findAll('a'):
-						appendLinkToCities(link, cities)
+						appendLinkToCities(link, cities, cityDicts)
 				# Search all ordered lists		  
 				for ol in div.findAll('ol', recursive=False):
 					for link in ol.findAll('a'):
-						appendLinkToCities(link, cities)
-			numberOfCities += len(cities)
+						appendLinkToCities(link, cities, cityDicts)
+			numberOfCities += len(cityDicts)
 			# Now, our cities list is filled with cities, but what to do with it.
 			#
 			# Let's append it to the dictionary c, we already had
-			c['cities'] = cities
+			c['cities'] = cityDicts
 	# Save a file, with all cities by countries
 	with open("cities.json", 'w') as outputFile:
 	   json.dump(citiesData, outputFile, indent=2)

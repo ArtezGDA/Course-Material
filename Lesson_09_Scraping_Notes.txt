@@ -503,8 +503,23 @@ We should change some things first:
 As the first thing to do, we start with the refactor, so the rest of the work will be easier:
 
 2.
+Refactor into appendLinkToCities() function
 
+def appendLinkToCities(link, cityNameList):
+	if link and link.has_attr('title'):
+		cityName = link['title']
+		# remove duplicates and broken pages
+		if cityName and not cityName.endswith('(page does not exist)') and not cityName in cityNameList:
+			cityNameList.append(cityName)
+			return True
+	return False
 
+1.
+Create a cityDicts
+    Create it along the cities list
+    Send it along with the cities to the function
+    Use it instead of the cities list to store the data in the citiesData
+    In the function, append a dictionary to cityDicts
 
 
 ----
