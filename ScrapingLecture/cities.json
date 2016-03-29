@@ -3,70 +3,124 @@
     "country": "Afghanistan", 
     "cities": [
       {
+        "lat": 34.53333333, 
+        "url": "https://en.wikipedia.org/wiki/Kabul", 
+        "lon": 69.16666667, 
         "name": "Kabul"
       }, 
       {
+        "lat": 31.61666679, 
+        "url": "https://en.wikipedia.org/wiki/Kandahar", 
+        "lon": 65.71666718, 
         "name": "Kandahar"
       }, 
       {
+        "lat": 34.34194444, 
+        "url": "https://en.wikipedia.org/wiki/Herat", 
+        "lon": 62.20305556, 
         "name": "Herat"
       }, 
       {
+        "lat": 36.7, 
+        "url": "https://en.wikipedia.org/wiki/Mazar-i-Sharif", 
+        "lon": 67.11666667, 
         "name": "Mazar-i-Sharif"
       }, 
       {
+        "lat": 36.72861111, 
+        "url": "https://en.wikipedia.org/wiki/Kunduz", 
+        "lon": 68.86805556, 
         "name": "Kunduz"
       }, 
       {
+        "lat": 36.71666667, 
+        "url": "https://en.wikipedia.org/wiki/Taloqan", 
+        "lon": 69.51666667, 
         "name": "Taloqan"
       }, 
       {
+        "lat": 34.43416667, 
+        "url": "https://en.wikipedia.org/wiki/Jalalabad", 
+        "lon": 70.44777778, 
         "name": "Jalalabad"
       }, 
       {
+        "lat": 35.95, 
+        "url": "https://en.wikipedia.org/wiki/Puli_Khumri", 
+        "lon": 68.7, 
         "name": "Puli Khumri"
       }, 
       {
+        "lat": 35.01305556, 
+        "url": "https://en.wikipedia.org/wiki/Charikar", 
+        "lon": 69.16888889, 
         "name": "Charikar"
       }, 
       {
+        "lat": 36.665, 
+        "url": "https://en.wikipedia.org/wiki/Sheberghan", 
+        "lon": 65.752, 
         "name": "Sheberghan"
       }, 
       {
+        "lat": 33.55, 
+        "url": "https://en.wikipedia.org/wiki/Ghazni", 
+        "lon": 68.41666667, 
         "name": "Ghazni"
       }, 
       {
+        "lat": 36.22138889, 
+        "url": "https://en.wikipedia.org/wiki/Sar-e_Pol_city", 
+        "lon": 65.92777778, 
         "name": "Sar-e Pol city"
       }, 
       {
+        "lat": 33.33305556, 
+        "url": "https://en.wikipedia.org/wiki/Khost", 
+        "lon": 69.91694444, 
         "name": "Khost"
       }, 
       {
+        "lat": 34.5225, 
+        "url": "https://en.wikipedia.org/wiki/Chaghcharan", 
+        "lon": 65.25166667, 
         "name": "Chaghcharan"
       }, 
       {
+        "lat": 34.65, 
+        "url": "https://en.wikipedia.org/wiki/Mihtarlam", 
+        "lon": 70.18333333, 
         "name": "Mihtarlam"
       }, 
       {
+        "lat": 32.34361111, 
+        "url": "https://en.wikipedia.org/wiki/Farah,_Afghanistan", 
+        "lon": 62.11944444, 
         "name": "Farah, Afghanistan"
       }, 
       {
+        "lat": 33.98083333, 
+        "url": "https://en.wikipedia.org/wiki/Pul-i-Alam", 
+        "lon": 69.035, 
         "name": "Pul-i-Alam"
       }, 
       {
+        "lat": 36.26527778, 
+        "url": "https://en.wikipedia.org/wiki/Samangan", 
+        "lon": 68.01666667, 
         "name": "Samangan"
       }, 
       {
+        "lat": 31.58305556, 
+        "url": "https://en.wikipedia.org/wiki/Lashkar_Gah", 
+        "lon": 64.36916667, 
         "name": "Lashkar Gah"
       }, 
       {
+        "lat": 36.77305603, 
+        "url": "https://en.wikipedia.org/wiki/Balkh", 
+        "lon": 66.87361145, 
         "name": "Balkh"
-      }, 
-      {
-        "name": "Haraiva"
-      }, 
-      {
-        "name": "Arachosia"
       }
     ], 
     "citiesList": "List of cities in Afghanistan"
@@ -75,48 +129,93 @@
     "country": "Albania", 
     "cities": [
       {
+        "lat": 41.33, 
+        "url": "https://en.wikipedia.org/wiki/Tirana", 
+        "lon": 19.82, 
         "name": "Tirana"
       }, 
       {
+        "lat": 41.31666667, 
+        "url": "https://en.wikipedia.org/wiki/Durr%C3%ABs", 
+        "lon": 19.45, 
         "name": "Durr\u00ebs"
       }, 
       {
+        "lat": 40.465, 
+        "url": "https://en.wikipedia.org/wiki/Vlor%C3%AB", 
+        "lon": 19.485, 
         "name": "Vlor\u00eb"
       }, 
       {
+        "lat": 41.1, 
+        "url": "https://en.wikipedia.org/wiki/Elbasan", 
+        "lon": 20.06666667, 
         "name": "Elbasan"
       }, 
       {
+        "lat": 42.06666667, 
+        "url": "https://en.wikipedia.org/wiki/Shkod%C3%ABr", 
+        "lon": 19.5, 
         "name": "Shkod\u00ebr"
       }, 
       {
+        "lat": 40.61666667, 
+        "url": "https://en.wikipedia.org/wiki/Kor%C3%A7%C3%AB", 
+        "lon": 20.76666667, 
         "name": "Kor\u00e7\u00eb"
       }, 
       {
+        "lat": 40.71666667, 
+        "url": "https://en.wikipedia.org/wiki/Fier", 
+        "lon": 19.55, 
         "name": "Fier"
       }, 
       {
+        "lat": 41.38333333, 
+        "url": "https://en.wikipedia.org/wiki/Kam%C3%ABz", 
+        "lon": 19.76666667, 
         "name": "Kam\u00ebz"
       }, 
       {
+        "lat": 40.7, 
+        "url": "https://en.wikipedia.org/wiki/Berat", 
+        "lon": 19.95, 
         "name": "Berat"
       }, 
       {
+        "lat": 40.93333333, 
+        "url": "https://en.wikipedia.org/wiki/Lushnj%C3%AB", 
+        "lon": 19.7, 
         "name": "Lushnj\u00eb"
       }, 
       {
+        "lat": 39.875, 
+        "url": "https://en.wikipedia.org/wiki/Sarand%C3%AB", 
+        "lon": 20.01000023, 
         "name": "Sarand\u00eb"
       }, 
       {
+        "lat": 41.36666667, 
+        "url": "https://en.wikipedia.org/wiki/Paskuqan", 
+        "lon": 19.81666667, 
         "name": "Paskuqan"
       }, 
       {
+        "lat": 41.18444443, 
+        "url": "https://en.wikipedia.org/wiki/Kavaj%C3%AB", 
+        "lon": 19.5625, 
         "name": "Kavaj\u00eb"
       }, 
       {
+        "lat": 40.9, 
+        "url": "https://en.wikipedia.org/wiki/Pogradec", 
+        "lon": 20.65, 
         "name": "Pogradec"
       }, 
       {
+        "lat": 40.06666667, 
+        "url": "https://en.wikipedia.org/wiki/Gjirokast%C3%ABr", 
+        "lon": 20.13333333, 
         "name": "Gjirokast\u00ebr"
       }
     ], 
@@ -124,995 +223,26 @@
   }, 
   {
     "country": "Algeria", 
-    "cities": [
-      {
-        "name": "Wilaya"
-      }, 
-      {
-        "name": "Algiers"
-      }, 
-      {
-        "name": "Oran"
-      }, 
-      {
-        "name": "Constantine, Algeria"
-      }, 
-      {
-        "name": "Annaba"
-      }, 
-      {
-        "name": "Blida"
-      }, 
-      {
-        "name": "Batna, Algeria"
-      }, 
-      {
-        "name": "Djelfa"
-      }, 
-      {
-        "name": "S\u00e9tif"
-      }, 
-      {
-        "name": "Sidi Bel Abb\u00e8s"
-      }, 
-      {
-        "name": "Biskra"
-      }, 
-      {
-        "name": "T\u00e9bessa"
-      }, 
-      {
-        "name": "El Oued"
-      }, 
-      {
-        "name": "Skikda"
-      }, 
-      {
-        "name": "Tiaret"
-      }, 
-      {
-        "name": "B\u00e9ja\u00efa"
-      }, 
-      {
-        "name": "Tlemcen"
-      }, 
-      {
-        "name": "Ouargla"
-      }, 
-      {
-        "name": "B\u00e9char"
-      }, 
-      {
-        "name": "Mostaganem"
-      }, 
-      {
-        "name": "Bordj Bou Arr\u00e9ridj"
-      }, 
-      {
-        "name": "Chlef"
-      }, 
-      {
-        "name": "Souk Ahras"
-      }, 
-      {
-        "name": "M\u00e9d\u00e9a"
-      }, 
-      {
-        "name": "El Eulma"
-      }, 
-      {
-        "name": "Touggourt"
-      }, 
-      {
-        "name": "Gharda\u00efa"
-      }, 
-      {
-        "name": "Sa\u00efda, Algeria"
-      }, 
-      {
-        "name": "Laghouat"
-      }, 
-      {
-        "name": "M'Sila"
-      }, 
-      {
-        "name": "Jijel"
-      }, 
-      {
-        "name": "Relizane"
-      }, 
-      {
-        "name": "Guelma"
-      }, 
-      {
-        "name": "A\u00efn Be\u00efda, Oum El Bouaghi"
-      }, 
-      {
-        "name": "Khenchela"
-      }, 
-      {
-        "name": "Bou Sa\u00e2da"
-      }, 
-      {
-        "name": "Mascara, Algeria"
-      }, 
-      {
-        "name": "Tindouf"
-      }, 
-      {
-        "name": "Tizi Ouzou"
-      }
-    ], 
     "citiesList": "List of cities in Algeria"
   }, 
   {
     "country": "Andorra", 
-    "cities": [
-      {
-        "name": "Canillo"
-      }, 
-      {
-        "name": "L'Aldosa de Canillo"
-      }, 
-      {
-        "name": "L'Armiana"
-      }, 
-      {
-        "name": "Bordes d'Envalira"
-      }, 
-      {
-        "name": "El Forn"
-      }, 
-      {
-        "name": "Incles"
-      }, 
-      {
-        "name": "Meritxell"
-      }, 
-      {
-        "name": "Molleres"
-      }, 
-      {
-        "name": "Els Plans"
-      }, 
-      {
-        "name": "Prats, Andorra"
-      }, 
-      {
-        "name": "Ransol"
-      }, 
-      {
-        "name": "Sant Pere, Andorra"
-      }, 
-      {
-        "name": "Soldeu"
-      }, 
-      {
-        "name": "El Tarter"
-      }, 
-      {
-        "name": "El Vilar"
-      }, 
-      {
-        "name": "Encamp"
-      }, 
-      {
-        "name": "Les Bons"
-      }, 
-      {
-        "name": "Grau Roig"
-      }, 
-      {
-        "name": "Pas de la Casa"
-      }, 
-      {
-        "name": "Vila, Andorra"
-      }, 
-      {
-        "name": "Ordino"
-      }, 
-      {
-        "name": "Ansalonga"
-      }, 
-      {
-        "name": "Arans"
-      }, 
-      {
-        "name": "La Cortinada"
-      }, 
-      {
-        "name": "Llorts"
-      }, 
-      {
-        "name": "Segudet"
-      }, 
-      {
-        "name": "El Serrat"
-      }, 
-      {
-        "name": "Sorn\u00e0s"
-      }, 
-      {
-        "name": "La Massana"
-      }, 
-      {
-        "name": "L'Aldosa de la Massana"
-      }, 
-      {
-        "name": "Any\u00f3s"
-      }, 
-      {
-        "name": "Arinsal"
-      }, 
-      {
-        "name": "Erts"
-      }, 
-      {
-        "name": "Esc\u00e0s"
-      }, 
-      {
-        "name": "Pal, Andorra"
-      }, 
-      {
-        "name": "Sispony"
-      }, 
-      {
-        "name": "Xixerella"
-      }, 
-      {
-        "name": "Andorra la Vella"
-      }, 
-      {
-        "name": "La Margineda"
-      }, 
-      {
-        "name": "Santa Coloma d'Andorra"
-      }, 
-      {
-        "name": "Sant Juli\u00e0 de L\u00f2ria"
-      }, 
-      {
-        "name": "Aix\u00e0s"
-      }, 
-      {
-        "name": "Aixirivall"
-      }, 
-      {
-        "name": "Aixovall"
-      }, 
-      {
-        "name": "Auviny\u00e0"
-      }, 
-      {
-        "name": "Bixessarri"
-      }, 
-      {
-        "name": "Canolich"
-      }, 
-      {
-        "name": "Certers"
-      }, 
-      {
-        "name": "Fontaneda, Andorra"
-      }, 
-      {
-        "name": "Juberri"
-      }, 
-      {
-        "name": "Llumeneres"
-      }, 
-      {
-        "name": "Nagol"
-      }, 
-      {
-        "name": "Escaldes-Engordany"
-      }, 
-      {
-        "name": "Engolasters"
-      }, 
-      {
-        "name": "El Fener"
-      }, 
-      {
-        "name": "Els Vilars d'Engordany"
-      }, 
-      {
-        "name": "El Pas de la Casa"
-      }
-    ], 
     "citiesList": "List of cities in Andorra"
   }, 
   {
     "country": "Angola", 
-    "cities": [
-      {
-        "name": "Geographic coordinate system"
-      }, 
-      {
-        "name": "Ambriz"
-      }, 
-      {
-        "name": "Andulo"
-      }, 
-      {
-        "name": "Bailundo"
-      }, 
-      {
-        "name": "Balombo"
-      }, 
-      {
-        "name": "Ba\u00eda Farta"
-      }, 
-      {
-        "name": "Benguela"
-      }, 
-      {
-        "name": "Bibala"
-      }, 
-      {
-        "name": "Huambo Province"
-      }, 
-      {
-        "name": "Lunda Sul Province"
-      }, 
-      {
-        "name": "Bungo, Angola"
-      }, 
-      {
-        "name": "Malanje Province"
-      }, 
-      {
-        "name": "Cabinda (city)"
-      }, 
-      {
-        "name": "Bengo Province"
-      }, 
-      {
-        "name": "Cacolo"
-      }, 
-      {
-        "name": "Caconda"
-      }, 
-      {
-        "name": "Cacuso"
-      }, 
-      {
-        "name": "Cafunfo"
-      }, 
-      {
-        "name": "Cahama"
-      }, 
-      {
-        "name": "Caimbambo"
-      }, 
-      {
-        "name": "Lunda Norte Province"
-      }, 
-      {
-        "name": "Calonda"
-      }, 
-      {
-        "name": "Bi\u00e9 Province"
-      }, 
-      {
-        "name": "Cuanza Sul Province"
-      }, 
-      {
-        "name": "Caluquembe"
-      }, 
-      {
-        "name": "Cuanza Norte Province"
-      }, 
-      {
-        "name": "Camacupa"
-      }, 
-      {
-        "name": "Camanongue"
-      }, 
-      {
-        "name": "Cambambe"
-      }, 
-      {
-        "name": "Namibe Province"
-      }, 
-      {
-        "name": "Moxico Province"
-      }, 
-      {
-        "name": "Cangandala"
-      }, 
-      {
-        "name": "Cangumbe"
-      }, 
-      {
-        "name": "Hu\u00edla Province"
-      }, 
-      {
-        "name": "Capenda Camulemba"
-      }, 
-      {
-        "name": "Cassongue"
-      }, 
-      {
-        "name": "Catabola"
-      }, 
-      {
-        "name": "Catchiungo"
-      }, 
-      {
-        "name": "Catumbela"
-      }, 
-      {
-        "name": "Caungula"
-      }, 
-      {
-        "name": "Caxito"
-      }, 
-      {
-        "name": "Ca\u00e1la"
-      }, 
-      {
-        "name": "Cela, Angola"
-      }, 
-      {
-        "name": "Chiange"
-      }, 
-      {
-        "name": "Chibia"
-      }, 
-      {
-        "name": "Chipindo"
-      }, 
-      {
-        "name": "Chissamba"
-      }, 
-      {
-        "name": "Cunene Province"
-      }, 
-      {
-        "name": "Chitembo"
-      }, 
-      {
-        "name": "Conda"
-      }, 
-      {
-        "name": "Cuando Cubango Province"
-      }, 
-      {
-        "name": "Cuangar"
-      }, 
-      {
-        "name": "Cuango, Angola"
-      }, 
-      {
-        "name": "Cubal"
-      }, 
-      {
-        "name": "Cuchi"
-      }, 
-      {
-        "name": "Cuilo"
-      }, 
-      {
-        "name": "Cuima"
-      }, 
-      {
-        "name": "Cuimba"
-      }, 
-      {
-        "name": "Cuito Cuanavale"
-      }, 
-      {
-        "name": "Cuvelai"
-      }, 
-      {
-        "name": "Dala, Angola"
-      }, 
-      {
-        "name": "U\u00edge Province"
-      }, 
-      {
-        "name": "Didimbo"
-      }, 
-      {
-        "name": "Benguela Province"
-      }, 
-      {
-        "name": "Dondo, Angola"
-      }, 
-      {
-        "name": "Dongo, Huila, Angola"
-      }, 
-      {
-        "name": "Dundo"
-      }, 
-      {
-        "name": "Ekunha"
-      }, 
-      {
-        "name": "Funda"
-      }, 
-      {
-        "name": "Gabela, Angola"
-      }, 
-      {
-        "name": "Ganda, Angola"
-      }, 
-      {
-        "name": "Golungo Alto"
-      }, 
-      {
-        "name": "Huambo"
-      }, 
-      {
-        "name": "Humpata"
-      }, 
-      {
-        "name": "Jamba, Cuando Cubango"
-      }, 
-      {
-        "name": "Jamba, Hu\u00edla"
-      }, 
-      {
-        "name": "Kuito"
-      }, 
-      {
-        "name": "Lobito"
-      }, 
-      {
-        "name": "Lombe"
-      }, 
-      {
-        "name": "Longa, Angola"
-      }, 
-      {
-        "name": "Longonjo"
-      }, 
-      {
-        "name": "Luacano"
-      }, 
-      {
-        "name": "Luanda"
-      }, 
-      {
-        "name": "Luau, Cuanza Sul"
-      }, 
-      {
-        "name": "Luau, Moxico"
-      }, 
-      {
-        "name": "Lubango"
-      }, 
-      {
-        "name": "Lucala"
-      }, 
-      {
-        "name": "Lucapa"
-      }, 
-      {
-        "name": "Luena, Moxico Province"
-      }, 
-      {
-        "name": "Lumeje"
-      }, 
-      {
-        "name": "L\u00e2ndana"
-      }, 
-      {
-        "name": "Malanje"
-      }, 
-      {
-        "name": "Cabinda Province"
-      }, 
-      {
-        "name": "Marimba, Angola"
-      }, 
-      {
-        "name": "Massango"
-      }, 
-      {
-        "name": "Matala, Angola"
-      }, 
-      {
-        "name": "Mavinga"
-      }, 
-      {
-        "name": "Mbanza-Congo"
-      }, 
-      {
-        "name": "Menongue"
-      }, 
-      {
-        "name": "Muconda"
-      }, 
-      {
-        "name": "Mucusso"
-      }, 
-      {
-        "name": "Mungo, Angola"
-      }, 
-      {
-        "name": "Mussende"
-      }, 
-      {
-        "name": "Zaire Province"
-      }, 
-      {
-        "name": "N'dalatando"
-      }, 
-      {
-        "name": "N'zeto"
-      }, 
-      {
-        "name": "Namacunde"
-      }, 
-      {
-        "name": "Namibe"
-      }, 
-      {
-        "name": "Negage"
-      }, 
-      {
-        "name": "Nharea"
-      }, 
-      {
-        "name": "Nzagi (Andrada)"
-      }, 
-      {
-        "name": "Ondjiva"
-      }, 
-      {
-        "name": "Porto Amboim"
-      }, 
-      {
-        "name": "Quela, Angola"
-      }, 
-      {
-        "name": "Quibala"
-      }, 
-      {
-        "name": "Quibaxe"
-      }, 
-      {
-        "name": "Quilengues"
-      }, 
-      {
-        "name": "Quimbele"
-      }, 
-      {
-        "name": "Quipungo"
-      }, 
-      {
-        "name": "Quirima"
-      }, 
-      {
-        "name": "Sacomar, Angola"
-      }, 
-      {
-        "name": "Saurimo"
-      }, 
-      {
-        "name": "Songo, Angola"
-      }, 
-      {
-        "name": "Soyo"
-      }, 
-      {
-        "name": "Sumbe"
-      }, 
-      {
-        "name": "Tchindjenje"
-      }, 
-      {
-        "name": "Techamutete"
-      }, 
-      {
-        "name": "Tombua"
-      }, 
-      {
-        "name": "Uku, Angola"
-      }, 
-      {
-        "name": "Ukuma"
-      }, 
-      {
-        "name": "U\u00edge"
-      }, 
-      {
-        "name": "Viana, Angola"
-      }, 
-      {
-        "name": "Waku Kungo"
-      }, 
-      {
-        "name": "Xangongo"
-      }, 
-      {
-        "name": "X\u00e1-Muteba"
-      }
-    ], 
     "citiesList": "List of cities and towns in Angola"
   }, 
   {
     "country": "Antigua and Barbuda", 
-    "cities": [
-      {
-        "name": "All Saints, Antigua and Barbuda"
-      }, 
-      {
-        "name": "Bolans"
-      }, 
-      {
-        "name": "Cedar Grove, Antigua and Barbuda"
-      }, 
-      {
-        "name": "Codrington, Barbuda"
-      }, 
-      {
-        "name": "Dickenson Bay"
-      }, 
-      {
-        "name": "English Harbour"
-      }, 
-      {
-        "name": "Falmouth, Antigua and Barbuda"
-      }, 
-      {
-        "name": "Freetown, Antigua and Barbuda"
-      }, 
-      {
-        "name": "Jennings, Antigua and Barbuda"
-      }, 
-      {
-        "name": "Liberta, Antigua"
-      }, 
-      {
-        "name": "Old Road"
-      }, 
-      {
-        "name": "Parham, Antigua and Barbuda"
-      }, 
-      {
-        "name": "Pigotts"
-      }, 
-      {
-        "name": "Potter's Village"
-      }, 
-      {
-        "name": "Seaview Farm"
-      }, 
-      {
-        "name": "St. John's, Antigua and Barbuda"
-      }, 
-      {
-        "name": "Swetes"
-      }, 
-      {
-        "name": "Willikies"
-      }
-    ], 
     "citiesList": "List of cities in Antigua and Barbuda"
   }, 
   {
     "country": "Argentina", 
-    "cities": [
-      {
-        "name": "Buenos Aires"
-      }, 
-      {
-        "name": "C\u00f3rdoba, Argentina"
-      }, 
-      {
-        "name": "Rosario, Santa Fe"
-      }, 
-      {
-        "name": "Mendoza, Argentina"
-      }, 
-      {
-        "name": "La Plata"
-      }, 
-      {
-        "name": "San Miguel de Tucum\u00e1n"
-      }, 
-      {
-        "name": "Mar del Plata"
-      }, 
-      {
-        "name": "Salta"
-      }, 
-      {
-        "name": "Santa Fe, Argentina"
-      }, 
-      {
-        "name": "San Juan, Argentina"
-      }, 
-      {
-        "name": "Resistencia, Chaco"
-      }, 
-      {
-        "name": "Neuqu\u00e9n"
-      }, 
-      {
-        "name": "Santiago del Estero"
-      }, 
-      {
-        "name": "Corrientes"
-      }, 
-      {
-        "name": "Avellaneda"
-      }, 
-      {
-        "name": "Bah\u00eda Blanca"
-      }, 
-      {
-        "name": "San Salvador de Jujuy"
-      }, 
-      {
-        "name": "Quilmes"
-      }, 
-      {
-        "name": "Lan\u00fas"
-      }, 
-      {
-        "name": "Comodoro Rivadavia"
-      }, 
-      {
-        "name": "Concordia, Entre R\u00edos"
-      }
-    ], 
     "citiesList": "List of cities in Argentina"
   }, 
   {
     "country": "Armenia", 
-    "cities": [
-      {
-        "name": "Abovyan"
-      }, 
-      {
-        "name": "Agarak, Syunik"
-      }, 
-      {
-        "name": "Akhtala"
-      }, 
-      {
-        "name": "Alaverdi"
-      }, 
-      {
-        "name": "Aparan"
-      }, 
-      {
-        "name": "Ararat, Armenia"
-      }, 
-      {
-        "name": "Armavir, Armenia"
-      }, 
-      {
-        "name": "Artashat, Armenia"
-      }, 
-      {
-        "name": "Artik"
-      }, 
-      {
-        "name": "Ashtarak"
-      }, 
-      {
-        "name": "Ayrum"
-      }, 
-      {
-        "name": "Berd"
-      }, 
-      {
-        "name": "Byureghavan"
-      }, 
-      {
-        "name": "Chambarak"
-      }, 
-      {
-        "name": "Charentsavan"
-      }, 
-      {
-        "name": "Dastakert"
-      }, 
-      {
-        "name": "Dilijan"
-      }, 
-      {
-        "name": "Gavar"
-      }, 
-      {
-        "name": "Goris"
-      }, 
-      {
-        "name": "Gyumri"
-      }, 
-      {
-        "name": "Hrazdan"
-      }, 
-      {
-        "name": "Ijevan"
-      }, 
-      {
-        "name": "Jermuk"
-      }, 
-      {
-        "name": "Kajaran"
-      }, 
-      {
-        "name": "Kapan"
-      }, 
-      {
-        "name": "Maralik"
-      }, 
-      {
-        "name": "Martuni, Armenia"
-      }, 
-      {
-        "name": "Masis, Armenia"
-      }, 
-      {
-        "name": "Meghri"
-      }, 
-      {
-        "name": "Metsamor"
-      }, 
-      {
-        "name": "Nor Hachen"
-      }, 
-      {
-        "name": "Noyemberyan"
-      }, 
-      {
-        "name": "Sevan, Armenia"
-      }, 
-      {
-        "name": "Shamlugh"
-      }, 
-      {
-        "name": "Sisian"
-      }, 
-      {
-        "name": "Spitak"
-      }, 
-      {
-        "name": "Stepanavan"
-      }, 
-      {
-        "name": "Talin, Armenia"
-      }, 
-      {
-        "name": "Tashir"
-      }, 
-      {
-        "name": "Tsaghkadzor"
-      }, 
-      {
-        "name": "Tumanyan, Armenia"
-      }, 
-      {
-        "name": "Vagharshapat"
-      }, 
-      {
-        "name": "Vanadzor"
-      }, 
-      {
-        "name": "Vardenis"
-      }, 
-      {
-        "name": "Vayk"
-      }, 
-      {
-        "name": "Vedi"
-      }, 
-      {
-        "name": "Yeghegnadzor"
-      }, 
-      {
-        "name": "Yeghvard"
-      }, 
-      {
-        "name": "Yerevan"
-      }
-    ], 
     "citiesList": "List of municipalities of Armenia"
   }, 
   {

@@ -13,11 +13,20 @@ def appendLinkToCities(link, cityNameList, cityDictList):
 		cityName = link['title']
 		# remove duplicates and broken pages
 		if cityName and not cityName.endswith('(page does not exist)') and not cityName in cityNameList:
-			cityNameList.append(cityName)
-			cityDict = {}
-			cityDict['name'] = cityName
-			cityDictList.append(cityDict)
-			return True
+			# Check if this possible city has a coordinate
+			p = wikipedia.page(cityName)
+			try:
+				coord = p.coordinates
+				cityDict = {}
+				cityDict['name'] = cityName
+				cityDict['lat'] = float(coord[0])
+				cityDict['lon'] = float(coord[1])
+				cityDict['url'] = p.url
+				cityDictList.append(cityDict)
+				cityNameList.append(cityName)
+				return True
+			except KeyError:
+				return False
 	return False
 
 
@@ -48,7 +57,7 @@ def main():
 	#
 	# Then continue getting the cities
 	numberOfCities = 0
-	pBarCountries = tqdm(citiesData[:8], leave=True, nested=True)
+	pBarCountries = tqdm(citiesData[:2], leave=True, nested=True)
 	for c in pBarCountries:
 		pBarCountries.set_description("Processing %s" % c['country'])
 		# citiesList must be a exiting link
