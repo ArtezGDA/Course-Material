@@ -48,7 +48,7 @@ def main():
 	#
 	# Then continue getting the cities
 	numberOfCities = 0
-	pBarCountries = tqdm(citiesData, leave=True, nested=True)
+	pBarCountries = tqdm(citiesData[:8], leave=True, nested=True)
 	for c in pBarCountries:
 		pBarCountries.set_description("Processing %s" % c['country'])
 		# citiesList must be a exiting link
