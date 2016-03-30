@@ -678,6 +678,80 @@ if listPage:
 
 ----
 
+Now we have about 20000 cities, of which we know the latitute and longitude. Nice!
+We could already map these cities on a map, ...
+
+But I want more: what if we could get the population of all these 20000 cities?
+The wikipedia pages know this, so let's get this out.
+
+Let's investigate the population of a few cities:
+
+
+from bs4 import BeautifulSoup
+import urllib
+
+url = "https://en.wikipedia.org/wiki/Kabul"
+r = urllib.urlopen(url).read()
+soup = BeautifulSoup(r, "html.parser")
+
+infoBox = soup.find('table', class_="infobox")
+
+mergedTopRows = infoBox.findAll('tr', class_="mergedtoprow")
+len(mergedTopRows)
+
+for m in mergedTopRows:
+    print m.text
+	
+for m in mergedTopRows:
+	text = m.text
+    if text.startswith("Population"):
+        print m
+		
+# Nothing? Well, it turns out there is some white space before
+
+text = "    Hello    "
+text
+text.lstrip()
+text.rstrip()
+text.strip()
+
+for m in mergedTopRows:
+    text = m.text.strip()
+    if text.startswith("Population"):
+        print m
+		merged = m		
+        
+merged
+
+merged.findNextSiblings('tr', class_="mergedrow")
+tr = merged.findNextSiblings('tr', class_="mergedrow")[0]
+
+tr
+tr.attrs
+tr['class']
+
+if 'mergedrow' in tr['class']:
+    print tr
+	
+for tr in merged.findNextSiblings('tr'):
+    if 'mergedrow' in tr['class']:
+        print tr.find('th').text
+    else:
+        break
+
+
+----
+
+That was a lot. Let's put this all together.
+
+1. First create a new script that reads the cities.json
+2. The cities.json is a nested list. Make the code parse the data in the same nested way
+3. 
+
+
+
+----
+
 Alternative approach:
 Find the cities by clever use of categories ...?
 Starting point:

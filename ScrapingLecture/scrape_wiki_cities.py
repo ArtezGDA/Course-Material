@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# scrape_wiki_countries.py
+# scrape_wiki_cities.py
 
 import wikipedia
 from bs4 import BeautifulSoup
@@ -48,7 +48,6 @@ def main():
 		pBarCountries.set_description("Processing %s" % country)
 		if listPage:
 			p = wikipedia.page(listPage, auto_suggest=False)
-			p.url
 			r = urllib.urlopen(p.url).read()
 			soup = BeautifulSoup(r, "html.parser")
 			tables = soup.findAll('table', class_="wikitable")
