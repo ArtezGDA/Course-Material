@@ -746,9 +746,95 @@ That was a lot. Let's put this all together.
 
 1. First create a new script that reads the cities.json
 2. The cities.json is a nested list. Make the code parse the data in the same nested way
-3. 
+
+# First get all the cities
+with open("cities.json", 'r') as inputFile:
+   citiesData = json.load(inputFile)
+#
+# The citiesData is a nested list of countries with cities
+pBarCountries = tqdm(citiesData, leave=True, nested=True)
+for c in pBarCountries:
+	country = c['country']
+	if c.has_key('cities'):
+		cities = c['cities']
+		pBarCountries.set_description("Processing %s" % country)
+		pBarCities = tqdm(cities, leave=True, nested=True)
+		for city in pBarCities:
+			# Open the city page
 
 
+3. Open the page for the city
+
+			# Open the city page
+			r = urllib.urlopen(city['url']).read()
+			soup = BeautifulSoup(r, "html.parser")
+			# Get the infobox table
+			infoBox = soup.find('table', class_="infobox")
+			# Get all mergedTopRows
+			mergedTopRows = infoBox.findAll('tr', class_="mergedtoprow")
+
+4. Find the population merged top row
+
+			populationMergedTopRow = None
+			for m in mergedTopRows:
+			    text = m.text.strip()
+			    if text.startswith("Population"):
+					populationMergedTopRow = m
+					break
+			if populationMergedTopRow:
+				# continue
+
+5. Find sibling tr's only with class 'mergedrow'. Break at the first non-"mergedrow"
+
+			if populationMergedTopRow:
+				for tr in populationMergedTopRow.findNextSiblings('tr'):
+					if 'mergedrow' in tr['class']:
+					print tr.find('th').text
+				else:
+					break
+
+6. Find the population key and population value
+				
+				for tr in populationMergedTopRow.findNextSiblings('tr'):
+					if 'mergedrow' in tr['class']:
+					populationKey = tr.find('th').text.strip()
+					if populationKey:
+						populationValue = tr.find('td').text.strip()
+					
+7. If it has a key and a value, store it in a dict
+
+			pDict = {}
+			
+					if populationKey:
+						populationValue = tr.find('td').text.strip()
+						if populationValue:
+							# Add the key and value to a sub - dict
+							pDict[populationKey] = populationValue
+							# Keep track of whether population was found
+							foundPopulation = True
+
+8. Store the dict with the city
+
+			if foundPopulation:
+				# increment a counter
+				numberOfCities += 1
+				# Add the info to the city data
+				city['populationInfo'] = pDict
+							
+9. And save into a new json
+
+# Finally: save a file, with all cities by countries
+with open("city_populations.json", 'w') as outputFile:
+   json.dump(citiesData, outputFile, indent=2)
+print "Found %d cities with population" % (numberOfCities)
+
+10. Try it: 
+
+It still contains all these weird chararcters. Let's strip them:
+
+key = merged.findNextSibling().find('th').text
+key
+key.strip(u'\xa0\u2022\xa0')				
 
 ----
 

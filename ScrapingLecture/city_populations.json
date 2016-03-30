@@ -1,0 +1,3484 @@
+[
+  {
+    "country": "Afghanistan", 
+    "citiesList": "List of cities in Afghanistan"
+  }, 
+  {
+    "country": "Albania", 
+    "citiesList": "List of cities in Albania"
+  }, 
+  {
+    "country": "Algeria", 
+    "citiesList": "List of cities in Algeria"
+  }, 
+  {
+    "country": "Andorra", 
+    "citiesList": "List of cities in Andorra"
+  }, 
+  {
+    "country": "Angola", 
+    "citiesList": "List of cities and towns in Angola"
+  }, 
+  {
+    "country": "Antigua and Barbuda", 
+    "citiesList": "List of cities in Antigua and Barbuda"
+  }, 
+  {
+    "country": "Argentina", 
+    "citiesList": "List of cities in Argentina"
+  }, 
+  {
+    "country": "Armenia", 
+    "citiesList": "List of municipalities of Armenia"
+  }, 
+  {
+    "country": "Australia", 
+    "citiesList": "List of cities in Australia"
+  }, 
+  {
+    "country": "Austria", 
+    "citiesList": "List of cities and towns in Austria"
+  }, 
+  {
+    "country": "Azerbaijan", 
+    "citiesList": "List of cities in Azerbaijan"
+  }, 
+  {
+    "country": "The Bahamas", 
+    "citiesList": "List of cities in the Bahamas"
+  }, 
+  {
+    "country": "Bahrain", 
+    "citiesList": "List of cities in Bahrain"
+  }, 
+  {
+    "country": "Bangladesh", 
+    "citiesList": "List of cities and towns in Bangladesh"
+  }, 
+  {
+    "country": "Barbados", 
+    "citiesList": "List of cities, towns and villages in Barbados"
+  }, 
+  {
+    "country": "Belarus", 
+    "citiesList": "List of cities and towns in Belarus"
+  }, 
+  {
+    "country": "Belgium", 
+    "citiesList": "List of cities in Belgium"
+  }, 
+  {
+    "country": "Belize", 
+    "citiesList": "Districts of Belize"
+  }, 
+  {
+    "country": "Benin", 
+    "citiesList": "List of cities in Benin"
+  }, 
+  {
+    "country": "Bhutan", 
+    "citiesList": "List of cities in Bhutan"
+  }, 
+  {
+    "country": "Bolivia", 
+    "citiesList": "List of Bolivian cities by population"
+  }, 
+  {
+    "country": "Bosnia and Herzegovina", 
+    "citiesList": "List of cities in Bosnia and Herzegovina"
+  }, 
+  {
+    "country": "Botswana", 
+    "citiesList": "List of cities in Botswana"
+  }, 
+  {
+    "country": "Brazil", 
+    "citiesList": "Municipalities of Brazil"
+  }, 
+  {
+    "country": "Brunei", 
+    "citiesList": "List of cities and towns in Brunei"
+  }, 
+  {
+    "country": "Bulgaria", 
+    "citiesList": "List of cities and towns in Bulgaria"
+  }, 
+  {
+    "country": "Burkina Faso", 
+    "citiesList": "List of cities in Burkina Faso"
+  }, 
+  {
+    "country": "Burundi", 
+    "citiesList": "List of cities in Burundi"
+  }, 
+  {
+    "country": "Cambodia", 
+    "citiesList": "List of cities in Cambodia"
+  }, 
+  {
+    "country": "Cameroon", 
+    "citiesList": "List of municipalities of Cameroon"
+  }, 
+  {
+    "country": "Canada", 
+    "citiesList": "List of cities in Canada"
+  }, 
+  {
+    "country": "Cape Verde", 
+    "citiesList": "List of cities and towns in Cabo Verde"
+  }, 
+  {
+    "country": "Cayman Islands", 
+    "citiesList": "List of cities in the Cayman Islands"
+  }, 
+  {
+    "country": "Central African Republic", 
+    "citiesList": "List of cities in the Central African Republic"
+  }, 
+  {
+    "country": "Chad", 
+    "citiesList": "List of cities in Chad"
+  }, 
+  {
+    "country": "Chile", 
+    "citiesList": "List of cities in Chile"
+  }, 
+  {
+    "country": "China", 
+    "citiesList": "List of cities in China"
+  }, 
+  {
+    "country": "Colombia", 
+    "citiesList": "List of cities in Colombia"
+  }, 
+  {
+    "country": "Comoros", 
+    "citiesList": "List of cities in the Comoros"
+  }, 
+  {
+    "country": "Democratic Republic of the Congo", 
+    "citiesList": "List of cities in the Democratic Republic of the Congo"
+  }, 
+  {
+    "country": "Republic of the Congo", 
+    "citiesList": "List of cities in the Republic of the Congo"
+  }, 
+  {
+    "country": "Costa Rica", 
+    "citiesList": "List of cities in Costa Rica"
+  }, 
+  {
+    "country": "C\u00f4te d'Ivoire", 
+    "citiesList": "List of cities in Ivory Coast"
+  }, 
+  {
+    "country": "Croatia", 
+    "citiesList": "List of cities and towns in Croatia"
+  }, 
+  {
+    "country": "Cuba", 
+    "citiesList": "List of cities in Cuba"
+  }, 
+  {
+    "country": "Cyprus", 
+    "citiesList": "List of cities, towns and villages in Cyprus"
+  }, 
+  {
+    "country": "Czech Republic", 
+    "citiesList": "Statutory city (Czech Republic)"
+  }, 
+  {
+    "country": "Denmark", 
+    "citiesList": "List of cities in Denmark by population"
+  }, 
+  {
+    "country": "Akrotiri and Dhekelia", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Djibouti", 
+    "citiesList": "List of localities in Djibouti"
+  }, 
+  {
+    "country": "Dominica", 
+    "citiesList": "List of towns and villages in Dominica"
+  }, 
+  {
+    "country": "Dominican Republic", 
+    "citiesList": "Municipalities of the Dominican Republic"
+  }, 
+  {
+    "country": "East Timor", 
+    "citiesList": "List of cities, towns and villages in East Timor"
+  }, 
+  {
+    "country": "Ecuador", 
+    "citiesList": "List of cities in Ecuador"
+  }, 
+  {
+    "country": "Egypt", 
+    "citiesList": "List of cities in Egypt"
+  }, 
+  {
+    "country": "El Salvador", 
+    "citiesList": "List of cities in El Salvador"
+  }, 
+  {
+    "country": "Equatorial Guinea", 
+    "citiesList": "List of cities in Equatorial Guinea"
+  }, 
+  {
+    "country": "Eritrea", 
+    "citiesList": "List of cities in Eritrea"
+  }, 
+  {
+    "country": "Estonia", 
+    "citiesList": "List of cities and towns in Estonia"
+  }, 
+  {
+    "country": "Ethiopia", 
+    "citiesList": "List of cities and towns in Ethiopia"
+  }, 
+  {
+    "country": "Falkland Islands", 
+    "citiesList": "List of settlements in the Falkland Islands"
+  }, 
+  {
+    "country": "Faroe Islands", 
+    "citiesList": "List of municipalities of the Faroe Islands"
+  }, 
+  {
+    "country": "Fiji", 
+    "citiesList": "List of cities and towns in Fiji"
+  }, 
+  {
+    "country": "Finland", 
+    "citiesList": "List of cities and towns in Finland"
+  }, 
+  {
+    "country": "France", 
+    "citiesList": "List of communes in France with over 20,000 inhabitants"
+  }, 
+  {
+    "country": "French Guiana", 
+    "citiesList": "List of cities in French Guiana"
+  }, 
+  {
+    "country": "French Polynesia", 
+    "citiesList": "List of cities in French Polynesia"
+  }, 
+  {
+    "country": "Gabon", 
+    "citiesList": "List of cities in Gabon"
+  }, 
+  {
+    "country": "Gambia", 
+    "citiesList": "List of cities in The Gambia"
+  }, 
+  {
+    "country": "Georgia (country)", 
+    "citiesList": "List of cities and towns in Georgia (country)"
+  }, 
+  {
+    "country": "Germany", 
+    "citiesList": "List of cities and towns in Germany"
+  }, 
+  {
+    "country": "Ghana", 
+    "citiesList": "List of cities in Ghana"
+  }, 
+  {
+    "country": "Gibraltar", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Greece", 
+    "citiesList": "List of cities in Greece"
+  }, 
+  {
+    "country": "Greenland", 
+    "citiesList": "List of cities and towns in Greenland"
+  }, 
+  {
+    "country": "Grenada", 
+    "citiesList": "List of cities in Grenada"
+  }, 
+  {
+    "country": "Guadeloupe", 
+    "citiesList": "Communes of the Guadeloupe department"
+  }, 
+  {
+    "country": "Guam", 
+    "citiesList": "List of populated places in Guam"
+  }, 
+  {
+    "country": "Guatemala", 
+    "citiesList": "List of places in Guatemala"
+  }, 
+  {
+    "country": "Guinea", 
+    "citiesList": "List of cities in Guinea"
+  }, 
+  {
+    "country": "Guinea-Bissau", 
+    "citiesList": "List of cities in Guinea-Bissau"
+  }, 
+  {
+    "country": "Guyana", 
+    "citiesList": "List of cities and towns in Guyana"
+  }, 
+  {
+    "country": "Haiti", 
+    "citiesList": "List of cities in Haiti"
+  }, 
+  {
+    "country": "Honduras", 
+    "citiesList": "List of cities in Honduras"
+  }, 
+  {
+    "country": "Hong Kong", 
+    "citiesList": "List of towns in Hong Kong"
+  }, 
+  {
+    "country": "Hungary", 
+    "citiesList": "List of cities and towns in Hungary"
+  }, 
+  {
+    "country": "Iceland", 
+    "citiesList": "List of cities and towns in Iceland"
+  }, 
+  {
+    "country": "India", 
+    "citiesList": "List of cities in India by population"
+  }, 
+  {
+    "country": "Indonesia", 
+    "citiesList": "List of cities in Indonesia"
+  }, 
+  {
+    "country": "Iran", 
+    "citiesList": "List of cities in Iran"
+  }, 
+  {
+    "country": "Iraq", 
+    "citiesList": "List of cities in Iraq"
+  }, 
+  {
+    "country": "Ireland", 
+    "citiesList": "City status in Ireland"
+  }, 
+  {
+    "country": "Ireland", 
+    "citiesList": "City status in Ireland"
+  }, 
+  {
+    "country": "Isle of Man", 
+    "citiesList": "List of places in the Isle of Man"
+  }, 
+  {
+    "country": "Israel", 
+    "citiesList": "List of cities in Israel"
+  }, 
+  {
+    "country": "Italy", 
+    "citiesList": "List of cities in Italy"
+  }, 
+  {
+    "country": "Jamaica", 
+    "citiesList": "List of cities and towns in Jamaica"
+  }, 
+  {
+    "country": "Japan", 
+    "citiesList": "List of cities in Japan"
+  }, 
+  {
+    "country": "Jordan", 
+    "citiesList": "List of cities in Jordan"
+  }, 
+  {
+    "country": "Kazakhstan", 
+    "citiesList": "List of cities in Kazakhstan"
+  }, 
+  {
+    "country": "Kenya", 
+    "citiesList": "List of cities in Kenya"
+  }, 
+  {
+    "country": "Kiribati", 
+    "citiesList": "List of towns and villages in Kiribati"
+  }, 
+  {
+    "country": "Kuwait", 
+    "citiesList": "Areas of Kuwait"
+  }, 
+  {
+    "country": "Kyrgyzstan", 
+    "citiesList": "List of cities in Kyrgyzstan"
+  }, 
+  {
+    "country": "Kosovo", 
+    "citiesList": "List of cities in Kosovo"
+  }, 
+  {
+    "country": "Laos", 
+    "citiesList": "List of cities in Laos"
+  }, 
+  {
+    "country": "Latvia", 
+    "citiesList": "List of cities and towns in Latvia"
+  }, 
+  {
+    "country": "Lebanon", 
+    "citiesList": "List of cities and towns in Lebanon"
+  }, 
+  {
+    "country": "Lesotho", 
+    "citiesList": "List of cities in Lesotho"
+  }, 
+  {
+    "country": "Liberia", 
+    "citiesList": "List of cities in Liberia"
+  }, 
+  {
+    "country": "Libya", 
+    "citiesList": "List of cities in Libya"
+  }, 
+  {
+    "country": "Liechtenstein", 
+    "citiesList": "Municipalities of Liechtenstein"
+  }, 
+  {
+    "country": "Lithuania", 
+    "citiesList": "List of cities in Lithuania"
+  }, 
+  {
+    "country": "Luxembourg", 
+    "citiesList": "List of cities in Luxembourg"
+  }, 
+  {
+    "country": "Macau", 
+    "citiesList": "Civic and Municipal Affairs Bureau"
+  }, 
+  {
+    "country": "Republic of Macedonia", 
+    "citiesList": "List of cities in the Republic of Macedonia"
+  }, 
+  {
+    "country": "Madagascar", 
+    "citiesList": "List of cities in Madagascar"
+  }, 
+  {
+    "country": "Malawi", 
+    "citiesList": "List of cities in Malawi"
+  }, 
+  {
+    "country": "Malaysia", 
+    "citiesList": "List of cities in Malaysia"
+  }, 
+  {
+    "country": "Maldives", 
+    "citiesList": "List of cities, towns and villages in the Maldives"
+  }, 
+  {
+    "country": "Mali", 
+    "citiesList": "List of cities in Mali"
+  }, 
+  {
+    "country": "Malta", 
+    "citiesList": "List of cities in Malta"
+  }, 
+  {
+    "country": "Marshall Islands", 
+    "citiesList": "List of cities in the Marshall Islands"
+  }, 
+  {
+    "country": "Mauritania", 
+    "citiesList": "List of cities in Mauritania"
+  }, 
+  {
+    "country": "Mauritius", 
+    "citiesList": "List of places in Mauritius"
+  }, 
+  {
+    "country": "Mayotte", 
+    "citiesList": "List of cities in Mayotte"
+  }, 
+  {
+    "country": "Mexico", 
+    "citiesList": "List of cities in Mexico"
+  }, 
+  {
+    "country": "Federated States of Micronesia", 
+    "citiesList": "Administrative divisions of the Federated States of Micronesia"
+  }, 
+  {
+    "country": "Moldova", 
+    "citiesList": "List of cities in Moldova"
+  }, 
+  {
+    "country": "Monaco", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Mongolia", 
+    "citiesList": "List of cities in Mongolia"
+  }, 
+  {
+    "country": "Montenegro", 
+    "citiesList": "List of cities in Montenegro"
+  }, 
+  {
+    "country": "Montserrat", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Morocco", 
+    "citiesList": "List of cities in Morocco"
+  }, 
+  {
+    "country": "Mozambique", 
+    "citiesList": "List of cities in Mozambique"
+  }, 
+  {
+    "country": "Myanmar", 
+    "citiesList": "List of cities in Myanmar"
+  }, 
+  {
+    "country": "Namibia", 
+    "citiesList": "List of cities and towns in Namibia"
+  }, 
+  {
+    "country": "Nauru", 
+    "citiesList": "List of settlements in Nauru"
+  }, 
+  {
+    "country": "Nepal", 
+    "citiesList": "List of cities in Nepal"
+  }, 
+  {
+    "country": "Netherlands", 
+    "citiesList": "List of municipalities of the Netherlands"
+  }, 
+  {
+    "country": "Netherlands Antilles", 
+    "citiesList": "List of cities in the Netherlands Antilles"
+  }, 
+  {
+    "country": "New Caledonia", 
+    "citiesList": "List of cities in New Caledonia"
+  }, 
+  {
+    "country": "New Zealand", 
+    "citiesList": "List of cities in New Zealand"
+  }, 
+  {
+    "country": "Nicaragua", 
+    "citiesList": "Municipalities of Nicaragua"
+  }, 
+  {
+    "country": "Niger", 
+    "citiesList": "List of cities in Niger"
+  }, 
+  {
+    "country": "Nigeria", 
+    "citiesList": "List of cities in Nigeria"
+  }, 
+  {
+    "country": "Niue", 
+    "citiesList": "List of villages in Niue"
+  }, 
+  {
+    "country": "North Korea", 
+    "citiesList": "List of cities in North Korea"
+  }, 
+  {
+    "country": "Northern Cyprus", 
+    "citiesList": "List of populated places in Northern Cyprus"
+  }, 
+  {
+    "country": "Northern Mariana Islands", 
+    "citiesList": "List of populated places in the Northern Mariana Islands"
+  }, 
+  {
+    "country": "Norway", 
+    "citiesList": "List of towns and cities in Norway"
+  }, 
+  {
+    "country": "Oman", 
+    "citiesList": "List of cities in Oman"
+  }, 
+  {
+    "country": "Pakistan", 
+    "citiesList": "List of cities in Pakistan"
+  }, 
+  {
+    "country": "Palau", 
+    "citiesList": "List of cities, towns, and villages in Palau"
+  }, 
+  {
+    "country": "Palestinian National Authority", 
+    "citiesList": "List of cities administered by the State of Palestine"
+  }, 
+  {
+    "country": "Panama", 
+    "citiesList": "List of cities in Panama"
+  }, 
+  {
+    "country": "Papua New Guinea", 
+    "citiesList": "List of cities and towns in Papua New Guinea"
+  }, 
+  {
+    "country": "Paraguay", 
+    "citiesList": "List of cities in Paraguay"
+  }, 
+  {
+    "country": "Peru", 
+    "citiesList": "List of cities in Peru"
+  }, 
+  {
+    "country": "Philippines", 
+    "citiesList": "List of cities in the Philippines"
+  }, 
+  {
+    "country": "Pitcairn Islands", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Poland", 
+    "citiesList": "List of cities and towns in Poland"
+  }, 
+  {
+    "country": "Portugal", 
+    "citiesList": "List of cities in Portugal"
+  }, 
+  {
+    "country": "Puerto Rico", 
+    "citiesList": "Municipalities of Puerto Rico"
+  }, 
+  {
+    "country": "Qatar", 
+    "citiesList": "List of cities in Qatar"
+  }, 
+  {
+    "country": "Romania", 
+    "citiesList": "List of cities and towns in Romania"
+  }, 
+  {
+    "country": "Russia", 
+    "citiesList": "List of cities and towns in Russia"
+  }, 
+  {
+    "country": "Rwanda", 
+    "citiesList": "List of cities in Rwanda"
+  }, 
+  {
+    "country": "Saint Kitts and Nevis", 
+    "citiesList": "List of cities and towns in Saint Kitts and Nevis"
+  }, 
+  {
+    "country": "Saint Lucia", 
+    "citiesList": "List of cities in Saint Lucia"
+  }, 
+  {
+    "country": "Saint Pierre and Miquelon", 
+    "citiesList": "List of cities in Saint-Pierre and Miquelon"
+  }, 
+  {
+    "country": "Saint Vincent and the Grenadines", 
+    "citiesList": "List of cities, towns and villages in Saint Vincent and the Grenadines"
+  }, 
+  {
+    "country": "Samoa", 
+    "citiesList": "List of cities, towns and villages in Samoa"
+  }, 
+  {
+    "country": "San Marino", 
+    "citiesList": "Municipalities of San Marino"
+  }, 
+  {
+    "country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe", 
+    "citiesList": "List of cities and towns in S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+  }, 
+  {
+    "country": "Saudi Arabia", 
+    "citiesList": "List of cities and towns in Saudi Arabia"
+  }, 
+  {
+    "country": "Senegal", 
+    "citiesList": "List of cities in Senegal"
+  }, 
+  {
+    "country": "Serbia", 
+    "citiesList": "List of cities in Serbia"
+  }, 
+  {
+    "country": "Seychelles", 
+    "citiesList": "List of cities in Seychelles"
+  }, 
+  {
+    "country": "Sierra Leone", 
+    "citiesList": "List of cities in Sierra Leone"
+  }, 
+  {
+    "country": "Singapore", 
+    "citiesList": "List of places in Singapore"
+  }, 
+  {
+    "country": "Slovakia", 
+    "citiesList": "List of cities and towns in Slovakia"
+  }, 
+  {
+    "country": "Slovenia", 
+    "citiesList": "List of cities and towns in Slovenia"
+  }, 
+  {
+    "country": "Solomon Islands", 
+    "citiesList": "List of cities, towns and villages in the Solomon Islands"
+  }, 
+  {
+    "country": "Somalia", 
+    "citiesList": "List of cities in Somalia"
+  }, 
+  {
+    "country": "Somaliland", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "South Africa", 
+    "citiesList": "List of municipalities in South Africa"
+  }, 
+  {
+    "country": "South Korea", 
+    "citiesList": "List of cities in South Korea"
+  }, 
+  {
+    "country": "South Ossetia", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Spain", 
+    "citiesList": "List of municipalities of Spain"
+  }, 
+  {
+    "country": "Sri Lanka", 
+    "citiesList": "List of cities in Sri Lanka"
+  }, 
+  {
+    "country": "Sudan", 
+    "citiesList": "List of cities in Sudan"
+  }, 
+  {
+    "country": "Suriname", 
+    "citiesList": "List of cities and towns in Suriname"
+  }, 
+  {
+    "country": "Svalbard", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Swaziland", 
+    "citiesList": "List of cities in Swaziland"
+  }, 
+  {
+    "country": "Sweden", 
+    "citiesList": "List of cities in Sweden"
+  }, 
+  {
+    "country": "Switzerland", 
+    "citiesList": "List of cities in Switzerland"
+  }, 
+  {
+    "country": "Syria", 
+    "citiesList": "List of cities in Syria"
+  }, 
+  {
+    "country": "Republic of China", 
+    "citiesList": "List of cities in Taiwan"
+  }, 
+  {
+    "country": "Tajikistan", 
+    "citiesList": "List of cities in Tajikistan"
+  }, 
+  {
+    "country": "Tanzania", 
+    "citiesList": "List of cities in Tanzania"
+  }, 
+  {
+    "country": "Thailand", 
+    "citiesList": "List of cities in Thailand"
+  }, 
+  {
+    "country": "Togo", 
+    "citiesList": "List of cities in Togo"
+  }, 
+  {
+    "country": "Tokelau", 
+    "citiesList": "List of villages in Tokelau"
+  }, 
+  {
+    "country": "Tonga", 
+    "citiesList": "List of islands and towns in Tonga"
+  }, 
+  {
+    "country": "Transnistria", 
+    "citiesList": ""
+  }, 
+  {
+    "country": "Trinidad and Tobago", 
+    "citiesList": "List of cities and towns in Trinidad and Tobago"
+  }, 
+  {
+    "country": "Tunisia", 
+    "citiesList": "List of cities in Tunisia"
+  }, 
+  {
+    "country": "Turkey", 
+    "citiesList": "List of cities in Turkey"
+  }, 
+  {
+    "country": "Turkmenistan", 
+    "citiesList": "List of cities in Turkmenistan"
+  }, 
+  {
+    "country": "Turks and Caicos Islands", 
+    "citiesList": "List of cities in the Turks and Caicos Islands"
+  }, 
+  {
+    "country": "Tuvalu", 
+    "citiesList": "List of villages and neighbourhoods in Tuvalu"
+  }, 
+  {
+    "country": "Uganda", 
+    "citiesList": "List of cities and towns in Uganda"
+  }, 
+  {
+    "country": "Ukraine", 
+    "citiesList": "List of cities in Ukraine"
+  }, 
+  {
+    "country": "United Arab Emirates", 
+    "citiesList": "List of cities in the United Arab Emirates"
+  }, 
+  {
+    "country": "United Kingdom", 
+    "citiesList": "List of cities in the United Kingdom"
+  }, 
+  {
+    "country": "United States", 
+    "cities": [
+      {
+        "lat": 40.7127, 
+        "url": "https://en.wikipedia.org/wiki/New_York_City", 
+        "lon": -74.0059, 
+        "name": "New York City", 
+        "populationInfo": {
+          "MSA (2015)": "20,182,305[5] (1st)", 
+          "Total": "8,550,405[1]", 
+          "CSA (2015)": "23,723,696[6] (1st)", 
+          "Rank": "1st, U.S.", 
+          "Density": "28,052.5/sq\u00a0mi (10,831.1/km2)"
+        }
+      }, 
+      {
+        "lat": 34.05, 
+        "url": "https://en.wikipedia.org/wiki/Los_Angeles", 
+        "lon": -118.25, 
+        "name": "Los Angeles", 
+        "populationInfo": {
+          "Metro[12]": "13,131,431", 
+          "Charter city": "3,928,864", 
+          "CSA[13]": "18,351,929", 
+          "Density": "8,282/sq\u00a0mi (3,198/km2)", 
+          "Rank": "2nd U.S.", 
+          "Urban[11]": "12,150,996"
+        }
+      }, 
+      {
+        "lat": 41.83694444, 
+        "url": "https://en.wikipedia.org/wiki/Chicago", 
+        "lon": -87.68472222, 
+        "name": "Chicago", 
+        "populationInfo": {
+          "Metro": "9,522,434 (3rd)", 
+          "City": "2,695,598", 
+          "Rank": "3rd largest city in U.S.\nLargest in Illinois and in the Midwestern United States", 
+          "Estimate\u00a0(July 1, 2014[3])": "2,722,389", 
+          "Density": "11,864.4/sq\u00a0mi (4,447.4/km2)"
+        }
+      }, 
+      {
+        "lat": 29.76277778, 
+        "url": "https://en.wikipedia.org/wiki/Houston", 
+        "lon": -95.38305556, 
+        "name": "Houston", 
+        "populationInfo": {
+          "City": "2,099,451", 
+          "Metro": "6,313,158 (5th U.S.)", 
+          "Urban": "4,944,332 (7th U.S.)", 
+          "Density": "3,662/sq\u00a0mi (1,414/km2)", 
+          "Demonym": "Houstonian", 
+          "Rank": "US: 4th", 
+          "Estimate\u00a0(2015)": "6,622,047 [1]"
+        }
+      }, 
+      {
+        "lat": 39.95, 
+        "url": "https://en.wikipedia.org/wiki/Philadelphia", 
+        "lon": -75.16666667, 
+        "name": "Philadelphia", 
+        "populationInfo": {
+          "Metro": "6,051,170 (US: 6th)", 
+          "Density": "11,635.3/sq\u00a0mi (4,492.4/km2)", 
+          "CSA": "7,164,790 (US: 8th)", 
+          "Demonym": "Philadelphian", 
+          "Rank": "US: 5th", 
+          "Consolidated city-county": "1,567,442"
+        }
+      }, 
+      {
+        "lat": 33.45, 
+        "url": "https://en.wikipedia.org/wiki/Phoenix,_Arizona", 
+        "lon": -112.06666667, 
+        "name": "Phoenix, Arizona"
+      }, 
+      {
+        "lat": 29.41666667, 
+        "url": "https://en.wikipedia.org/wiki/San_Antonio", 
+        "lon": -98.5, 
+        "name": "San Antonio"
+      }, 
+      {
+        "lat": 32.715, 
+        "url": "https://en.wikipedia.org/wiki/San_Diego", 
+        "lon": -117.1625, 
+        "name": "San Diego"
+      }, 
+      {
+        "lat": 32.77583333, 
+        "url": "https://en.wikipedia.org/wiki/Dallas", 
+        "lon": -96.79666667, 
+        "name": "Dallas"
+      }, 
+      {
+        "lat": 37.33333333, 
+        "url": "https://en.wikipedia.org/wiki/San_Jose,_California", 
+        "lon": -121.9, 
+        "name": "San Jose, California"
+      }, 
+      {
+        "lat": 30.25, 
+        "url": "https://en.wikipedia.org/wiki/Austin,_Texas", 
+        "lon": -97.75, 
+        "name": "Austin, Texas"
+      }, 
+      {
+        "lat": 30.33694444, 
+        "url": "https://en.wikipedia.org/wiki/Jacksonville,_Florida", 
+        "lon": -81.66138889, 
+        "name": "Jacksonville, Florida"
+      }, 
+      {
+        "lat": 37.78333333, 
+        "url": "https://en.wikipedia.org/wiki/San_Francisco", 
+        "lon": -122.41666667, 
+        "name": "San Francisco"
+      }, 
+      {
+        "lat": 39.791, 
+        "url": "https://en.wikipedia.org/wiki/Indianapolis", 
+        "lon": -86.148, 
+        "name": "Indianapolis"
+      }, 
+      {
+        "lat": 39.98333333, 
+        "url": "https://en.wikipedia.org/wiki/Columbus,_Ohio", 
+        "lon": -82.98333333, 
+        "name": "Columbus, Ohio"
+      }, 
+      {
+        "lat": 32.75735833, 
+        "url": "https://en.wikipedia.org/wiki/Fort_Worth,_Texas", 
+        "lon": -97.33318056, 
+        "name": "Fort Worth, Texas"
+      }, 
+      {
+        "lat": 35.22694444, 
+        "url": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina", 
+        "lon": -80.84333333, 
+        "name": "Charlotte, North Carolina"
+      }, 
+      {
+        "lat": 42.33138889, 
+        "url": "https://en.wikipedia.org/wiki/Detroit", 
+        "lon": -83.04583333, 
+        "name": "Detroit"
+      }, 
+      {
+        "lat": 31.79027778, 
+        "url": "https://en.wikipedia.org/wiki/El_Paso,_Texas", 
+        "lon": -106.42333333, 
+        "name": "El Paso, Texas"
+      }, 
+      {
+        "lat": 47.60972222, 
+        "url": "https://en.wikipedia.org/wiki/Seattle", 
+        "lon": -122.33305556, 
+        "name": "Seattle"
+      }, 
+      {
+        "lat": 39.76185, 
+        "url": "https://en.wikipedia.org/wiki/Denver", 
+        "lon": -104.881105, 
+        "name": "Denver"
+      }, 
+      {
+        "lat": 38.90472222, 
+        "url": "https://en.wikipedia.org/wiki/Washington,_D.C.", 
+        "lon": -77.01638889, 
+        "name": "Washington, D.C."
+      }, 
+      {
+        "lat": 35.117365, 
+        "url": "https://en.wikipedia.org/wiki/Memphis,_Tennessee", 
+        "lon": -89.971068, 
+        "name": "Memphis, Tennessee"
+      }, 
+      {
+        "lat": 42.35805556, 
+        "url": "https://en.wikipedia.org/wiki/Boston", 
+        "lon": -71.06361111, 
+        "name": "Boston"
+      }, 
+      {
+        "lat": 36.16666667, 
+        "url": "https://en.wikipedia.org/wiki/Nashville,_Tennessee", 
+        "lon": -86.78333333, 
+        "name": "Nashville, Tennessee"
+      }, 
+      {
+        "lat": 39.28333333, 
+        "url": "https://en.wikipedia.org/wiki/Baltimore", 
+        "lon": -76.61666667, 
+        "name": "Baltimore"
+      }, 
+      {
+        "lat": 35.48222222, 
+        "url": "https://en.wikipedia.org/wiki/Oklahoma_City", 
+        "lon": -97.535, 
+        "name": "Oklahoma City"
+      }, 
+      {
+        "lat": 45.52, 
+        "url": "https://en.wikipedia.org/wiki/Portland,_Oregon", 
+        "lon": -122.68194444, 
+        "name": "Portland, Oregon"
+      }, 
+      {
+        "lat": 36.175, 
+        "url": "https://en.wikipedia.org/wiki/Las_Vegas", 
+        "lon": -115.13638889, 
+        "name": "Las Vegas"
+      }, 
+      {
+        "lat": 38.25, 
+        "url": "https://en.wikipedia.org/wiki/Louisville,_Kentucky", 
+        "lon": -85.76666667, 
+        "name": "Louisville, Kentucky"
+      }, 
+      {
+        "lat": 43.05, 
+        "url": "https://en.wikipedia.org/wiki/Milwaukee", 
+        "lon": -87.95, 
+        "name": "Milwaukee"
+      }, 
+      {
+        "lat": 35.11083333, 
+        "url": "https://en.wikipedia.org/wiki/Albuquerque,_New_Mexico", 
+        "lon": -106.61, 
+        "name": "Albuquerque, New Mexico"
+      }, 
+      {
+        "lat": 32.22166667, 
+        "url": "https://en.wikipedia.org/wiki/Tucson,_Arizona", 
+        "lon": -110.92638889, 
+        "name": "Tucson, Arizona"
+      }, 
+      {
+        "lat": 36.75, 
+        "url": "https://en.wikipedia.org/wiki/Fresno,_California", 
+        "lon": -119.76666667, 
+        "name": "Fresno, California"
+      }, 
+      {
+        "lat": 38.55555556, 
+        "url": "https://en.wikipedia.org/wiki/Sacramento,_California", 
+        "lon": -121.46888889, 
+        "name": "Sacramento, California"
+      }, 
+      {
+        "lat": 33.76833333, 
+        "url": "https://en.wikipedia.org/wiki/Long_Beach,_California", 
+        "lon": -118.19555556, 
+        "name": "Long Beach, California"
+      }, 
+      {
+        "lat": 39.09972222, 
+        "url": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri", 
+        "lon": -94.57833333, 
+        "name": "Kansas City, Missouri"
+      }, 
+      {
+        "lat": 33.415, 
+        "url": "https://en.wikipedia.org/wiki/Mesa,_Arizona", 
+        "lon": -111.83138889, 
+        "name": "Mesa, Arizona"
+      }, 
+      {
+        "lat": 33.755, 
+        "url": "https://en.wikipedia.org/wiki/Atlanta", 
+        "lon": -84.39, 
+        "name": "Atlanta"
+      }, 
+      {
+        "lat": 36.8506, 
+        "url": "https://en.wikipedia.org/wiki/Virginia_Beach,_Virginia", 
+        "lon": -75.9779, 
+        "name": "Virginia Beach"
+      }, 
+      {
+        "lat": 41.25, 
+        "url": "https://en.wikipedia.org/wiki/Omaha,_Nebraska", 
+        "lon": -96.0, 
+        "name": "Omaha, Nebraska"
+      }, 
+      {
+        "lat": 38.83333333, 
+        "url": "https://en.wikipedia.org/wiki/Colorado_Springs,_Colorado", 
+        "lon": -104.81666667, 
+        "name": "Colorado Springs, Colorado"
+      }, 
+      {
+        "lat": 35.78055556, 
+        "url": "https://en.wikipedia.org/wiki/Raleigh,_North_Carolina", 
+        "lon": -78.63888889, 
+        "name": "Raleigh, North Carolina"
+      }, 
+      {
+        "lat": 25.77527778, 
+        "url": "https://en.wikipedia.org/wiki/Miami", 
+        "lon": -80.20888889, 
+        "name": "Miami"
+      }, 
+      {
+        "lat": 37.80444444, 
+        "url": "https://en.wikipedia.org/wiki/Oakland,_California", 
+        "lon": -122.27083333, 
+        "name": "Oakland, California"
+      }, 
+      {
+        "lat": 44.98333333, 
+        "url": "https://en.wikipedia.org/wiki/Minneapolis", 
+        "lon": -93.26666667, 
+        "name": "Minneapolis"
+      }, 
+      {
+        "lat": 36.13138889, 
+        "url": "https://en.wikipedia.org/wiki/Tulsa,_Oklahoma", 
+        "lon": -95.93722222, 
+        "name": "Tulsa, Oklahoma"
+      }, 
+      {
+        "lat": 41.48222222, 
+        "url": "https://en.wikipedia.org/wiki/Cleveland", 
+        "lon": -81.66972222, 
+        "name": "Cleveland"
+      }, 
+      {
+        "lat": 37.68888889, 
+        "url": "https://en.wikipedia.org/wiki/Wichita,_Kansas", 
+        "lon": -97.33611111, 
+        "name": "Wichita, Kansas"
+      }, 
+      {
+        "lat": 29.95, 
+        "url": "https://en.wikipedia.org/wiki/New_Orleans", 
+        "lon": -90.06666667, 
+        "name": "New Orleans"
+      }, 
+      {
+        "lat": 32.705, 
+        "url": "https://en.wikipedia.org/wiki/Arlington,_Texas", 
+        "lon": -97.12277778, 
+        "name": "Arlington, Texas"
+      }, 
+      {
+        "lat": 35.36666667, 
+        "url": "https://en.wikipedia.org/wiki/Bakersfield,_California", 
+        "lon": -119.01666667, 
+        "name": "Bakersfield, California"
+      }, 
+      {
+        "lat": 27.96805556, 
+        "url": "https://en.wikipedia.org/wiki/Tampa,_Florida", 
+        "lon": -82.47638889, 
+        "name": "Tampa, Florida"
+      }, 
+      {
+        "lat": 39.73, 
+        "url": "https://en.wikipedia.org/wiki/Aurora,_Colorado", 
+        "lon": -104.83, 
+        "name": "Aurora, Colorado"
+      }, 
+      {
+        "lat": 21.3, 
+        "url": "https://en.wikipedia.org/wiki/Honolulu", 
+        "lon": -157.81666667, 
+        "name": "Honolulu"
+      }, 
+      {
+        "lat": 33.83611111, 
+        "url": "https://en.wikipedia.org/wiki/Anaheim,_California", 
+        "lon": -117.88972222, 
+        "name": "Anaheim, California"
+      }, 
+      {
+        "lat": 33.74083333, 
+        "url": "https://en.wikipedia.org/wiki/Santa_Ana,_California", 
+        "lon": -117.88138889, 
+        "name": "Santa Ana, California"
+      }, 
+      {
+        "lat": 27.74277778, 
+        "url": "https://en.wikipedia.org/wiki/Corpus_Christi,_Texas", 
+        "lon": -97.40194444, 
+        "name": "Corpus Christi, Texas"
+      }, 
+      {
+        "lat": 33.94805556, 
+        "url": "https://en.wikipedia.org/wiki/Riverside,_California", 
+        "lon": -117.39611111, 
+        "name": "Riverside, California"
+      }, 
+      {
+        "lat": 38.62722222, 
+        "url": "https://en.wikipedia.org/wiki/St._Louis", 
+        "lon": -90.19777778, 
+        "name": "St. Louis"
+      }, 
+      {
+        "lat": 38.02972222, 
+        "url": "https://en.wikipedia.org/wiki/Lexington,_Kentucky", 
+        "lon": -84.49472222, 
+        "name": "Lexington, Kentucky"
+      }, 
+      {
+        "lat": 40.43972222, 
+        "url": "https://en.wikipedia.org/wiki/Pittsburgh", 
+        "lon": -79.97638889, 
+        "name": "Pittsburgh"
+      }, 
+      {
+        "lat": 37.97555556, 
+        "url": "https://en.wikipedia.org/wiki/Stockton,_California", 
+        "lon": -121.30083333, 
+        "name": "Stockton, California"
+      }, 
+      {
+        "lat": 61.21666667, 
+        "url": "https://en.wikipedia.org/wiki/Anchorage,_Alaska", 
+        "lon": -149.9, 
+        "name": "Anchorage, Alaska"
+      }, 
+      {
+        "lat": 39.1, 
+        "url": "https://en.wikipedia.org/wiki/Cincinnati", 
+        "lon": -84.51666667, 
+        "name": "Cincinnati"
+      }, 
+      {
+        "lat": 44.94416667, 
+        "url": "https://en.wikipedia.org/wiki/Saint_Paul,_Minnesota", 
+        "lon": -93.09361111, 
+        "name": "St. Paul, Minnesota"
+      }, 
+      {
+        "lat": 36.08, 
+        "url": "https://en.wikipedia.org/wiki/Greensboro,_North_Carolina", 
+        "lon": -79.81944444, 
+        "name": "Greensboro, North Carolina"
+      }, 
+      {
+        "lat": 41.66555556, 
+        "url": "https://en.wikipedia.org/wiki/Toledo,_Ohio", 
+        "lon": -83.57527778, 
+        "name": "Toledo, Ohio"
+      }, 
+      {
+        "lat": 40.72422, 
+        "url": "https://en.wikipedia.org/wiki/Newark,_New_Jersey", 
+        "lon": -74.172574, 
+        "name": "Newark, New Jersey"
+      }, 
+      {
+        "lat": 33.01666667, 
+        "url": "https://en.wikipedia.org/wiki/Plano,_Texas", 
+        "lon": -96.68333333, 
+        "name": "Plano, Texas"
+      }, 
+      {
+        "lat": 36.0292, 
+        "url": "https://en.wikipedia.org/wiki/Henderson,_Nevada", 
+        "lon": -115.0253, 
+        "name": "Henderson, Nevada"
+      }, 
+      {
+        "lat": 40.81055556, 
+        "url": "https://en.wikipedia.org/wiki/Lincoln,_Nebraska", 
+        "lon": -96.68027778, 
+        "name": "Lincoln, Nebraska"
+      }, 
+      {
+        "lat": 28.41583333, 
+        "url": "https://en.wikipedia.org/wiki/Orlando,_Florida", 
+        "lon": -81.29888889, 
+        "name": "Orlando, Florida"
+      }, 
+      {
+        "lat": 40.714, 
+        "url": "https://en.wikipedia.org/wiki/Jersey_City,_New_Jersey", 
+        "lon": -74.071, 
+        "name": "Jersey City, New Jersey"
+      }, 
+      {
+        "lat": 32.62777778, 
+        "url": "https://en.wikipedia.org/wiki/Chula_Vista,_California", 
+        "lon": -117.04805556, 
+        "name": "Chula Vista, California"
+      }, 
+      {
+        "lat": 42.90472222, 
+        "url": "https://en.wikipedia.org/wiki/Buffalo,_New_York", 
+        "lon": -78.84944444, 
+        "name": "Buffalo, New York"
+      }, 
+      {
+        "lat": 41.08045, 
+        "url": "https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana", 
+        "lon": -85.13915, 
+        "name": "Fort Wayne, Indiana"
+      }, 
+      {
+        "lat": 33.3, 
+        "url": "https://en.wikipedia.org/wiki/Chandler,_Arizona", 
+        "lon": -111.83333333, 
+        "name": "Chandler, Arizona"
+      }, 
+      {
+        "lat": 27.77305556, 
+        "url": "https://en.wikipedia.org/wiki/St._Petersburg,_Florida", 
+        "lon": -82.64, 
+        "name": "St. Petersburg, Florida"
+      }, 
+      {
+        "lat": 27.52444458, 
+        "url": "https://en.wikipedia.org/wiki/Laredo,_Texas", 
+        "lon": -99.49059296, 
+        "name": "Laredo, Texas"
+      }, 
+      {
+        "lat": 35.98861111, 
+        "url": "https://en.wikipedia.org/wiki/Durham,_North_Carolina", 
+        "lon": -78.90722222, 
+        "name": "Durham, North Carolina"
+      }, 
+      {
+        "lat": 33.66944444, 
+        "url": "https://en.wikipedia.org/wiki/Irvine,_California", 
+        "lon": -117.82305556, 
+        "name": "Irvine, California"
+      }, 
+      {
+        "lat": 43.06666667, 
+        "url": "https://en.wikipedia.org/wiki/Madison,_Wisconsin", 
+        "lon": -89.4, 
+        "name": "Madison, Wisconsin"
+      }, 
+      {
+        "lat": 36.91666667, 
+        "url": "https://en.wikipedia.org/wiki/Norfolk,_Virginia", 
+        "lon": -76.2, 
+        "name": "Norfolk, Virginia"
+      }, 
+      {
+        "lat": 33.56666667, 
+        "url": "https://en.wikipedia.org/wiki/Lubbock,_Texas", 
+        "lon": -101.88333333, 
+        "name": "Lubbock, Texas"
+      }, 
+      {
+        "lat": 33.35, 
+        "url": "https://en.wikipedia.org/wiki/Gilbert,_Arizona", 
+        "lon": -111.78916667, 
+        "name": "Gilbert, Arizona"
+      }, 
+      {
+        "lat": 36.10276389, 
+        "url": "https://en.wikipedia.org/wiki/Winston-Salem,_North_Carolina", 
+        "lon": -80.26049167, 
+        "name": "Winston\u2013Salem, North Carolina"
+      }, 
+      {
+        "lat": 33.53861111, 
+        "url": "https://en.wikipedia.org/wiki/Glendale,_Arizona", 
+        "lon": -112.18638889, 
+        "name": "Glendale, Arizona"
+      }, 
+      {
+        "lat": 39.52722222, 
+        "url": "https://en.wikipedia.org/wiki/Reno,_Nevada", 
+        "lon": -119.82194444, 
+        "name": "Reno, Nevada"
+      }, 
+      {
+        "lat": 25.86055556, 
+        "url": "https://en.wikipedia.org/wiki/Hialeah,_Florida", 
+        "lon": -80.29388889, 
+        "name": "Hialeah, Florida"
+      }, 
+      {
+        "lat": 32.90722222, 
+        "url": "https://en.wikipedia.org/wiki/Garland,_Texas", 
+        "lon": -96.63527778, 
+        "name": "Garland, Texas"
+      }, 
+      {
+        "lat": 36.767398, 
+        "url": "https://en.wikipedia.org/wiki/Chesapeake,_Virginia", 
+        "lon": -76.287405, 
+        "name": "Chesapeake, Virginia"
+      }, 
+      {
+        "lat": 32.81666667, 
+        "url": "https://en.wikipedia.org/wiki/Irving,_Texas", 
+        "lon": -96.95, 
+        "name": "Irving, Texas"
+      }, 
+      {
+        "lat": 36.22861099, 
+        "url": "https://en.wikipedia.org/wiki/North_Las_Vegas,_Nevada", 
+        "lon": -115.14666748, 
+        "name": "North Las Vegas, Nevada"
+      }, 
+      {
+        "lat": 33.5, 
+        "url": "https://en.wikipedia.org/wiki/Scottsdale,_Arizona", 
+        "lon": -111.93333333, 
+        "name": "Scottsdale, Arizona"
+      }, 
+      {
+        "lat": 30.45, 
+        "url": "https://en.wikipedia.org/wiki/Baton_Rouge,_Louisiana", 
+        "lon": -91.14, 
+        "name": "Baton Rouge, Louisiana"
+      }, 
+      {
+        "lat": 37.54833333, 
+        "url": "https://en.wikipedia.org/wiki/Fremont,_California", 
+        "lon": -121.98861111, 
+        "name": "Fremont, California"
+      }, 
+      {
+        "lat": 37.53333282, 
+        "url": "https://en.wikipedia.org/wiki/Richmond,_Virginia", 
+        "lon": -77.46666718, 
+        "name": "Richmond, Virginia"
+      }, 
+      {
+        "lat": 43.61666667, 
+        "url": "https://en.wikipedia.org/wiki/Boise,_Idaho", 
+        "lon": -116.2, 
+        "name": "Boise, Idaho"
+      }, 
+      {
+        "lat": 34.1, 
+        "url": "https://en.wikipedia.org/wiki/San_Bernardino,_California", 
+        "lon": -117.3, 
+        "name": "San Bernardino, California"
+      }, 
+      {
+        "lat": 33.525, 
+        "url": "https://en.wikipedia.org/wiki/Birmingham,_Alabama", 
+        "lon": -86.813, 
+        "name": "Birmingham, Alabama"
+      }, 
+      {
+        "lat": 47.65888889, 
+        "url": "https://en.wikipedia.org/wiki/Spokane,_Washington", 
+        "lon": -117.425, 
+        "name": "Spokane, Washington"
+      }, 
+      {
+        "lat": 43.16555556, 
+        "url": "https://en.wikipedia.org/wiki/Rochester,_New_York", 
+        "lon": -77.61138889, 
+        "name": "Rochester, New York"
+      }, 
+      {
+        "lat": 37.66138889, 
+        "url": "https://en.wikipedia.org/wiki/Modesto,_California", 
+        "lon": -120.99444444, 
+        "name": "Modesto, California"
+      }, 
+      {
+        "lat": 41.59083333, 
+        "url": "https://en.wikipedia.org/wiki/Des_Moines,_Iowa", 
+        "lon": -93.62083333, 
+        "name": "Des Moines, Iowa"
+      }, 
+      {
+        "lat": 34.19138889, 
+        "url": "https://en.wikipedia.org/wiki/Oxnard,_California", 
+        "lon": -119.1825, 
+        "name": "Oxnard, California"
+      }, 
+      {
+        "lat": 47.24138889, 
+        "url": "https://en.wikipedia.org/wiki/Tacoma,_Washington", 
+        "lon": -122.45944444, 
+        "name": "Tacoma, Washington"
+      }, 
+      {
+        "lat": 34.1, 
+        "url": "https://en.wikipedia.org/wiki/Fontana,_California", 
+        "lon": -117.46666667, 
+        "name": "Fontana, California"
+      }, 
+      {
+        "lat": 35.0525, 
+        "url": "https://en.wikipedia.org/wiki/Fayetteville,_North_Carolina", 
+        "lon": -78.87805556, 
+        "name": "Fayetteville, North Carolina"
+      }, 
+      {
+        "lat": 33.94305556, 
+        "url": "https://en.wikipedia.org/wiki/Moreno_Valley,_California", 
+        "lon": -117.22833333, 
+        "name": "Moreno Valley, California"
+      }, 
+      {
+        "lat": 32.49222222, 
+        "url": "https://en.wikipedia.org/wiki/Columbus,_Georgia", 
+        "lon": -84.94027778, 
+        "name": "Columbus, Georgia"
+      }, 
+      {
+        "lat": 33.69277778, 
+        "url": "https://en.wikipedia.org/wiki/Huntington_Beach,_California", 
+        "lon": -118.00027778, 
+        "name": "Huntington Beach, California"
+      }, 
+      {
+        "lat": 40.94138889, 
+        "url": "https://en.wikipedia.org/wiki/Yonkers,_New_York", 
+        "lon": -73.86444444, 
+        "name": "Yonkers, New York"
+      }, 
+      {
+        "lat": 32.36166667, 
+        "url": "https://en.wikipedia.org/wiki/Montgomery,_Alabama", 
+        "lon": -86.27916667, 
+        "name": "Montgomery, Alabama"
+      }, 
+      {
+        "lat": 41.76388889, 
+        "url": "https://en.wikipedia.org/wiki/Aurora,_Illinois", 
+        "lon": -88.29, 
+        "name": "Aurora, Illinois"
+      }, 
+      {
+        "lat": 34.14611111, 
+        "url": "https://en.wikipedia.org/wiki/Glendale,_California", 
+        "lon": -118.255, 
+        "name": "Glendale, California"
+      }, 
+      {
+        "lat": 32.51472222, 
+        "url": "https://en.wikipedia.org/wiki/Shreveport,_Louisiana", 
+        "lon": -93.74722222, 
+        "name": "Shreveport, Louisiana"
+      }, 
+      {
+        "lat": 41.07305556, 
+        "url": "https://en.wikipedia.org/wiki/Akron,_Ohio", 
+        "lon": -81.51777778, 
+        "name": "Akron, Ohio"
+      }, 
+      {
+        "lat": 34.73611111, 
+        "url": "https://en.wikipedia.org/wiki/Little_Rock,_Arkansas", 
+        "lon": -92.33111111, 
+        "name": "Little Rock, Arkansas"
+      }, 
+      {
+        "lat": 35.19916667, 
+        "url": "https://en.wikipedia.org/wiki/Amarillo,_Texas", 
+        "lon": -101.84527778, 
+        "name": "Amarillo, Texas"
+      }, 
+      {
+        "lat": 33.46666718, 
+        "url": "https://en.wikipedia.org/wiki/Augusta,_Georgia", 
+        "lon": -81.96666718, 
+        "name": "Augusta, Georgia"
+      }, 
+      {
+        "lat": 30.69444444, 
+        "url": "https://en.wikipedia.org/wiki/Mobile,_Alabama", 
+        "lon": -88.04305556, 
+        "name": "Mobile, Alabama"
+      }, 
+      {
+        "lat": 42.96125, 
+        "url": "https://en.wikipedia.org/wiki/Grand_Rapids,_Michigan", 
+        "lon": -85.65571944, 
+        "name": "Grand Rapids, Michigan"
+      }, 
+      {
+        "lat": 40.75, 
+        "url": "https://en.wikipedia.org/wiki/Salt_Lake_City", 
+        "lon": -111.88333333, 
+        "name": "Salt Lake City"
+      }, 
+      {
+        "lat": 34.73, 
+        "url": "https://en.wikipedia.org/wiki/Huntsville,_Alabama", 
+        "lon": -86.585, 
+        "name": "Huntsville, Alabama"
+      }, 
+      {
+        "lat": 30.455, 
+        "url": "https://en.wikipedia.org/wiki/Tallahassee,_Florida", 
+        "lon": -84.25333333, 
+        "name": "Tallahassee, Florida"
+      }, 
+      {
+        "lat": 32.71527778, 
+        "url": "https://en.wikipedia.org/wiki/Grand_Prairie,_Texas", 
+        "lon": -97.01694444, 
+        "name": "Grand Prairie, Texas"
+      }, 
+      {
+        "lat": 38.98222222, 
+        "url": "https://en.wikipedia.org/wiki/Overland_Park,_Kansas", 
+        "lon": -94.67083333, 
+        "name": "Overland Park, Kansas"
+      }, 
+      {
+        "lat": 35.97277778, 
+        "url": "https://en.wikipedia.org/wiki/Knoxville,_Tennessee", 
+        "lon": -83.94222222, 
+        "name": "Knoxville, Tennessee"
+      }, 
+      {
+        "lat": 25.93027778, 
+        "url": "https://en.wikipedia.org/wiki/Brownsville,_Texas", 
+        "lon": -97.48444444, 
+        "name": "Brownsville, Texas"
+      }, 
+      {
+        "lat": 42.26666667, 
+        "url": "https://en.wikipedia.org/wiki/Worcester,_Massachusetts", 
+        "lon": -71.8, 
+        "name": "Worcester, Massachusetts"
+      }, 
+      {
+        "lat": 37.07083333, 
+        "url": "https://en.wikipedia.org/wiki/Newport_News,_Virginia", 
+        "lon": -76.48444444, 
+        "name": "Newport News, Virginia"
+      }, 
+      {
+        "lat": 37.0, 
+        "url": "https://en.wikipedia.org/wiki/California", 
+        "lon": -120.0, 
+        "name": "California"
+      }, 
+      {
+        "lat": 41.82361111, 
+        "url": "https://en.wikipedia.org/wiki/Providence,_Rhode_Island", 
+        "lon": -71.42222222, 
+        "name": "Providence, Rhode Island"
+      }, 
+      {
+        "lat": 26.13333333, 
+        "url": "https://en.wikipedia.org/wiki/Fort_Lauderdale,_Florida", 
+        "lon": -80.15, 
+        "name": "Fort Lauderdale, Florida"
+      }, 
+      {
+        "lat": 33.77888889, 
+        "url": "https://en.wikipedia.org/wiki/Garden_Grove,_California", 
+        "lon": -117.96027778, 
+        "name": "Garden Grove, California"
+      }, 
+      {
+        "lat": 33.21166667, 
+        "url": "https://en.wikipedia.org/wiki/Oceanside,_California", 
+        "lon": -117.32583333, 
+        "name": "Oceanside, California"
+      }, 
+      {
+        "lat": 34.12333333, 
+        "url": "https://en.wikipedia.org/wiki/Rancho_Cucamonga,_California", 
+        "lon": -117.57944444, 
+        "name": "Rancho Cucamonga, California"
+      }, 
+      {
+        "lat": 38.44861111, 
+        "url": "https://en.wikipedia.org/wiki/Santa_Rosa,_California", 
+        "lon": -122.70472222, 
+        "name": "Santa Rosa, California"
+      }, 
+      {
+        "lat": 27.27583333, 
+        "url": "https://en.wikipedia.org/wiki/Port_St._Lucie,_Florida", 
+        "lon": -80.355, 
+        "name": "Port St. Lucie, Florida"
+      }, 
+      {
+        "lat": 35.04555556, 
+        "url": "https://en.wikipedia.org/wiki/Chattanooga,_Tennessee", 
+        "lon": -85.26722222, 
+        "name": "Chattanooga, Tennessee"
+      }, 
+      {
+        "lat": 33.42944444, 
+        "url": "https://en.wikipedia.org/wiki/Tempe,_Arizona", 
+        "lon": -111.94305556, 
+        "name": "Tempe, Arizona"
+      }, 
+      {
+        "lat": 32.29888889, 
+        "url": "https://en.wikipedia.org/wiki/Jackson,_Mississippi", 
+        "lon": -90.18472222, 
+        "name": "Jackson, Mississippi"
+      }, 
+      {
+        "lat": 26.63972222, 
+        "url": "https://en.wikipedia.org/wiki/Cape_Coral,_Florida", 
+        "lon": -81.9825, 
+        "name": "Cape Coral, Florida"
+      }, 
+      {
+        "lat": 45.63333333, 
+        "url": "https://en.wikipedia.org/wiki/Vancouver,_Washington", 
+        "lon": -122.6, 
+        "name": "Vancouver, Washington"
+      }, 
+      {
+        "lat": 34.05277778, 
+        "url": "https://en.wikipedia.org/wiki/Ontario,_California", 
+        "lon": -117.62777778, 
+        "name": "Ontario, California"
+      }, 
+      {
+        "lat": 43.53638889, 
+        "url": "https://en.wikipedia.org/wiki/Sioux_Falls,_South_Dakota", 
+        "lon": -96.73166667, 
+        "name": "Sioux Falls, South Dakota"
+      }, 
+      {
+        "lat": 33.5825, 
+        "url": "https://en.wikipedia.org/wiki/Peoria,_Arizona", 
+        "lon": -112.23861111, 
+        "name": "Peoria, Arizona"
+      }, 
+      {
+        "lat": 37.195, 
+        "url": "https://en.wikipedia.org/wiki/Springfield,_Missouri", 
+        "lon": -93.28611111, 
+        "name": "Springfield, Missouri"
+      }, 
+      {
+        "lat": 26.0125, 
+        "url": "https://en.wikipedia.org/wiki/Pembroke_Pines,_Florida", 
+        "lon": -80.31361111, 
+        "name": "Pembroke Pines, Florida"
+      }, 
+      {
+        "lat": 38.43833333, 
+        "url": "https://en.wikipedia.org/wiki/Elk_Grove,_California", 
+        "lon": -121.38194444, 
+        "name": "Elk Grove, California"
+      }, 
+      {
+        "lat": 44.93083333, 
+        "url": "https://en.wikipedia.org/wiki/Salem,_Oregon", 
+        "lon": -123.02888889, 
+        "name": "Salem, Oregon"
+      }, 
+      {
+        "lat": 33.86666667, 
+        "url": "https://en.wikipedia.org/wiki/Corona,_California", 
+        "lon": -117.56666667, 
+        "name": "Corona, California"
+      }, 
+      {
+        "lat": 34.68333333, 
+        "url": "https://en.wikipedia.org/wiki/Lancaster,_California", 
+        "lon": -118.15, 
+        "name": "Lancaster, California"
+      }, 
+      {
+        "lat": 44.05194444, 
+        "url": "https://en.wikipedia.org/wiki/Eugene,_Oregon", 
+        "lon": -123.08666667, 
+        "name": "Eugene, Oregon"
+      }, 
+      {
+        "lat": 34.58111111, 
+        "url": "https://en.wikipedia.org/wiki/Palmdale,_California", 
+        "lon": -118.10055556, 
+        "name": "Palmdale, California"
+      }, 
+      {
+        "lat": 33.19722222, 
+        "url": "https://en.wikipedia.org/wiki/McKinney,_Texas", 
+        "lon": -96.63972222, 
+        "name": "McKinney, Texas"
+      }, 
+      {
+        "lat": 36.67777778, 
+        "url": "https://en.wikipedia.org/wiki/Salinas,_California", 
+        "lon": -121.65555556, 
+        "name": "Salinas, California"
+      }, 
+      {
+        "lat": 40.55916667, 
+        "url": "https://en.wikipedia.org/wiki/Fort_Collins,_Colorado", 
+        "lon": -105.07805556, 
+        "name": "Fort Collins, Colorado"
+      }, 
+      {
+        "lat": 35.7788887, 
+        "url": "https://en.wikipedia.org/wiki/Cary,_North_Carolina", 
+        "lon": -78.80027771, 
+        "name": "Cary, North Carolina"
+      }, 
+      {
+        "lat": 37.66888889, 
+        "url": "https://en.wikipedia.org/wiki/Hayward,_California", 
+        "lon": -122.08083333, 
+        "name": "Hayward, California"
+      }, 
+      {
+        "lat": 42.112411, 
+        "url": "https://en.wikipedia.org/wiki/Springfield,_Massachusetts", 
+        "lon": -72.547455, 
+        "name": "Springfield, Massachusetts"
+      }, 
+      {
+        "lat": 29.67611111, 
+        "url": "https://en.wikipedia.org/wiki/Pasadena,_Texas", 
+        "lon": -95.17388889, 
+        "name": "Pasadena, Texas"
+      }, 
+      {
+        "lat": 32.83472222, 
+        "url": "https://en.wikipedia.org/wiki/Macon,_Georgia", 
+        "lon": -83.65166667, 
+        "name": "Macon, Georgia"
+      }, 
+      {
+        "lat": 34.06083333, 
+        "url": "https://en.wikipedia.org/wiki/Pomona,_California", 
+        "lon": -117.75583333, 
+        "name": "Pomona, California"
+      }, 
+      {
+        "lat": 38.80472222, 
+        "url": "https://en.wikipedia.org/wiki/Alexandria,_Virginia", 
+        "lon": -77.04722222, 
+        "name": "Alexandria, Virginia"
+      }, 
+      {
+        "lat": 33.12472153, 
+        "url": "https://en.wikipedia.org/wiki/Escondido,_California", 
+        "lon": -117.08083344, 
+        "name": "Escondido, California"
+      }, 
+      {
+        "lat": 37.37111111, 
+        "url": "https://en.wikipedia.org/wiki/Sunnyvale,_California", 
+        "lon": -122.0375, 
+        "name": "Sunnyvale, California"
+      }, 
+      {
+        "lat": 39.70472222, 
+        "url": "https://en.wikipedia.org/wiki/Lakewood,_Colorado", 
+        "lon": -105.08138889, 
+        "name": "Lakewood, Colorado"
+      }, 
+      {
+        "lat": 39.10666667, 
+        "url": "https://en.wikipedia.org/wiki/Kansas_City,_Kansas", 
+        "lon": -94.67638889, 
+        "name": "Kansas City, Kansas"
+      }, 
+      {
+        "lat": 42.25944444, 
+        "url": "https://en.wikipedia.org/wiki/Rockford,_Illinois", 
+        "lon": -89.06444444, 
+        "name": "Rockford, Illinois"
+      }, 
+      {
+        "lat": 33.83472222, 
+        "url": "https://en.wikipedia.org/wiki/Torrance,_California", 
+        "lon": -118.34138889, 
+        "name": "Torrance, California"
+      }, 
+      {
+        "lat": 26.02138889, 
+        "url": "https://en.wikipedia.org/wiki/Hollywood,_Florida", 
+        "lon": -80.175, 
+        "name": "Hollywood, Florida"
+      }, 
+      {
+        "lat": 41.52055556, 
+        "url": "https://en.wikipedia.org/wiki/Joliet,_Illinois", 
+        "lon": -88.15055556, 
+        "name": "Joliet, Illinois"
+      }, 
+      {
+        "lat": 41.18638889, 
+        "url": "https://en.wikipedia.org/wiki/Bridgeport,_Connecticut", 
+        "lon": -73.19555556, 
+        "name": "Bridgeport, Connecticut"
+      }, 
+      {
+        "lat": 36.5297222, 
+        "url": "https://en.wikipedia.org/wiki/Clarksville,_Tennessee", 
+        "lon": -87.3594444, 
+        "name": "Clarksville, Tennessee"
+      }, 
+      {
+        "lat": 40.914746, 
+        "url": "https://en.wikipedia.org/wiki/Paterson,_New_Jersey", 
+        "lon": -74.162826, 
+        "name": "Paterson, New Jersey"
+      }, 
+      {
+        "lat": 41.74805556, 
+        "url": "https://en.wikipedia.org/wiki/Naperville,_Illinois", 
+        "lon": -88.16555556, 
+        "name": "Naperville, Illinois"
+      }, 
+      {
+        "lat": 33.14138889, 
+        "url": "https://en.wikipedia.org/wiki/Frisco,_Texas", 
+        "lon": -96.81305556, 
+        "name": "Frisco, Texas"
+      }, 
+      {
+        "lat": 32.78277778, 
+        "url": "https://en.wikipedia.org/wiki/Mesquite,_Texas", 
+        "lon": -96.61, 
+        "name": "Mesquite, Texas"
+      }, 
+      {
+        "lat": 32.01666667, 
+        "url": "https://en.wikipedia.org/wiki/Savannah,_Georgia", 
+        "lon": -81.11666667, 
+        "name": "Savannah, Georgia"
+      }, 
+      {
+        "lat": 43.04694444, 
+        "url": "https://en.wikipedia.org/wiki/Syracuse,_New_York", 
+        "lon": -76.14444444, 
+        "name": "Syracuse, New York"
+      }, 
+      {
+        "lat": 39.75944444, 
+        "url": "https://en.wikipedia.org/wiki/Dayton,_Ohio", 
+        "lon": -84.19166667, 
+        "name": "Dayton, Ohio"
+      }, 
+      {
+        "lat": 34.15611111, 
+        "url": "https://en.wikipedia.org/wiki/Pasadena,_California", 
+        "lon": -118.13194444, 
+        "name": "Pasadena, California"
+      }, 
+      {
+        "lat": 33.80305556, 
+        "url": "https://en.wikipedia.org/wiki/Orange,_California", 
+        "lon": -117.8325, 
+        "name": "Orange, California"
+      }, 
+      {
+        "lat": 33.88, 
+        "url": "https://en.wikipedia.org/wiki/Fullerton,_California", 
+        "lon": -117.92861111, 
+        "name": "Fullerton, California"
+      }, 
+      {
+        "lat": 26.2163887, 
+        "url": "https://en.wikipedia.org/wiki/McAllen,_Texas", 
+        "lon": -98.23638916, 
+        "name": "McAllen, Texas"
+      }, 
+      {
+        "lat": 31.10555556, 
+        "url": "https://en.wikipedia.org/wiki/Killeen,_Texas", 
+        "lon": -97.72666667, 
+        "name": "Killeen, Texas"
+      }, 
+      {
+        "lat": 37.034946, 
+        "url": "https://en.wikipedia.org/wiki/Hampton,_Virginia", 
+        "lon": -76.360126, 
+        "name": "Hampton, Virginia"
+      }, 
+      {
+        "lat": 47.6, 
+        "url": "https://en.wikipedia.org/wiki/Bellevue,_Washington", 
+        "lon": -122.16666667, 
+        "name": "Bellevue, Washington"
+      }, 
+      {
+        "lat": 42.49194444, 
+        "url": "https://en.wikipedia.org/wiki/Warren,_Michigan", 
+        "lon": -83.02388889, 
+        "name": "Warren, Michigan"
+      }, 
+      {
+        "lat": 25.97888889, 
+        "url": "https://en.wikipedia.org/wiki/Miramar,_Florida", 
+        "lon": -80.2825, 
+        "name": "Miramar, Florida"
+      }, 
+      {
+        "lat": 40.68916702, 
+        "url": "https://en.wikipedia.org/wiki/West_Valley_City,_Utah", 
+        "lon": -111.99388885, 
+        "name": "West Valley City, Utah"
+      }, 
+      {
+        "lat": 38.88083333, 
+        "url": "https://en.wikipedia.org/wiki/Olathe,_Kansas", 
+        "lon": -94.80305556, 
+        "name": "Olathe, Kansas"
+      }, 
+      {
+        "lat": 34.00055556, 
+        "url": "https://en.wikipedia.org/wiki/Columbia,_South_Carolina", 
+        "lon": -81.03472222, 
+        "name": "Columbia, South Carolina"
+      }, 
+      {
+        "lat": 42.58027778, 
+        "url": "https://en.wikipedia.org/wiki/Sterling_Heights,_Michigan", 
+        "lon": -83.03027778, 
+        "name": "Sterling Heights, Michigan"
+      }, 
+      {
+        "lat": 39.90305556, 
+        "url": "https://en.wikipedia.org/wiki/Thornton,_Colorado", 
+        "lon": -104.95444444, 
+        "name": "Thornton, Colorado"
+      }, 
+      {
+        "lat": 41.31, 
+        "url": "https://en.wikipedia.org/wiki/New_Haven,_Connecticut", 
+        "lon": -72.92361111, 
+        "name": "New Haven, Connecticut"
+      }, 
+      {
+        "lat": 31.55138889, 
+        "url": "https://en.wikipedia.org/wiki/Waco,_Texas", 
+        "lon": -97.15583333, 
+        "name": "Waco, Texas"
+      }, 
+      {
+        "lat": 32.78333333, 
+        "url": "https://en.wikipedia.org/wiki/Charleston,_South_Carolina", 
+        "lon": -79.93333333, 
+        "name": "Charleston, South Carolina"
+      }, 
+      {
+        "lat": 34.18944444, 
+        "url": "https://en.wikipedia.org/wiki/Thousand_Oaks,_California", 
+        "lon": -118.875, 
+        "name": "Thousand Oaks, California"
+      }, 
+      {
+        "lat": 36.31666667, 
+        "url": "https://en.wikipedia.org/wiki/Visalia,_California", 
+        "lon": -119.3, 
+        "name": "Visalia, California"
+      }, 
+      {
+        "lat": 41.98305556, 
+        "url": "https://en.wikipedia.org/wiki/Cedar_Rapids,_Iowa", 
+        "lon": -91.66861111, 
+        "name": "Cedar Rapids, Iowa"
+      }, 
+      {
+        "lat": 40.666261, 
+        "url": "https://en.wikipedia.org/wiki/Elizabeth,_New_Jersey", 
+        "lon": -74.19353, 
+        "name": "Elizabeth, New Jersey"
+      }, 
+      {
+        "lat": 38.7525, 
+        "url": "https://en.wikipedia.org/wiki/Roseville,_California", 
+        "lon": -121.28944444, 
+        "name": "Roseville, California"
+      }, 
+      {
+        "lat": 29.65199722, 
+        "url": "https://en.wikipedia.org/wiki/Gainesville,_Florida", 
+        "lon": -82.32499167, 
+        "name": "Gainesville, Florida"
+      }, 
+      {
+        "lat": 32.99, 
+        "url": "https://en.wikipedia.org/wiki/Carrollton,_Texas", 
+        "lon": -96.89333333, 
+        "name": "Carrollton, Texas"
+      }, 
+      {
+        "lat": 41.05277778, 
+        "url": "https://en.wikipedia.org/wiki/Stamford,_Connecticut", 
+        "lon": -73.53888889, 
+        "name": "Stamford, Connecticut"
+      }, 
+      {
+        "lat": 33.21638889, 
+        "url": "https://en.wikipedia.org/wiki/Denton,_Texas", 
+        "lon": -97.12916667, 
+        "name": "Denton, Texas"
+      }, 
+      {
+        "lat": 32.0, 
+        "url": "https://en.wikipedia.org/wiki/Midland,_Texas", 
+        "lon": -102.1, 
+        "name": "Midland, Texas"
+      }, 
+      {
+        "lat": 26.27055556, 
+        "url": "https://en.wikipedia.org/wiki/Coral_Springs,_Florida", 
+        "lon": -80.25916667, 
+        "name": "Coral Springs, Florida"
+      }, 
+      {
+        "lat": 37.97805556, 
+        "url": "https://en.wikipedia.org/wiki/Concord,_California", 
+        "lon": -122.03111111, 
+        "name": "Concord, California"
+      }, 
+      {
+        "lat": 39.05583333, 
+        "url": "https://en.wikipedia.org/wiki/Topeka,_Kansas", 
+        "lon": -95.68944444, 
+        "name": "Topeka, Kansas"
+      }, 
+      {
+        "lat": 34.27111111, 
+        "url": "https://en.wikipedia.org/wiki/Simi_Valley,_California", 
+        "lon": -118.73944444, 
+        "name": "Simi Valley, California"
+      }, 
+      {
+        "lat": 33.63055556, 
+        "url": "https://en.wikipedia.org/wiki/Surprise,_Arizona", 
+        "lon": -112.36666667, 
+        "name": "Surprise, Arizona"
+      }, 
+      {
+        "lat": 30.21666667, 
+        "url": "https://en.wikipedia.org/wiki/Lafayette,_Louisiana", 
+        "lon": -92.03333333, 
+        "name": "Lafayette, Louisiana"
+      }, 
+      {
+        "lat": 47.38277817, 
+        "url": "https://en.wikipedia.org/wiki/Kent,_Washington", 
+        "lon": -122.22694397, 
+        "name": "Kent, Washington"
+      }, 
+      {
+        "lat": 41.762736, 
+        "url": "https://en.wikipedia.org/wiki/Hartford,_Connecticut", 
+        "lon": -72.674286, 
+        "name": "Hartford, Connecticut"
+      }, 
+      {
+        "lat": 37.35444444, 
+        "url": "https://en.wikipedia.org/wiki/Santa_Clara,_California", 
+        "lon": -121.96916667, 
+        "name": "Santa Clara, California"
+      }, 
+      {
+        "lat": 34.53611111, 
+        "url": "https://en.wikipedia.org/wiki/Victorville,_California", 
+        "lon": -117.29111111, 
+        "name": "Victorville, California"
+      }, 
+      {
+        "lat": 32.45, 
+        "url": "https://en.wikipedia.org/wiki/Abilene,_Texas", 
+        "lon": -99.75, 
+        "name": "Abilene, Texas"
+      }, 
+      {
+        "lat": 35.846143, 
+        "url": "https://en.wikipedia.org/wiki/Murfreesboro,_Tennessee", 
+        "lon": -86.392078, 
+        "name": "Murfreesboro, Tennessee"
+      }, 
+      {
+        "lat": 37.97722222, 
+        "url": "https://en.wikipedia.org/wiki/Evansville,_Indiana", 
+        "lon": -87.55055556, 
+        "name": "Evansville, Indiana"
+      }, 
+      {
+        "lat": 38.11305556, 
+        "url": "https://en.wikipedia.org/wiki/Vallejo,_California", 
+        "lon": -122.23583333, 
+        "name": "Vallejo, California"
+      }, 
+      {
+        "lat": 33.95, 
+        "url": "https://en.wikipedia.org/wiki/Athens,_Georgia", 
+        "lon": -83.38333333, 
+        "name": "Athens, Georgia"
+      }, 
+      {
+        "lat": 40.60166667, 
+        "url": "https://en.wikipedia.org/wiki/Allentown,_Pennsylvania", 
+        "lon": -75.47722222, 
+        "name": "Allentown, Pennsylvania"
+      }, 
+      {
+        "lat": 37.87166667, 
+        "url": "https://en.wikipedia.org/wiki/Berkeley,_California", 
+        "lon": -122.27277778, 
+        "name": "Berkeley, California"
+      }, 
+      {
+        "lat": 35.22, 
+        "url": "https://en.wikipedia.org/wiki/Norman,_Oklahoma", 
+        "lon": -97.44, 
+        "name": "Norman, Oklahoma"
+      }, 
+      {
+        "lat": 42.28138889, 
+        "url": "https://en.wikipedia.org/wiki/Ann_Arbor,_Michigan", 
+        "lon": -83.74833333, 
+        "name": "Ann Arbor, Michigan"
+      }, 
+      {
+        "lat": 30.08, 
+        "url": "https://en.wikipedia.org/wiki/Beaumont,_Texas", 
+        "lon": -94.12666667, 
+        "name": "Beaumont, Texas"
+      }, 
+      {
+        "lat": 39.07972222, 
+        "url": "https://en.wikipedia.org/wiki/Independence,_Missouri", 
+        "lon": -94.40666667, 
+        "name": "Independence, Missouri"
+      }, 
+      {
+        "lat": 38.95138889, 
+        "url": "https://en.wikipedia.org/wiki/Columbia,_Missouri", 
+        "lon": -92.32833333, 
+        "name": "Columbia, Missouri"
+      }, 
+      {
+        "lat": 39.69833333, 
+        "url": "https://en.wikipedia.org/wiki/Springfield,_Illinois", 
+        "lon": -89.61972222, 
+        "name": "Springfield, Illinois"
+      }, 
+      {
+        "lat": 34.07333333, 
+        "url": "https://en.wikipedia.org/wiki/El_Monte,_California", 
+        "lon": -118.0275, 
+        "name": "El Monte, California"
+      }, 
+      {
+        "lat": 46.87722222, 
+        "url": "https://en.wikipedia.org/wiki/Fargo,_North_Dakota", 
+        "lon": -96.78944444, 
+        "name": "Fargo, North Dakota"
+      }, 
+      {
+        "lat": 40.72083333, 
+        "url": "https://en.wikipedia.org/wiki/Peoria,_Illinois", 
+        "lon": -89.60944444, 
+        "name": "Peoria, Illinois"
+      }, 
+      {
+        "lat": 40.24444444, 
+        "url": "https://en.wikipedia.org/wiki/Provo,_Utah", 
+        "lon": -111.66083333, 
+        "name": "Provo, Utah"
+      }, 
+      {
+        "lat": 42.73361111, 
+        "url": "https://en.wikipedia.org/wiki/Lansing,_Michigan", 
+        "lon": -84.54666667, 
+        "name": "Lansing, Michigan"
+      }, 
+      {
+        "lat": 31.86333333, 
+        "url": "https://en.wikipedia.org/wiki/Odessa,_Texas", 
+        "lon": -102.36555556, 
+        "name": "Odessa, Texas"
+      }, 
+      {
+        "lat": 33.93805556, 
+        "url": "https://en.wikipedia.org/wiki/Downey,_California", 
+        "lon": -118.13083333, 
+        "name": "Downey, California"
+      }, 
+      {
+        "lat": 34.22333333, 
+        "url": "https://en.wikipedia.org/wiki/Wilmington,_North_Carolina", 
+        "lon": -77.91222222, 
+        "name": "Wilmington, North Carolina"
+      }, 
+      {
+        "lat": 39.833728, 
+        "url": "https://en.wikipedia.org/wiki/Arvada,_Colorado", 
+        "lon": -105.150306, 
+        "name": "Arvada, Colorado"
+      }, 
+      {
+        "lat": 33.665, 
+        "url": "https://en.wikipedia.org/wiki/Costa_Mesa,_California", 
+        "lon": -117.91222222, 
+        "name": "Costa Mesa, California"
+      }, 
+      {
+        "lat": 30.50861111, 
+        "url": "https://en.wikipedia.org/wiki/Round_Rock,_Texas", 
+        "lon": -97.67888889, 
+        "name": "Round Rock, Texas"
+      }, 
+      {
+        "lat": 33.12194443, 
+        "url": "https://en.wikipedia.org/wiki/Carlsbad,_California", 
+        "lon": -117.29694366, 
+        "name": "Carlsbad, California"
+      }, 
+      {
+        "lat": 25.94212222, 
+        "url": "https://en.wikipedia.org/wiki/Miami_Gardens,_Florida", 
+        "lon": -80.26991944, 
+        "name": "Miami Gardens, Florida"
+      }, 
+      {
+        "lat": 39.83611111, 
+        "url": "https://en.wikipedia.org/wiki/Westminster,_Colorado", 
+        "lon": -105.03722222, 
+        "name": "Westminster, Colorado"
+      }, 
+      {
+        "lat": 33.9575, 
+        "url": "https://en.wikipedia.org/wiki/Inglewood,_California", 
+        "lon": -118.34611111, 
+        "name": "Inglewood, California"
+      }, 
+      {
+        "lat": 44.0234, 
+        "url": "https://en.wikipedia.org/wiki/Rochester,_Minnesota", 
+        "lon": -92.46295, 
+        "name": "Rochester, Minnesota"
+      }, 
+      {
+        "lat": 38.25777778, 
+        "url": "https://en.wikipedia.org/wiki/Fairfield,_California", 
+        "lon": -122.05416667, 
+        "name": "Fairfield, California"
+      }, 
+      {
+        "lat": 42.03833333, 
+        "url": "https://en.wikipedia.org/wiki/Elgin,_Illinois", 
+        "lon": -88.32277778, 
+        "name": "Elgin, Illinois"
+      }, 
+      {
+        "lat": 40.60638889, 
+        "url": "https://en.wikipedia.org/wiki/West_Jordan,_Utah", 
+        "lon": -111.97611111, 
+        "name": "West Jordan, Utah"
+      }, 
+      {
+        "lat": 27.97361111, 
+        "url": "https://en.wikipedia.org/wiki/Clearwater,_Florida", 
+        "lon": -82.76416667, 
+        "name": "Clearwater, Florida"
+      }, 
+      {
+        "lat": 42.99083333, 
+        "url": "https://en.wikipedia.org/wiki/Manchester,_New_Hampshire", 
+        "lon": -71.46361111, 
+        "name": "Manchester, New Hampshire"
+      }, 
+      {
+        "lat": 42.63944444, 
+        "url": "https://en.wikipedia.org/wiki/Lowell,_Massachusetts", 
+        "lon": -71.31472222, 
+        "name": "Lowell, Massachusetts"
+      }, 
+      {
+        "lat": 45.50361111, 
+        "url": "https://en.wikipedia.org/wiki/Gresham,_Oregon", 
+        "lon": -122.43944444, 
+        "name": "Gresham, Oregon"
+      }, 
+      {
+        "lat": 42.37361111, 
+        "url": "https://en.wikipedia.org/wiki/Cambridge,_Massachusetts", 
+        "lon": -71.11055556, 
+        "name": "Cambridge, Massachusetts"
+      }, 
+      {
+        "lat": 34.275, 
+        "url": "https://en.wikipedia.org/wiki/Ventura,_California", 
+        "lon": -119.22777778, 
+        "name": "Ventura, California"
+      }, 
+      {
+        "lat": 33.50333333, 
+        "url": "https://en.wikipedia.org/wiki/Temecula,_California", 
+        "lon": -117.12361111, 
+        "name": "Temecula, California"
+      }, 
+      {
+        "lat": 41.55611111, 
+        "url": "https://en.wikipedia.org/wiki/Waterbury,_Connecticut", 
+        "lon": -73.04138889, 
+        "name": "Waterbury, Connecticut"
+      }, 
+      {
+        "lat": 38.005, 
+        "url": "https://en.wikipedia.org/wiki/Antioch,_California", 
+        "lon": -121.80583333, 
+        "name": "Antioch, California"
+      }, 
+      {
+        "lat": 45.78666667, 
+        "url": "https://en.wikipedia.org/wiki/Billings,_Montana", 
+        "lon": -108.53722222, 
+        "name": "Billings, Montana"
+      }, 
+      {
+        "lat": 35.97055556, 
+        "url": "https://en.wikipedia.org/wiki/High_Point,_North_Carolina", 
+        "lon": -79.9975, 
+        "name": "High Point, North Carolina"
+      }, 
+      {
+        "lat": 32.96555556, 
+        "url": "https://en.wikipedia.org/wiki/Richardson,_Texas", 
+        "lon": -96.71583333, 
+        "name": "Richardson, Texas"
+      }, 
+      {
+        "lat": 37.93583298, 
+        "url": "https://en.wikipedia.org/wiki/Richmond,_California", 
+        "lon": -122.34777832, 
+        "name": "Richmond, California"
+      }, 
+      {
+        "lat": 34.05666667, 
+        "url": "https://en.wikipedia.org/wiki/West_Covina,_California", 
+        "lon": -117.91861111, 
+        "name": "West Covina, California"
+      }, 
+      {
+        "lat": 38.26694444, 
+        "url": "https://en.wikipedia.org/wiki/Pueblo,_Colorado", 
+        "lon": -104.62027778, 
+        "name": "Pueblo, Colorado"
+      }, 
+      {
+        "lat": 33.56944444, 
+        "url": "https://en.wikipedia.org/wiki/Murrieta,_California", 
+        "lon": -117.2025, 
+        "name": "Murrieta, California"
+      }, 
+      {
+        "lat": 39.590568, 
+        "url": "https://en.wikipedia.org/wiki/Centennial,_Colorado", 
+        "lon": -104.869118, 
+        "name": "Centennial, Colorado"
+      }, 
+      {
+        "lat": 33.90694444, 
+        "url": "https://en.wikipedia.org/wiki/Norwalk,_California", 
+        "lon": -118.08333333, 
+        "name": "Norwalk, California"
+      }, 
+      {
+        "lat": 32.88527778, 
+        "url": "https://en.wikipedia.org/wiki/North_Charleston,_South_Carolina", 
+        "lon": -80.01694444, 
+        "name": "North Charleston, South Carolina"
+      }, 
+      {
+        "lat": 47.96333333, 
+        "url": "https://en.wikipedia.org/wiki/Everett,_Washington", 
+        "lon": -122.20055556, 
+        "name": "Everett, Washington"
+      }, 
+      {
+        "lat": 26.23472222, 
+        "url": "https://en.wikipedia.org/wiki/Pompano_Beach,_Florida", 
+        "lon": -80.12555556, 
+        "name": "Pompano Beach, Florida"
+      }, 
+      {
+        "lat": 37.68638889, 
+        "url": "https://en.wikipedia.org/wiki/Daly_City,_California", 
+        "lon": -122.46833333, 
+        "name": "Daly City, California"
+      }, 
+      {
+        "lat": 27.99792222, 
+        "url": "https://en.wikipedia.org/wiki/Palm_Bay,_Florida", 
+        "lon": -80.67000833, 
+        "name": "Palm Bay, Florida"
+      }, 
+      {
+        "lat": 34.18027778, 
+        "url": "https://en.wikipedia.org/wiki/Burbank,_California", 
+        "lon": -118.32833333, 
+        "name": "Burbank, California"
+      }, 
+      {
+        "lat": 33.89694444, 
+        "url": "https://en.wikipedia.org/wiki/Wichita_Falls,_Texas", 
+        "lon": -98.515, 
+        "name": "Wichita Falls, Texas"
+      }, 
+      {
+        "lat": 40.027435, 
+        "url": "https://en.wikipedia.org/wiki/Boulder,_Colorado", 
+        "lon": -105.251945, 
+        "name": "Boulder, Colorado"
+      }, 
+      {
+        "lat": 44.51333333, 
+        "url": "https://en.wikipedia.org/wiki/Green_Bay,_Wisconsin", 
+        "lon": -88.01583333, 
+        "name": "Green Bay, Wisconsin"
+      }, 
+      {
+        "lat": 36.03638889, 
+        "url": "https://en.wikipedia.org/wiki/Broken_Arrow,_Oklahoma", 
+        "lon": -95.78361111, 
+        "name": "Broken Arrow, Oklahoma"
+      }, 
+      {
+        "lat": 26.70972222, 
+        "url": "https://en.wikipedia.org/wiki/West_Palm_Beach,_Florida", 
+        "lon": -80.06416667, 
+        "name": "West Palm Beach, Florida"
+      }, 
+      {
+        "lat": 30.60138889, 
+        "url": "https://en.wikipedia.org/wiki/College_Station,_Texas", 
+        "lon": -96.31444444, 
+        "name": "College Station, Texas"
+      }, 
+      {
+        "lat": 29.55444444, 
+        "url": "https://en.wikipedia.org/wiki/Pearland,_Texas", 
+        "lon": -95.29583333, 
+        "name": "Pearland, Texas"
+      }, 
+      {
+        "lat": 34.95138889, 
+        "url": "https://en.wikipedia.org/wiki/Santa_Maria,_California", 
+        "lon": -120.43333333, 
+        "name": "Santa Maria, California"
+      }, 
+      {
+        "lat": 32.79833333, 
+        "url": "https://en.wikipedia.org/wiki/El_Cajon,_California", 
+        "lon": -116.96, 
+        "name": "El Cajon, California"
+      }, 
+      {
+        "lat": 37.55416667, 
+        "url": "https://en.wikipedia.org/wiki/San_Mateo,_California", 
+        "lon": -122.31305556, 
+        "name": "San Mateo, California"
+      }, 
+      {
+        "lat": 33.03833333, 
+        "url": "https://en.wikipedia.org/wiki/Lewisville,_Texas", 
+        "lon": -97.00611111, 
+        "name": "Lewisville, Texas"
+      }, 
+      {
+        "lat": 34.11138889, 
+        "url": "https://en.wikipedia.org/wiki/Rialto,_California", 
+        "lon": -117.3825, 
+        "name": "Rialto, California"
+      }, 
+      {
+        "lat": 41.54305556, 
+        "url": "https://en.wikipedia.org/wiki/Davenport,_Iowa", 
+        "lon": -90.59083333, 
+        "name": "Davenport, Iowa"
+      }, 
+      {
+        "lat": 28.04111111, 
+        "url": "https://en.wikipedia.org/wiki/Lakeland,_Florida", 
+        "lon": -81.95888889, 
+        "name": "Lakeland, Florida"
+      }, 
+      {
+        "lat": 36.82527778, 
+        "url": "https://en.wikipedia.org/wiki/Clovis,_California", 
+        "lon": -119.70305556, 
+        "name": "Clovis, California"
+      }, 
+      {
+        "lat": 40.503991, 
+        "url": "https://en.wikipedia.org/wiki/Edison,_New_Jersey", 
+        "lon": -74.349411, 
+        "name": "Edison, New Jersey"
+      }, 
+      {
+        "lat": 33.9375, 
+        "url": "https://en.wikipedia.org/wiki/Sandy_Springs,_Georgia", 
+        "lon": -84.36861111, 
+        "name": "Sandy Springs, Georgia"
+      }, 
+      {
+        "lat": 32.35, 
+        "url": "https://en.wikipedia.org/wiki/Tyler,_Texas", 
+        "lon": -95.3, 
+        "name": "Tyler, Texas"
+      }, 
+      {
+        "lat": 32.31444444, 
+        "url": "https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico", 
+        "lon": -106.77888889, 
+        "name": "Las Cruces, New Mexico"
+      }, 
+      {
+        "lat": 41.6725, 
+        "url": "https://en.wikipedia.org/wiki/South_Bend,_Indiana", 
+        "lon": -86.25527778, 
+        "name": "South Bend, Indiana"
+      }, 
+      {
+        "lat": 40.560751, 
+        "url": "https://en.wikipedia.org/wiki/Woodbridge_Township,_New_Jersey", 
+        "lon": -74.292627, 
+        "name": "Woodbridge, New Jersey"
+      }, 
+      {
+        "lat": 31.0, 
+        "url": "https://en.wikipedia.org/wiki/Texas", 
+        "lon": -100.0, 
+        "name": "Texas"
+      }, 
+      {
+        "lat": 28.1, 
+        "url": "https://en.wikipedia.org/wiki/Florida", 
+        "lon": -81.6, 
+        "name": "Florida"
+      }, 
+      {
+        "lat": 39.0, 
+        "url": "https://en.wikipedia.org/wiki/Colorado", 
+        "lon": -105.5, 
+        "name": "Colorado"
+      }, 
+      {
+        "lat": 34.0, 
+        "url": "https://en.wikipedia.org/wiki/Arizona", 
+        "lon": -112.0, 
+        "name": "Arizona"
+      }, 
+      {
+        "lat": 35.5, 
+        "url": "https://en.wikipedia.org/wiki/North_Carolina", 
+        "lon": -80.0, 
+        "name": "North Carolina"
+      }, 
+      {
+        "lat": 40.0, 
+        "url": "https://en.wikipedia.org/wiki/Illinois", 
+        "lon": -89.0, 
+        "name": "Illinois"
+      }, 
+      {
+        "lat": 37.5, 
+        "url": "https://en.wikipedia.org/wiki/Virginia", 
+        "lon": -79.0, 
+        "name": "Virginia"
+      }, 
+      {
+        "lat": 44.0, 
+        "url": "https://en.wikipedia.org/wiki/Michigan", 
+        "lon": -85.0, 
+        "name": "Michigan"
+      }, 
+      {
+        "lat": 41.6, 
+        "url": "https://en.wikipedia.org/wiki/Connecticut", 
+        "lon": -72.7, 
+        "name": "Connecticut"
+      }, 
+      {
+        "lat": 32.7, 
+        "url": "https://en.wikipedia.org/wiki/Alabama", 
+        "lon": -86.7, 
+        "name": "Alabama"
+      }, 
+      {
+        "lat": 42.0, 
+        "url": "https://en.wikipedia.org/wiki/Iowa", 
+        "lon": -93.0, 
+        "name": "Iowa"
+      }, 
+      {
+        "lat": 37.5, 
+        "url": "https://en.wikipedia.org/wiki/Kentucky", 
+        "lon": -85.0, 
+        "name": "Kentucky"
+      }, 
+      {
+        "lat": 64.0, 
+        "url": "https://en.wikipedia.org/wiki/Alaska", 
+        "lon": -150.0, 
+        "name": "Alaska"
+      }, 
+      {
+        "lat": 39.0, 
+        "url": "https://en.wikipedia.org/wiki/Delaware", 
+        "lon": -75.5, 
+        "name": "Delaware"
+      }, 
+      {
+        "lat": 18.40638924, 
+        "url": "https://en.wikipedia.org/wiki/San_Juan,_Puerto_Rico", 
+        "lon": -66.06388855, 
+        "name": "San Juan, Puerto Rico"
+      }, 
+      {
+        "lat": 18.38, 
+        "url": "https://en.wikipedia.org/wiki/Bayam%C3%B3n,_Puerto_Rico", 
+        "lon": -66.16333333, 
+        "name": "Bayam\u00f3n, Puerto Rico"
+      }, 
+      {
+        "lat": 18.40611111, 
+        "url": "https://en.wikipedia.org/wiki/Carolina,_Puerto_Rico", 
+        "lon": -65.96722222, 
+        "name": "Carolina, Puerto Rico"
+      }, 
+      {
+        "lat": 18.00166702, 
+        "url": "https://en.wikipedia.org/wiki/Ponce,_Puerto_Rico", 
+        "lon": -66.60666656, 
+        "name": "Ponce, Puerto Rico"
+      }, 
+      {
+        "lat": 18.23138889, 
+        "url": "https://en.wikipedia.org/wiki/Caguas,_Puerto_Rico", 
+        "lon": -66.03944444, 
+        "name": "Caguas, Puerto Rico"
+      }, 
+      {
+        "lat": 36.08194444, 
+        "url": "https://en.wikipedia.org/wiki/Paradise,_Nevada", 
+        "lon": -115.12472222, 
+        "name": "Paradise, Nevada"
+      }, 
+      {
+        "lat": 38.88027778, 
+        "url": "https://en.wikipedia.org/wiki/Arlington_County,_Virginia", 
+        "lon": -77.10833333, 
+        "name": "Arlington County, Virginia"
+      }, 
+      {
+        "lat": 36.17555556, 
+        "url": "https://en.wikipedia.org/wiki/Sunrise_Manor,_Nevada", 
+        "lon": -115.05972222, 
+        "name": "Sunrise Manor, Nevada"
+      }, 
+      {
+        "lat": 36.1125, 
+        "url": "https://en.wikipedia.org/wiki/Spring_Valley,_Nevada", 
+        "lon": -115.25027778, 
+        "name": "Spring Valley, Nevada"
+      }, 
+      {
+        "lat": 29.99777778, 
+        "url": "https://en.wikipedia.org/wiki/Metairie,_Louisiana", 
+        "lon": -90.1775, 
+        "name": "Metairie, Louisiana"
+      }, 
+      {
+        "lat": 34.03333333, 
+        "url": "https://en.wikipedia.org/wiki/East_Los_Angeles,_California", 
+        "lon": -118.16666667, 
+        "name": "East Los Angeles, California"
+      }, 
+      {
+        "lat": 36.03138889, 
+        "url": "https://en.wikipedia.org/wiki/Enterprise,_Nevada", 
+        "lon": -115.19805556, 
+        "name": "Enterprise, Nevada"
+      }, 
+      {
+        "lat": 27.93333333, 
+        "url": "https://en.wikipedia.org/wiki/Brandon,_Florida", 
+        "lon": -82.28333333, 
+        "name": "Brandon, Florida"
+      }, 
+      {
+        "lat": 42.6525, 
+        "url": "https://en.wikipedia.org/wiki/Albany,_New_York", 
+        "lon": -73.75722222, 
+        "name": "Albany, New York"
+      }, 
+      {
+        "lat": 40.44166667, 
+        "url": "https://en.wikipedia.org/wiki/Allegheny,_Pennsylvania", 
+        "lon": -80.0, 
+        "name": "Allegheny, Pennsylvania"
+      }, 
+      {
+        "lat": 40.69277778, 
+        "url": "https://en.wikipedia.org/wiki/Brooklyn", 
+        "lon": -73.99027778, 
+        "name": "Brooklyn"
+      }, 
+      {
+        "lat": 39.94, 
+        "url": "https://en.wikipedia.org/wiki/Camden,_New_Jersey", 
+        "lon": -75.105, 
+        "name": "Camden, New Jersey"
+      }, 
+      {
+        "lat": 40.805, 
+        "url": "https://en.wikipedia.org/wiki/Canton,_Ohio", 
+        "lon": -81.37583333, 
+        "name": "Canton, Ohio"
+      }, 
+      {
+        "lat": 42.31444444, 
+        "url": "https://en.wikipedia.org/wiki/Dearborn,_Michigan", 
+        "lon": -83.21333333, 
+        "name": "Dearborn, Michigan"
+      }, 
+      {
+        "lat": 46.8, 
+        "url": "https://en.wikipedia.org/wiki/Duluth,_Minnesota", 
+        "lon": -92.1, 
+        "name": "Duluth, Minnesota"
+      }, 
+      {
+        "lat": 42.12956111, 
+        "url": "https://en.wikipedia.org/wiki/Erie,_Pennsylvania", 
+        "lon": -80.08521389, 
+        "name": "Erie, Pennsylvania"
+      }, 
+      {
+        "lat": 41.70138889, 
+        "url": "https://en.wikipedia.org/wiki/Fall_River,_Massachusetts", 
+        "lon": -71.15555556, 
+        "name": "Fall River, Massachusetts"
+      }, 
+      {
+        "lat": 43.01, 
+        "url": "https://en.wikipedia.org/wiki/Flint,_Michigan", 
+        "lon": -83.69, 
+        "name": "Flint, Michigan"
+      }, 
+      {
+        "lat": 41.59555556, 
+        "url": "https://en.wikipedia.org/wiki/Gary,_Indiana", 
+        "lon": -87.34527778, 
+        "name": "Gary, Indiana"
+      }, 
+      {
+        "lat": 41.61111111, 
+        "url": "https://en.wikipedia.org/wiki/Hammond,_Indiana", 
+        "lon": -87.49305556, 
+        "name": "Hammond, Indiana"
+      }, 
+      {
+        "lat": 42.58222222, 
+        "url": "https://en.wikipedia.org/wiki/Kenosha,_Wisconsin", 
+        "lon": -87.84555556, 
+        "name": "Kenosha, Wisconsin"
+      }, 
+      {
+        "lat": 42.39722222, 
+        "url": "https://en.wikipedia.org/wiki/Livonia,_Michigan", 
+        "lon": -83.37361111, 
+        "name": "Livonia, Michigan"
+      }, 
+      {
+        "lat": 42.46666667, 
+        "url": "https://en.wikipedia.org/wiki/Lynn,_Massachusetts", 
+        "lon": -70.95, 
+        "name": "Lynn, Massachusetts"
+      }, 
+      {
+        "lat": 41.63611111, 
+        "url": "https://en.wikipedia.org/wiki/New_Bedford,_Massachusetts", 
+        "lon": -70.93472222, 
+        "name": "New Bedford, Massachusetts"
+      }, 
+      {
+        "lat": 43.1, 
+        "url": "https://en.wikipedia.org/wiki/Niagara_Falls,_New_York", 
+        "lon": -79.01666667, 
+        "name": "Niagara Falls, New York"
+      }, 
+      {
+        "lat": 41.39194444, 
+        "url": "https://en.wikipedia.org/wiki/Parma,_Ohio", 
+        "lon": -81.72861111, 
+        "name": "Parma, Ohio"
+      }, 
+      {
+        "lat": 36.831298, 
+        "url": "https://en.wikipedia.org/wiki/Portsmouth,_Virginia", 
+        "lon": -76.345641, 
+        "name": "Portsmouth, Virginia"
+      }, 
+      {
+        "lat": 40.34166667, 
+        "url": "https://en.wikipedia.org/wiki/Reading,_Pennsylvania", 
+        "lon": -75.92638889, 
+        "name": "Reading, Pennsylvania"
+      }, 
+      {
+        "lat": 37.26666667, 
+        "url": "https://en.wikipedia.org/wiki/Roanoke,_Virginia", 
+        "lon": -79.93333333, 
+        "name": "Roanoke, Virginia"
+      }, 
+      {
+        "lat": 41.41055556, 
+        "url": "https://en.wikipedia.org/wiki/Scranton,_Pennsylvania", 
+        "lon": -75.6675, 
+        "name": "Scranton, Pennsylvania"
+      }, 
+      {
+        "lat": 42.3875, 
+        "url": "https://en.wikipedia.org/wiki/Somerville,_Massachusetts", 
+        "lon": -71.1, 
+        "name": "Somerville, Massachusetts"
+      }, 
+      {
+        "lat": 39.75805556, 
+        "url": "https://en.wikipedia.org/wiki/St._Joseph,_Missouri", 
+        "lon": -94.83666667, 
+        "name": "St. Joseph, Missouri"
+      }, 
+      {
+        "lat": 40.223748, 
+        "url": "https://en.wikipedia.org/wiki/Trenton,_New_Jersey", 
+        "lon": -74.764001, 
+        "name": "Trenton, New Jersey"
+      }, 
+      {
+        "lat": 43.09472222, 
+        "url": "https://en.wikipedia.org/wiki/Utica,_New_York", 
+        "lon": -75.27583333, 
+        "name": "Utica, New York"
+      }, 
+      {
+        "lat": 39.74583333, 
+        "url": "https://en.wikipedia.org/wiki/Wilmington,_Delaware", 
+        "lon": -75.54666667, 
+        "name": "Wilmington, Delaware"
+      }, 
+      {
+        "lat": 41.1, 
+        "url": "https://en.wikipedia.org/wiki/Youngstown,_Ohio", 
+        "lon": -80.65, 
+        "name": "Youngstown, Ohio"
+      }
+    ], 
+    "citiesList": "List of United States cities by population"
+  }, 
+  {
+    "country": "Uruguay", 
+    "cities": [
+      {
+        "lat": -34.88361111, 
+        "url": "https://en.wikipedia.org/wiki/Montevideo", 
+        "lon": -56.18194444, 
+        "name": "Montevideo", 
+        "populationInfo": {
+          "Department": "1,319,108", 
+          "Capital city": "1,305,082", 
+          "Urban": "1,719,453", 
+          "Metro": "1,947,604[3][4]", 
+          "Density": "6,726/km2 (17,421/sq\u00a0mi)"
+        }
+      }, 
+      {
+        "lat": -31.38333333, 
+        "url": "https://en.wikipedia.org/wiki/Salto,_Uruguay", 
+        "lon": -57.95, 
+        "name": "Salto, Uruguay", 
+        "populationInfo": {
+          "Total": "104,028", 
+          "Demonym": "salte\u00f1o"
+        }
+      }, 
+      {
+        "lat": -34.81666667, 
+        "url": "https://en.wikipedia.org/wiki/Ciudad_de_la_Costa", 
+        "lon": -55.95, 
+        "name": "Ciudad de la Costa", 
+        "populationInfo": {
+          "Urban": "112,449", 
+          "Municipality": "95,176", 
+          "Density": "2,194/km2 (5,680/sq\u00a0mi)"
+        }
+      }, 
+      {
+        "lat": -32.32138889, 
+        "url": "https://en.wikipedia.org/wiki/Paysand%C3%BA", 
+        "lon": -58.07555556, 
+        "name": "Paysand\u00fa", 
+        "populationInfo": {
+          "Total": "76,412"
+        }
+      }, 
+      {
+        "lat": -34.71666718, 
+        "url": "https://en.wikipedia.org/wiki/Las_Piedras,_Uruguay", 
+        "lon": -56.21666718, 
+        "name": "Las Piedras, Uruguay", 
+        "populationInfo": {
+          "Total": "71,258", 
+          "Demonym": "pedrense"
+        }
+      }, 
+      {
+        "lat": -30.90250015, 
+        "url": "https://en.wikipedia.org/wiki/Rivera", 
+        "lon": -55.55055618, 
+        "name": "Rivera"
+      }, 
+      {
+        "lat": -34.9, 
+        "url": "https://en.wikipedia.org/wiki/Maldonado,_Uruguay", 
+        "lon": -54.95, 
+        "name": "Maldonado, Uruguay"
+      }, 
+      {
+        "lat": -31.73333333, 
+        "url": "https://en.wikipedia.org/wiki/Tacuaremb%C3%B3", 
+        "lon": -55.98333333, 
+        "name": "Tacuaremb\u00f3"
+      }, 
+      {
+        "lat": -32.36666667, 
+        "url": "https://en.wikipedia.org/wiki/Melo,_Uruguay", 
+        "lon": -54.18333333, 
+        "name": "Melo, Uruguay"
+      }, 
+      {
+        "lat": -33.25, 
+        "url": "https://en.wikipedia.org/wiki/Mercedes,_Uruguay", 
+        "lon": -58.03333282, 
+        "name": "Mercedes, Uruguay"
+      }, 
+      {
+        "lat": -30.46666718, 
+        "url": "https://en.wikipedia.org/wiki/Artigas,_Uruguay", 
+        "lon": -56.46666718, 
+        "name": "Artigas, Uruguay"
+      }, 
+      {
+        "lat": -34.36666667, 
+        "url": "https://en.wikipedia.org/wiki/Minas,_Uruguay", 
+        "lon": -55.23333333, 
+        "name": "Minas, Uruguay"
+      }, 
+      {
+        "lat": -34.33333333, 
+        "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_de_Mayo", 
+        "lon": -56.71666667, 
+        "name": "San Jos\u00e9 de Mayo"
+      }, 
+      {
+        "lat": -33.36666667, 
+        "url": "https://en.wikipedia.org/wiki/Durazno", 
+        "lon": -56.51666667, 
+        "name": "Durazno"
+      }, 
+      {
+        "lat": -34.1, 
+        "url": "https://en.wikipedia.org/wiki/Florida,_Uruguay", 
+        "lon": -56.21666667, 
+        "name": "Florida, Uruguay"
+      }, 
+      {
+        "lat": -34.75416667, 
+        "url": "https://en.wikipedia.org/wiki/Barros_Blancos", 
+        "lon": -56.00416667, 
+        "name": "Barros Blancos"
+      }, 
+      {
+        "lat": -34.76666667, 
+        "url": "https://en.wikipedia.org/wiki/Ciudad_del_Plata", 
+        "lon": -56.38055556, 
+        "name": "Ciudad del Plata"
+      }, 
+      {
+        "lat": -34.8, 
+        "url": "https://en.wikipedia.org/wiki/San_Carlos,_Uruguay", 
+        "lon": -54.91666667, 
+        "name": "San Carlos, Uruguay"
+      }, 
+      {
+        "lat": -34.47138889, 
+        "url": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento", 
+        "lon": -57.84416667, 
+        "name": "Colonia del Sacramento"
+      }, 
+      {
+        "lat": -34.71666667, 
+        "url": "https://en.wikipedia.org/wiki/Pando,_Uruguay", 
+        "lon": -55.95833333, 
+        "name": "Pando, Uruguay"
+      }, 
+      {
+        "lat": -33.23333333, 
+        "url": "https://en.wikipedia.org/wiki/Treinta_y_Tres", 
+        "lon": -54.38333333, 
+        "name": "Treinta y Tres"
+      }, 
+      {
+        "lat": -34.48333333, 
+        "url": "https://en.wikipedia.org/wiki/Rocha,_Uruguay", 
+        "lon": -54.35, 
+        "name": "Rocha, Uruguay"
+      }, 
+      {
+        "lat": -33.13333333, 
+        "url": "https://en.wikipedia.org/wiki/Fray_Bentos", 
+        "lon": -58.3, 
+        "name": "Fray Bentos"
+      }, 
+      {
+        "lat": -33.53333333, 
+        "url": "https://en.wikipedia.org/wiki/Trinidad,_Uruguay", 
+        "lon": -56.88333333, 
+        "name": "Trinidad, Uruguay"
+      }, 
+      {
+        "lat": -34.53333333, 
+        "url": "https://en.wikipedia.org/wiki/Canelones_Department", 
+        "lon": -55.93333333, 
+        "name": "Canelones Department"
+      }, 
+      {
+        "lat": -34.51666667, 
+        "url": "https://en.wikipedia.org/wiki/Canelones,_Uruguay", 
+        "lon": -56.28333333, 
+        "name": "Canelones, Uruguay"
+      }, 
+      {
+        "lat": -34.0, 
+        "url": "https://en.wikipedia.org/wiki/Carmelo,_Uruguay", 
+        "lon": -58.28333282, 
+        "name": "Carmelo, Uruguay"
+      }, 
+      {
+        "lat": -33.53333282, 
+        "url": "https://en.wikipedia.org/wiki/Dolores,_Uruguay", 
+        "lon": -58.21666718, 
+        "name": "Dolores, Uruguay"
+      }, 
+      {
+        "lat": -32.7, 
+        "url": "https://en.wikipedia.org/wiki/Young,_Uruguay", 
+        "lon": -57.63333333, 
+        "name": "Young, Uruguay"
+      }, 
+      {
+        "lat": -34.4525, 
+        "url": "https://en.wikipedia.org/wiki/Santa_Luc%C3%ADa,_Uruguay", 
+        "lon": -56.39638889, 
+        "name": "Santa Luc\u00eda, Uruguay"
+      }, 
+      {
+        "lat": -34.665, 
+        "url": "https://en.wikipedia.org/wiki/Progreso,_Uruguay", 
+        "lon": -56.21944444, 
+        "name": "Progreso, Uruguay"
+      }, 
+      {
+        "lat": -34.87138889, 
+        "url": "https://en.wikipedia.org/wiki/Paso_de_Carrasco", 
+        "lon": -56.02722222, 
+        "name": "Paso de Carrasco"
+      }, 
+      {
+        "lat": -32.59722222, 
+        "url": "https://en.wikipedia.org/wiki/R%C3%ADo_Branco,_Uruguay", 
+        "lon": -53.38333333, 
+        "name": "R\u00edo Branco, Uruguay"
+      }, 
+      {
+        "lat": -32.81805556, 
+        "url": "https://en.wikipedia.org/wiki/Paso_de_los_Toros", 
+        "lon": -56.50638889, 
+        "name": "Paso de los Toros"
+      }, 
+      {
+        "lat": -34.43111111, 
+        "url": "https://en.wikipedia.org/wiki/Juan_Lacaze", 
+        "lon": -57.44833333, 
+        "name": "Juan Lacaze"
+      }, 
+      {
+        "lat": -30.25, 
+        "url": "https://en.wikipedia.org/wiki/Bella_Uni%C3%B3n", 
+        "lon": -57.58333333, 
+        "name": "Bella Uni\u00f3n"
+      }, 
+      {
+        "lat": -34.28333333, 
+        "url": "https://en.wikipedia.org/wiki/Nueva_Helvecia", 
+        "lon": -57.2, 
+        "name": "Nueva Helvecia"
+      }, 
+      {
+        "lat": -34.63333333, 
+        "url": "https://en.wikipedia.org/wiki/Libertad,_Uruguay", 
+        "lon": -56.61916667, 
+        "name": "Libertad, Uruguay"
+      }, 
+      {
+        "lat": -34.31388889, 
+        "url": "https://en.wikipedia.org/wiki/Rosario,_Uruguay", 
+        "lon": -57.3525, 
+        "name": "Rosario, Uruguay"
+      }, 
+      {
+        "lat": -34.11666667, 
+        "url": "https://en.wikipedia.org/wiki/Colonia_Department", 
+        "lon": -57.68333333, 
+        "name": "Colonia Department"
+      }, 
+      {
+        "lat": -33.68333333, 
+        "url": "https://en.wikipedia.org/wiki/Chuy", 
+        "lon": -53.45, 
+        "name": "Chuy"
+      }, 
+      {
+        "lat": -34.96666667, 
+        "url": "https://en.wikipedia.org/wiki/Punta_del_Este", 
+        "lon": -54.95, 
+        "name": "Punta del Este"
+      }, 
+      {
+        "lat": -34.9, 
+        "url": "https://en.wikipedia.org/wiki/Piri%C3%A1polis", 
+        "lon": -55.28333333, 
+        "name": "Piri\u00e1polis"
+      }, 
+      {
+        "lat": -34.78333333, 
+        "url": "https://en.wikipedia.org/wiki/Salinas,_Uruguay", 
+        "lon": -55.83333333, 
+        "name": "Salinas, Uruguay"
+      }, 
+      {
+        "lat": -34.76666667, 
+        "url": "https://en.wikipedia.org/wiki/Parque_del_Plata", 
+        "lon": -55.71666667, 
+        "name": "Parque del Plata"
+      }, 
+      {
+        "lat": -33.67388916, 
+        "url": "https://en.wikipedia.org/wiki/Lascano", 
+        "lon": -54.20750046, 
+        "name": "Lascano"
+      }, 
+      {
+        "lat": -34.19888889, 
+        "url": "https://en.wikipedia.org/wiki/Castillos", 
+        "lon": -53.8575, 
+        "name": "Castillos"
+      }, 
+      {
+        "lat": -31.18333333, 
+        "url": "https://en.wikipedia.org/wiki/Tranqueras", 
+        "lon": -55.76666667, 
+        "name": "Tranqueras"
+      }, 
+      {
+        "lat": -33.33333333, 
+        "url": "https://en.wikipedia.org/wiki/Sarand%C3%AD_del_Y%C3%AD", 
+        "lon": -55.63333333, 
+        "name": "Sarand\u00ed del Y\u00ed"
+      }, 
+      {
+        "lat": -34.8, 
+        "url": "https://en.wikipedia.org/wiki/Pan_de_Az%C3%BAcar,_Uruguay", 
+        "lon": -55.21666667, 
+        "name": "Pan De Az\u00facar, Uruguay"
+      }, 
+      {
+        "lat": -34.65, 
+        "url": "https://en.wikipedia.org/wiki/Sauce,_Uruguay", 
+        "lon": -56.06666667, 
+        "name": "Sauce, Uruguay"
+      }, 
+      {
+        "lat": -33.56666667, 
+        "url": "https://en.wikipedia.org/wiki/Sarand%C3%AD_Grande", 
+        "lon": -56.33333333, 
+        "name": "Sarand\u00ed Grande"
+      }, 
+      {
+        "lat": -33.45, 
+        "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Pedro_Varela,_Uruguay", 
+        "lon": -54.53333333, 
+        "name": "Jos\u00e9 Pedro Varela, Uruguay"
+      }, 
+      {
+        "lat": -34.35, 
+        "url": "https://en.wikipedia.org/wiki/Tala,_Uruguay", 
+        "lon": -55.76666667, 
+        "name": "Tala, Uruguay"
+      }, 
+      {
+        "lat": -32.35, 
+        "url": "https://en.wikipedia.org/wiki/Guich%C3%B3n", 
+        "lon": -57.2, 
+        "name": "Guich\u00f3n"
+      }, 
+      {
+        "lat": -33.86944444, 
+        "url": "https://en.wikipedia.org/wiki/Cardona,_Uruguay", 
+        "lon": -57.36805556, 
+        "name": "Cardona, Uruguay"
+      }, 
+      {
+        "lat": -34.55, 
+        "url": "https://en.wikipedia.org/wiki/San_Jacinto,_Uruguay", 
+        "lon": -55.86666667, 
+        "name": "San Jacinto, Uruguay"
+      }, 
+      {
+        "lat": -34.74222222, 
+        "url": "https://en.wikipedia.org/wiki/Toledo,_Uruguay", 
+        "lon": -56.09833333, 
+        "name": "Toledo, Uruguay"
+      }, 
+      {
+        "lat": -32.95, 
+        "url": "https://en.wikipedia.org/wiki/Vergara,_Uruguay", 
+        "lon": -53.93333333, 
+        "name": "Vergara, Uruguay"
+      }, 
+      {
+        "lat": -34.5, 
+        "url": "https://en.wikipedia.org/wiki/Santa_Rosa,_Uruguay", 
+        "lon": -56.03333282, 
+        "name": "Santa Rosa, Uruguay"
+      }, 
+      {
+        "lat": -34.65, 
+        "url": "https://en.wikipedia.org/wiki/La_Paloma,_Rocha", 
+        "lon": -54.16666667, 
+        "name": "La Paloma, Uruguay"
+      }, 
+      {
+        "lat": -32.61666667, 
+        "url": "https://en.wikipedia.org/wiki/San_Gregorio_de_Polanco", 
+        "lon": -55.83333333, 
+        "name": "San Gregorio de Polanco"
+      }, 
+      {
+        "lat": -34.60694444, 
+        "url": "https://en.wikipedia.org/wiki/Cerrillos,_Uruguay", 
+        "lon": -56.35833333, 
+        "name": "Cerrillos, Uruguay"
+      }, 
+      {
+        "lat": -34.2, 
+        "url": "https://en.wikipedia.org/wiki/Aigu%C3%A1", 
+        "lon": -54.75, 
+        "name": "Aigu\u00e1"
+      }, 
+      {
+        "lat": -34.48333333, 
+        "url": "https://en.wikipedia.org/wiki/Migues", 
+        "lon": -55.63333333, 
+        "name": "Migues"
+      }, 
+      {
+        "lat": -34.44027778, 
+        "url": "https://en.wikipedia.org/wiki/San_Bautista", 
+        "lon": -55.95972222, 
+        "name": "San Bautista"
+      }
+    ], 
+    "citiesList": "List of cities in Uruguay"
+  }, 
+  {
+    "country": "Uzbekistan", 
+    "citiesList": "List of cities in Uzbekistan"
+  }, 
+  {
+    "country": "Vanuatu", 
+    "citiesList": "List of cities in Vanuatu"
+  }, 
+  {
+    "country": "Venezuela", 
+    "citiesList": "List of cities in Venezuela"
+  }, 
+  {
+    "country": "Vietnam", 
+    "citiesList": "List of cities in Vietnam"
+  }, 
+  {
+    "country": "United States Virgin Islands", 
+    "citiesList": "List of settlements in the United States Virgin Islands"
+  }, 
+  {
+    "country": "Western Sahara", 
+    "citiesList": "List of cities in Western Sahara"
+  }, 
+  {
+    "country": "Yemen", 
+    "citiesList": "List of cities in Yemen"
+  }, 
+  {
+    "country": "Zambia", 
+    "citiesList": "List of cities and towns in Zambia"
+  }, 
+  {
+    "country": "Zimbabwe", 
+    "citiesList": "List of cities and towns in Zimbabwe"
+  }
+]

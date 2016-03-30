@@ -16,69 +16,53 @@ def main():
 	   citiesData = json.load(inputFile)
 	#
 	# The citiesData is a nested list of countries with cities
+	numberOfCities = 0
 	pBarCountries = tqdm(citiesData, leave=True, nested=True)
 	for c in pBarCountries:
 		country = c['country']
 		if c.has_key('cities'):
 			cities = c['cities']
 			pBarCountries.set_description("Processing %s" % country)
-			pBarCities = tqdm(cities, leave=True, nested=True)
+			pBarCities = tqdm(cities[:5], leave=True, nested=True)
 			for city in pBarCities:
 				# Open the city page
-				
-			# if listPage:
-			# 	p = wikipedia.page(listPage, auto_suggest=False)
-			# 	r = urllib.urlopen(p.url).read()
-			# 	soup = BeautifulSoup(r, "html.parser")
-			# 	tables = soup.findAll('table', class_="wikitable")
-			# 	# create two empty cities list
-			# 	# (one just for the city names, to prevent duplicates)
-			# 	# (the second to store more info per city)
-			# 	cities = []
-			# 	cityDicts = []
-			# 	possibleCityLinks = []
-			# 	if len(tables) > 0:
-			# 		# First the case when there are tables
-			# 		#
-			# 		for t in tables:
-			# 			for tr in t.findAll('tr'):
-			# 				allLinks = []
-			# 				for th in tr.findAll('th'):
-			# 					link = th.find('a')
-			# 					if link:
-			# 						allLinks.append(link)
-			# 				for td in tr.findAll('td'):
-			# 					link = td.find('a')
-			# 					if link:
-			# 						allLinks.append(link)
-			# 				possibleCityLinks.append(allLinks)
-			# 	else:
-			# 		# Find all links in list items
-			# 		div = soup.find('div', id="mw-content-text")
-			# 		# Search all unordered lists
-			# 		for ul in div.findAll('ul', recursive=False):
-			# 			for link in ul.findAll('a'):
-			# 				possibleCityLinks.append([link])
-			# 		# Search all ordered lists
-			# 		for ol in div.findAll('ol', recursive=False):
-			# 			for link in ol.findAll('a'):
-			# 				possibleCityLinks.append([link])
-			# 	# Find first valid link
-			# 	pBarCities = tqdm(possibleCityLinks, leave=True, nested=True)
-			# 	for allLinks in pBarCities:
-			# 		# Find first valid link in the links
-			# 		for link in allLinks:
-			# 			if appendLinkToCities(link, cities, cityDicts):
-			# 				break
-			# 	numberOfCities += len(cityDicts)
-			# 	# Now, our cities list is filled with cities, but what to do with it.
-			# 	#
-			# 	# Let's append it to the dictionary c, we already had
-			# 	c['cities'] = cityDicts
-	# # Save a file, with all cities by countries
-	# with open("city_populations.json", 'w') as outputFile:
-	#    json.dump(citiesData, outputFile, indent=2)
-	# print "Found list of %d cities" % (numberOfCities)
+				r = urllib.urlopen(city['url']).read()
+				soup = BeautifulSoup(r, "html.parser")
+				# Get the infobox table
+				infoBox = soup.find('table', class_="infobox")
+				# Get all mergedTopRows
+				mergedTopRows = infoBox.findAll('tr', class_="mergedtoprow")
+				# Find the Population mergedTopRow
+				populationMergedTopRow = None
+				for m in mergedTopRows:
+					text = m.text.strip()
+					if text.startswith("Population"):
+						populationMergedTopRow = m
+						break
+				if populationMergedTopRow:
+					pDict = {}
+					foundPopulation = False
+					for tr in populationMergedTopRow.findNextSiblings('tr'):
+						if 'mergedrow' in tr['class']:
+							populationKey = tr.find('th').text.strip().strip(u'\xa0\u2022\xa0')
+							if populationKey:
+								populationValue = tr.find('td').text.strip()
+								if populationValue:
+									# Add the key and value to a sub - dict
+									pDict[populationKey] = populationValue
+									# Keep track of whether population was found
+									foundPopulation = True
+						else:
+							break
+					if foundPopulation:
+						# increment a counter
+						numberOfCities += 1
+						# Add the info to the city data
+						city['populationInfo'] = pDict
+	# Finally: save a file, with all cities by countries
+	with open("city_populations.json", 'w') as outputFile:
+	   json.dump(citiesData, outputFile, indent=2)
+	print "Found %d cities with population" % (numberOfCities)
 	
 
 if __name__ == '__main__':
