@@ -16,19 +16,16 @@ def appendLinkToCities(link, cityNameList, cityDictList):
 			# Check if this possible city has a coordinate
 			try:
 				p = wikipedia.page(cityName, auto_suggest=False)
-				try:
-					coord = p.coordinates
-					cityDict = {}
-					cityDict['name'] = cityName
-					cityDict['lat'] = float(coord[0])
-					cityDict['lon'] = float(coord[1])
-					cityDict['url'] = p.url
-					cityDictList.append(cityDict)
-					cityNameList.append(cityName)
-					return True
-				except KeyError:
-					return False
-			except wikipedia.exceptions.DisambiguationError:
+				coord = p.coordinates
+				cityDict = {}
+				cityDict['name'] = cityName
+				cityDict['lat'] = float(coord[0])
+				cityDict['lon'] = float(coord[1])
+				cityDict['url'] = p.url
+				cityDictList.append(cityDict)
+				cityNameList.append(cityName)
+				return True
+			except (KeyError, wikipedia.exceptions.DisambiguationError):
 				return False
 	return False
 
@@ -62,10 +59,11 @@ def main():
 	numberOfCities = 0
 	pBarCountries = tqdm(citiesData, leave=True, nested=True)
 	for c in pBarCountries:
-		pBarCountries.set_description("Processing %s" % c['country'])
-		# citiesList must be a exiting link
+		# citiesList must be a exiting link and not the same as the country itself
+		country = c['country']
 		listPage = c['citiesList']
-		if not listPage.endswith('(page does not exist)'):
+		pBarCountries.set_description("Processing %s" % country)
+		if not listPage.endswith('(page does not exist)') and not listPage == country:
 			p = wikipedia.page(listPage, auto_suggest=False)
 			p.url
 			r = urllib.urlopen(p.url).read()

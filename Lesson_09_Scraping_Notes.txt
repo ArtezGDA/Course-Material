@@ -609,6 +609,28 @@ KeyError: u'fullurl'
 
 So, there is another problem. With Akrotiri and Dhekelia
 
+And on closer inspection:
+- Gibraltar
+- Monaco
+- Montserrat
+- Pitcairn Islands
+- South Ossetia
+- Svalbard				(Spitsbergen)
+- Transnistria
+
+All these countries do not have a list of cities page (it is the same as the country).
+So we need to check that
+
+And another exception with Aswan in Egypt. Let's combine all the exceptions.
+
+----
+
+Other problems:
+
+- Dominican Republic:
+	not the correct list of cities page (need to go one step further)
+- Czech Republic:
+	flags in the table as first anchor (without title)
 
 ----
 
