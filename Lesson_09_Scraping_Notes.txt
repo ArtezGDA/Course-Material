@@ -623,6 +623,11 @@ So we need to check that
 
 And another exception with Aswan in Egypt. Let's combine all the exceptions.
 
+... this will take about 2,5 hours and result in:
+
+Found list of 227 countries
+Found list of 16820 cities
+
 ----
 
 Other problems:
@@ -631,6 +636,8 @@ Other problems:
 	not the correct list of cities page (need to go one step further)
 - Czech Republic:
 	flags in the table as first anchor (without title)
+- United States:
+	not the correct list of cities page (need to go one step further)
 
 ----
 
