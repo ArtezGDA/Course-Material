@@ -589,6 +589,28 @@ Hey, now it is faster too!
 Snag! Another DisambiguationError with the City Aw in Bahrain
 Guess we need the try: any way
 
+----
+
+Darn... Another bug:
+
+Processing Denmark:  21%|███████████████████████████████▉                                                                                                                       | 48/227 [51:23<2:42:16, 54.39s/it]
+ 44%|████████████████████████████████████████████████████████████████████████████▌                                                                                                 | 11/25 [00:06<00:09,  1.43it/s]Traceback (most recent call last):
+  File "scrape_wiki_countries.py", line 125, in <module>
+    main()
+  File "scrape_wiki_countries.py", line 111, in main
+    if appendLinkToCities(link, cities, cityDicts):
+  File "scrape_wiki_countries.py", line 18, in appendLinkToCities
+    p = wikipedia.page(cityName, auto_suggest=False)
+  File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 276, in page
+  File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 299, in __init__
+  File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 398, in __load
+KeyError: u'fullurl'
+
+
+So, there is another problem. With Akrotiri and Dhekelia
+
+
+----
 
 Alternative approach:
 Find the cities by clever use of categories ...?
