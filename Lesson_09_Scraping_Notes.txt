@@ -659,7 +659,24 @@ Then manually fix the countries.json, specifically:
 	Dominican Republic
 	United States
 
+---- 
 
+Next is our scrape_wiki_cities script.
+
+- We read in the json file
+- Checking for listPage == countryPage, is already done in the first script, so we just need to check for an empty string
+
+test = ""
+if test:
+    print "not here"
+else:
+    print "but here"
+test = "some string"
+
+
+if listPage:
+
+----
 
 Alternative approach:
 Find the cities by clever use of categories ...?
