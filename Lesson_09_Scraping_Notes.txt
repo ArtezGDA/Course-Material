@@ -634,10 +634,23 @@ Other problems:
 
 - Dominican Republic:
 	not the correct list of cities page (need to go one step further)
-- Czech Republic:
-	flags in the table as first anchor (without title)
 - United States:
 	not the correct list of cities page (need to go one step further)
+
+- Czech Republic:
+	flags in the table as first anchor (without title)
+
+
+Missing the United States feels like a problem we really need to fix first.
+So let's look at the page, ... it lists more pages, ... each one of them would be fine,
+but "List of United States cities by population" would be ideal.
+
+How to best fix this? 
+
+Let's split up our efforts into seperate scripts. Not a "clean" solution, but a very pragmatic one. And it will also help us speed the process.
+
+Make the scrape_wiki_countries only scrape countries and deliver a file countries.json 
+Then use the countries.json to be used in a new script scrape_wiki_cities and deliver a second file cities.json.
 
 ----
 
