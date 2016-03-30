@@ -678,10 +678,10 @@ if listPage:
 
 ----
 
-Now we have about 20000 cities, of which we know the latitute and longitude. Nice!
+Now we have about 17343 cities, of which we know the latitute and longitude. Nice!
 We could already map these cities on a map, ...
 
-But I want more: what if we could get the population of all these 20000 cities?
+But I want more: what if we could get the population of all these 17343 cities?
 The wikipedia pages know this, so let's get this out.
 
 Let's investigate the population of a few cities:
