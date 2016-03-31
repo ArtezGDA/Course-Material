@@ -31,6 +31,21 @@ http://gis.stackexchange.com/questions/78838/how-to-convert-projected-coordinate
 
 ----
 
+Scraping
+- from data to graph -
+
+Scraping Wikipedia
+- Debugging the variability of Wikipedia -
+
+Apps open:
+
+Textedit for notes
+Terminal window
+Browser
+Textmate for editing
+
+
+
 Wikipedia pages:
 
 https://en.wikipedia.org/wiki/Lists_of_cities_by_country
@@ -835,6 +850,45 @@ It still contains all these weird chararcters. Let's strip them:
 key = merged.findNextSibling().find('th').text
 key
 key.strip(u'\xa0\u2022\xa0')				
+
+----
+
+More bugs and more bugs:
+
+Processing Argentina:   3%|████▋                                                                                                                                                 | 7/227 [02:05<1:03:23, 17.29s/it]
+ 65%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                            | 32/49 [00:14<00:06,  2.70it/s]Traceback (most recent call last):
+  File "scrape_wiki_city_population.py", line 71, in <module>
+    main()
+  File "scrape_wiki_city_population.py", line 48, in main
+    if 'mergedrow' in tr['class']:
+  File "build/bdist.macosx-10.9-intel/egg/bs4/element.py", line 905, in __getitem__
+KeyError: 'class'
+
+
+if tr.has_attr('class') and 'mergedrow' in tr['class']:
+
+....
+
+And another:
+
+Processing Azerbaijan:   5%|███████▏                                                                                                                                            | 11/227 [04:20<2:09:38, 36.01s/it]
+ 96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 24/25 [00:52<00:02,  2.07s/it]Traceback (most recent call last):
+  File "scrape_wiki_city_population.py", line 71, in <module>
+    main()
+  File "scrape_wiki_city_population.py", line 49, in main
+    populationKey = tr.find('th').text.strip().strip(u'\xa0\u2022\xa0')
+AttributeError: 'NoneType' object has no attribute 'text'
+
+
+th = tr.find('th')
+if th and th.text:
+	populationKey = th.text.strip().strip(u'\xa0\u2022\xa0')
+
+
+
+
+
+
 
 ----
 
