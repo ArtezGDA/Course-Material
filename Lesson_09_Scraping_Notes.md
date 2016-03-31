@@ -1,75 +1,86 @@
-1.
+# Scraping Lecture
+
+## Lecture Notes
+
+### Getting Public Data from the Government
+
+##### 1. Waardevolle bomen
+
 http://geo1.arnhem.nl/arcgis/services/Openbaar/Waardevolle_bomen/MapServer/WFSServer?request=GetFeature&service=WFS
 
-> TypeName is mandatory if featureID isn't present in GET requests.
+`> TypeName is mandatory if featureID isn't present in GET requests.`
 
-python OWSLib?
-http://geopython.github.io/OWSLib/
+- python OWSLib?
+    - http://geopython.github.io/OWSLib/
 
 Or construct the url yourself
 
-2.
+##### 2. Contruct the url
+
 http://geo1.arnhem.nl/arcgis/services/Openbaar/Waardevolle_bomen/MapServer/WFSServer?request=GetFeature&service=WFS&TypeName=Openbaar_Waardevolle_bomen:Waardevolle_bomen
 
-3. Map geo points
+##### 3. Map geo points
 
 What is this?
+
 https://en.wikipedia.org/wiki/Geography_Markup_Language
 
 SRS = Spacial Reference System
 
-<gml:Envelope srsName="urn:ogc:def:crs:EPSG:6.9:28992">
+`<gml:Envelope srsName="urn:ogc:def:crs:EPSG:6.9:28992">`
 
-https://www.epsg-registry.org
-is a type of srs: namely EPSG::28992 = "Amersfoort / RD New"
-
-How to convert?
-http://cs2cs.mygeodata.eu
-
-or with python:
-http://gis.stackexchange.com/questions/78838/how-to-convert-projected-coordinates-to-lat-lon-using-python
+- https://www.epsg-registry.org
+    - is a type of srs: namely EPSG::28992 = "Amersfoort / RD New"
+- How to convert?
+    - http://cs2cs.mygeodata.eu
+- or with python:
+    - http://gis.stackexchange.com/questions/78838/how-to-convert-projected-coordinates-to-lat-lon-using-python
 
 ----
 
-Scraping
-- from data to graph -
+## Scraping
+### - from data to graph -
 
-Scraping Wikipedia
-- Debugging the variability of Wikipedia -
+## Scraping Wikipedia
+### - Debugging the variability of Wikipedia -
 
-Apps open:
+##### Apps open:
 
-Textedit for notes
-Terminal window
-Browser
-Textmate for editing
+- Textedit for notes
+- Terminal window with tabs for git / ipython / executing
+- Browser
+- Textmate for editing
 
+### Starting point:
 
-
-Wikipedia pages:
-
-https://en.wikipedia.org/wiki/Lists_of_cities_by_country
+- Wikipedia page:
+    - https://en.wikipedia.org/wiki/Lists_of_cities_by_country
 
 ----
 
-Wikipedia scraping
+### Wikipedia scraping
 
-python module: *wikipedia*
-[Quick Start](https://wikipedia.readthedocs.org/en/latest/quickstart.html#quickstart)
-[Full Documentation](https://wikipedia.readthedocs.org/en/latest/code.html#api)
+#### Attempt 1: wikipedia module
 
+- python module: *wikipedia*
+    - [Quick Start](https://wikipedia.readthedocs.org/en/latest/quickstart.html#quickstart)
+    - [Full Documentation](https://wikipedia.readthedocs.org/en/latest/code.html#api)
 
+```
 import wikipedia
 wikipedia.page("Lists_of_cities_by_country")
 p = wikipedia.page("Lists_of_cities_by_country")
 p.sections
 p.categories
 p.links
+```
 
-(p.links returns a list, of *all* links, alphabetically ... not what we want)
+(p.links returns a list, of *all* links, alphabetically ... not what we want)  
 So let's try to scrape the list by parsing the DOM tree (with Beautiful Soup)
 
+#### Attempt 2: parse the DOM
 
+```
 from bs4 import BeautifulSoup
 import urllib
 r = urllib.urlopen("https://en.wikipedia.org/wiki/Lists_of_cities_by_country").read()
@@ -77,14 +88,20 @@ soup = BeautifulSoup(r)
 type(soup)
 soup.findAll("li")
 listitems = soup.findAll("li")
+```
 
+```
 len(listitems)
-> 353 
-(too much list items)
+> 353
+```
 
-(So we need to find another way to get the prefered list items, ... maybe use the flag):
+These are too much list items
+
+So we need to find another way to get the prefered list items, ... maybe use the flag:
+
 Find all flags, then get the (parent) item that holds that flag, that parent item will probably contain the two links: the list of cities PLUS the name of the country
 
+```
 flags = soup.find_all("span", "flagicon")
 flags = soup.find_all("span", class_="flagicon")
 len(flags)
@@ -93,37 +110,47 @@ for f in flags:
     listitems.append(f.parent)
 len(listitems)
 listitems[0]
+```
 
 Check if we have all the countries by printing just the countries
 
+```
 l = listitems[0]
 l.findChildren("a")
 len(l.findChildren("a"))
 l.findChildren("a")[-1]
 l.findChildren("a")[-1]['title']
 l.findChildren("a")[-1].text
+```
 
+```
 for l in listitems:
     print l.findChildren("a")[-1]['title']
+```
 
 Fine!
 
 Finally check if the list is sane, by counting the number of links of each item:
 
+```
 for l in listitems:
    print len(l.findChildren("a")), l.findChildren("a")[-1]['title']
+```
    
 Oh, there is a problem with Vatican City. ... Let's skip that one by ensuring the len( ... "a") is bigger or equal to 3.
 And there is a problem with Ireland, because it has two flags. (Let's leave that in for now)
 
 
 Now, list find all the "List of cities in ..." pages, and store them together with the country, in list, like this:
+```
 [
 	{'citiesList': "List of cities in Brazil", 'country': "Brazil"},
 	{...},
 	...
 ]
+```
 
+```
 citiesData = []
 for l in listitems:
     if len(l.findChildren("a")) >= 3:
@@ -131,28 +158,38 @@ for l in listitems:
         country['citiesList'] = l.findChildren("a")[-2]['title']
         country['country'] = l.findChildren("a")[-1]['title']
         citiesData.append(country)
+```
 
 As a step in between, lets save this list.
 
+```
 import json
 with open("countries.json", 'w') as outputFile:
    json.dump(citiesData, outputFile)
+```
+
+Let's create a python script from this:
+
+`history`
 
 ----
+
+### Dive into cities
 
 Now, let's continue and dive in the pages listing the cities. ...
 
 There are many different types of pages, using tables, using lists, multiple tables, duplicates, historic names ... This will be lots of stuff we don't want. What would be the best approach?
 
 My attempt will be the following:
+
 - searching the DOM tree (with Beautiful Soup):
 - if there are tables, use the first column of the table which has a link with a title
 - if there are no tables, use all li (listitems)
 - only store the city if it is not a duplicate
 
-
 First let's see if we can find the tables
 
+```
 c = citiesData[0]
 p = wikipedia.page(c['citiesList'])
 p.url
@@ -160,39 +197,56 @@ r = urllib.urlopen(p.url).read()
 soup = BeautifulSoup(r)
 tables = soup.findAll('table', class_="wikitable")
 len(tables)
+```
 
-> 2
+`> 2`
 
 Ok. Let's try this with the first table we find
 
+```
 t = tables[0]
+```
 
 Get all rows:
 
+```
 t.findAll('tr')
+```
 
 try with the first, and then second row
 
+```
 tr = t.findAll('tr')[0]
 tr
 tr = t.findAll('tr')[1]
 tr
+```
 
 find the first td in a row
 
+```
 td = tr.findAll('td')[0]
+```
 
 Finally, get the a.
 
+```
 td.find('a')
+```
 
+#### Bake it into the python script
 
 Now let's put this together, and try it out for Afganistan
 
+```
 c = citiesData[0]
+```
 
+```
 cities = []
+```
 
+```
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -202,18 +256,23 @@ for t in tables:
                 if cityName:
                     # ...
                     cities.append(cityName)
+```
 				
-> Error
-What is link?
- <a href="#cite_note-2">[2]</a>
+`> Error`
+
+What is link?  
+` <a href="#cite_note-2">[2]</a>`
  
 It has no attribute title, so it is not good
 
+```
 link.has_attr('title')
 > False
+```
 
 Change the code:
 
+```
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -223,16 +282,19 @@ for t in tables:
                 if cityName:
                     # ...
                     cities.append(cityName)
+```
 
-
-Almost good: it has doubles, and it also contains:
+Almost good: it has doubles, and it also contains:  
 'Laghman, Jowzjan (page does not exist)'
 
-Let's exclude that one:
+Let's exclude the pages that do not exist:
 
+```
 cityName.endswith('(page does not exist)')
 > True
+```
 
+```
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -242,17 +304,20 @@ for t in tables:
                 if cityName and not cityName.endswith('(page does not exist)'):
                     # ...
                     cities.append(cityName)
+```
 
 Now, let's remove the duplicates:
 
+```
 'Kabul' in cities
 > True
-
 'New York' in cities
 > False
+```
 
-Expand the # ...
+Expand the `# ...`
 
+```
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -262,8 +327,10 @@ for t in tables:
                 # remove duplicates and broken pages
                 if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
                     cities.append(cityName)
+```
 
 ----
+
 
 All fine and well, but what if the row, contains more valid links?
 
@@ -298,61 +365,79 @@ Now let's try this when there are no tables:
 
 Trying this out with: List of cities in Antigua and Barbuda
 
+```
 c = citiesData[5]
 p = wikipedia.page(c['citiesList'])
 r = urllib.urlopen(p.url).read()
 soup = BeautifulSoup(r)
 tables = soup.findAll('table', class_="wikitable")
 len(tables)
+```
 
 First, what if we would just get all the list items?
 
+```
 lis = soup.findAll('li')
 len(lis)
+```
 
-> 147
+`> 147`
+
 Clearly, that's way too much. We need to filter it down.
 
 Maybe: only get the list items inside the mw-content-text div
 
+```
 div = soup.find('div', id="mw-content-text")
+```
 
 Note: find just returns the first object found, where findAll returns a list [] of objects.
 
+```
 len(div.findAll('li'))
-
 > 79 
+```
 
 That is still to much. Let's narrow it down further. There is a difference between all descendents and just the first level children:
 
+```
 len(div.findAll('ul'))
 > 5
 len(div.findAll('ul', recursive=False))
 > 1
+```
 
 We need to be looking or ul and ol (unordered and ordered lists)
 
+```
 uls = div.findAll('ul', recursive=False)
+```
 
 Test with only the first
 
+```
 ul = uls[0]
 ul.findAll('a')
+```
 
+```
 ols = div.findAll('ol', recursive=False)
+```
 
 Test with only the first
 
+```
 ol = ols[0]
 ol.findAll('a')
+```
 
 ----
 
-Let's put this *ALL* together:
+Let's put this **ALL** together:
 
+But let's limit it to the first 8 for now. Later, we'll remove the `[:8]`
 
-But let's limit it to the first 8 for now. Later, we'll remove the [:8]
-
+```
 for c in citiesData[:8]:
     p = wikipedia.page(c['citiesList'])
     p.url
@@ -374,7 +459,6 @@ for c in citiesData[:8]:
                         if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
                             cities.append(cityName)
                             break
-        
     else:
         # Find all valid links in list items
         div = soup.find('div', id="mw-content-text")
@@ -398,8 +482,7 @@ for c in citiesData[:8]:
     #
     # Let's append it to the dictionary c, we already had
     c['cities'] = cities
-
-
+```
 
 Excellent!
 
@@ -411,12 +494,19 @@ You see that just getting the cities from the first 8 countries, already takes q
 
 Install the tqdm module
 https://github.com/tqdm/tqdm
+
+```
 sudo easy_install tqdm
+```
 
+```
 from tqdm import tqdm
+```
 
+```
 for i in tqdm(range(10)):
     # do something
+```
     
 ----
 
@@ -702,34 +792,49 @@ The wikipedia pages know this, so let's get this out.
 Let's investigate the population of a few cities:
 
 
+```
 from bs4 import BeautifulSoup
 import urllib
+```
 
+```
 url = "https://en.wikipedia.org/wiki/Kabul"
 r = urllib.urlopen(url).read()
 soup = BeautifulSoup(r, "html.parser")
+```
 
+```
 infoBox = soup.find('table', class_="infobox")
+```
 
+```
 mergedTopRows = infoBox.findAll('tr', class_="mergedtoprow")
 len(mergedTopRows)
+```
 
+```
 for m in mergedTopRows:
     print m.text
+```
 	
+```
 for m in mergedTopRows:
 	text = m.text
     if text.startswith("Population"):
         print m
+```
 		
-# Nothing? Well, it turns out there is some white space before
+Nothing? Well, it turns out there is some white space before`
 
+```
 text = "    Hello    "
 text
 text.lstrip()
 text.rstrip()
 text.strip()
+```
 
+```
 for m in mergedTopRows:
     text = m.text.strip()
     if text.startswith("Population"):
@@ -737,36 +842,51 @@ for m in mergedTopRows:
 		merged = m		
         
 merged
+```
 
+```
 merged.findNextSiblings('tr', class_="mergedrow")
 tr = merged.findNextSiblings('tr', class_="mergedrow")[0]
+```
 
+```
 tr
 tr.attrs
 tr['class']
+```
 
+```
 if 'mergedrow' in tr['class']:
     print tr
+```
 	
+```
 for tr in merged.findNextSiblings('tr'):
     if 'mergedrow' in tr['class']:
         print tr.find('th').text
     else:
         break
-
+```
 
 ----
 
+#### Put this all together
+
 That was a lot. Let's put this all together.
 
-1. First create a new script that reads the cities.json
-2. The cities.json is a nested list. Make the code parse the data in the same nested way
+##### 1. First create a new script that reads the cities.json
+##### 2. The cities.json is a nested list. Make the code parse the data in the same nested way
 
-# First get all the cities
+
+First get all the cities
+```
 with open("cities.json", 'r') as inputFile:
    citiesData = json.load(inputFile)
-#
-# The citiesData is a nested list of countries with cities
+```
+
+The citiesData is a nested list of countries with cities
+
+```
 pBarCountries = tqdm(citiesData, leave=True, nested=True)
 for c in pBarCountries:
 	country = c['country']
@@ -776,10 +896,12 @@ for c in pBarCountries:
 		pBarCities = tqdm(cities, leave=True, nested=True)
 		for city in pBarCities:
 			# Open the city page
+```
 
 
-3. Open the page for the city
+##### 3. Open the page for the city
 
+```
 			# Open the city page
 			r = urllib.urlopen(city['url']).read()
 			soup = BeautifulSoup(r, "html.parser")
@@ -787,9 +909,11 @@ for c in pBarCountries:
 			infoBox = soup.find('table', class_="infobox")
 			# Get all mergedTopRows
 			mergedTopRows = infoBox.findAll('tr', class_="mergedtoprow")
+```
 
-4. Find the population merged top row
+##### 4. Find the population merged top row
 
+```
 			populationMergedTopRow = None
 			for m in mergedTopRows:
 			    text = m.text.strip()
@@ -798,26 +922,32 @@ for c in pBarCountries:
 					break
 			if populationMergedTopRow:
 				# continue
+```
 
-5. Find sibling tr's only with class 'mergedrow'. Break at the first non-"mergedrow"
+##### 5. Find sibling tr's only with class 'mergedrow'. Break at the first non-"mergedrow"
 
+```
 			if populationMergedTopRow:
 				for tr in populationMergedTopRow.findNextSiblings('tr'):
 					if 'mergedrow' in tr['class']:
 					print tr.find('th').text
 				else:
 					break
+```
 
-6. Find the population key and population value
+##### 6. Find the population key and population value
 				
+```
 				for tr in populationMergedTopRow.findNextSiblings('tr'):
 					if 'mergedrow' in tr['class']:
 					populationKey = tr.find('th').text.strip()
 					if populationKey:
 						populationValue = tr.find('td').text.strip()
+```
 					
-7. If it has a key and a value, store it in a dict
+##### 7. If it has a key and a value, store it in a dict
 
+```
 			pDict = {}
 			
 					if populationKey:
@@ -827,29 +957,37 @@ for c in pBarCountries:
 							pDict[populationKey] = populationValue
 							# Keep track of whether population was found
 							foundPopulation = True
+```
 
-8. Store the dict with the city
+##### 8. Store the dict with the city
 
+```
 			if foundPopulation:
 				# increment a counter
 				numberOfCities += 1
 				# Add the info to the city data
 				city['populationInfo'] = pDict
+```
 							
-9. And save into a new json
+##### 9. And save into a new json
 
-# Finally: save a file, with all cities by countries
+Finally: save a file, with all cities by countries
+
+```
 with open("city_populations.json", 'w') as outputFile:
    json.dump(citiesData, outputFile, indent=2)
 print "Found %d cities with population" % (numberOfCities)
+```
 
-10. Try it: 
+##### 10. Try it: 
 
 It still contains all these weird chararcters. Let's strip them:
 
+```
 key = merged.findNextSibling().find('th').text
 key
 key.strip(u'\xa0\u2022\xa0')				
+```
 
 ----
 
