@@ -45,7 +45,7 @@ def main():
 		# citiesList must not be an "" empty string
 		country = c['country']
 		listPage = c['citiesList']
-		pBarCountries.set_description("Processing %s" % country)
+		pBarCountries.set_description("Processed %s" % country)
 		if listPage:
 			p = wikipedia.page(listPage, auto_suggest=False)
 			r = urllib.urlopen(p.url).read()

@@ -772,7 +772,7 @@ for c in pBarCountries:
 	country = c['country']
 	if c.has_key('cities'):
 		cities = c['cities']
-		pBarCountries.set_description("Processing %s" % country)
+		pBarCountries.set_description("Processed %s" % country) # (Unfortunately set_description is only used after processing)
 		pBarCities = tqdm(cities, leave=True, nested=True)
 		for city in pBarCities:
 			# Open the city page

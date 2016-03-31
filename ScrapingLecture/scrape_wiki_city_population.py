@@ -5,7 +5,6 @@
 from bs4 import BeautifulSoup
 import urllib
 import json
-from time import sleep
 from tqdm import tqdm
 
 def main():
@@ -22,7 +21,7 @@ def main():
 		country = c['country']
 		if c.has_key('cities'):
 			cities = c['cities']
-			pBarCountries.set_description("Processing %s" % country)
+			pBarCountries.set_description("Processed %s" % country)
 			pBarCities = tqdm(cities, leave=True, nested=True)
 			for city in pBarCities:
 				# Open the city page
