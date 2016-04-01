@@ -1,8 +1,25 @@
-# Scraping Lecture
+# Scraping Lecture 
 
 ## Lecture Notes
 
-### Getting Public Data from the Government
+### Table of contents
+
+These lecture notes are quite long, and not everything was covered during the lecture. Therefor a table contents, what you can expect in these notes:
+
+- Getting Public Data from the Government
+	- (A short section with some links and remarks from the investigation into special trees in Arnhem)
+- Scraping Wikipedia
+	- (Introduction)
+- Getting the cities
+- Dive into cities
+	- Find the tables
+	- No tables, just (un)ordered lists
+	- Combine the solution for tables and lists in one script
+	- Add a progress bar
+- Getting Coordinates
+
+
+## Getting Public Data from the Government
 
 ##### 1. Waardevolle bomen
 
@@ -41,6 +58,8 @@ SRS = Spacial Reference System
 ## Scraping
 ### - from data to graph -
 
+We have a better title:
+
 ## Scraping Wikipedia
 ### - Debugging the variability of Wikipedia -
 
@@ -56,9 +75,10 @@ SRS = Spacial Reference System
 - Wikipedia page:
     - https://en.wikipedia.org/wiki/Lists_of_cities_by_country
 
-----
 
-### Wikipedia scraping
+
+
+## Getting the cities
 
 #### Attempt 1: wikipedia module
 
@@ -75,7 +95,7 @@ p.categories
 p.links
 ```
 
-(p.links returns a list, of *all* links, alphabetically ... not what we want)  
+(`p.links` returns a list, of *all* links, alphabetically ... not what we want)  
 So let's try to scrape the list by parsing the DOM tree (with Beautiful Soup)
 
 #### Attempt 2: parse the DOM
@@ -90,10 +110,9 @@ soup.findAll("li")
 listitems = soup.findAll("li")
 ```
 
-```
-len(listitems)
-> 353
-```
+`len(listitems)`
+
+`> 353`
 
 These are too much list items
 
@@ -174,7 +193,7 @@ Let's create a python script from this:
 
 ----
 
-### Dive into cities
+## Dive into cities
 
 Now, let's continue and dive in the pages listing the cities. ...
 
@@ -182,10 +201,12 @@ There are many different types of pages, using tables, using lists, multiple tab
 
 My attempt will be the following:
 
-- searching the DOM tree (with Beautiful Soup):
-- if there are tables, use the first column of the table which has a link with a title
-- if there are no tables, use all li (listitems)
-- only store the city if it is not a duplicate
+1. searching the DOM tree (with Beautiful Soup):
+2. if there are tables, use the first column of the table which has a link with a title
+3. if there are no tables, use all li (listitems)
+4. only store the city if it is not a duplicate
+
+### Find the tables
 
 First let's see if we can find the tables
 
@@ -265,10 +286,9 @@ What is link?
  
 It has no attribute title, so it is not good
 
-```
-link.has_attr('title')
-> False
-```
+`link.has_attr('title')`
+
+`> False`
 
 Change the code:
 
@@ -284,15 +304,16 @@ for t in tables:
                     cities.append(cityName)
 ```
 
-Almost good: it has doubles, and it also contains:  
+#### Remove missing pages
+
+Almost good. It still finds duplicates, and it also contains:  
 'Laghman, Jowzjan (page does not exist)'
 
 Let's exclude the pages that do not exist:
 
-```
-cityName.endswith('(page does not exist)')
-> True
-```
+`cityName.endswith('(page does not exist)')`
+
+`> True`
 
 ```
 for t in tables:
@@ -306,14 +327,17 @@ for t in tables:
                     cities.append(cityName)
 ```
 
+#### Remove duplicates
+
 Now, let's remove the duplicates:
 
-```
-'Kabul' in cities
-> True
-'New York' in cities
-> False
-```
+`'Kabul' in cities`
+
+`> True`
+
+`'New York' in cities`
+
+`> False`
 
 Expand the `# ...`
 
@@ -331,11 +355,14 @@ for t in tables:
 
 ----
 
+#### Only match the first valid link in a row 
+
 
 All fine and well, but what if the row, contains more valid links?
 
 Try with Algeria
 
+```
 c = citiesData[2] 
 p = wikipedia.page(c['citiesList'])
 p.url
@@ -343,11 +370,13 @@ r = urllib.urlopen(p.url).read()
 soup = BeautifulSoup(r)
 tables = soup.findAll('table', class_="wikitable")
 len(tables)
+```
 
 (Same block code as before)
 
 So, again, modify it a bit (add the break)
 
+```
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -358,8 +387,11 @@ for t in tables:
                 if cityName and not cityName.endswith('(page does not exist)') and not cityName in cities:
                     cities.append(cityName)
                     break
+```
 
 ----
+
+### No tables, just (un)ordered lists
 
 Now let's try this when there are no tables:
 
@@ -393,19 +425,20 @@ div = soup.find('div', id="mw-content-text")
 
 Note: find just returns the first object found, where findAll returns a list [] of objects.
 
-```
-len(div.findAll('li'))
-> 79 
-```
+`len(div.findAll('li'))`
+
+`> 79`
 
 That is still to much. Let's narrow it down further. There is a difference between all descendents and just the first level children:
 
-```
-len(div.findAll('ul'))
-> 5
-len(div.findAll('ul', recursive=False))
-> 1
-```
+
+`len(div.findAll('ul'))`
+
+`> 5`
+
+`len(div.findAll('ul', recursive=False))`
+
+`> 1`
 
 We need to be looking or ul and ol (unordered and ordered lists)
 
@@ -432,6 +465,8 @@ ol.findAll('a')
 ```
 
 ----
+
+### Combine the solution for tables and lists in one script
 
 Let's put this **ALL** together:
 
@@ -488,7 +523,9 @@ Excellent!
 
 Let's put this in a file, and run it from there.
 
----> move this all to GitHub!
+----
+
+### Add a progress bar
 
 You see that just getting the cities from the first 8 countries, already takes quite an amount of time. If we're going to run it on the whole list, we want to see some feedback during the process.
 
@@ -516,16 +553,19 @@ This will take approx. 5 minutes
 
 ----
 
-There are still a few problema:
+There are still a few problems:
 
-cat cities.json | grep "page does"
-> "citiesList": "List of cities in Somaliland (page does not exist)"
+`cat cities.json | grep "page does"`
+
+`> "citiesList": "List of cities in Somaliland (page does not exist)"`
+
 
 So also we need to filter out the non-existing pages with list of cities. To bad for Somaliland, but we'll have to ignore it.
 
 ----
 
 Also, there is still a problem with:
+
 - Kenya
 - Netherlands
 - Northern Cyprus
@@ -533,9 +573,24 @@ Also, there is still a problem with:
 - Somalia
 
 Let's at least fix the case for the Netherlands.
-We do this by not only looking for the first td with a valid link, but also a th with a valid link. This will give more noise, but also include the Dutch cities.
+
+We do this by not only looking for the first `td` with a valid link, but also a `th` with a valid link. This will give more noise, but also include the Dutch cities.
+
+```
+		allLinks = []
+		for th in tr.findAll('th'):
+			link = th.find('a')
+			if link:
+				allLinks.append(link)
+		for td in tr.findAll('td'):
+			link = td.find('a')
+			if link:
+				allLinks.append(link)
+```
 
 ----
+
+## Getting Coordinates
 
 Next up, is verifying a city really is a city, ... getting the lat-lon coordinates and getting the population ...
 
@@ -545,71 +600,96 @@ First try it with a simple "city" or not city:
 - "Amsterdam"
 - "Geographic coordinate system"
 
+```
 p = wikipedia.page("Kabul")
 p.coordinates
+```
 
+```
 p = wikipedia.page("Amsterdam")
 p.coordinates
+```
 
+```
 p = wikipedia.page("Geographic coordinate system")
 p.coordinates
+```
 
-> KeyError
+`> KeyError`
 
 So how can we make sure we don't get this error? We don't know if the page has a coordinate or not...
-Option 1: We check for a category:
 
+#### Option 1: We check for a category
+
+```
 p = wikipedia.page("Amsterdam")
 p.categories
+```
 
 It contains the category "Coordinates on Wikidata"
 
+```
 p = wikipedia.page("Geographic coordinate system")
 p.categories
+```
 
 It doesn't contain that category.
 
-How do we check for that? With the in keyword
+How do we check for that? With the `in` keyword
 
+```
 "Coordinates on Wikidata" in p.categories
-> False
+```
 
+`> False`
+
+And when there are coordinates:
+
+```
 p = wikipedia.page("Kabul")
 "Coordinates on Wikidata" in p.categories
-> True
+```
 
-Option 2: We can also use the KeyError as an "Exception"
+`> True`
 
+#### Option 2: We can also use the KeyError as an `Exception`
+
+```
 try:
     # do something what could trigger an error
 except Error:
     # catch the error
+```
 
 In this case:
 
+```
 try:
     coord = p.coordinates
 except KeyError:
     print "no coordinates"
+```
+
+This is a safe, simple and quick solution. So let's build this second option into the code we already have for finding the cities!
 
 ----
 
-So let's build this into the code we already have for finding the cities.
+### Build the coordinates finding in our script
 
 We should change some things first:
-1. Not only store a list of cities (cities = []), where each element is a string,
-    but also a list of cityDicts [{}, {}, ...], where each element is a dict, with more information about the city  
-    1.b. We keep the original list, to skip duplicates as before.
+
+1. Not only store a list of cities (`cities = []`), where each element is a string, but also a list of `cityDicts` [{}, {}, ...], where each element is a dict, with more information about the city.
+	- 1b. We keep the original list, to skip duplicates as before.
 2. Refactor some code, because we're now doing the same thing 4 times
 3. This will take considerably longer than before:
-    So we'll limit the list to only the first 8 countries
+	- So we'll limit the list to only the first 8 countries
 
 
 As the first thing to do, we start with the refactor, so the rest of the work will be easier:
 
-2.
-Refactor into appendLinkToCities() function
+#### 2. Refactor into appendLinkToCities() function
 
+```
 def appendLinkToCities(link, cityNameList):
 	if link and link.has_attr('title'):
 		cityName = link['title']
@@ -618,39 +698,88 @@ def appendLinkToCities(link, cityNameList):
 			cityNameList.append(cityName)
 			return True
 	return False
+```
 
-3. Test it with a limited set of countries
+#### 3. Test it with a limited set of countries
 
-1.
-Create a cityDicts
-    Create it along the cities list
-    Send it along with the cities to the function
-    Use it instead of the cities list to store the data in the citiesData
-    In the function, append a dictionary to cityDicts
+```
+for c in citiesData[:8]:
+```
+
+#### 1. Create a cityDicts
+
+- Create it along the cities list
+- Send it along with the cities to the function
+- Use it instead of the cities list to store the data in the citiesData
+- In the function, append a dictionary to cityDicts
+
+##### Create it along the cities list
+
+```
+		cityDicts = []
+```
+
+##### Send it along with the cities to the function
+
+```
+		for link in allLinks:
+			if appendLinkToCities(link, cities, cityDicts):
+```
+
+##### Use it instead of the cities list to store the data in the citiesData
+
+```
+	numberOfCities += len(cityDicts)
+	c['cities'] = cityDicts
+```
+
+##### In the function, append a dictionary to cityDicts
+
+```
+def appendLinkToCities(link, cityNameList, cityDictList):
+...
+				cityDictList.append(cityDict)
+				cityNameList.append(cityName)
+```
 
 ----
 
 Now we're ready to add the geolocation to the cities
 
+```
 coord[0]
 coord[1]
 float(coord[0])
+```
 
 Try this with a very limited set [:2]
 And let's also store the url ... could be useful later.
 
+```
+				cityDict['name'] = cityName
+				cityDict['lat'] = float(coord[0])
+				cityDict['lon'] = float(coord[1])
+				cityDict['url'] = p.url
+```
+
 ----
+
+#### Add a second progress bar
 
 Wow, this really takes a lot of time ... Let's add another progress bar.
 
 How to do this? We have several for loops, finding links. ...
+
 Let's refactor: 
-    First find all possible links (all anchors)
-    Then proceess these anchors and add the successful ones
+
+- First find all possible links (all anchors)
+- Then process these anchors and add the successful ones
 
 possibleCityLinks will be a list of lists [[]]
 
 ----
+
+### Let's enter them BUGS!
 
 Now, that that's done. Let try this for all countries!
 
@@ -660,6 +789,7 @@ Ooooh... This will take 1 and a half hour!
 
 Ooooooh - 2 ... and we hit a bug:
 
+```
 Traceback (most recent call last):
   File "scrape_wiki_countries.py", line 122, in <module>
     main()
@@ -671,35 +801,47 @@ Traceback (most recent call last):
   File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 299, in __init__
   File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 345, in __load
 wikipedia.exceptions.PageError: Page id "catolica" does not match any pages. Try another id!
+```
 
-PageError?
+`PageError?`
 
 Do not understand ... but hey, let's try solve it. Let's make an exception for this error.
-Later we get another error
 
-DisambiguationError
+Then, later we get another error:
 
-Maybe it is trying to find the wrong pages when we do
+`DisambiguationError`
 
-    p = wikipedia.page(cityName)
+What's going on here?
 
-Let's read the documentation again, and discover that auto_suggest is True by default. We might not want that:
+Maybe it is trying to find the wrong pages when we do:
 
+```
+	p = wikipedia.page(cityName)
+```
+
+Let's read the documentation again, and discover that `auto_suggest` is `True` by default. We might not want that.  
+
+(Auto_suggest means that the text we give the page function with `page(...)`, will be first checked for possible other pages with a similar name. So now Wikipedia is trying to play smart on us, where we exactly know which page we would like to have. It better not do that, and just give us the requested page straight up. The `PageError` problem with "catolica" was also due to these same smart suggestions.)
+
+```
 	p = wikipedia.page(cityName, auto_suggest=False)
+```
     
 Hey, now it is faster too!
 
 ----
 
-Snag! Another DisambiguationError with the City Aw in Bahrain
-Guess we need the try: any way
+Snag! Another DisambiguationError with the City _Aw_ in Bahrain
+Guess we need the `try:` anyway
 
 ----
 
+#### Exclude list-of-cities-pages which aren't list-of-cities, but just the country
+
 Darn... Another bug:
 
-Processing Denmark:  21%|███████████████████████████████▉                                                                                                                       | 48/227 [51:23<2:42:16, 54.39s/it]
- 44%|████████████████████████████████████████████████████████████████████████████▌                                                                                                 | 11/25 [00:06<00:09,  1.43it/s]Traceback (most recent call last):
+```
+Processing Denmark:  21%|███████████████████████████████▉
   File "scrape_wiki_countries.py", line 125, in <module>
     main()
   File "scrape_wiki_countries.py", line 111, in main
@@ -710,9 +852,9 @@ Processing Denmark:  21%|██████████████████�
   File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 299, in __init__
   File "build/bdist.macosx-10.10-intel/egg/wikipedia/wikipedia.py", line 398, in __load
 KeyError: u'fullurl'
+```
 
-
-So, there is another problem. With Akrotiri and Dhekelia
+So, there is another problem. This time with *Akrotiri and Dhekelia*
 
 And on closer inspection:
 - Gibraltar
@@ -724,7 +866,11 @@ And on closer inspection:
 - Transnistria
 
 All these countries do not have a list of cities page (it is the same as the country).
-So we need to check that
+So we need to check that.
+
+```
+			if not listPage.endswith('(page does not exist)') and not listPage == countryName:
+```
 
 And another exception with Aswan in Egypt. Let's combine all the exceptions.
 
@@ -734,6 +880,8 @@ Found list of 227 countries
 Found list of 16820 cities
 
 ----
+
+#### More problems with the way Wikipedia has its data structured
 
 Other problems:
 
@@ -759,29 +907,42 @@ Then use the countries.json to be used in a new script scrape_wiki_cities and de
 
 ----
 
+##### Step 1: scrape the countries
+
 First step: scrape just the countries:
+
+`python scrape_wiki_countries.py`
+
+##### Step 2:
+
 Then manually fix the countries.json, specifically:
-	Dominican Republic
-	United States
+
+- Dominican Republic
+- United States
 
 ---- 
+
+##### Step 3: scrape the cities
 
 Next is our scrape_wiki_cities script.
 
 - We read in the json file
 - Checking for listPage == countryPage, is already done in the first script, so we just need to check for an empty string
 
+```
 test = ""
 if test:
     print "not here"
 else:
     print "but here"
 test = "some string"
+```
 
-
-if listPage:
+`if listPage:`
 
 ----
+
+## Get the population
 
 Now we have about 17343 cities, of which we know the latitute and longitude. Nice!
 We could already map these cities on a map, ...
@@ -875,10 +1036,12 @@ for tr in merged.findNextSiblings('tr'):
 That was a lot. Let's put this all together.
 
 ##### 1. First create a new script that reads the cities.json
+
 ##### 2. The cities.json is a nested list. Make the code parse the data in the same nested way
 
 
 First get all the cities
+
 ```
 with open("cities.json", 'r') as inputFile:
    citiesData = json.load(inputFile)
@@ -991,48 +1154,55 @@ key.strip(u'\xa0\u2022\xa0')
 
 ----
 
+#### Just a few more bugs to solve
+
 More bugs and more bugs:
 
-Processing Argentina:   3%|████▋                                                                                                                                                 | 7/227 [02:05<1:03:23, 17.29s/it]
- 65%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                            | 32/49 [00:14<00:06,  2.70it/s]Traceback (most recent call last):
+```
+Processing Argentina:   3%|████▋
+Traceback (most recent call last):
   File "scrape_wiki_city_population.py", line 71, in <module>
     main()
   File "scrape_wiki_city_population.py", line 48, in main
     if 'mergedrow' in tr['class']:
   File "build/bdist.macosx-10.9-intel/egg/bs4/element.py", line 905, in __getitem__
 KeyError: 'class'
+```
 
+Prevent this bug by adding this extra check:
 
-if tr.has_attr('class') and 'mergedrow' in tr['class']:
+`if tr.has_attr('class') and 'mergedrow' in tr['class']:`
 
 ....
 
-And another:
+And another bug:
 
-Processing Azerbaijan:   5%|███████▏                                                                                                                                            | 11/227 [04:20<2:09:38, 36.01s/it]
- 96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 24/25 [00:52<00:02,  2.07s/it]Traceback (most recent call last):
+```
+Processing Azerbaijan:   5%|███████▏
+Traceback (most recent call last):
   File "scrape_wiki_city_population.py", line 71, in <module>
     main()
   File "scrape_wiki_city_population.py", line 49, in main
     populationKey = tr.find('th').text.strip().strip(u'\xa0\u2022\xa0')
 AttributeError: 'NoneType' object has no attribute 'text'
+```
 
+Prevent this bug by again, adding an extra check:
 
+```
 th = tr.find('th')
 if th and th.text:
 	populationKey = th.text.strip().strip(u'\xa0\u2022\xa0')
-
-
-
-
-
-
+```
 
 ----
 
-Alternative approach:
-Find the cities by clever use of categories ...?
-Starting point:
-https://en.wikipedia.org/wiki/Category:Cities_by_country
+## Alternative approaches?
 
+Are there alternative approaches to the problem we have? We want to get the all the cities in the world and their populations.
 
+Could we find the cities by clever use of categories ...?
+
+Starting point: https://en.wikipedia.org/wiki/Category:Cities_by_country
+
+This might be an alternative way of doing things by using categories. Unfortately, just as you cannot rely on wikipedia having the same structure on different pages listing cities in a country, you can also not rely on wikipedia for each page to have all the correct categories. So this might still be an interesting approach, but for this lecture we keep by working with the list of list page.

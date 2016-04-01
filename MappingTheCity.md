@@ -96,7 +96,8 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 ####Week 2:
 *March 31st 2016*
 
-- Lecture: from scraping to poster
+- Lecture: Scraping: dealing with variability in Wikipedia
+	- [Lecture Notes](Lesson_09_Scraping_Notes.md), Video and [Code](ScrapingLecture/) (video is still being uploaded)
 
 **Homework:**
 
