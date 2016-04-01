@@ -13,11 +13,12 @@ These lecture notes are quite long, and not everything was covered during the le
 - [Getting the cities](#getting-the-cities)
 - [Dive into cities](#dive-into-cities)
 	- [Find the tables](#find-the-tables)
-	- [No tables, just (un)ordered lists](#no-tables,-just-(un)ordered-lists)
+	- [No tables, just (un)ordered lists](#no-tables,-just-unordered-lists)
 	- [Combine the solution for tables and lists in one script](#combine-the-solution-for-tables-and-lists-in-one-script)
 	- [Add a progress bar](#add-a-progress-bar)
 - [Getting Coordinates](#getting-coordinates)
-
+- [Get the population](#get-the-population)
+- [#Alternative approaches?](#alternative-approaches)
 
 ## Getting Public Data from the Government
 
