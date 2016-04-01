@@ -6,17 +6,17 @@
 
 These lecture notes are quite long, and not everything was covered during the lecture. Therefor a table contents, what you can expect in these notes:
 
-- Getting Public Data from the Government
+- [Getting Public Data from the Government](#getting_public_data_from_the_government)
 	- (A short section with some links and remarks from the investigation into special trees in Arnhem)
-- Scraping Wikipedia
+- [Scraping Wikipedia](#scraping_wikipedia)
 	- (Introduction)
-- Getting the cities
-- Dive into cities
-	- Find the tables
-	- No tables, just (un)ordered lists
-	- Combine the solution for tables and lists in one script
-	- Add a progress bar
-- Getting Coordinates
+- [Getting the cities](#getting_the_cities)
+- [Dive into cities](#dive_into_cities)
+	- [Find the tables](#find_the_tables)
+	- [No tables, just (un)ordered lists](#no_tables,_just_(un)ordered_lists)
+	- [Combine the solution for tables and lists in one script](#combine_the_solution_for_tables_and_lists_in_one_script)
+	- [Add a progress bar](#add_a_progress_bar)
+- [Getting Coordinates](#getting_coordinates)
 
 
 ## Getting Public Data from the Government
