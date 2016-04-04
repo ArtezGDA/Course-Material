@@ -1476,7 +1476,92 @@ We'll need about 45 patterns to match (or start with). But this will give us the
 
 #### Coalesce the data into one value
 
+Now we know which *key* we should use to get the most relevant population data from these wikipedia city pages. But how will its *value* be formatted? From our previous experience, we can expect the value to be described in the most diverse possible ways. Let's analyze this a little bit more.
 
+Copy the analysis code of before into a new script: `filter_populations.py`. And modify it first to do some more analysis.
+
+Outside the outer `for` loop, we remove the whole `if not matchingKeyFound:` block and instead append some code that only runs when a match **is** found. Let's print out the values found!
+
+```
+					if matchingKeyFound:
+						# Get the population value
+						populationValue = city['populationInfo'][key]
+						print "%s: %s" % (city['name'], populationValue)
+```
+
+As expected, there is whole variety of values:
+
+```
+13,302
+10,206 (estimated)
+1,465,213[1]
+704 inhabitants
+257,710 (Ranked 58th)
+```
+
+etc ...
+
+I think the pattern is `value...something else`. This could be a good problem for a regular expression. Let's match one or more digit characters or a comma.
+
+```
+import re
+numberPattern = re.compile(r'[0-9,]+')
+```
+
+Then try it with a variable `value`:
+
+```
+value = "257,710 (Ranked 58th)"
+m = numberPattern.search(value)
+if m:
+	numValue = m.group()
+	valueWithoutCommas = numValue.replace(',', '')
+	intValue = int(valueWithoutCommas)
+print intValue
+```
+
+`> 257710`
+
+That's what we need. Let's add this to our script:
+
+```
+					if matchingKeyFound:
+						# Get the population value
+						populationValue = city['populationInfo'][key]
+						m = numberPattern.search(value)
+						if m:
+							numValue = m.group()
+							valueWithoutCommas = numValue.replace(',', '')
+							if valueWithoutCommas:
+								intValue = int(valueWithoutCommas)
+								city['population'] = intValue
+```
+
+We could just store this back into the `json`. But I saw that the `json` file is quite large now, and still contains all the other, non-matched population data. Let's get rid of this data, just to clean the data.
+
+```
+				if city.has_key('populationInfo'):
+					del city['populationInfo']
+```
+
+And save the data into a new json file:
+
+```
+	with open("population_of_cities.json", 'w') as outputFile:
+	   json.dump(citiesData, outputFile, indent=2)
+```
+
+
+And finally, after lots of trials and errors, we get to our conclusion: 12599 cities with a number for the population.
+
+```
+Analyzing 227 countries
+-----------------------------
+with 17343 cities, of which 12599 have population information
+-----------------------------
+```
+
+Voila!
 
 ----
 

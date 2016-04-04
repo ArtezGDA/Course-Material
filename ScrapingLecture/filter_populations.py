@@ -1,9 +1,12 @@
 #!/usr/bin/python
 
-# analyze_populations_filter.py
+# filter_populations.py
 
+import re
 import json
 from tqdm import tqdm
+
+numberPattern = re.compile(r'[0-9,]+')
 
 def keysFilter():
 	keysList = [
@@ -66,18 +69,14 @@ def keysFilter():
 	return keysList
 
 def main():
-	"""Analyze the city populations data."""
+	"""Filter the city populations data and coalesce into a single value"""
 	# Get the populations data from our json file
 	with open("city_populations.json", 'r') as inputFile:
 	   citiesData = json.load(inputFile)
 	print "Analyzing %d countries" % (len(citiesData))
 	numberOfCities = 0
 	withPopulationData = 0
-	withoutMatchingKeys = 0
-	withIgnoredKeys = 0
-	matchingKeys = []
 	keyFilters = keysFilter()
-	ignoreKeys = ['Demonym', 'Density', u'\u2013 density']
 	# Loop through all contries and all cities
 	for country in citiesData:
 		if country.has_key('cities'):
@@ -86,7 +85,6 @@ def main():
 				# Only if there is populationInfo
 				if city.has_key('populationInfo'):
 					# Loop through all the keys in populationInfo
-					withPopulationData += 1
 					matchingKeyFound = False
 					for key in city['populationInfo'].keys():
 						# Loop through all our keys in the filter
@@ -102,24 +100,29 @@ def main():
 									matchingKeyFound = True
 									break
 						if matchingKeyFound:
-							if not key in matchingKeys:
-								matchingKeys.append(key)
 							break
-					if not matchingKeyFound:
-						# If there is only one key and it is in our list to be ignored, then ignore it
-						notMatchingOrUnknownKeys = city['populationInfo'].keys()
-						if len(notMatchingOrUnknownKeys) == 1 and notMatchingOrUnknownKeys[0] in ignoreKeys:
-							withIgnoredKeys += 1
-						else:
-							withoutMatchingKeys += 1
-							print "Matching key not found for %s. dict: %s" % (city['name'], city['populationInfo'])
+					if matchingKeyFound:
+						# Get the population value
+						populationValue = city['populationInfo'][key]
+						m = numberPattern.search(populationValue)
+						if m:
+							numValue = m.group()
+							valueWithoutCommas = numValue.replace(',', '')
+							if valueWithoutCommas:
+								intValue = int(valueWithoutCommas)
+								withPopulationData += 1
+								city['population'] = intValue
+				# Remove the old populationInfo dictionary, if there was a populationInfo key present
+				if city.has_key('populationInfo'):
+					del city['populationInfo']
+	# Save into a new file
+	with open("population_of_cities.json", 'w') as outputFile:
+	   json.dump(citiesData, outputFile, indent=2)
+	# Save the outputs
 	# Print the results
 	print "-----------------------------"
 	print "with %d cities, of which %d have population information" % (numberOfCities, withPopulationData)
-	print "without matching keys: %d (With only a key to be ignored: %d)" % (withoutMatchingKeys, withIgnoredKeys)
 	print "-----------------------------"
-	print "matched keys:"
-	print matchingKeys
 	#
 	
 if __name__ == '__main__':
