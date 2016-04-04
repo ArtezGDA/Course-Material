@@ -47,8 +47,12 @@ def main():
 							if tr.has_attr('class') and 'mergedrow' in tr['class']:
 								th = tr.find('th')
 								if th and th.text:
+									# Strip off the leading dot character
 									populationKey = th.text.strip().strip(u'\xa0\u2022\xa0')
+									# Replace all non-breaking-space characters with a space
+									populationKey = populationKey.replace(u'\xa0', u' ')
 									if populationKey:
+										# Strip off all leading and trailing whitespace
 										populationValue = tr.find('td').text.strip()
 										if populationValue:
 											# Add the key and value to a sub - dict

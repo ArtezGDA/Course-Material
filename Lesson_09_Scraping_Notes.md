@@ -18,6 +18,9 @@ These lecture notes are quite long, and not everything was covered during the le
 	- [Add a progress bar](#add-a-progress-bar)
 - [Getting Coordinates](#getting-coordinates)
 - [Get the population](#get-the-population)
+	- [Get the population data](#get-the-population-data)
+	- [Analyse this population data](#analyse-this-population-data)
+	- [Coalesce the population data to a single number](#coalesce-the-population-data-to-a-single-number)
 - [#Alternative approaches?](#alternative-approaches)
 
 ## Getting Public Data from the Government
@@ -951,8 +954,18 @@ We could already map these cities on a map, ...
 But I want more: what if we could get the population of all these 17343 cities?
 The wikipedia pages know this, so let's get this out.
 
-Let's investigate the population of a few cities:
+Let's investigate how Wikipedia lists the population:  
+If the population is listed, it is always in a panel to the side, with a sub-heading "Population". The side panel turns out to be a `table` of the class `infobox`. And the sub-heading is a table row `tr` of the class `mergedtoprow`. Then underneath that `mergedtoprow`, there can be more or one table rows with the class `mergedrow`, listing different types and categories of population.
 
+As it turns out, there are a lot of different types of populations listed, *total*, *metro*, *city*, *density*, etc. But let's worry about conformity and consistency later.
+
+Let's first get all the data associated with the **population** label.
+
+### Get the population data
+
+We're going to store all the types of population information we find under the key `populationInfo`.
+
+Let's investigate how we can get to the population of the first city of our list through code:
 
 ```
 from bs4 import BeautifulSoup
@@ -1143,14 +1156,17 @@ with open("city_populations.json", 'w') as outputFile:
 print "Found %d cities with population" % (numberOfCities)
 ```
 
-##### 10. Try it: 
+##### 10. Strip off some weird characters
+
+Try it. 
 
 It still contains all these weird chararcters. Let's strip them:
 
 ```
 key = merged.findNextSibling().find('th').text
 key
-key.strip(u'\xa0\u2022\xa0')				
+key.strip(u'\xa0\u2022\xa0')
+key.replace(u'\xa0', u' ')
 ```
 
 ----
@@ -1195,6 +1211,272 @@ th = tr.find('th')
 if th and th.text:
 	populationKey = th.text.strip().strip(u'\xa0\u2022\xa0')
 ```
+
+Let's run it!
+
+`> Found 13351 cities with population`
+
+That's a lot less than the 17343 cities we started with, but we'll have to deal with it. (There might be additional methods to get population data from Wikipedia, for these missing cities, for which we couldn't find the population this way. For now I think that 13351 is also already nice).
+
+Now we can analyse the population data that we actually gathered.
+
+### Analyse this population data
+
+To know what kind of population data we found, and to be able to decide what to do next, we first have to analyse the labels (or keys) that the found population figures were listed under. For this analysis we'll create a separate script: `analyze_populations.py`
+
+What we're interested in is a list of all the labels, and, to make our decision later a bit easier, the number of times the label occurs.
+
+Let's get started. First analyse the number of cities with population data:
+
+```
+import json
+
+def main():
+	"""Analyze the city populations data."""
+	# Get the populations data from our json file
+	with open("city_populations.json", 'r') as inputFile:
+	   citiesData = json.load(inputFile)
+	print "Analyzing %d countries" % (len(citiesData))
+	numberOfCities = 0
+	withPopulationData = 0
+	# Loop through all contries and all cities
+	for country in citiesData:
+		if country.has_key('cities'):
+			for city in country['cities']:
+				numberOfCities += 1
+				# Only if there is populationInfo
+				if city.has_key('populationInfo'):
+					withPopulationData += 1
+	print "with %d cities, of which %d have population information" % (numberOfCities, withPopulationData)
+```
+
+Run it and you'll see this output:
+
+```
+Analyzing 227 countries
+with 17343 cities, of which 13351 have population information
+```
+
+So. let's go one step deeper and collect all the keys in population:
+
+```
+	# Create a dictionary of population info keys
+	populationKeys = {}
+	for country in citiesData:
+		if country.has_key('cities'):
+			for city in country['cities']:
+				# Only if there is populationInfo
+				if city.has_key('populationInfo'):
+					# Loop through all the keys in populationInfo
+					for key in city['populationInfo'].keys():
+						# See if we already have this key
+						if key in populationKeys.keys():
+							# Increase the number of occurances
+							populationKeys[key] += 1
+						else:
+							# Create the key and set its occurance to 1
+							populationKeys[key] = 1
+```
+
+Print the list alphabetically sorted:
+
+```
+	for key in sorted(populationKeys.keys()):
+		print "%s: %s" % (key, populationKeys[key])
+```
+
+And print it sorted by occurance:
+
+```
+	for key, value in sorted(populationKeys.iteritems(), key=lambda (k, v): (v ,k), reverse=True):
+		print "%s: %s" % (key, value)
+```
+
+Run it and get a lot of results. So what does the analysis teaches us?
+
+- There are the most occurences of "Total", while at the same time the most keys occur only one. (This is what they call "*the long tail*".)
+- There are single word keys, like "City"
+- There are keys that include a time period, like "Estimate (2006)", "Estimate (2007)", etc.
+- There are keys that include a footnote number, like "Metro[5]", "Metro[6]", etc.
+- There are keys written differently or with different capitilization: "Metro", "METRO", "Metropolis", "Metropolitan Area"
+- There are keys that we definitely do not want, like "Density" or "Demonym" (how people from the city are called)
+- There are a lot of keys that we don't know what they are exactly. (The long tail of miscellaneous)
+
+Ok, so again a lot of different ways the keys are formatted and displayed. What would be the best way to select which keys we're interested in and which not? Let's start with the following approach:
+
+- Match some keys only the whole word, e.g. key is exactly "City"
+- Match some keys on a pattern to start with, e.g. key starts with "Estimate (" pattern
+- Make a list with the order of precedence of these patterns and matches. Precedence meaning if e.g. there is both a key "Total" and a key "Metro" present, use the key "Total".
+- Try to filter the list using this approach, and find out how much we still miss.
+
+### Coalesce the population data to a single number
+
+Let's do this. We copy our analysis code into yet another script `analyze_populations_filter.py`.
+
+#### Filter by a list of possible patterns
+
+Create an ordered list of filters: keys which should exactly match with a key in the *PopulationInfo* or a pattern of the key with which it should start.
+
+```
+keysList = [
+	# Total is prefered
+	{'match': "Total", 'startsWith': False},
+	# Urban (and relevant alterations)
+	{'match': "Urban", 'startsWith': False},
+	{'match': "Urban[", 'startsWith': True},
+	# Metro (and relevant alterations)
+	{'match': "Metro", 'startsWith': False},
+	{'match': "Metro[", 'startsWith': True},
+	{'match': "Metropolitan", 'startsWith': False},
+	{'match': "Metropolitan Area", 'startsWith': False},
+	# Estimate
+	{'match': "Estimate (", 'startsWith': True},
+]
+```
+
+As you can see each **key to be filtered** in the list is defined by a string with key 'match' (which will be the string to match the key) and a boolean 'startsWith' (which indicates whether the match should be an exact match -`False`- or also matches if the key just starts with the pattern -`True`-).
+
+I've put this list in a seperate function `keysFilter()`, just to organize the code a bit cleaner.
+
+Next, I'll combine the two for loops which we had before into one, so I can easily expand it:
+
+```
+	for country in citiesData:
+		if country.has_key('cities'):
+			for city in country['cities']:
+				numberOfCities += 1
+				# Only if there is populationInfo
+				if city.has_key('populationInfo'):
+					# Loop through all the keys in populationInfo
+					withPopulationData += 1
+					for key in city['populationInfo'].keys():
+						# Check each key
+						# ...
+```
+
+Now we can expand the code to check if one of the *keys* in the populationInfo matches with one of the filters.
+
+We do this through a nested loop. In the outer loop we loop through all the keys found in the population info. In the inner loop we loop through all the keys in the filters.
+
+We created two kinds of filters: filters which can match the start of the key (`startsWith` is `True`) and filters that should match the whole string. Because of that we need an `if else` block to differentiate between the two.
+
+And because we use a nested `for` loop, we need a special construction to `break` it. When a match is found (in the inner loop), we want to stop both loops, also the outer loop. Therefor we create a variable `matchingKeyFound` outside the loops, initializing it with `False`. Then, when we find a match, we set the variable to `True` and `break` the inner loop. Next in the outer loop, we check the state of the variable, and if it is `True`, we `break` that loop as well.
+
+```
+				if city.has_key('populationInfo'):
+					# Loop through all the keys in populationInfo
+					withPopulationData += 1
+					matchingKeyFound = False
+					for key in city['populationInfo'].keys():
+						# Loop through all our keys in the filter
+						for f in keyFilters:
+							if f['startsWith']:
+								# Matches if the key starts with the pattern
+								if key.startswith(f['match']):
+									matchingKeyFound = True
+									break
+							else:
+								# Should match exact
+								if key == f['match']:
+									matchingKeyFound = True
+									break
+						if matchingKeyFound:
+							break
+```
+
+The code is now already doing most of its work, but we don't see any of it, because it does it all in silence: it doesn't write to a `json` file nor does it print any output. Let's change that. Let's do some more analysis.
+
+I'm interested to know which keys got matched and how many population info dicts, were not matched at all.
+
+#### Analyze the filters
+
+##### Which keys got matched? 
+
+We create a variable `matchingKeys`
+
+`	matchingKeys = []`
+
+and fill it with the keys that got matched:
+
+```
+						if matchingKeyFound:
+							if not key in matchingKeys:
+								matchingKeys.append(key)
+							break
+```
+
+Finally print out the result
+
+```
+	print "-----------------------------"
+	print "matched keys:"
+	print matchingKeys
+```
+
+##### How many cities are still unmatched?
+
+We also would like to know how many, out of all the cities with population info, are still not matched with our current list of filters.
+
+Therefor, we put this out of the nested `for` loop:
+
+```
+					if not matchingKeyFound:
+						withoutMatchingKeys += 1
+```
+
+And print the result
+
+`	print "without matching keys: %d" % withoutMatchingKeys`
+
+That turns out to be quite a few: 1212 out of the 13351. Can we do better than this? Sure we can!
+
+##### Better analysis of the unmatched: ignore certain keys
+
+Let's first make our analysis a bit sharper by having a *ignore list*: a list of keys which can be ignored if we want to bring down the number of unmatched cities. In the case where the population only contains one key and this key is part of the ignore list, there is nothing we can do and we must ignore it.
+
+The ignore list should at least contain these two keys:
+
+`ignoreKeys = ['Demonym', 'Density']`
+
+Then, before we increase the `withoutMatchingKeys` variable, we check if there is only one key and if it might be in the `ignoreKeys` list:
+
+```
+					if not matchingKeyFound:
+						# If there is only one key and it is in our list to be ignored, then ignore it
+						notMatchingOrUnknownKeys = city['populationInfo'].keys()
+						if len(notMatchingOrUnknownKeys) == 1 and notMatchingOrUnknownKeys[0] in ignoreKeys:
+							withIgnoredKeys += 1
+						else:
+							withoutMatchingKeys += 1
+```
+
+And when printing the result, differentiate between the unmatched and ignored:
+
+`	print "without matching keys: %d (With only a key to be ignored: %d)" % (withoutMatchingKeys, withIgnoredKeys)`
+
+`> without matching keys: 493 (With only a key to be ignored: 719)`
+
+Also, let's print out the cities which are not matched and the keys in the population info:
+
+```
+					if not matchingKeyFound:
+						...
+						else:
+							withoutMatchingKeys += 1
+							print "Matching key not found for %s. dict: %s" % (city['name'], city['populationInfo'])
+```
+
+#### Iterate the filtering and analysis
+
+From this analysis, we can improve our filter list.
+
+Create patterns and matches for the unmatched cities. Add them to the list of filters. And run the code again. Keep iterating this process until we only have 26 cities without matching or ignored keys.
+
+We'll need about 45 patterns to match (or start with). But this will give us the best list of filters to run on the population info, and finally coalesce this data into one population figure.
+
+#### Coalesce the data into one value
+
+
 
 ----
 
