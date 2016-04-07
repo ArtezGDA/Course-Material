@@ -31,19 +31,19 @@ max(10, 25)
 So if you want to clip a random value to be **at least** a certain value, you can use the `max()` function:
 
 ```
-# clip a value to the lower bounds (0)
-#
-oldValue = 3
-max(0, oldValue)
-# result -> 3
-#
-oldValue = -4
-max(0, oldValue)
-# result -> 0
-#
-oldValue = 35
-max(0, oldValue)
-# result -> 35
+    # clip a value to the lower bounds (0)
+    #
+    oldValue = 3
+    max(0, oldValue)
+    # result -> 3
+    #
+    oldValue = -4
+    max(0, oldValue)
+    # result -> 0
+    #
+    oldValue = 35
+    max(0, oldValue)
+    # result -> 35
 ```
 
 ### `min(...)`
@@ -65,19 +65,19 @@ min(10, 25)
 Again, you can use the function to clip values. If you want to clip a value to be **not more than** a certain value, you can use `min()`:
 
 ```
-# clip a value to the upper bounds (10)
-#
-oldValue = 3
-min(10, oldValue)
-# result -> 3
-#
-oldValue = -4
-min(10, oldValue)
-# result -> -4
-#
-oldValue = 35
-min(10, oldValue)
-# result -> 10
+    # clip a value to the upper bounds (10)
+    #
+    oldValue = 3
+    min(10, oldValue)
+    # result -> 3
+    #
+    oldValue = -4
+    min(10, oldValue)
+    # result -> -4
+    #
+    oldValue = 35
+    min(10, oldValue)
+    # result -> 10
 ```
 
 ### Combine `min` and `max`
@@ -87,33 +87,33 @@ So you can combine these two function to keep (and clip) your values between an 
 Maybe it feels a bit counter-intuitive, but follow the examples, and you'll see that it works:
 
 ```
-# clip a value between lower bounds (0) and upper bounds (10)
-#
-oldValue = 3
-newvalue = max(0, oldValue)
-newvalue = min(10, newvalue)
-# result -> newvalue: 3
-#
-oldValue = -4
-newvalue = max(0, oldValue)
-newvalue = min(10, newvalue)
-# result -> newvalue: 0
-#
-oldValue = 35
-newvalue = max(0, oldValue)
-newvalue = min(10, newvalue)
-# result -> newvalue: 10
+    # clip a value between lower bounds (0) and upper bounds (10)
+    #
+    oldValue = 3
+    newvalue = max(0, oldValue)
+    newvalue = min(10, newvalue)
+    # result -> newvalue: 3
+    #
+    oldValue = -4
+    newvalue = max(0, oldValue)
+    newvalue = min(10, newvalue)
+    # result -> newvalue: 0
+    #
+    oldValue = 35
+    newvalue = max(0, oldValue)
+    newvalue = min(10, newvalue)
+    # result -> newvalue: 10
 ```
 
 To put it more abstract:
 
 ```
-# given:
-# value, a free ranging value
-# upperBounds, the upper bounds of the range
-# lowerBounds, the lower bounds of the range
-clippedValue = max(lowerBounds, value)
-clippedValue = min(upperBounds, clippedValue)
+    # given:
+    # value, a free ranging value
+    # upperBounds, the upper bounds of the range
+    # lowerBounds, the lower bounds of the range
+    clippedValue = max(lowerBounds, value)
+    clippedValue = min(upperBounds, clippedValue)
 ```
 
 Or shorter on one line:
@@ -192,10 +192,10 @@ def mapValue(value, fromMin, fromMax, toMin, toMax):
     # Figure out how 'wide' each range is
     fromSpan = fromMax - fromMin
     toSpan = toMax - toMin
-
+    
     # Convert the from range into a 0-1 range (float)
     valueScaled = float(value - fromMin) / float(fromSpan)
-
+    
     # Convert the 0-1 range into a value in the to range.
     return toMin + (valueScaled * toSpan)
 ```
