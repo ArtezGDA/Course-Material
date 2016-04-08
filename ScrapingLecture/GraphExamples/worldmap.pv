@@ -1,0 +1,17 @@
+size(512, 512)
+background(1)
+
+def xOfDot(lat):
+    return WIDTH / 2.0
+
+def yOfDot(lon):
+    return HEIGHT / 2.0
+
+with open("population_of_cities.json", 'r') as inputFile:
+    citiesData = json.load(inputFile)
+
+for country in citiesData:
+	if country.has_key('cities'):
+		for city in country['cities']:
+			if city.has_key('population'):
+			    # convert lat / lon
