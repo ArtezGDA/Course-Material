@@ -113,8 +113,17 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 ####Week 3:
 *April 7th 2016*
 
+- Plenary Discussion about the found data
+- Collaborative organization and categorization of the data
+
+**Homework:**
+
+- Finish homework of last week!
+
+####Week 4:
+*April 14th 2016*
+
 - Group Presentation of the found and groomed data
-- Plenary Discussion
 - Collaborative organization and categorization of the data
 - Demonstration of some simple techniques to visualize the data 
 
@@ -122,19 +131,10 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 
 - Create the first iteration of the poster
 
-####Week 4:
-*April 14th 2016*
-
-- Group presentation of the **first iteration** of the poster
-- ...
-
-**Homework:**
-
-- ...
-
 ####Week 5:
 *April 21st 2016*
 
+- Group presentation of the **first iteration** of the poster
 - ...
 
 **Homework:**
