@@ -123,9 +123,8 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 ####Week 4:
 *April 14th 2016*
 
-- Group Presentation of the found and groomed data
-- Collaborative organization and categorization of the data
-- Demonstration of some simple techniques to visualize the data 
+- Group evalutation of the data scraping part of the assignment
+- Demonstration of some simple techniques to visualize the data: [Lesson: Graph Examples](ScrapingLecture/GraphExamples)
 
 **Homework:**
 
