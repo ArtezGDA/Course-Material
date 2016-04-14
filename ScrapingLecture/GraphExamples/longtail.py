@@ -23,15 +23,21 @@ def main():
 		citiesData = json.load(inputFile)
 	#
 	populationFigures = []
+	citiesWithPopulations = []
 	for country in citiesData:
 		if country.has_key('cities'):
 			for city in country['cities']:
 				if city.has_key('population'):
 					populationFigures.append(city['population'])
+					citiesWithPopulations.append(city['name'])
 	print "%d cities with population" % len(populationFigures)
 	maxPop = max(populationFigures)
 	minPop = min(populationFigures)
-	print "Largest is %d. Smallest is %d" % (maxPop, minPop)
+	indexOfMax = populationFigures.index(maxPop)
+	indexOfMin = populationFigures.index(minPop)
+	maxName = citiesWithPopulations[indexOfMax]
+	minName = citiesWithPopulations[indexOfMin]
+	print "Largest is %d (%s). Smallest is %d (%s)" % (maxPop, maxName, minPop, minName)
 	# Order the list ...
 	populationFigures.sort(reverse=True)
 	# Draw some pdf using plotdevice
