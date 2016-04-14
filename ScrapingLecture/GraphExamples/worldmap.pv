@@ -1,6 +1,6 @@
 import json
 
-size(512, 512)
+size(1200, 512)
 background(1)
 
 def mapValue(value, fromMin, fromMax, toMin, toMax):
