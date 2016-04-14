@@ -1,11 +1,24 @@
+import json
+
 size(512, 512)
 background(1)
 
-def xOfDot(lat):
-    return WIDTH / 2.0
+def mapValue(value, fromMin, fromMax, toMin, toMax):
+    # Figure out how 'wide' each range is
+    fromSpan = fromMax - fromMin
+    toSpan = toMax - toMin
+    
+    # Convert the from range into a 0-1 range (float)
+    valueScaled = float(value - fromMin) / float(fromSpan)
+    
+    # Convert the 0-1 range into a value in the to range.
+    return toMin + (valueScaled * toSpan)
 
-def yOfDot(lon):
-    return HEIGHT / 2.0
+def xOfDot(lon):
+    return mapValue(lon, -180, 180, 0, WIDTH)
+
+def yOfDot(lat):
+    return mapValue(lat, -90, 90, HEIGHT, 0)
 
 with open("population_of_cities.json", 'r') as inputFile:
     citiesData = json.load(inputFile)
@@ -15,3 +28,7 @@ for country in citiesData:
 		for city in country['cities']:
 			if city.has_key('population'):
 			    # convert lat / lon
+			    x = xOfDot(city['lon'])
+			    y = yOfDot(city['lat'])
+			    diameter = 1.0
+			    oval(x, y, diameter, diameter)
