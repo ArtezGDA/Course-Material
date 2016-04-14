@@ -67,6 +67,8 @@ And print some bar charts
 	pd.export('longtail.pdf')
 ```
 
+![Long Tail graph](longtail.png)
+
 ## This lesson also shows how to draw the cities on a map
 
 ![worldmap.png](worldmap.png)
