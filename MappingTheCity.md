@@ -71,8 +71,6 @@ Acquire a fluency into working with big data research and creating information g
 The complete planning of the next 11 weeks is not final yet, but we will go over these topics:
 
 - Data formats for storing research data: csv, xml, **json**, database
-- Scraping ... again
-- Python: map, reduce, filter
 - Python: database (sqlite) & SQL
 - Javascript: TileMill / MapBox / Modest Maps
 - Javascript: Illustrator Scripting
@@ -134,11 +132,13 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 *April 21st 2016*
 
 - Group presentation of the **first iteration** of the poster
-- ...
+- Different types of graphs
+- Analyzing your data (Python: map, reduce, filter)
 
 **Homework:**
 
-- ...
+- Study different types of graps and describe which graph would convey which story
+- Watch Bret Victor's talk
 
 ####Week 6:
 *April 28th 2016*
