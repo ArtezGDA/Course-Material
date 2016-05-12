@@ -143,7 +143,7 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 ####Week 6:
 *April 28th 2016*
 
-- ...
+Lesson cancelled
 
 **Homework:**
 
@@ -155,19 +155,20 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 *May 12th 2016*
 
 - Group presentation of the **second iteration** of the poster
+- Group talks
 
 **Homework:**
 
-- ...
+- Work on the poster
 
 ####Week 8:
 *May 19th 2016*
 
-- ...
+- Illustrator Scripting
 
 **Homework:**
 
-- ...
+- Work on the poster
 
 ####Week 9:
 *May 26th 2016*
