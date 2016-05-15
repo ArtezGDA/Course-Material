@@ -7,7 +7,7 @@
 This script creates 'random data' and stores that in a `.json` file.
 The file is called `lottery.json` and contains the following like structure:
 
-```
+```json
 [
 	{
 		'month': "January",

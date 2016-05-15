@@ -58,7 +58,7 @@ From this documentation, click on the **Introduction**, then **Download and inst
 
 The tutorial starts with the following. Importing the module and create a Github instance from a *user* and *password*:
 
-```
+```python
 from github import Github
 
 g = Github("user", "password")
@@ -92,11 +92,11 @@ Committing secret keys, tokens and passwords is really **the very last thing you
 
 1. Create a new file called `secret_password.py`
 2. In that file create a dictionary like the following:  
-	```
+	```python
 	github_account = {'user': "your_user_name", 'password': "the_token_1234abcdef9876543210"}
 	``` 
 3. Use this to get access to GitHub from your script. The example now is as follows:
-	```
+	```python
 	from github import Github
 	from secret_password import github_account
 
@@ -104,7 +104,7 @@ Committing secret keys, tokens and passwords is really **the very last thing you
 	```
 4. To make sure the password file is not accidently added to Github, add the file to the *git ignores*. (The *git ignores* is a set of filenames or patterns of filesnames of files you want to have ignored from the git system, so they are not added or updated. **Warning**, these ignores can still be added if you really wish to do so, so keep making sure you don't add them later).
 5. Create a file called `.gitignore` and add the following in it:
-	```
+	```gitignore
 	# ignore these files and patterns
 	secret_password.py
 	
@@ -115,7 +115,7 @@ Committing secret keys, tokens and passwords is really **the very last thing you
 
 Print out a list of repositories you can commit to:
 
-```
+```python
 for repo in g.get_user().get_repos():
 	print repo.name
 ```
@@ -191,7 +191,7 @@ To find out how we could figure out this ourselves, use the following route:
 	- For now, let's use the name:
 		- `c.author.name` or `gc.author.name`
 7. Finally type a for loop in *iPython* to combine all this:
-	```
+	```python
 	for commit in repo.get_commits():
 		a = commit.author.name
 		t = commit.commit.last_modified
@@ -204,7 +204,7 @@ To find out how we could figure out this ourselves, use the following route:
 
 If you compress all of the above into one python script, it will be about something like the following:
 
-```
+```python
 	# Setup
 	from github import Github
 	from secret_password import github_account
@@ -235,7 +235,7 @@ Have a look at the basic example about [writing and reading json files](Basics/j
 
 Change the script to the following:
 
-```
+```python
 	# Setup
 	from github import Github
 	from secret_password import github_account

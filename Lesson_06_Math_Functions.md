@@ -16,21 +16,21 @@ To ensure that a certain value is never exceeding a given value, you can use the
 
 When the python `max()` value is given a list, it will return the largest value from that list
 
-```
+```python
 max( [4, 2, 3, 0.5, 11] )
 > 11
 ```
 
 Or you when you just give it two values, it will pick the largest of the two:
 
-```
+```python
 max(10, 25)
 > 25 
 ```
 
 So if you want to clip a random value to be **at least** a certain value, you can use the `max()` function:
 
-```
+```python
     # clip a value to the lower bounds (0)
     #
     oldValue = 3
@@ -50,21 +50,21 @@ So if you want to clip a random value to be **at least** a certain value, you ca
 
 The same applies to the `min()` function. It will return the smallest value from a python list or list of arguments.
 
-```
+```python
 min( [4, 2, 3, 0.5, 11] )
 > 0.5
 ```
 
 Or you when you just give it two values:
 
-```
+```python
 min(10, 25)
 > 10 
 ```
 
 Again, you can use the function to clip values. If you want to clip a value to be **not more than** a certain value, you can use `min()`:
 
-```
+```python
     # clip a value to the upper bounds (10)
     #
     oldValue = 3
@@ -86,7 +86,7 @@ So you can combine these two function to keep (and clip) your values between an 
 
 Maybe it feels a bit counter-intuitive, but follow the examples, and you'll see that it works:
 
-```
+```python
     # clip a value between lower bounds (0) and upper bounds (10)
     #
     oldValue = 3
@@ -107,7 +107,7 @@ Maybe it feels a bit counter-intuitive, but follow the examples, and you'll see 
 
 To put it more abstract:
 
-```
+```python
     # given:
     # value, a free ranging value
     # upperBounds, the upper bounds of the range
@@ -118,13 +118,13 @@ To put it more abstract:
 
 Or shorter on one line:
 
-```
+```python
 clippedValue = max(lowerBounds, min(upperBounds, value))
 ```
 
 Using the example above:
 
-```
+```python
 newValue = max(0, min(10, oldValue))
 ```
 
@@ -150,7 +150,7 @@ Use the `%` symbol to quickly get that remainder, or modulo.
 
 Some examples:
 
-```
+```python
 42 % 10
 > 2
 
@@ -187,7 +187,7 @@ So lets figure our a diffent name. Mabye `mapValue`?
 
 [Stackoverflow](http://stackoverflow.com/questions/1969240/mapping-a-range-of-values-to-another) helps with writing the function:
 
-```
+```python
 def mapValue(value, fromMin, fromMax, toMin, toMax):
     # Figure out how 'wide' each range is
     fromSpan = fromMax - fromMin

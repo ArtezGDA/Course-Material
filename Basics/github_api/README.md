@@ -20,7 +20,7 @@ And this script also needs a password file. (Which for obvious reasons is not co
 
 1. In the same directory as this script, create a new file called `secret_password.py`
 2. In that file create a dictionary like the following:  
-	```
+	```python
 	github_account = {'user': "your_user_name", 'password': "the_token_1234abcdef9876543210"}
 	``` 
 	

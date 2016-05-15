@@ -12,7 +12,7 @@ First do some more analysis on the data.
 
 Find out how much cities with populations there are exactly:
 
-```
+```python
 	citiesWithPopulations = []
 	for country in citiesData:
 		if country.has_key('cities'):
@@ -24,7 +24,7 @@ Find out how much cities with populations there are exactly:
 
 Then create a similar list of population figures, and find out which city has the least inhabitants and which has the most:
 
-```
+```python
     populationFigures = []
         [...]
             [...]
@@ -32,7 +32,7 @@ Then create a similar list of population figures, and find out which city has th
 					populationFigures.append(city['population'])
 ```
 
-```
+```python
 	maxPop = max(populationFigures)
 	minPop = min(populationFigures)
 	indexOfMax = populationFigures.index(maxPop)
@@ -44,13 +44,13 @@ Then create a similar list of population figures, and find out which city has th
 
 Order the list of populatiosn:
 
-```
+```python
 	populationFigures.sort(reverse=True)
 ```
 
 And print some bar charts
 
-```
+```python
 	pd.size(512, 512)
 	pd.background(0.8)
 	pd.stroke(0.5)

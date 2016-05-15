@@ -15,7 +15,7 @@ In the `.json` file lottery numbers for 12 months are stored. Each month has a `
 
 The structure is like the following:
 
-```
+```json
 [
 	{
 		'month': "January",

@@ -92,14 +92,14 @@ cheating the game:
 
 Do something with each element from the array
 
-```
+```python
 for n in a:
 	print n
 ```
 
 Outputs:
 
-```
+```python
 1
 5
 3
@@ -108,7 +108,7 @@ Outputs:
 
 Use variable names that make sense
 
-```
+```python
 palette = ["pale blue", "ocean", "sky"]
 for color in palette:
 	# do someting with color
@@ -117,7 +117,7 @@ for color in palette:
 
 or
 
-```
+```python
 for book in library:
 	read(book)
 ```
@@ -126,22 +126,26 @@ for book in library:
 
 The `keys()` function:
 
-`d.keys()`  
-returns an array of all the keys  
+`d.keys()`
+
+returns an array of all the keys
+
 `['foo', 'bar']`
 
 ##### Does the list contains this?
 
 The `in` keyword
 
-`"red" in screen_colors` ... `True`  
+`"red" in screen_colors` ... `True`
+
 `"geen kleur" in screen_colors` ... `False`
 
 ##### Does the dict has this key?
 
 The `has_key()` function:
 
-`d.has_key('f')` ... `False`  
+`d.has_key('f')` ... `False`
+
 `d.has_key('foo')` ... `True`  
 
 ##### Sorting
@@ -156,7 +160,8 @@ Modify the list to be sorted
 
 `a.sort()`
 
-returns nothing, but changes the list itself.  
+returns nothing, but changes the list itself.
+
 `a` is now `[1, 3, 4, 5]`
 
 ## JSON import & export

@@ -13,7 +13,7 @@ in its run loop, we make it sleep 5 seconds:
 `time.sleep(5)`
 
 This results in the script performing the rest of the run loop every 5 seconds.
-```
+```python
 	print counter
 	counter = counter + 1
 ```		

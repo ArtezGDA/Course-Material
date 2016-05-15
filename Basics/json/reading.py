@@ -7,7 +7,7 @@
 This script reads a 'random data' `.json` file and prints the contents.
 The file, called `lottery.json` is assumed to contain the following structure:
 
-```
+```json
 [
 	{
 		'month': "January",

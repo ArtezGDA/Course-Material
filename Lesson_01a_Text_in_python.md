@@ -13,7 +13,7 @@
 
 ##### Multiline comment:
 
-```
+```python
 # 1 this
 # 2 is
 # 3 a
@@ -31,14 +31,14 @@
 
 ##### DocString
 
-```
+```python
 def myFunc():
 	"""Here we can explain what myFunc does"""
 	pass
 ```
 usage:
 
-```
+```python
 myFunc.func_doc
 # or
 help(myFunc)
@@ -46,7 +46,7 @@ help(myFunc)
 
 The `help()` tool will open a special help screen, where you can read all about the topic. As example, try the following with the previously installed *noise* library.
 
-```
+```python
 import noise
 help(noise)
 ```

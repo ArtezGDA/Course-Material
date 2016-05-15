@@ -90,7 +90,7 @@ We have a better title:
     - [Quick Start](https://wikipedia.readthedocs.org/en/latest/quickstart.html#quickstart)
     - [Full Documentation](https://wikipedia.readthedocs.org/en/latest/code.html#api)
 
-```
+```python
 import wikipedia
 wikipedia.page("Lists_of_cities_by_country")
 p = wikipedia.page("Lists_of_cities_by_country")
@@ -104,7 +104,7 @@ So let's try to scrape the list by parsing the DOM tree (with Beautiful Soup)
 
 #### Attempt 2: parse the DOM
 
-```
+```python
 from bs4 import BeautifulSoup
 import urllib
 r = urllib.urlopen("https://en.wikipedia.org/wiki/Lists_of_cities_by_country").read()
@@ -124,7 +124,7 @@ So we need to find another way to get the prefered list items, ... maybe use the
 
 Find all flags, then get the (parent) item that holds that flag, that parent item will probably contain the two links: the list of cities PLUS the name of the country
 
-```
+```python
 flags = soup.find_all("span", "flagicon")
 flags = soup.find_all("span", class_="flagicon")
 len(flags)
@@ -137,7 +137,7 @@ listitems[0]
 
 Check if we have all the countries by printing just the countries
 
-```
+```python
 l = listitems[0]
 l.findChildren("a")
 len(l.findChildren("a"))
@@ -146,7 +146,7 @@ l.findChildren("a")[-1]['title']
 l.findChildren("a")[-1].text
 ```
 
-```
+```python
 for l in listitems:
     print l.findChildren("a")[-1]['title']
 ```
@@ -155,7 +155,7 @@ Fine!
 
 Finally check if the list is sane, by counting the number of links of each item:
 
-```
+```python
 for l in listitems:
    print len(l.findChildren("a")), l.findChildren("a")[-1]['title']
 ```
@@ -165,7 +165,7 @@ And there is a problem with Ireland, because it has two flags. (Let's leave that
 
 
 Now, list find all the "List of cities in ..." pages, and store them together with the country, in list, like this:
-```
+```json
 [
 	{'citiesList': "List of cities in Brazil", 'country': "Brazil"},
 	{...},
@@ -173,7 +173,7 @@ Now, list find all the "List of cities in ..." pages, and store them together wi
 ]
 ```
 
-```
+```python
 citiesData = []
 for l in listitems:
     if len(l.findChildren("a")) >= 3:
@@ -185,7 +185,7 @@ for l in listitems:
 
 As a step in between, lets save this list.
 
-```
+```python
 import json
 with open("countries.json", 'w') as outputFile:
    json.dump(citiesData, outputFile)
@@ -214,7 +214,7 @@ My attempt will be the following:
 
 First let's see if we can find the tables
 
-```
+```python
 c = citiesData[0]
 p = wikipedia.page(c['citiesList'])
 p.url
@@ -228,19 +228,19 @@ len(tables)
 
 Ok. Let's try this with the first table we find
 
-```
+```python
 t = tables[0]
 ```
 
 Get all rows:
 
-```
+```python
 t.findAll('tr')
 ```
 
 try with the first, and then second row
 
-```
+```python
 tr = t.findAll('tr')[0]
 tr
 tr = t.findAll('tr')[1]
@@ -249,13 +249,13 @@ tr
 
 find the first td in a row
 
-```
+```python
 td = tr.findAll('td')[0]
 ```
 
 Finally, get the a.
 
-```
+```python
 td.find('a')
 ```
 
@@ -263,15 +263,15 @@ td.find('a')
 
 Now let's put this together, and try it out for Afganistan
 
-```
+```python
 c = citiesData[0]
 ```
 
-```
+```python
 cities = []
 ```
 
-```
+```python
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -296,7 +296,7 @@ It has no attribute title, so it is not good
 
 Change the code:
 
-```
+```python
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -319,7 +319,7 @@ Let's exclude the pages that do not exist:
 
 `> True`
 
-```
+```python
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -345,7 +345,7 @@ Now, let's remove the duplicates:
 
 Expand the `# ...`
 
-```
+```python
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -366,7 +366,7 @@ All fine and well, but what if the row, contains more valid links?
 
 Try with Algeria
 
-```
+```python
 c = citiesData[2] 
 p = wikipedia.page(c['citiesList'])
 p.url
@@ -380,7 +380,7 @@ len(tables)
 
 So, again, modify it a bit (add the break)
 
-```
+```python
 for t in tables:
     for tr in t.findAll('tr'):
         for td in tr.findAll('td'):
@@ -401,7 +401,7 @@ Now let's try this when there are no tables:
 
 Trying this out with: List of cities in Antigua and Barbuda
 
-```
+```python
 c = citiesData[5]
 p = wikipedia.page(c['citiesList'])
 r = urllib.urlopen(p.url).read()
@@ -412,7 +412,7 @@ len(tables)
 
 First, what if we would just get all the list items?
 
-```
+```python
 lis = soup.findAll('li')
 len(lis)
 ```
@@ -423,7 +423,7 @@ Clearly, that's way too much. We need to filter it down.
 
 Maybe: only get the list items inside the mw-content-text div
 
-```
+```python
 div = soup.find('div', id="mw-content-text")
 ```
 
@@ -446,24 +446,24 @@ That is still to much. Let's narrow it down further. There is a difference betwe
 
 We need to be looking or ul and ol (unordered and ordered lists)
 
-```
+```python
 uls = div.findAll('ul', recursive=False)
 ```
 
 Test with only the first
 
-```
+```python
 ul = uls[0]
 ul.findAll('a')
 ```
 
-```
+```python
 ols = div.findAll('ol', recursive=False)
 ```
 
 Test with only the first
 
-```
+```python
 ol = ols[0]
 ol.findAll('a')
 ```
@@ -476,7 +476,7 @@ Let's put this **ALL** together:
 
 But let's limit it to the first 8 for now. Later, we'll remove the `[:8]`
 
-```
+```python
 for c in citiesData[:8]:
     p = wikipedia.page(c['citiesList'])
     p.url
@@ -536,15 +536,15 @@ You see that just getting the cities from the first 8 countries, already takes q
 Install the tqdm module
 https://github.com/tqdm/tqdm
 
-```
+```python
 sudo easy_install tqdm
 ```
 
-```
+```python
 from tqdm import tqdm
 ```
 
-```
+```python
 for i in tqdm(range(10)):
     # do something
 ```
@@ -580,7 +580,7 @@ Let's at least fix the case for the Netherlands.
 
 We do this by not only looking for the first `td` with a valid link, but also a `th` with a valid link. This will give more noise, but also include the Dutch cities.
 
-```
+```python
 		allLinks = []
 		for th in tr.findAll('th'):
 			link = th.find('a')
@@ -604,17 +604,17 @@ First try it with a simple "city" or not city:
 - "Amsterdam"
 - "Geographic coordinate system"
 
-```
+```python
 p = wikipedia.page("Kabul")
 p.coordinates
 ```
 
-```
+```python
 p = wikipedia.page("Amsterdam")
 p.coordinates
 ```
 
-```
+```python
 p = wikipedia.page("Geographic coordinate system")
 p.coordinates
 ```
@@ -625,14 +625,14 @@ So how can we make sure we don't get this error? We don't know if the page has a
 
 #### Option 1: We check for a category
 
-```
+```python
 p = wikipedia.page("Amsterdam")
 p.categories
 ```
 
 It contains the category "Coordinates on Wikidata"
 
-```
+```python
 p = wikipedia.page("Geographic coordinate system")
 p.categories
 ```
@@ -641,7 +641,7 @@ It doesn't contain that category.
 
 How do we check for that? With the `in` keyword
 
-```
+```python
 "Coordinates on Wikidata" in p.categories
 ```
 
@@ -649,7 +649,7 @@ How do we check for that? With the `in` keyword
 
 And when there are coordinates:
 
-```
+```python
 p = wikipedia.page("Kabul")
 "Coordinates on Wikidata" in p.categories
 ```
@@ -658,7 +658,7 @@ p = wikipedia.page("Kabul")
 
 #### Option 2: We can also use the KeyError as an `Exception`
 
-```
+```python
 try:
     # do something what could trigger an error
 except Error:
@@ -667,7 +667,7 @@ except Error:
 
 In this case:
 
-```
+```python
 try:
     coord = p.coordinates
 except KeyError:
@@ -693,7 +693,7 @@ As the first thing to do, we start with the refactor, so the rest of the work wi
 
 #### 2. Refactor into appendLinkToCities() function
 
-```
+```python
 def appendLinkToCities(link, cityNameList):
 	if link and link.has_attr('title'):
 		cityName = link['title']
@@ -706,7 +706,7 @@ def appendLinkToCities(link, cityNameList):
 
 #### 3. Test it with a limited set of countries
 
-```
+```python
 for c in citiesData[:8]:
 ```
 
@@ -719,27 +719,27 @@ for c in citiesData[:8]:
 
 ##### Create it along the cities list
 
-```
+```python
 		cityDicts = []
 ```
 
 ##### Send it along with the cities to the function
 
-```
+```python
 		for link in allLinks:
 			if appendLinkToCities(link, cities, cityDicts):
 ```
 
 ##### Use it instead of the cities list to store the data in the citiesData
 
-```
+```python
 	numberOfCities += len(cityDicts)
 	c['cities'] = cityDicts
 ```
 
 ##### In the function, append a dictionary to cityDicts
 
-```
+```python
 def appendLinkToCities(link, cityNameList, cityDictList):
 ...
 				cityDictList.append(cityDict)
@@ -750,7 +750,7 @@ def appendLinkToCities(link, cityNameList, cityDictList):
 
 Now we're ready to add the geolocation to the cities
 
-```
+```python
 coord[0]
 coord[1]
 float(coord[0])
@@ -759,7 +759,7 @@ float(coord[0])
 Try this with a very limited set [:2]
 And let's also store the url ... could be useful later.
 
-```
+```python
 				cityDict['name'] = cityName
 				cityDict['lat'] = float(coord[0])
 				cityDict['lon'] = float(coord[1])
@@ -793,7 +793,7 @@ Ooooh... This will take 1 and a half hour!
 
 Ooooooh - 2 ... and we hit a bug:
 
-```
+```python
 Traceback (most recent call last):
   File "scrape_wiki_countries.py", line 122, in <module>
     main()
@@ -819,7 +819,7 @@ What's going on here?
 
 Maybe it is trying to find the wrong pages when we do:
 
-```
+```python
 	p = wikipedia.page(cityName)
 ```
 
@@ -827,7 +827,7 @@ Let's read the documentation again, and discover that `auto_suggest` is `True` b
 
 (Auto_suggest means that the text we give the page function with `page(...)`, will be first checked for possible other pages with a similar name. So now Wikipedia is trying to play smart on us, where we exactly know which page we would like to have. It better not do that, and just give us the requested page straight up. The `PageError` problem with "catolica" was also due to these same smart suggestions.)
 
-```
+```python
 	p = wikipedia.page(cityName, auto_suggest=False)
 ```
     
@@ -872,7 +872,7 @@ And on closer inspection:
 All these countries do not have a list of cities page (it is the same as the country).
 So we need to check that.
 
-```
+```python
 			if not listPage.endswith('(page does not exist)') and not listPage == countryName:
 ```
 
@@ -933,7 +933,7 @@ Next is our scrape_wiki_cities script.
 - We read in the json file
 - Checking for listPage == countryPage, is already done in the first script, so we just need to check for an empty string
 
-```
+```python
 test = ""
 if test:
     print "not here"
@@ -967,32 +967,32 @@ We're going to store all the types of population information we find under the k
 
 Let's investigate how we can get to the population of the first city of our list through code:
 
-```
+```python
 from bs4 import BeautifulSoup
 import urllib
 ```
 
-```
+```python
 url = "https://en.wikipedia.org/wiki/Kabul"
 r = urllib.urlopen(url).read()
 soup = BeautifulSoup(r, "html.parser")
 ```
 
-```
+```python
 infoBox = soup.find('table', class_="infobox")
 ```
 
-```
+```python
 mergedTopRows = infoBox.findAll('tr', class_="mergedtoprow")
 len(mergedTopRows)
 ```
 
-```
+```python
 for m in mergedTopRows:
     print m.text
 ```
 	
-```
+```python
 for m in mergedTopRows:
 	text = m.text
     if text.startswith("Population"):
@@ -1001,7 +1001,7 @@ for m in mergedTopRows:
 		
 Nothing? Well, it turns out there is some white space before`
 
-```
+```python
 text = "    Hello    "
 text
 text.lstrip()
@@ -1009,7 +1009,7 @@ text.rstrip()
 text.strip()
 ```
 
-```
+```python
 for m in mergedTopRows:
     text = m.text.strip()
     if text.startswith("Population"):
@@ -1019,23 +1019,23 @@ for m in mergedTopRows:
 merged
 ```
 
-```
+```python
 merged.findNextSiblings('tr', class_="mergedrow")
 tr = merged.findNextSiblings('tr', class_="mergedrow")[0]
 ```
 
-```
+```python
 tr
 tr.attrs
 tr['class']
 ```
 
-```
+```python
 if 'mergedrow' in tr['class']:
     print tr
 ```
 	
-```
+```python
 for tr in merged.findNextSiblings('tr'):
     if 'mergedrow' in tr['class']:
         print tr.find('th').text
@@ -1056,14 +1056,14 @@ That was a lot. Let's put this all together.
 
 First get all the cities
 
-```
+```python
 with open("cities.json", 'r') as inputFile:
    citiesData = json.load(inputFile)
 ```
 
 The citiesData is a nested list of countries with cities
 
-```
+```python
 pBarCountries = tqdm(citiesData, leave=True, nested=True)
 for c in pBarCountries:
 	country = c['country']
@@ -1078,7 +1078,7 @@ for c in pBarCountries:
 
 ##### 3. Open the page for the city
 
-```
+```python
 			# Open the city page
 			r = urllib.urlopen(city['url']).read()
 			soup = BeautifulSoup(r, "html.parser")
@@ -1090,7 +1090,7 @@ for c in pBarCountries:
 
 ##### 4. Find the population merged top row
 
-```
+```python
 			populationMergedTopRow = None
 			for m in mergedTopRows:
 			    text = m.text.strip()
@@ -1103,7 +1103,7 @@ for c in pBarCountries:
 
 ##### 5. Find sibling tr's only with class 'mergedrow'. Break at the first non-"mergedrow"
 
-```
+```python
 			if populationMergedTopRow:
 				for tr in populationMergedTopRow.findNextSiblings('tr'):
 					if 'mergedrow' in tr['class']:
@@ -1114,7 +1114,7 @@ for c in pBarCountries:
 
 ##### 6. Find the population key and population value
 				
-```
+```python
 				for tr in populationMergedTopRow.findNextSiblings('tr'):
 					if 'mergedrow' in tr['class']:
 					populationKey = tr.find('th').text.strip()
@@ -1124,7 +1124,7 @@ for c in pBarCountries:
 					
 ##### 7. If it has a key and a value, store it in a dict
 
-```
+```python
 			pDict = {}
 			
 					if populationKey:
@@ -1138,7 +1138,7 @@ for c in pBarCountries:
 
 ##### 8. Store the dict with the city
 
-```
+```python
 			if foundPopulation:
 				# increment a counter
 				numberOfCities += 1
@@ -1150,7 +1150,7 @@ for c in pBarCountries:
 
 Finally: save a file, with all cities by countries
 
-```
+```python
 with open("city_populations.json", 'w') as outputFile:
    json.dump(citiesData, outputFile, indent=2)
 print "Found %d cities with population" % (numberOfCities)
@@ -1162,7 +1162,7 @@ Try it.
 
 It still contains all these weird chararcters. Let's strip them:
 
-```
+```python
 key = merged.findNextSibling().find('th').text
 key
 key.strip(u'\xa0\u2022\xa0')
@@ -1206,7 +1206,7 @@ AttributeError: 'NoneType' object has no attribute 'text'
 
 Prevent this bug by again, adding an extra check:
 
-```
+```python
 th = tr.find('th')
 if th and th.text:
 	populationKey = th.text.strip().strip(u'\xa0\u2022\xa0')
@@ -1228,7 +1228,7 @@ What we're interested in is a list of all the labels, and, to make our decision 
 
 Let's get started. First analyse the number of cities with population data:
 
-```
+```python
 import json
 
 def main():
@@ -1259,7 +1259,7 @@ with 17343 cities, of which 13351 have population information
 
 So. let's go one step deeper and collect all the keys in population:
 
-```
+```python
 	# Create a dictionary of population info keys
 	populationKeys = {}
 	for country in citiesData:
@@ -1280,14 +1280,14 @@ So. let's go one step deeper and collect all the keys in population:
 
 Print the list alphabetically sorted:
 
-```
+```python
 	for key in sorted(populationKeys.keys()):
 		print "%s: %s" % (key, populationKeys[key])
 ```
 
 And print it sorted by occurance:
 
-```
+```python
 	for key, value in sorted(populationKeys.iteritems(), key=lambda (k, v): (v ,k), reverse=True):
 		print "%s: %s" % (key, value)
 ```
@@ -1317,7 +1317,7 @@ Let's do this. We copy our analysis code into yet another script `analyze_popula
 
 Create an ordered list of filters: keys which should exactly match with a key in the *PopulationInfo* or a pattern of the key with which it should start.
 
-```
+```python
 keysList = [
 	# Total is prefered
 	{'match': "Total", 'startsWith': False},
@@ -1340,7 +1340,7 @@ I've put this list in a seperate function `keysFilter()`, just to organize the c
 
 Next, I'll combine the two for loops which we had before into one, so I can easily expand it:
 
-```
+```python
 	for country in citiesData:
 		if country.has_key('cities'):
 			for city in country['cities']:
@@ -1362,7 +1362,7 @@ We created two kinds of filters: filters which can match the start of the key (`
 
 And because we use a nested `for` loop, we need a special construction to `break` it. When a match is found (in the inner loop), we want to stop both loops, also the outer loop. Therefor we create a variable `matchingKeyFound` outside the loops, initializing it with `False`. Then, when we find a match, we set the variable to `True` and `break` the inner loop. Next in the outer loop, we check the state of the variable, and if it is `True`, we `break` that loop as well.
 
-```
+```python
 				if city.has_key('populationInfo'):
 					# Loop through all the keys in populationInfo
 					withPopulationData += 1
@@ -1398,7 +1398,7 @@ We create a variable `matchingKeys`
 
 and fill it with the keys that got matched:
 
-```
+```python
 						if matchingKeyFound:
 							if not key in matchingKeys:
 								matchingKeys.append(key)
@@ -1407,7 +1407,7 @@ and fill it with the keys that got matched:
 
 Finally print out the result
 
-```
+```python
 	print "-----------------------------"
 	print "matched keys:"
 	print matchingKeys
@@ -1419,7 +1419,7 @@ We also would like to know how many, out of all the cities with population info,
 
 Therefor, we put this out of the nested `for` loop:
 
-```
+```python
 					if not matchingKeyFound:
 						withoutMatchingKeys += 1
 ```
@@ -1440,7 +1440,7 @@ The ignore list should at least contain these two keys:
 
 Then, before we increase the `withoutMatchingKeys` variable, we check if there is only one key and if it might be in the `ignoreKeys` list:
 
-```
+```python
 					if not matchingKeyFound:
 						# If there is only one key and it is in our list to be ignored, then ignore it
 						notMatchingOrUnknownKeys = city['populationInfo'].keys()
@@ -1458,7 +1458,7 @@ And when printing the result, differentiate between the unmatched and ignored:
 
 Also, let's print out the cities which are not matched and the keys in the population info:
 
-```
+```python
 					if not matchingKeyFound:
 						...
 						else:
@@ -1482,7 +1482,7 @@ Copy the analysis code of before into a new script: `filter_populations.py`. And
 
 Outside the outer `for` loop, we remove the whole `if not matchingKeyFound:` block and instead append some code that only runs when a match **is** found. Let's print out the values found!
 
-```
+```python
 					if matchingKeyFound:
 						# Get the population value
 						populationValue = city['populationInfo'][key]
@@ -1503,14 +1503,14 @@ etc ...
 
 I think the pattern is `value...something else`. This could be a good problem for a regular expression. Let's match one or more digit characters or a comma.
 
-```
+```python
 import re
 numberPattern = re.compile(r'[0-9,]+')
 ```
 
 Then try it with a variable `value`:
 
-```
+```python
 value = "257,710 (Ranked 58th)"
 m = numberPattern.search(value)
 if m:
@@ -1524,7 +1524,7 @@ print intValue
 
 That's what we need. Let's add this to our script:
 
-```
+```python
 					if matchingKeyFound:
 						# Get the population value
 						populationValue = city['populationInfo'][key]
@@ -1539,14 +1539,14 @@ That's what we need. Let's add this to our script:
 
 We could just store this back into the `json`. But I saw that the `json` file is quite large now, and still contains all the other, non-matched population data. Let's get rid of this data, just to clean the data.
 
-```
+```python
 				if city.has_key('populationInfo'):
 					del city['populationInfo']
 ```
 
 And save the data into a new json file:
 
-```
+```python
 	with open("population_of_cities.json", 'w') as outputFile:
 	   json.dump(citiesData, outputFile, indent=2)
 ```
