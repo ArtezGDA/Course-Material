@@ -53,11 +53,46 @@ if ( app.documents.length > 0 && app.activeDocument.pathItems.length > 0 ) {
 }
 ```
 
+So how do we get this script running?
+
 ### 1. Where to install
+
+You save this script in a `.jsx` file. Let's call it `randomColor.jsx` and then you save it in the `Scripts` folder in `Presets.localized` folder inside the Illustrator's applications folder.
+
+Of course the exact path on your computer depends on:
+
+- where you installed your Illustrator
+- which version of Illustrator you have
+- if you have a localized (translated) version of Illustrator or not
+
+On my computer the folder is
+
+`/Applications/Adobe Illustrator CS3/Presets.localized/Scripts.localized`
+
+But on your machine it could very well be
+
+`/Applications/Adobe Illustrator CC/Presets.localized/nl_NL/Scripts`
 
 ### 2. How to use
 
+Then, once you placed the script there, you need to **restart Illustrator**, and you can find and execute the script from the **Menu**: **File** > **Scripts** > **randomColor**
+
 ### 3. How to automate
+
+And, if you would like to speed up this last step, you can create an *Action* and assign a shortcut to it:
+
+- From the **Actions** panel (Window menu > Actions)
+- Create a New Action ... (from the menu of with the button)
+    - Name the Action *Run Script*
+    - Assign a Function key: e.g. F2 + Command
+    - Click **Record**
+- Click Stop
+- **Insert Menu Item ...** (from the Action Panel menu)
+    - type *rand*
+    - Click **Find** (it will autocomplete it to "randomColor")
+    - Click **Ok**
+    
+Now use the shortcut (cmd + F2) to run the script.
 
 ## Cases to use Illustrator Scripting over Plotdevice.io?
 
