@@ -110,3 +110,11 @@ However, there are some use cases in which Illustratot offers you functionality,
 
 ----
 
+# Example Scripts
+
+I've put together three examples of Illustrator Scripts:
+
+- one script that just works on **Illustrator itself**. It modifies an existing Illustrator drawing: [Scripting Tutorial to ExpandedOutlines](https://github.com/ArtezGDA/illustratorPlugin-Examples/blob/master/Tutorial_Scripting_ExpandedOutlines.md)
+- one script that **exports an SVG file**.
+- one script that **imports a JSON file** and uses its data to modify a drawing.
+
