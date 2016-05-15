@@ -14,7 +14,7 @@ Go to the download page at [Illustrator Scripting Documentation - Adobe Develope
 - The **Scripting Guide** will explain you the basics of setting up your scripting toolchain, and will explain the DOM (Document-Object-Model) used by Illustrator
 - The **Javascript Reference** contains a detailed list of all the functions and methods you can call on Illustrator and its objects. And it contains a lot of example code demonstrating how to use these functions.
 
-![Illustrator's Document Object Model]()
+![Illustrator's Document Object Model](images/ai_scripting_IllustratorDOM.png)
 
 ## Apps to use
 
@@ -77,6 +77,8 @@ But on your machine it could very well be
 
 Then, once you placed the script there, you need to **restart Illustrator**, and you can find and execute the script from the **Menu**: **File** > **Scripts** > **randomColor**
 
+![Run the script from the Menu Item](images/ai_scripting_RunScriptFromMenu.png)
+
 ### 3. How to automate
 
 And, if you would like to speed up this last step, you can create an *Action* and assign a shortcut to it:
@@ -91,6 +93,8 @@ And, if you would like to speed up this last step, you can create an *Action* an
     - type *rand*
     - Click **Find** (it will autocomplete it to "randomColor")
     - Click **Ok**
+
+![Automate the script with a shortcut](images/ai_scripting_ActionMenuWithShortcut.png)
     
 Now use the shortcut (cmd + F2) to run the script.
 
