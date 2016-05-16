@@ -115,6 +115,6 @@ However, there are some use cases in which Illustratot offers you functionality,
 I've put together three examples of Illustrator Scripts:
 
 - one script that just works on **Illustrator itself**. It modifies an existing Illustrator drawing: [Scripting Tutorial to ExpandedOutlines](https://github.com/ArtezGDA/illustratorPlugin-Examples/blob/master/Tutorial_Scripting_ExpandedOutlines.md)
-- one script that **exports an SVG file**.
+- one script that **exports an SVG file**. It exports all layers in an Illustrator file: [Scripting Tutorial to Export Each Layer as SVG's](https://github.com/ArtezGDA/illustratorPlugin-Examples/blob/master/Tutorial_Scripting_ExportEachLayer.md)
 - one script that **imports a JSON file** and uses its data to modify a drawing.
 
