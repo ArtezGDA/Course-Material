@@ -23,7 +23,6 @@ If you're writing your script and debugging it, you'll be running a few apps nex
 - ExtendScript Toolkit
 - Illustrator (this is the target app)
 - Your favorite text editor (e.g. Sublime text)
-- Console (in Utilities)
 
 ## Language
 
