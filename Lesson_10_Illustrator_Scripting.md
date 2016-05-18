@@ -16,6 +16,14 @@ Go to the download page at [Illustrator Scripting Documentation - Adobe Develope
 
 ![Illustrator's Document Object Model](images/ai_scripting_IllustratorDOM.png)
 
+## Other Resources and Inspiration
+
+[Fabian Morón Zirfas](https://github.com/fabiantheblind) published some very useful code and examples working with Adobe's Extend Script tools:
+
+- A collection of scripts and experiments from his [Extend Script github repository](https://github.com/fabiantheblind/extendscript)
+- An extensive set of documentation about Extend Scripts for AfterEffects, Indesign and Illustrator in the [Extend Script Wiki](https://github.com/fabiantheblind/extendscript/wiki)
+- And if you want to do more with Extend Scripting for Indesign, check out [Basil.js](http://basiljs.ch), a helpful framework to work around Adobe's Extend Script tools and nice examples of what you can do with this stuff.
+
 ## Apps to use
 
 If you're writing your script and debugging it, you'll be running a few apps next to each other:
@@ -115,5 +123,5 @@ I've put together three examples of Illustrator Scripts:
 
 - one script that just works on **Illustrator itself**. It modifies an existing Illustrator drawing: [Scripting Tutorial to ExpandedOutlines](https://github.com/ArtezGDA/illustratorPlugin-Examples/blob/master/Tutorial_Scripting_ExpandedOutlines.md)
 - one script that **exports an SVG file**. It exports all layers in an Illustrator file: [Scripting Tutorial to Export Each Layer as SVG's](https://github.com/ArtezGDA/illustratorPlugin-Examples/blob/master/Tutorial_Scripting_ExportEachLayer.md)
-- one script that **imports a JSON file** and uses its data to modify a drawing.
+- one script that **imports a JSON file** and uses this data to modify an existing drawing: [Scripting Tutorial to Import JSON Data into Illustrator](https://github.com/ArtezGDA/illustratorPlugin-Examples/blob/master/Tutorial_Scripting_ImportJsonData.md)
 

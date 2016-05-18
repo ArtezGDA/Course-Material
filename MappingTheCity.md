@@ -164,7 +164,7 @@ Lesson cancelled
 ####Week 8:
 *May 19th 2016*
 
-- Illustrator Scripting
+- [Lesson: Illustrator Scripting](Lesson_10_Illustrator_Scripting.md)
 
 **Homework:**
 
