@@ -173,7 +173,8 @@ Lesson cancelled
 ####Week 9:
 *May 26th 2016*
 
-- ...
+- Collective coding recap
+- Group talks
 
 **Homework:**
 
