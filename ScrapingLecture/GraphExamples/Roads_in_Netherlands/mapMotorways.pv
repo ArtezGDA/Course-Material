@@ -1,0 +1,40 @@
+import json
+
+size(512, 512)
+background(1)
+
+def mapValue(value, fromMin, fromMax, toMin, toMax):
+    # Figure out how 'wide' each range is
+    fromSpan = fromMax - fromMin
+    toSpan = toMax - toMin
+    
+    # Convert the from range into a 0-1 range (float)
+    valueScaled = float(value - fromMin) / float(fromSpan)
+    
+    # Convert the 0-1 range into a value in the to range.
+    return toMin + (valueScaled * toSpan)
+
+# Dutch roads between 3.59 and 7.20
+def xOfDot(lon):
+    return mapValue(lon, 3.25, 7.5, 0, WIDTH)
+
+# Dutch roads between 50.75 and 53.20
+def yOfDot(lat):
+    return mapValue(lat, 50.5, 53.5, HEIGHT, 0)
+
+with open("geometry.json", 'r') as inputFile:
+    roadsData = json.load(inputFile)
+
+stroke(0)
+for road in roadsData:
+    firstPoint = None
+    for point in road:
+        lon = point['lon']
+        lat = point['lat']
+        if firstPoint:
+            fromX = xOfDot(firstPoint['lon'])
+            fromY = yOfDot(firstPoint['lat'])
+            toX = xOfDot(point['lon'])
+            toY = yOfDot(point['lat'])
+            line(fromX, fromY, toX, toY)
+        firstPoint = point
