@@ -6,13 +6,19 @@ We cover a lot of ground during the lessons. There will be many in-class tutoria
 
 Class starts at `09:15` in the morning and `13:15` in the afternoon. There is an *extra 15 minutes courtesy in the morning* in case of delayed public transport or other unforseen circumstances. In the afternoon there are no such circumstances, so this courtesy is limited to *just 5 minutes*.
 
-If you enter the class after this, you will be marked as absent and not be allowed to join the class until after the tea break.
+If you enter the class after this, *you will be marked as absent* and not be allowed to join the class until after the tea break.
 
-Engagement and working along with the code examples and tutorials is even more important than your physical presence. Therefor, if you spend the lesson doing other stuff, irrelevant to this course, then you could as well be absent. So you will be marked as absent.
+Engagement and working along with the code examples and tutorials is even more important than your physical presence. Therefor, if you spend the lesson doing other stuff, irrelevant to this course, then you could as well be absent. *So you will be marked as absent.*
 
 Per semester you are allowed to be absent a *maximum of three times*. This only counts if you provide a valid reason for your absence, before the class starts, if possible.
 
 If you exceed this maximum, or cannot provide a valid reason for your absence, you will receive an insufficient mark for this class.
+
+#### On Homework
+
+The only way you can learn how to code is to practice and experiment. Practice, practice, practice! Only through practice and experimentation, you'll learn the pitfalls, how to solve them, and begin to understand the building blocks you have available for your coding.
+
+Therefor it is vital that you spend at least 3 hours a week on homework doing coding. You will be checked for this.
 
 #### Copyrights
 

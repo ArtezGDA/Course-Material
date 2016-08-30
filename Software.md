@@ -39,15 +39,35 @@ Their preorder price is $15, which is Ok considering the usefulness.
 
 - info: http://25.io/mou/
 - preorder: http://25.io/mou/store/
+- alternative: MacDown http://macdown.uranusjr.com 
+
+### iTerm
+
+As an alternative for the default Mac OS X Terminal, we want something more powerful.  
+Download the alternative Terminal app **iTerm**
+
+- https://www.iterm2.com
+
+### Apple's Command Line Tools
+
+To be able to run command line tools and perform useful things on your machine, you need to download Apple's Command Line Tools
+
+Go to the following page and look for the "Command Line Tools" installer:
+
+- https://developer.apple.com/downloads/
 
 ## Other apps 
 
-- Text editor:
+- Choose a Text editor:
 	- Sublime Text
 	- Textmate (as Sublime Text alternative)
 	- Atom (as alternative)
 
-## Command line tools
+----
+
+## Command Line Tools
+
+These will be explained later in a separate lesson
 
 - git
 - zsh
@@ -55,6 +75,10 @@ Their preorder price is $15, which is Ok considering the usefulness.
 - ...
 
 ## Python Modules
+
+How and why these python modules could be installed is also explained later
+
+Read: http://blog.manbolo.com/2014/09/27/use-python-effectively-on-os-x
 
 - ipython
 - ...

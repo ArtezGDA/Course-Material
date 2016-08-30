@@ -1,51 +1,47 @@
 # Course Material
 
-This is the official course material for the ***Media Design*** course at **Artez Graphic Design Arnhem** (ArtezGDA). We're using GitHub to publish it and to make it easy for everyone to clone it, make versions of it and to share all the feedback right back in. This repository contains Notes, Assignments (including learning goals, planning and evaluation criteria), and a list of the software you need to install.
+This is the official course material for the ***Media Design*** course at **Artez Graphic Design Arnhem** (ArtezGDA). We're using GitHub to publish it and to make it easy for everyone to clone it, make versions of it and to share all the feedback right back in. This repository contains the Assignments (including learning goals, planning and evaluation criteria), Technical lessions and some notes about the rules and the software you need to install.
 
 ### Table of Contents
 
 - [Create an account on GitHub](GitHub.md)
 - [Software](Software.md) (needed to be installed on your laptop)
 - [Assignments](#assignments)
-- [Documentation](https://github.com/ArtezGDA/Algorithmic-Nature/wiki)
 
 ## Assignments
 
-### 1. Algorithmic Nature
-*Text in -> Image out*  
-_**Deadline**: October 15th 2015_
+### 1. Pioneers
 
-[Study the following algorithms and create computer generated sketches and drawings using them.](AlgorithmicNature.md):  
-fibonacci, random & perlin noise, recursion
+Two parts:
 
-### 2. Text-IO
+- basic coding lessons
+- historic pioneers in human-computer interaction
+
+*Code + Structure*  
+_**Deadline**: October 18th 2016_
+
+[Study 6 basic coding concepts and constructions. And catalogue the significant human-computer interaction (HCI) pioneers and their inventions into a structured archive.](Pioneers.md)
+
+### 2. Text Input Output (IO)
+
 *Text in -> Text out*  
-_**Deadline**: January 7th 2016_
+_**Start**: November 1st 2016_  
+_**Deadline**: December 13th 2016_
 
-[**Text-IO**: Collect, Remediate and Work with text through text](textIO.md)
+[**Text-IO**: Create a text-based interactieve questionaire, game or storytelling machine.](#)
 
-### 3. Tool
+### 3. To Be Determined
 
-*Hack your own tool*  
-_**Deadline**: March 17th 2016_
+_Semester 2_
 
-[**Tool**: Create your own useful tool to create other works](Tool.md)
+### 4. To Be Determined
 
-### 4. Mapping the City
-
-*Data in -> Awesome out*  
-_**Deadline:** June 2nd 2016_
-
-[**Mapping the City**: Use city big data to chart diagrams and maps](MappingTheCity.md)
+_Semester 2_
 
 ## Notes
 
 Read the [Rules](Rules.md) (about presence, copyrights, attribution, code sharing and planning).
 
-## Extra
+## Alternative Tools
 
-- To be expanded: [Coding Tools](CodingTools.md) as alternatives and inspiration
-
-###Documentation
-
-There is a [wiki](https://github.com/ArtezGDA/Algorithmic-Nature/wiki) as a shared point of documentation, where technical terms, coding solutions and a glossary can be collectively and collaboratively be written.
+- For alternative tools and inspiration see these [Coding Tools](CodingTools.md)
