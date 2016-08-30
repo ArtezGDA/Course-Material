@@ -10,9 +10,32 @@
 
 ##Learning Goals
 
-Develop an understanding of algorithms and how to use them to create procedural drawings. Acquire an insight in the process of producing visuals through computer code. Being able to produce visually interesting works using procedural drawings. Collect a set of techniques that you will able to use in future works.
+Learn the basic skills of programming in python. Develop a method of documenting your coding efforts and sketches. Gain insights in the history of human-computer interaction and the people and ideas involved in this research. Develop a vision on structuring and organizing information in the digital age. Being able to produce sketches and a prototype for a logical or complex system that might never be produced.
 
 ##Description
+
+The following human-computer interaction pioneers:
+
+- Vannavar Bush
+- Ivan Sutherland
+- Douglas Englebart
+- Alan Kay
+- Theodore Nelson
+- Bret Victor
+
+The following coding constructs,
+
+- `for` loops
+- variables
+- `if` statements
+- GitHub
+- Types: `int` / `bool` / `float` / `string`
+- Arrays,
+
+and one collaboration tool:
+
+- GitHub.com
+
 
 ##Planning
 
@@ -28,12 +51,12 @@ Develop an understanding of algorithms and how to use them to create procedural 
 - Download and install the [software](Software.md)
 - Create a journal, notebook or blog about your research.
  	- Document your programming efforts, ideas and sketches
-- Read Vanavar Bush - As we may think
+- Read Vannavar Bush - As we may think (see literature below)
 
 #####Week 2:
 *September 6th 2016*
 
-- for loops
+- `for` loops
 - Sketchpad (Ivan Sutherland)
 
 #####Week 3:
@@ -45,7 +68,7 @@ Develop an understanding of algorithms and how to use them to create procedural 
 #####Week 4:
 *September 20th 2016*
 
-- if statements
+- `if` statements
 - Dynabook (Alan Kay)
 
 #####Week 5:
@@ -57,7 +80,7 @@ Develop an understanding of algorithms and how to use them to create procedural 
 #####Week 6:
 *October 4th 2016*
 
-- Types: int - bool - float - string
+- Types: `int` / `bool` / `float` / `string`
 - Bret Victor
 
 #####Week 7:
@@ -73,9 +96,9 @@ Develop an understanding of algorithms and how to use them to create procedural 
 
 ##Evaluation
 
-Criteria for judging the work:
+<!-- Criteria for judging the work:
 
-<!-- - The **creative process**,
+- The **creative process**,
 - the digital process and **workflow** of creating procedural drawings,
 - **insight** in the algorithmic aspects of nature and
 - acquired **coding skills** -->
@@ -83,10 +106,18 @@ Criteria for judging the work:
 ##Literature
 
 ####Reading
+
 - [Vannavar Bush - As we may think](reading/Vannevar_Bush-As_We_May_Think.pdf)
 
 ####Video's
-- 
+
+- [A Computer Glossary - Charles and Ray Eames](http://www.eamesoffice.com/the-work/a-computer-glossary-2/)
+- SketchPad Demo - Ivan Sutherland
+- 1964 Demo of NLS (oNLineSystem) - Douglas Englebart]
+- The computer revolution didn't happen yet - Alan Kay]
+- ZigZag - Theodore Nelson]
+- The future of programming - Bret Victor]
+- Inventing on Principle - Bret Victor]
 
 ####Inspiration
 

@@ -1,6 +1,6 @@
 # Course Material
 
-This is the official course material for the ***Media Design*** course at **Artez Graphic Design Arnhem** (ArtezGDA). We're using GitHub to publish it and to make it easy for everyone to clone it, make versions of it and to share all the feedback right back in. This repository contains the Assignments (including learning goals, planning and evaluation criteria), Technical lessions and some notes about the rules and the software you need to install.
+This is the official course material for the ***Media Design*** course at **Artez Graphic Design Arnhem** (ArtezGDA). We're using GitHub to publish it and to make it easy for everyone to clone it, make versions of it and to share all the feedback right back in. This repository contains the Assignments (including learning goals, planning and evaluation criteria), Technical lessons and some notes about the rules and the software you need to install.
 
 ### Table of Contents
 
@@ -20,7 +20,7 @@ Two parts:
 *Code + Structure*  
 _**Deadline**: October 18th 2016_
 
-[Study 6 basic coding concepts and constructions. And catalogue the significant human-computer interaction (HCI) pioneers and their inventions into a structured archive.](Pioneers.md)
+[**Pioneers**: Study a few basic coding concepts. And design a catalogue of human-computer interaction (HCI) pioneers and their inventions](Pioneers.md)
 
 ### 2. Text Input Output (IO)
 
