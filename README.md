@@ -20,7 +20,7 @@ Two parts:
 *Code + Structure*  
 _**Deadline**: October 18th 2016_
 
-[**Pioneers**: Study a few basic coding concepts. And design a catalogue of human-computer interaction (HCI) pioneers and their inventions](Pioneers.md)
+[**Pioneers**: Study basic coding concepts in python. + Design a catalogue of human-computer interaction (HCI) pioneers and their inventions](Pioneers.md)
 
 ### 2. Text Input Output (IO)
 
