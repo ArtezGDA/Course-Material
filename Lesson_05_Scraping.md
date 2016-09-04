@@ -24,8 +24,8 @@ The process of scraping can be compared to the process of mine a rare ore:
 
 ### Examples
 
-- [json reading and writing](https://github.com/ArtezGDA/Course-Material/tree/master/Basics/json)
-- [find links in markdown files](https://github.com/ArtezGDA/Course-Material/tree/master/Basics/filter-files)
+- [json reading and writing](https://github.com/ArtezGDA/Course-Material/tree/master/Advanced/json)
+- [find links in markdown files](https://github.com/ArtezGDA/Course-Material/tree/master/Advanced/filter-files)
 - [scrape Disney's box office from Wikipedia](https://github.com/ArtezGDA/python-web-scraper)
 - use an API ... (read on)
 
@@ -231,7 +231,7 @@ If you compress all of the above into one python script, it will be about someth
 
 This is nice, because it prints out all data to the command line. Still, every time it takes a while before it scraped all of the commit messages. And you might want to do something more with the data. So let's save it in a `.json` file, which we can open and read in later.
 
-Have a look at the basic example about [writing and reading json files](Basics/json/README.md).
+Have a look at the basic example about [writing and reading json files](Advanced/json/README.md).
 
 Change the script to the following:
 

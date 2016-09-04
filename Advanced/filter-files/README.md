@@ -31,7 +31,7 @@ As before, but now assumes that all the files given are in the markdown format. 
 As example, it can be executed by running the following command:
 
 *(assuming you're in the root directory of the Course Material)*  
-`find . -name '*.md' | xargs python ./Basics/filter-files/find_md_links.py`  
+`find . -name '*.md' | xargs python ./Advanced/filter-files/find_md_links.py`  
 
 (This searches for all the `.md` files from the current directory, and then send the output of these files to this script).
 

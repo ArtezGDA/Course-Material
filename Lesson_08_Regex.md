@@ -23,4 +23,4 @@ Online tool: [Regexr](http://www.regexr.com)
 - In applications, like Sublime Text
 - In Indesign, it's called `GREP`
 - In the Terminal with the `grep` command
-- In python. [Example code using regex in python](Basics/regex/README.md)
+- In python. [Example code using regex in python](Advanced/regex/README.md)

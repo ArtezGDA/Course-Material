@@ -17,7 +17,7 @@ Files given to this script, which are not linked to, will be marked as orphaned.
 ----
 
 As example, it can be executed by running the following command:  
-`find . -name '*.md' | xargs python ./Basics/filter-files/Advanced/map_md_tree.py`
+`find . -name '*.md' | xargs python ./Advanced/filter-files/Advanced/map_md_tree.py`
 
 This will search for all the `.md` files from the current directory,
 and will find and map all the markdown links in these files.

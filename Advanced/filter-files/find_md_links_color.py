@@ -18,7 +18,7 @@ for markdown formatted links (`[title of the link](url_or_markdown_file)`), and 
 them to the standard out.
 
 As example, it can be executed by running the following command:  
-`find . -name '*.md' | xargs python ./Basics/filter-files/find_md_links.py`
+`find . -name '*.md' | xargs python ./Advanced/filter-files/find_md_links.py`
 
 This will search for all the `.md` files from the current directory,
 and will find and print all the markdown links in these files.
