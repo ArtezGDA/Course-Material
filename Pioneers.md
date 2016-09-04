@@ -12,6 +12,8 @@
 
 Learn the basic skills of programming in python. Develop a method of documenting your coding efforts and sketches. Gain insights in the history of human-computer interaction and the people and ideas involved in this research. Develop a vision on structuring and organizing information in the digital age. Being able to produce sketches and a prototype for an information system and structure.
 
+![Engelbart Demo](images/englebart_demo.jpg)
+
 ##Description
 
 This assignment consists out of two parts: a **coding** part and a **systems design** part.
@@ -37,6 +39,8 @@ and one collaboration tool:
 
 #### Systems Design
 
+![Sketchpad](images/sketchpad_sutherland.jpg)
+
 Design (the system and structure for) a **catalogue** of the inventions of *Human-Computer Interaction* pioneers.
 
 Human-Computer Interaction (HCI) is the study of the interaction the interface and the interface between us, humans, and computers that allows us to give instructions to the computer and allows the computer to gives us feedback about the process and the outcome. It deals with both **hardware inventions** (e.g. the mouse or novel 3D pen), **software inventions** (e.g. the trick that allows you to switch between applications, or copy and paste) and **visual and metaphores inventions** (e.g. the idea of windows, the idea of folders that store information.)
@@ -53,7 +57,7 @@ The following human-computer interaction pioneers will be studied:
 
 - Vannavar Bush
 - Ivan Sutherland
-- Douglas Englebart
+- Douglas Engelbart
 - Alan Kay
 - Theodore Nelson
 - Bret Victor
@@ -88,7 +92,7 @@ The following human-computer interaction pioneers will be studied:
 *September 13th 2016*
 
 - variables
-- oNLineSystem (Douglas Englebart)
+- oNLineSystem (Douglas Engelbart)
 
 #####Week 4:
 *September 20th 2016*
@@ -139,7 +143,7 @@ Criteria for judging the work:
 
 - [A Computer Glossary - Charles and Ray Eames](http://www.eamesoffice.com/the-work/a-computer-glossary-2/)
 - SketchPad Demo - Ivan Sutherland
-- 1964 Demo of NLS (oNLineSystem) - Douglas Englebart
+- 1964 Demo of NLS (oNLineSystem) - Douglas Engelbart
 - The computer revolution didn't happen yet - Alan Kay
 - ZigZag - Theodore Nelson
 - The future of programming - Bret Victor
