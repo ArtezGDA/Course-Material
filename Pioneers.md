@@ -142,6 +142,7 @@ Criteria for judging the work:
 ####Reading
 
 - [Vannavar Bush - As we may think](reading/Vannevar_Bush-As_We_May_Think.pdf)
+- Manuel Lima - The Book of Trees: Visualizing Branches of Knowledge (the Artez library has a copy)
 
 ####Video's
 
