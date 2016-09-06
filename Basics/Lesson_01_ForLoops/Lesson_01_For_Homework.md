@@ -66,7 +66,7 @@ See the animation example for a template how to create an animation in plotdevic
 
 - if trying, try with subset of range (e.g. `range(5, 25)`, instead `range(100)` )
 - set `fontsize()` and `fill()` color, each time after the `clear(all)`
-- with text formatting, use `%02` to create the string *"03"* from the number *3*. 
+- with (text formatting (see **old style** formatting))[https://pyformat.info], use `%02d` to create the string *"03"* from the number *3*. 
 
 ### For extra points: 
 
