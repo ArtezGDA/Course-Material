@@ -38,6 +38,12 @@
 liftoff!
 ```
 
+### Modify the hamburger
+
+- create the following image using a for loop
+
+![hamburger with 4 sections](sliced_pill_4_slices.png)
+
 ### Create a grid
 
 - grid of 25 by 25 crosses, with 15 pixels in between.
