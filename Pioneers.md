@@ -83,10 +83,14 @@ The following human-computer interaction pioneers will be studied:
 #####Week 2:
 *September 6th 2016*
 
-- [Lesson 1](Basics/Lesson_01_ForLoops.md): `for` loops 
+- [Lesson 1](Basics/Lesson_01_ForLoops/README.md): `for` loops 
 - Sketchpad (Ivan Sutherland)
 
-<!-- **Homework:** -->
+**Homework:**
+
+- Make notes about the concepts and work of Vannavar Bush and Ivan Sutherland
+- Make sketches of a system to collect and organize these notes and concepts
+- Code: [Homework Lesson 01](Basics/Lesson_01_ForLoops/Lesson_01_For_Homework.md)
 
 #####Week 3:
 *September 13th 2016*
@@ -142,7 +146,11 @@ Criteria for judging the work:
 ####Video's
 
 - [A Computer Glossary - Charles and Ray Eames](http://www.eamesoffice.com/the-work/a-computer-glossary-2/)
-- SketchPad Demo - Ivan Sutherland
+- SketchPad Demo - Ivan Sutherland:
+	- [Original 1963 video](https://www.youtube.com/watch?v=57wj8diYpgY)
+	- [Sketchpad: A man-machine graphical communication system (Thesis)](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf)
+	- [Sketchpad: MIT video, part 1](https://www.youtube.com/watch?v=USyoT_Ha_bA)
+	- [Sketchpad: MIT video, part 2](https://www.youtube.com/watch?v=BKM3CmRqK2o)
 - 1964 Demo of NLS (oNLineSystem) - Douglas Engelbart
 - The computer revolution didn't happen yet - Alan Kay
 - ZigZag - Theodore Nelson
