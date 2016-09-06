@@ -1,0 +1,20 @@
+size(512, 512)
+background(1)
+
+fill(0)
+
+# top
+arc(120, 120, 60, range = (45, 135), ccw = True)
+
+# middle part
+rect(77, 84, 86, 10)
+rect(77, 99, 86, 10)
+rect(77, 114, 86, 10)
+rect(77, 129, 86, 10)
+rect(77, 144, 86, 10)
+rect(77, 159, 86, 10)
+rect(77, 174, 86, 10)
+
+# bottom
+arc(120, 148, 60, range = (45, 135))
+

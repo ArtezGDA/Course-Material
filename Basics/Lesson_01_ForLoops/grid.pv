@@ -1,0 +1,13 @@
+size(400, 400)
+background(1)
+
+stroke(0.2)
+
+# vertical
+for y in range(40, 380, 20):
+    for x in range(40, 380, 20):
+        # cross hairs
+        s = 4 # half length Size
+        line(x - s, y, x + s, y)
+        line(x, y - s, x, y + s)
+

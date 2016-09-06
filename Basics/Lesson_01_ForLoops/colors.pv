@@ -1,0 +1,10 @@
+size(400, 400)
+background(0.5)
+
+colors = ["white", "yellow", "orange", "red", "pink", "purple", "blue", "green", "brown", "black"]
+
+y = 40
+for c in colors:
+    fill(color(c))
+    text(c.upper(), 20, y)
+    y += 20
