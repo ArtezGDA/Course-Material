@@ -185,7 +185,34 @@ These can be use cases for the while loop:
 
 ## Animations in plotdevice
 
+The following code is boilerplate template for creating an animation with plotdevice:
+
+```python
+size(220, 120)
+background(1)
+
+# export a 100-frame movie
+movie = export('anim.mov', fps=50, bitrate=1.8)
+for i in xrange(100):
+    clear(all)  # erase the previous frame from the canvas
+    # Do some drawing:
+    text("counting to ... " + str(i), 10, 60)
+    movie.add() # add the canvas to the movie
+movie.finish()  # wait for i/o to complete
+```
+
+Open this code in Plotdevice and run it. This will create a movie called *anim.mov* in the same directory as your plotdevice file.
+
 ## Difference between Terminal, python file and Plotdevice
+
+In class I showed the difference of working in:
+
+- the Terminal with **iTerm** and the `python` or the `ipython` command
+- the **Atom** app to open and edit python `.py` files. For usefullness install the following extra packages in Atom:
+	- autocomplete-python
+	- python-tools
+	- script
+- the **Plotdevice** app to open and edit plotdevice `.pv` files and use Plotdevice's special drawing functions.
 
 ## Links to plotdevice reference and tutorial
 
@@ -193,3 +220,9 @@ These can be use cases for the while loop:
 - [Plotdevice Tutorial](http://plotdevice.io/tut/Getting_Started)
 
 ### `rotate` ... and `with rotate:` ... and `reset()`
+
+When you want to create the analogue clock for the **extra points** homework, specifically study these plotdevice functions:
+
+- [`rotate`](http://plotdevice.io/ref/Transform#rotate())
+- `with rotate:`
+- [`reset`](http://plotdevice.io/ref/Transform#reset())

@@ -5,8 +5,8 @@ background(1)
 movie = export('anim.mov', fps=50, bitrate=1.8)
 for i in xrange(100):
     clear(all)  # erase the previous frame from the canvas
+    # Do some drawing:
     text("counting to ... " + str(i), 10, 60)
-    # ...         # (do some drawing)
     movie.add() # add the canvas to the movie
 movie.finish()  # wait for i/o to complete
 
