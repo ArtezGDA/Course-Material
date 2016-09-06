@@ -68,7 +68,7 @@ See the [animation](animation.pv) example for a template how to create an animat
 - set `fontsize()` and `fill()` color, each time after the `clear(all)`
 - with [text formatting (see **old style** formatting)](https://pyformat.info), use `%02d` to create the string *"03"* from the number *3*. 
 
-And study the [plotdevice manual]() and [reference]() for help on the plotdevice functions.
+And study the [plotdevice tutorial](http://plotdevice.io/tut/Getting_Started) and [reference](http://plotdevice.io/manual#ref) for help on the plotdevice functions.
 
 ### For extra points: 
 
