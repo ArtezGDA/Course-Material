@@ -78,13 +78,13 @@ The following human-computer interaction pioneers will be studied:
 - Download and install the [software](Software.md)
 - Create a journal, notebook or blog about your research.
  	- Document your programming efforts, ideas and sketches
-- Read Vannavar Bush - As we may think (see literature below)
+- Read *As we may think* – Vannavar Bush (see literature below)
 
 #####Week 2:
 *September 6th 2016*
 
 - [Lesson 1](Basics/Lesson_01_ForLoops/README.md): `for` loops 
-- Sketchpad (Ivan Sutherland)
+- Sketchpad – by Ivan Sutherland
 
 **Homework:**
 
@@ -95,31 +95,34 @@ The following human-computer interaction pioneers will be studied:
 #####Week 3:
 *September 13th 2016*
 
-- variables
-- oNLineSystem (Douglas Engelbart)
+- coding:
+	- while loop
+	- variables
+	- Types: `int` / `bool` / `float` / `string`
+- NLS (oNLineSystem) – by Douglas Engelbart
 
 #####Week 4:
 *September 20th 2016*
 
 - `if` statements
-- Dynabook (Alan Kay)
+- Dynabook – by Alan Kay
 
 #####Week 5:
 *September 27th 2016*
 
 - GitHub
-- ZigZag (Theodore Nelson)
+- ZigZag – by Theodore Nelson
 
 #####Week 6:
 *October 4th 2016*
 
-- Types: `int` / `bool` / `float` / `string`
+- Arrays
 - Bret Victor
 
 #####Week 7:
 *October 11th 2016*
 
-- Arrays
+- Dictionaries
 - Bret Victor (2)
 
 #####Week 8:
@@ -152,7 +155,7 @@ Criteria for judging the work:
 	- [Sketchpad: A man-machine graphical communication system (Thesis)](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-574.pdf)
 	- [Sketchpad: MIT video, part 1](https://www.youtube.com/watch?v=USyoT_Ha_bA)
 	- [Sketchpad: MIT video, part 2](https://www.youtube.com/watch?v=BKM3CmRqK2o)
-- 1964 Demo of NLS (oNLineSystem) - Douglas Engelbart
+- [1968 Demo of NLS (oNLineSystem) - Douglas Engelbart](https://vimeo.com/32381658)
 - The computer revolution didn't happen yet - Alan Kay
 - ZigZag - Theodore Nelson
 - The future of programming - Bret Victor
