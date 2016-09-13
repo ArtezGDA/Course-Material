@@ -95,11 +95,23 @@ The following human-computer interaction pioneers will be studied:
 #####Week 3:
 *September 13th 2016*
 
-- coding:
+- Homework check:
+	- Complete your **GitHub** profile: avatar + name, join ArtezGDA organisation, make sure your member of 'Students'
+	- for loops
+- "Mother of all **Demo**'s" - NLS (oNLineSystem) – by Douglas Engelbart
+- coding: - [Lesson 2](Basics/Lesson_02_Variables/README.md)
 	- while loop
 	- variables
-	- Types: `int` / `bool` / `float` / `string`
-- NLS (oNLineSystem) – by Douglas Engelbart
+
+**Homework:**
+
+- Watch the complete Douglas Engelbart Demo and make notes about the concepts and all inventions presented
+- Make more sketches of the system of organizing, based on Engelbart's concepts for augmenting human intellect.
+- Code:
+	- Read the course lesson about [Data Types and Variables](http://www.python-course.eu/variables.php)
+	- Follow the [while loop lesson](https://learnpythonthehardway.org/book/ex33.html) from Learn Python the hard way
+	- [Homework Lesson 02](Basics/Lesson_02_Variables/Lesson_02_Variables_Homework.md)
+- GitHub!
 
 #####Week 4:
 *September 20th 2016*
@@ -116,13 +128,13 @@ The following human-computer interaction pioneers will be studied:
 #####Week 6:
 *October 4th 2016*
 
-- Arrays
+- Types: `int` / `bool` / `float` / `string`
 - Bret Victor
 
 #####Week 7:
 *October 11th 2016*
 
-- Dictionaries
+- Arrays & Dictionaries
 - Bret Victor (2)
 
 #####Week 8:

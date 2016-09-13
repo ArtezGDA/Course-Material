@@ -164,24 +164,7 @@ for food in foods:
 
 ## While loops
 
-Sometimes a normal for loop doesn't work. Then it might be better to use a `while` loop.
-
-As a simple example of a `while` loop, which produces the same result as our first `for` loop:
-
-```python
-i = 0
-while i < 5:
-	print i
-	i += 1
-```
-
-These can be use cases for the while loop:
-
-- when checking some value until it fits, metafore example: number lock with 4 digits
-- when you don't know how many iterations you need
-- when calculating the number of items is hard or difficult
-- when you just want to find the first value, and not take too long in doing so
-- special cases: `while True:`
+See the next lesson: [Lesson 2: Variables](../Lesson_02_Variables/README.md) for more about the while loop.
 
 ## Animations in plotdevice
 

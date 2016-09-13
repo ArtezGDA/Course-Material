@@ -1,0 +1,14 @@
+# CAREFUL: WILL LOCK PLOTDEVICE
+
+size(400, 400)
+background(1)
+
+color(HSV)
+c = color(0.145, 0.9, 1.0)
+fill(c)
+
+rotate(15)
+
+while True:
+    rotate(1)
+    rect(150, 150, 100, 100)

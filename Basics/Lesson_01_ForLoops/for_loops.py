@@ -2,7 +2,7 @@
 
 # Simplest form
 for i in range(5):
-	print i
+    print i
 
 # What is range
 print range(10)
@@ -14,10 +14,10 @@ print range(20, 0, -2)
 colors = ["white", "yellow", "orange", "red", "pink", "purple", "blue", "green", "brown", "black"]
 
 for c in colors:
-	print c
+    print c
 	
 for c in colors:
-	print c.upper()
+    print c.upper()
 
 # Nested for loops
 # to filter a list
@@ -27,15 +27,9 @@ foods = ["tomatoes", "bananas", "cabbage", "lettuce", "spinach", "fries", "apple
 
 # kids menu
 for food in foods:
-	include = True
-	for bleh in dont_likes:
-		if food == bleh:
-			include = False
-	if include:
-		print food
-
-# While loop
-i = 0
-while i < 5:
-	print i
-	i += 1
+    include = True
+    for bleh in dont_likes:
+        if food == bleh:
+            include = False
+    if include:
+        print food

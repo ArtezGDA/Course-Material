@@ -1,0 +1,14 @@
+size(400, 400)
+background(1)
+
+color(HSV)
+c = color(0.145, 0.9, 1.0)
+
+def setup():
+    r = 0
+
+def draw():
+    r += 1
+    fill(c)
+    rotate(r)
+    rect(150, 150, 100, 100)
