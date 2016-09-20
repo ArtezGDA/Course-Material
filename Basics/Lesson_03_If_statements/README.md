@@ -79,15 +79,15 @@ Boolean Logic: the mathematical calculations of logic with only true or false as
 `not True        -> False`
 
 
-## Flow charts
-
 ### If statements inside for loops and vice versa
 
-Example in Plotdevice:
+### When to use `if` statements
+
+Examples of if statements:
+
 - draw a linear grid with lines (or circles / ovals),
     - if statement to toggle the whole thing
     - if statement to toggle each line
-    - (if statement to toggle each nested element: oval)
 - if statement to color the stripes in 3 or 4 colors
 - other examples: if statement to sort a deck of cards by suit. (spade with spades, heart with hearts, etc)
 
@@ -95,3 +95,4 @@ Example in Plotdevice:
 
 http://www.pythontutor.com/visualize.html
     
+## Flow charts

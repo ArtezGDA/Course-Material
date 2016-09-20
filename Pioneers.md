@@ -119,7 +119,7 @@ The following human-computer interaction pioneers will be studied:
 - Homework check:
 	- github
 	- code
-- `if` statements
+- `if` statements: [Lesson 3](Basics/Lesson_03_If_statements/README.md)
 - Dynabook – by Alan Kay
 - Sketches and Protoyping
 
