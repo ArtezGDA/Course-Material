@@ -179,7 +179,7 @@ Criteria for judging the work:
 	- [Sketchpad: MIT video, part 1](https://www.youtube.com/watch?v=USyoT_Ha_bA)
 	- [Sketchpad: MIT video, part 2](https://www.youtube.com/watch?v=BKM3CmRqK2o)
 - [1968 Demo of NLS (oNLineSystem) - Douglas Engelbart](https://vimeo.com/32381658)
-- The computer revolution didn't happen yet - Alan Kay
+- [The computer revolution didn't happen yet](https://www.youtube.com/watch?v=oKg1hTOQXoY) - Alan Kay
 - ZigZag - Theodore Nelson
 - The future of programming - Bret Victor
 - Inventing on Principle - Bret Victor
