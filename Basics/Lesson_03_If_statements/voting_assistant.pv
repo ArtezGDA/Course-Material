@@ -1,0 +1,77 @@
+from time import sleep
+
+size(600, 400)
+background(1)
+
+def setup():
+    global state
+    global candidate
+    global centerX, topY, bottomY
+    global mexicans
+    # 
+    state = 0
+    candidate = None
+    centerX = WIDTH / 2
+    topY = 100
+    bottomY = 300
+    # Answers
+    mexicans = None
+
+def askInput(question):
+    global answer
+    global centerX, topY, bottomY
+    # Display question
+    text(question, centerX, topY)
+    text("Y or N", centerX, bottomY)
+    # Listen to the key input
+    if keydown:
+        if key == "Y" or key == "y":
+            answer = True
+            return True
+        if key == "N" or key == "n":
+            answer = False
+            return True
+    return None
+
+def vote(person):
+    if person == "Trump":
+        fill("red")
+    else:
+        fill("blue")
+    text("vote " + person + "!", centerX, topY)
+
+
+def draw():
+    global answer, state, candidate
+    global centerX, topY, bottomY
+    global mexicans
+    # Align the text
+    align(CENTER)
+    # Start of the script
+    if state == 0:
+        if askInput("Do you like mexicans?"):
+            mexicans = answer
+            state += 1
+            sleep(0.3)
+    elif state == 1:
+        if mexicans:
+            if askInput("Do you pursue a career as advocate and mother?"):
+                if answer:
+                    candidate = "Clinton"
+                else:
+                    candidate = "Trump"
+                state += 1
+                sleep(0.3)
+        else:
+            if askInput("Do you like walls?"):
+                if answer:
+                    candidate = "Trump"
+                else:
+                    candidate = "Clinton"
+                state += 1
+                sleep(0.3)
+    else:
+        if candidate:
+            vote(candidate)
+        fill("black")
+        text("thank you", centerX, bottomY)

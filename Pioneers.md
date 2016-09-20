@@ -116,8 +116,19 @@ The following human-computer interaction pioneers will be studied:
 #####Week 4:
 *September 20th 2016*
 
+- Homework check:
+	- github
+	- code
 - `if` statements
 - Dynabook – by Alan Kay
+- Sketches and Protoyping
+
+**Homework:**
+
+- Read both Git for designer tutorials (see literature)
+- complete your GitHub account and accept!!
+- Watch _The computer revolution didn't happen yet_ talk by **Alan Kay**
+- Code: [Homework Lesson 03](Basics/Lesson_03_If_statements/Lesson_03_If_Homework.md)
 
 #####Week 5:
 *September 27th 2016*
@@ -176,6 +187,7 @@ Criteria for judging the work:
 ####Inspiration
 
 - [**Hello World!**](http://hello-world.cc/?page_id=16) (Documentary 2013) ([Watch on Vimeo](https://vimeo.com/60735314))
+- [Film Dialogue from 2,000 screenplays, Broken Down by Gender and Age](http://polygraph.cool/films/)
 
 ####Coding
 

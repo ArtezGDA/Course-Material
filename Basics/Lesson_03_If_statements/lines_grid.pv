@@ -1,0 +1,16 @@
+size(400, 400)
+background(0.9)
+
+for y in range(0, 400, 2):
+    if y < 50:
+        stroke("royalblue")
+    elif y < 120:
+        stroke("dodgerblue")
+    elif y < 300:
+        if y > 200 and y < 250:
+            stroke("lightblue")
+        else:
+            stroke("skyblue")
+    else:
+        stroke("black")
+    line(0, y, WIDTH, y)
