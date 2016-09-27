@@ -19,11 +19,11 @@
     - a license: the **MIT License**
     - a `README.md` file
 - perform the initial commit
-- Modity the readme
+- Modify the readme
 - Make a second commit
 - Sync the repository with GitHub
 
-### Clone an existing repository and suggest an improvement
+### Fork an existing repository and suggest an improvement
 
 - Look at the "FaultySpelling" repository
 - Make a fork of that repository

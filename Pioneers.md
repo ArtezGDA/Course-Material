@@ -127,7 +127,7 @@ The following human-computer interaction pioneers will be studied:
 
 - Read both Git for designer tutorials (see literature)
 - complete your GitHub account and accept!!
-- Watch _The computer revolution didn't happen yet_ talk by **Alan Kay**
+- Watch _The computer revolution hasn't happen yet_ talk by **Alan Kay**
 - Code: [Homework Lesson 03](Basics/Lesson_03_If_statements/Lesson_03_If_Homework.md)
 
 #####Week 5:
@@ -141,7 +141,7 @@ The following human-computer interaction pioneers will be studied:
 
 - Code and Exercise: [Homework Lesson 04](Basics/Lesson_04_Git/Lesson_04_Git_Homework.md) 
 - Watch _ZigZag demo_ – by **Theodore Nelson**
-- Watch the 2001 version of **Alan Kay**'s _The computer revolution didn't happen yet_
+- Watch the 2001 version of **Alan Kay**'s _The computer revolution hasn't happen yet_
 
 #####Week 6:
 *October 4th 2016*
