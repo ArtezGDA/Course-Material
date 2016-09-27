@@ -133,8 +133,15 @@ The following human-computer interaction pioneers will be studied:
 #####Week 5:
 *September 27th 2016*
 
-- GitHub
-- ZigZag – by Theodore Nelson
+- Homework recap
+- git & GitHub: [Lesson 4](Basics/Lesson_04_Git/README.md)
+- Introduction Theodore Nelson
+
+**Homework:**
+
+- Code and Exercise: [Homework Lesson 04](Basics/Lesson_04_Git/Lesson_04_Git_Homework.md) 
+- Watch _ZigZag demo_ – by **Theodore Nelson**
+- Watch the 2001 version of **Alan Kay**'s _The computer revolution didn't happen yet_
 
 #####Week 6:
 *October 4th 2016*
@@ -180,7 +187,9 @@ Criteria for judging the work:
 	- [Sketchpad: MIT video, part 2](https://www.youtube.com/watch?v=BKM3CmRqK2o)
 - [1968 Demo of NLS (oNLineSystem) - Douglas Engelbart](https://vimeo.com/32381658)
 - [The Computer Revolution Hasn't Happen Yet](https://vimeo.com/14965237) - Alan Kay (lecture at the Polytechnic University 2001)
-- ZigZag - Theodore Nelson
+- [ZigZag](https://www.youtube.com/watch?v=WEj9vqVvHPc) - Theodore Nelson. For more Ted Nelson:
+	 - [https://www.youtube.com/watch?v=lNAPEPqQjJo](Rethink & Arise!) (lecture)
+	 - [https://www.youtube.com/watch?v=KdnGPQaICjk](Computers for Cynics) Youtube series: [#0](https://www.youtube.com/watch?v=KdnGPQaICjk), [#1](https://www.youtube.com/watch?v=Qfai5reVrck), [#2](https://www.youtube.com/watch?v=c6SUOeAqOjU), [#3](https://www.youtube.com/watch?v=bhzD2FKEEds), [#4](https://www.youtube.com/watch?v=_xL19f48m9U), [#5](https://www.youtube.com/watch?v=_9PmIkAYhI0), [#6](https://www.youtube.com/watch?v=gWDPhEvKuRY), [#7](https://www.youtube.com/watch?v=3CMucDjJQ4E), [#n](https://www.youtube.com/watch?v=w950GgRzbJk)
 - The future of programming - Bret Victor
 - Inventing on Principle - Bret Victor
 
