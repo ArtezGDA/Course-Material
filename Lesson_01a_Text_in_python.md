@@ -4,12 +4,16 @@
 
 ##### Simple string:
 
-`a = "Simple string"`  
-`b = 'or with single quotes'`
+```python
+a = "Simple string"
+b = 'or with single quotes'
+```
 
 ##### Comment:
 
-`# this is a comment`
+```python
+# this is a comment
+```
 
 ##### Multiline comment:
 
@@ -17,17 +21,22 @@
 # 1 this
 # 2 is
 # 3 a
-# 4 multiple
+# 4 multiline
+# 5 comment
 ```
 
 ##### String with a quote
 
-`c = "Mario's pizza"`  
-`d = 'she says: "Hi"'`  
+```python
+c = "Mario's pizza"
+d = 'she says: "Hi"'  
+```
 
 ##### String with single and double quotes
 
-`e = """Within triple quotes you'll do "anything". """`
+```python
+e = """Within triple quotes you'll do "anything". """
+```
 
 ##### DocString
 
@@ -56,35 +65,70 @@ help(noise)
 
 ##### String concatenation
 
-`"Hello " + "World"`  
-becomes  
-`'Hello World'`
+```python
+"Hello " + "World"
+```
+
+becomes
+
+```python
+'Hello World'
+```
 
 ##### String Formatting
 
-`"Hello %s, how are you %s?" % ("Dirk", "today")`  
+```python
+"Hello %s, how are you %s?" % ("Dirk", "today")
+```
+
 outputs  
-`"Hello Dirk, how are you today?"`
 
-`%s` for *String*  
-`%d` for *Integer digits*  
-`%f` for *Float*
+```python
+"Hello Dirk, how are you today?"
+```
 
-Example:  
-`"To buy %d %s will cost you %f" % (3, "beers", 7.5)`  
-outputs:  
-`'To buy 3 beers will cost you 7.500000'`
+You can use these placeholders:
 
-Float precision  
-`"%.2f" % (7.5)`  
-gives:  
-`'7.50'`
+- `%s` for *String*  
+- `%d` for *Integer digits*  
+- `%f` for *Float*
+
+Example:
+  
+```python
+"To buy %d %s will cost you %f" % (3, "beers", 7.5)
+```
+
+outputs:
+
+```python
+'To buy 3 beers will cost you 7.500000'
+```
+
+Float precision
+
+```python
+"%.2f" % (7.5)
+```
+
+gives:
+
+```python
+'7.50'
+```
+
 
 ##### Count chacters
 
-`len("abacadabra hocus pocus")`  
-returns  
-`22`
+```python
+len("abacadabra hocus pocus")
+```
+
+returns
+
+```python
+22
+```
 
 #### More advanced stuff you could do with strings
 

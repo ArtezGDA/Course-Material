@@ -134,7 +134,7 @@ The following human-computer interaction pioneers will be studied:
 *September 27th 2016*
 
 - Homework recap
-- git & GitHub: [Lesson 4](Basics/Lesson_04_Git/README.md)
+- git & GitHub: [Lesson 4](Basics/Lesson_04_Git/README.md) (Tips)
 - Introduction Theodore Nelson
 
 **Homework:**
@@ -146,8 +146,19 @@ The following human-computer interaction pioneers will be studied:
 #####Week 6:
 *October 4th 2016*
 
-- Types: `int` / `bool` / `float` / `string`
-- Bret Victor
+- GitHub Homework recap
+- Types: [Lesson 5](Basics/Lesson_05_Types/README.md) – `int` / `bool` / `float` / `string`
+- Introduction Bret Victor
+- Examples of prototypes:
+	- video prototype (example: ["wirehooks": interface for making and breaking connections](https://vimeo.com/8337497))
+	- paper prototype? 
+- Group talks pioneers 
+
+**Homework:**
+
+- Code: [Homework Lesson 05](Basics/Lesson_05_Types/Lesson_05_Types_Homework.md)
+- Watch _The future of programming_ – by **Bret Victor**
+- Design the prototype for your Catalogue (2 weeks)
 
 #####Week 7:
 *October 11th 2016*
@@ -190,7 +201,7 @@ Criteria for judging the work:
 - [ZigZag](https://www.youtube.com/watch?v=WEj9vqVvHPc) - Theodore Nelson. For more Ted Nelson:
 	 - [https://www.youtube.com/watch?v=lNAPEPqQjJo](Rethink & Arise!) (lecture)
 	 - [https://www.youtube.com/watch?v=KdnGPQaICjk](Computers for Cynics) Youtube series: [#0](https://www.youtube.com/watch?v=KdnGPQaICjk), [#1](https://www.youtube.com/watch?v=Qfai5reVrck), [#2](https://www.youtube.com/watch?v=c6SUOeAqOjU), [#3](https://www.youtube.com/watch?v=bhzD2FKEEds), [#4](https://www.youtube.com/watch?v=_xL19f48m9U), [#5](https://www.youtube.com/watch?v=_9PmIkAYhI0), [#6](https://www.youtube.com/watch?v=gWDPhEvKuRY), [#7](https://www.youtube.com/watch?v=3CMucDjJQ4E), [#n](https://www.youtube.com/watch?v=w950GgRzbJk)
-- The future of programming - Bret Victor
+- [The future of programming](https://vimeo.com/71278954) - Bret Victor
 - Inventing on Principle - Bret Victor
 
 ####Inspiration

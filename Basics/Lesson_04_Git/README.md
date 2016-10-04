@@ -1,7 +1,5 @@
 # `git` and GitHub
 
-
-
 ## Tips:
 
 - Write useful and explaining commit messages, it helps you track your progress
