@@ -179,11 +179,11 @@ gives:
 
 ### Formatting a bool as a string
 
-When you want to format a boolean value (`true` or `false`) in a text, you can of course use `if` / `else`, but you can also make it a bit shorter:
+When you want to format a boolean value (`True` or `False`) in a text, you can of course use `if` / `else`, but you can also make it a bit shorter:
 
 ```python
-true and "yes" or "no"
-false and "yes" or "no"
+True and "yes" or "no"
+False and "yes" or "no"
 ```
 
 
