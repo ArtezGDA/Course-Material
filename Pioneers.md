@@ -55,7 +55,7 @@ Your design should consist of **sketches**, **diagrams** and **models** of these
 
 The following human-computer interaction pioneers will be studied:
 
-- Vannavar Bush
+-  Vannevar Bush
 - Ivan Sutherland
 - Douglas Engelbart
 - Alan Kay
@@ -78,7 +78,7 @@ The following human-computer interaction pioneers will be studied:
 - Download and install the [software](Software.md)
 - Create a journal, notebook or blog about your research.
  	- Document your programming efforts, ideas and sketches
-- Read *As we may think* – Vannavar Bush (see literature below)
+- Read *As we may think* –  Vannevar Bush (see literature below)
 
 #####Week 2:
 *September 6th 2016*
@@ -88,7 +88,7 @@ The following human-computer interaction pioneers will be studied:
 
 **Homework:**
 
-- Make notes about the concepts and work of Vannavar Bush and Ivan Sutherland
+- Make notes about the concepts and work of  Vannevar Bush and Ivan Sutherland
 - Make sketches of a system to collect and organize these notes and concepts
 - Code: [Homework Lesson 01](Basics/Lesson_01_ForLoops/Lesson_01_For_Homework.md)
 
@@ -156,6 +156,7 @@ The following human-computer interaction pioneers will be studied:
 
 **Homework:**
 
+- Homework recap
 - Code: [Homework Lesson 05](Basics/Lesson_05_Types/Lesson_05_Types_Homework.md)
 - Watch _The future of programming_ – by **Bret Victor**
 - Design the prototype for your Catalogue (2 weeks)
@@ -163,8 +164,15 @@ The following human-computer interaction pioneers will be studied:
 #####Week 7:
 *October 11th 2016*
 
-- Arrays & Dictionaries
-- Bret Victor (2)
+- [Lesson 6](Basics/Lesson_06_Collections/README.md): Collections: Arrays & Dictionaries
+- Bret Victor: inventing by principle
+- Recap & Questions
+
+**Homework:**
+
+- Code: [Homework Lesson 06](Basics/Lesson_06_Collections/Lesson_06_Collections_Homework.md)
+- Watch _Inventing on Principle_ – by **Bret Victor**
+- Finish the prototype for your Catalogue
 
 #####Week 8:
 *October 18th 2016*
@@ -185,7 +193,7 @@ Criteria for judging the work:
 
 ####Reading
 
-- [Vannavar Bush - As we may think](reading/Vannevar_Bush-As_We_May_Think.pdf)
+- [Vannevar Bush - As we may think](reading/Vannevar_Bush-As_We_May_Think.pdf)
 - Manuel Lima - The Book of Trees: Visualizing Branches of Knowledge (the Artez library has a copy)
 
 ####Video's
