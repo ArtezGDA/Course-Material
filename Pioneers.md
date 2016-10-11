@@ -210,7 +210,7 @@ Criteria for judging the work:
 	 - [https://www.youtube.com/watch?v=lNAPEPqQjJo](Rethink & Arise!) (lecture)
 	 - [https://www.youtube.com/watch?v=KdnGPQaICjk](Computers for Cynics) Youtube series: [#0](https://www.youtube.com/watch?v=KdnGPQaICjk), [#1](https://www.youtube.com/watch?v=Qfai5reVrck), [#2](https://www.youtube.com/watch?v=c6SUOeAqOjU), [#3](https://www.youtube.com/watch?v=bhzD2FKEEds), [#4](https://www.youtube.com/watch?v=_xL19f48m9U), [#5](https://www.youtube.com/watch?v=_9PmIkAYhI0), [#6](https://www.youtube.com/watch?v=gWDPhEvKuRY), [#7](https://www.youtube.com/watch?v=3CMucDjJQ4E), [#n](https://www.youtube.com/watch?v=w950GgRzbJk)
 - [The future of programming](https://vimeo.com/71278954) - Bret Victor
-- Inventing on Principle - Bret Victor
+- [Inventing on Principle](https://vimeo.com/36579366) - Bret Victor
 
 ####Inspiration
 
