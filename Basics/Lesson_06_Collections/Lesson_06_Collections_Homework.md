@@ -48,12 +48,12 @@ Take the following *list of dictionaries*:
 
 ```python
 inventions = [
-	{'author': "Bret Victor", 'invention': "Seeing space", year: 2013},
-	{'author': "Doug Engelbart", 'invention': "Online System", year: 1968},
-	{'author': "Vannevar Bush", 'invention': "Memex Machine", year: 1945}
-	{'author': "Ted Nelson", 'invention': "Hypertext", year: 1976},
-	{'author': "Ivan Sutherland", 'invention': "Sketchpad", year: 1963},
-	{'author': "Alan Kay", 'invention': "Dynabook", year: 1980},
+	{'author': "Bret Victor", 'invention': "Seeing space", 'year': 2013},
+	{'author': "Doug Engelbart", 'invention': "Online System", 'year': 1968},
+	{'author': "Vannevar Bush", 'invention': "Memex Machine", 'year': 1945}
+	{'author': "Ted Nelson", 'invention': "Hypertext", 'year': 1976},
+	{'author': "Ivan Sutherland", 'invention': "Sketchpad", 'year': 1963},
+	{'author': "Alan Kay", 'invention': "Dynabook", 'year': 1980},
 ]
 ```
 
