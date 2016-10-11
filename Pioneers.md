@@ -156,7 +156,6 @@ The following human-computer interaction pioneers will be studied:
 
 **Homework:**
 
-- Homework recap
 - Code: [Homework Lesson 05](Basics/Lesson_05_Types/Lesson_05_Types_Homework.md)
 - Watch _The future of programming_ – by **Bret Victor**
 - Design the prototype for your Catalogue (2 weeks)
@@ -164,6 +163,7 @@ The following human-computer interaction pioneers will be studied:
 #####Week 7:
 *October 11th 2016*
 
+- Homework recap
 - [Lesson 6](Basics/Lesson_06_Collections/README.md): Collections: Arrays & Dictionaries
 - Bret Victor: inventing by principle
 - Recap & Questions
