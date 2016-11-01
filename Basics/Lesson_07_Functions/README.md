@@ -10,4 +10,4 @@ This lesson is about functions, and how to use them in your progamming.
 
 During this lesson we will create the following image:
 
-![random lines](01_repeated_lines.pdf)
+![random lines](01_repeated_lines.png)
