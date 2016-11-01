@@ -1,0 +1,56 @@
+global x, y, n
+global segments
+
+def setup():
+    global x, y, n
+    global segments
+
+    size(400, 400)
+    background(1)
+    
+    # start position
+    x = WIDTH / 2
+    y = HEIGHT / 2
+    n = 50
+    
+    # fill array of segments
+    segments = []
+    for i in range(n):
+        center_pos = (x, y)
+        segments.append(center_pos)
+
+def draw_segment(from_pos, to_pos, c):
+    # Set the stroke color
+    stroke(c)
+    
+    # get the x and y's from the _pos tuples
+    x = from_pos[0]
+    y = from_pos[1]
+    x2 = to_pos[0]
+    y2 = to_pos[1]
+    
+    # draw the segment
+    line (x, y, x2, y2)
+
+def draw():
+    global x, y, n
+    global segments
+    deviation = 30
+    
+    # random head of trail
+    x += random(deviation) - (deviation / 2)
+    y += random(deviation) - (deviation / 2)
+
+    # draw the segments
+    stroke_color = 0
+    new_pos = (x, y)
+    for seg in segments:
+        draw_segment(new_pos, seg, stroke_color)
+        stroke_color += 1.0 / n
+        new_pos = seg
+
+    # manipulate the segments array:
+    # Add new position at the beginning
+    segments.insert(0, (x, y))
+    # Remove last position at the end
+    segments.pop(n)

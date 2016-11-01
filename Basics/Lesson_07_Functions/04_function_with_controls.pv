@@ -1,0 +1,25 @@
+size(400, 400)
+background(1)
+stroke (0)
+
+# start position
+x = 10
+y = 100
+
+def wavy_line(x, y, stps, dev):
+    for i in range(stps):
+        x2 = x + (WIDTH - 20) / stps
+        y2 = y + random(dev) - (dev / 2)
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+# variable settings
+var("steps", NUMBER, 6, 2, 25)
+var("deviation", NUMBER, 20, 2, 50)
+
+for i in range(9):
+    # "cast" Float variables into Int
+    s = int(steps)
+    d = int(deviation)
+    wavy_line(10, 100 + (i * 25), s, d)

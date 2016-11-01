@@ -1,0 +1,23 @@
+size(400, 400)
+background(1)
+stroke (0)
+
+# start position
+x = WIDTH / 2
+y = HEIGHT - 50
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y, x2, y2)
+    if depth > 0:
+        new_h_l = height - 10 + random(10)
+        new_h_r = height - 10 + random(10)
+        left = x_direction - 15 - random(5)
+        right = x_direction + 15 + random(5)
+        segment(x2, y2, left, new_h_l, depth - 1)
+        segment(x2, y2, right, new_h_r, depth - 1)
+    return (x2, y2)
+
+# play with 3rd and 4th argument
+segment(x, y, 0, 50, 6)

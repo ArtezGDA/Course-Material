@@ -1,0 +1,25 @@
+size(400, 400)
+background(1)
+stroke (0)
+
+# start position
+x = 10
+y = 100
+
+def wavy_line(x, y):
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 6
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+wavy_line(10, 100)
+wavy_line(10, 125)
+wavy_line(10, 150)
+wavy_line(10, 175)
+wavy_line(10, 200)
+wavy_line(10, 225)
+wavy_line(10, 250)
+wavy_line(10, 275)
+wavy_line(10, 300)

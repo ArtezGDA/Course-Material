@@ -1,0 +1,94 @@
+size(400, 400)
+background(1)
+stroke (0)
+
+# start position
+x = 10
+y = 100
+
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+
+x = 10    
+y = 125    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 150    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 175    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 200    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 225    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 250    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 275    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 300    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
