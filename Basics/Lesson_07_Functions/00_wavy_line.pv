@@ -3,15 +3,16 @@ background(1)
 stroke (0)
 
 # start position
-x = 10
+x = 25
 y = 200
 
-# 6 is the number of line segements
-# 10 is the margin (left and right)
+# 6 is the number of line segments
+# 25 is the margin (left and right)
+# 20 is the deviation (between 10 up and 10 down)
 for i in range(6):
     # next x is next segment
     # next y is random + or - 10 
-    x2 = x + (WIDTH - 20) / 6
+    x2 = x + (WIDTH - 50) / 6
     y2 = y + random(20) - 10
     line (x, y, x2, y2)
     
