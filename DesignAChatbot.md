@@ -15,6 +15,8 @@ The first chat bot that used this tactic called deep learning, was http://www.cl
 
 For this assignment we want you to design a chat bot. We of course don’t expect you to make a deep learning bot, or a believable human being. But we expect you to be inspired by different databases that can feed your bot, like youtube comments, wikipedia wisdoms etc. but can also be another chatbot. In the end even the clunkiest computer chat program can open a little window on human behaviour or introspection.
 
+![](https://www.youtube.com/watch?v=WnzlbyTZsQY)
+
 ##Learning Goals
 
 
