@@ -11,11 +11,15 @@
 
 Where a robot used to be programmed by filling in an elaborate if .. , then..  flow chart where every detail had to be written out. Nowadays robots learn by themselves by giving them a certain dataset of information. So to learn a robot to recognise an image of a cat, we don’t have to describe all the feature of the cat to the bot, but give the bot a large database of images of a cat. 
 
-The first chat bot that used this tactic called deep learning, was http://www.cleverbot.com which started out in 1997. Cleverbot’s responses are also not programmed. Instead, it “learns” from human input; Humans type into the box and the system finds all keywords or an exact phrase matching that input. After searching through its saved conversations, it responds to the input by finding how a human responded to that input when it was asked, in part or in full, by Cleverbot.
+The first chat bot that used this tactic called deep learning, was http://www.cleverbot.com which started out in 1997. Cleverbot’s responses are also not programmed. Instead, it “learns” from human input; Humans type into the box and the system finds all keywords or an exact phrase matching that input. After searching through its saved conversations, it responds to the input by finding how a human responded to that input when it was asked, in part or in full, by Cleverbot. It is also good to know that every search query you make on google is exactly feeding a neural network to make google smarter.
 
 For this assignment we want you to design a chat bot. We of course don’t expect you to make a deep learning bot, or a believable human being. But we expect you to be inspired by different databases that can feed your bot, like youtube comments, wikipedia wisdoms etc. but can also be another chatbot. In the end even the clunkiest computer chat program can open a little window on human behaviour or introspection.
 
-![](https://www.youtube.com/watch?v=WnzlbyTZsQY)
+##Inspiratie
+![][https://www.youtube.com/watch?v=WnzlbyTZsQY]
+https://www.youtube.com/watch?v=LY7x2Ihqjmc
+
+@DeReactiegraaf - a twitterbot that tweets the reactions written below articles of right wing populistic newspaper 'De telegraaf'
 
 ##Learning Goals
 
