@@ -9,6 +9,12 @@
 #Design a Chatbot
 ## _A Text Adventure_
 
+Where a robot used to be programmed by filling in an elaborate if .. , then..  flow chart where every detail had to be written out. Nowadays robots learn by themselves by giving them a certain dataset of information. So to learn a robot to recognise an image of a cat, we don’t have to describe all the feature of the cat to the bot, but give the bot a large database of images of a cat. 
+
+The first chat bot that used this tactic called deep learning, was http://www.cleverbot.com which started out in 1997. Cleverbot’s responses are also not programmed. Instead, it “learns” from human input; Humans type into the box and the system finds all keywords or an exact phrase matching that input. After searching through its saved conversations, it responds to the input by finding how a human responded to that input when it was asked, in part or in full, by Cleverbot.
+
+For this assignment we want you to design a chat bot. We of course don’t expect you to make a deep learning bot, or a believable human being. But we expect you to be inspired by different databases that can feed your bot, like youtube comments, wikipedia wisdoms etc. but can also be another chatbot. 
+
 ##Learning Goals
 
 
@@ -26,7 +32,7 @@
 
 **Homework:**
 
-- something else
+- Formulate your concept.
 
 #####Week 2:
 *November 15th 2016*
