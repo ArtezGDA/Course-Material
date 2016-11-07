@@ -17,14 +17,15 @@ For this assignment we want you to design a chat bot. We of course don’t expec
 
 ##Inspiratie
 ![https://www.youtube.com/watch?v=WnzlbyTZsQY](images/still_cleverbot.jpg)
-https://www.youtube.com/watch?v=LY7x2Ihqjmc (images/still_sunspring.jpg)
+![https://www.youtube.com/watch?v=LY7x2Ihqjmc] (images/still_sunspring.jpg)
 
 @DeReactiegraaf - a twitterbot that tweets the reactions written below articles of right wing populistic newspaper 'De telegraaf'
 
+- [Radio Lab - Talking to Machines ](http://www.radiolab.org/story/137407-talking-to-machines/)
+- [Good Point (Rafaël Rozendaal & Jeremy Bailey) - AI](http://www.stitcher.com/podcast/rafael-rozendaal/good-point/e/03-artificial-intelligence-48090727)
+
 ##Learning Goals
 
-
-##Description
 
 
 ##Planning
@@ -34,18 +35,20 @@ https://www.youtube.com/watch?v=LY7x2Ihqjmc (images/still_sunspring.jpg)
 
 **Lesson 1: Introduction**
 
-- something
+- introduction assignment
+- formulate your first ideas 
 
 **Homework:**
 
-- Formulate your concept.
+- Formulate your concept. Give a couple of sentences of an possible conversation scenario.
 
 #####Week 2:
 *November 15th 2016*
 
 **Lesson 2: ...**
 
-- something
+- 
+- reflection on your idea in the group / small groups
 
 **Homework:**
 
@@ -78,7 +81,7 @@ https://www.youtube.com/watch?v=LY7x2Ihqjmc (images/still_sunspring.jpg)
 
 **Lesson 5: ...**
 
-- something
+- Exhibition of your chatbots.
 
 **Homework:**
 
@@ -90,19 +93,5 @@ https://www.youtube.com/watch?v=LY7x2Ihqjmc (images/still_sunspring.jpg)
 - Evaluation
 
 
-##Evaluation
 
-
-##Literature
-
-####Reading
-
-####Listening
-
-- [Radio Lab - Talking to Machines ](http://www.radiolab.org/story/137407-talking-to-machines/)
-- [Good Point (Rafaël Rozendaal & Jeremy Bailey) - AI](http://www.stitcher.com/podcast/rafael-rozendaal/good-point/e/03-artificial-intelligence-48090727)
-
-####Video's
-
-####Inspiration
 
