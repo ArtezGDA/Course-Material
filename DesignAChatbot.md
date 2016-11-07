@@ -17,7 +17,9 @@ For this assignment we want you to design a chat bot. We of course don’t expec
 
 ##Inspiratie
 ![https://www.youtube.com/watch?v=WnzlbyTZsQY](images/still_cleverbot.jpg)
+Cleverbots talking to each other
 ![https://www.youtube.com/watch?v=LY7x2Ihqjmc] (images/still_sunspring.jpg)
+First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin
 
 @DeReactiegraaf - a twitterbot that tweets the reactions written below articles of right wing populistic newspaper 'De telegraaf'
 
