@@ -16,11 +16,16 @@ The first chat bot that used this tactic (called deep learning), was http://www.
 For this assignment we want you to design a chat bot. We of course don’t expect you to make a deep learning bot, or a believable human being. But we expect you to be inspired by different databases that can feed your bot, like youtube comments, wikipedia wisdoms etc. but can also be another chatbot. In the end even the clunkiest computer chat program can open a little window on human behaviour or introspection on our own behaviour or thinking patterns.
 
 ##Inspiratie
-![https://www.youtube.com/watch?v=WnzlbyTZsQY](images/still_cleverbot.jpg)
-<a href="https://www.youtube.com/watch?v=WnzlbyTZsQY"></a>
-Cleverbots talking to each other
-![https://www.youtube.com/watch?v=LY7x2Ihqjmc] (images/still_sunspring.jpg)
-First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin
+
+[![Cleverbot still](images/still_cleverbot.jpg)](https://www.youtube.com/watch?v=WnzlbyTZsQY)
+
+_Cleverbots talking to each other_
+
+----
+
+[![Sunspring still](images/still_sunspring.jpg)](https://www.youtube.com/watch?v=LY7x2Ihqjmc)
+
+_First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 
 @DeReactiegraaf - a twitterbot that tweets the reactions written below articles of right wing populistic newspaper 'De telegraaf'
 
@@ -28,7 +33,6 @@ First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin
 - [Good Point (Rafaël Rozendaal & Jeremy Bailey) - AI](http://www.stitcher.com/podcast/rafael-rozendaal/good-point/e/03-artificial-intelligence-48090727)
 
 ##Learning Goals
-
 
 
 ##Planning
