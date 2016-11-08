@@ -32,6 +32,15 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 - [Radio Lab - Talking to Machines ](http://www.radiolab.org/story/137407-talking-to-machines/)
 - [Good Point (Rafaël Rozendaal & Jeremy Bailey) - AI](http://www.stitcher.com/podcast/rafael-rozendaal/good-point/e/03-artificial-intelligence-48090727)
 
+- Talk by Alper Cugun: (Conversations are the new Interfaces (Vimeo))[https://vimeo.com/159756392]
+- https://www.fastcodesign.com/3058546/conversational-interfaces-explained
+- https://boingboing.net/2016/10/10/alt-right-trolls-argue-for-hou.html
+
+- Elisa
+- Text Adventure
+- Allo
+- WeChat
+
 ##Learning Goals
 
 
@@ -52,52 +61,56 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 #####Week 2:
 *November 15th 2016*
 
-**Lesson 2: ...**
+**Lesson 2: Terminal**
 
-- 
+- Terminal and the shell:
+	- Install zsh, dotfiles and alt key: follow [zsh dotfiles repo](https://github.com/irlabs/zsh-dotfiles)'s guide
+	- The lesson follows the [ZSH cheat sheet](Lesson_03_zsh.md)
+
 - reflection on your idea in the group / small groups
 
 **Homework:**
 
-- something else
+- ...
 
 #####Week 3:
 *November 22nd 2016*
 
-**Lesson 3: ...**
+**Lesson 3: AI & the Markov Chain**
 
-- something
+- Deep Learning
+- Markov Chain
 
 **Homework:**
 
-- something else
+- 
 
 #####Week 4:
 *November 29th 2016*
 
-**Lesson 4: ...**
+**Lesson 4: Regular Expressions**
 
-- something
+- Regular Expressions
 
 **Homework:**
 
-- something else
+- ...
 
 #####Week 5:
 *December 6th 2016*
 
-**Lesson 5: ...**
+**Lesson 5: Demo & Presentation**
 
 - Exhibition of your chatbots.
 
 **Homework:**
 
-- something else
+- ...
 
 #####Week 6:
 *December 13th 2016*
 
-- Evaluation
+**Evaluation**
 
 
 
