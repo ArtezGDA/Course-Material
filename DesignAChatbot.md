@@ -17,6 +17,8 @@ For this assignment we want you to design a chat bot. We of course don’t expec
 
 ##Inspiratie
 
+#### Movies
+
 [![Cleverbot still](images/still_cleverbot.jpg)](https://www.youtube.com/watch?v=WnzlbyTZsQY)
 
 _Cleverbots talking to each other_
@@ -27,19 +29,28 @@ _Cleverbots talking to each other_
 
 _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 
-@DeReactiegraaf - a twitterbot that tweets the reactions written below articles of right wing populistic newspaper 'De telegraaf'
+#### Podcasts
 
 - [Radio Lab - Talking to Machines ](http://www.radiolab.org/story/137407-talking-to-machines/)
 - [Good Point (Rafaël Rozendaal & Jeremy Bailey) - AI](http://www.stitcher.com/podcast/rafael-rozendaal/good-point/e/03-artificial-intelligence-48090727)
 
-- Talk by Alper Cugun: (Conversations are the new Interfaces (Vimeo))[https://vimeo.com/159756392]
-- https://www.fastcodesign.com/3058546/conversational-interfaces-explained
-- https://boingboing.net/2016/10/10/alt-right-trolls-argue-for-hou.html
+#### Examples of Twitter bots
 
-- Elisa
-- Text Adventure
-- Allo
-- WeChat
+- [@DeReactiegraaf](https://twitter.com/dereactiegraaf) - a twitterbot that tweets the reactions written below articles of right wing populistic newspaper 'De telegraaf'
+- **Arguetron** bot to bait right wing twitter trolls [via BoingBoing](https://boingboing.net/2016/10/10/alt-right-trolls-argue-for-hou.html)[via the Verge](http://www.theverge.com/2016/10/7/13202794/arguetron-twitter-bot-alt-right-internet-bigots-4chan-sarah-nyberg)
+- Microsoft's **Tay** bot goes wrong [via the Verge](http://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist)
+
+#### Theory about *Conversational Interfaces*
+
+- https://www.fastcodesign.com/3058546/conversational-interfaces-explained
+- Talk by Alper Cugun: (Conversations are the new Interfaces (Vimeo))[https://vimeo.com/159756392]
+
+#### Historic Examples
+
+- [**Eliza**, computer therapist](http://www.manifestation.com/neurotoys/eliza.php3)
+- a game genre: the **Text Adventure**
+- **Allo**, Google's new message app and bot
+- [**WeChat** example: chat as universal interface](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html#chatasui)
 
 ##Learning Goals
 
