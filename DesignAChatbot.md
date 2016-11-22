@@ -82,26 +82,31 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 
 **Homework:**
 
-- ...
+- Excersizes with the Terminal
 
 #####Week 3:
 *November 22nd 2016*
 
-**Lesson 3: AI & the Markov Chain**
+**Lesson 3: Writing a chatbot in python**
 
-- Deep Learning
-- Markov Chain
+- Chatbot structure
+- Random responses
+- Trigger on keywords
+- Global state
+- Installing and using the chatterbot module
 
 **Homework:**
 
-- 
 
 #####Week 4:
 *November 29th 2016*
 
-**Lesson 4: Regular Expressions**
+**Lesson 4: AI & the Markov Chain**
 
-- Regular Expressions
+- Deep Learning
+- Markov Chain
+
+- The lesson about **Regular Expressions** will be postponed until 2017
 
 **Homework:**
 
