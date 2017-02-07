@@ -1,12 +1,12 @@
 #####Department: Graphic Design
 
 - Course: **Media Design**
-- Year: 2015-2016, 2nd year
+- Year: 2016-2017, 2nd year
 - Teacher: Dirk van Oosterbosch
 - Semester: 2
 
 ###Assignment #3:
-#Tool
+# Scraping Tool
 
 ##### [Group Work Repository](https://github.com/ArtezGDA/Tool-Assignment)
 
@@ -20,14 +20,7 @@ This assignment is all about not taking for granted these apps, operating system
 
 ##Description
 
-
-##### Color Picker
-
-**Design a new type of color picker**
-
-The first part of this assignment is making a color picker: a tool to select, pick or save a color. Analyse in which digital workflow the current color picking tools are insufficient. Describe the situation, the short comings of the current tools, and how a new tool could solve that.
-
-Sketch a concept. Then design and present a prototype.
+- Sketch a concept. Then design and present a prototype.
 
 ##### Your Own Tool
 
@@ -47,76 +40,66 @@ Establish a critical position towards the status quo of available digital tools,
 ##Planning
 
 #####Week 1:
-*January 28th 2016*
+*February 7th 2017*
 
-- Introduction to the **Tool** assignment
-- Examples of color pickers
-- Class work: fix the font structure
+- Introduction to the **Scraping Tool** assignment
 
 **Homework:**
 
-- Write and sketch a concept for a color picker
-
 #####Week 2:
-*February 4th 2016*
+*February 14th 2017*
 
 - What is sketching vs prototyping.
 - Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
-- Group talks: Presenting the color picker concept
 
 **Homework:**
 
-- Create a demo for the color picker
-- Collect ideas and concepts for real tool, your own tool
 
 #####Week 3:
-*February 11th 2016*
+*February 21st 2017*
 
-- Scrape a web page with [Xpath and Google spreadsheets](Lesson_07_Scraping_with_Xpath.md)
-- Class presentations: the color pickers!
 
 **Homework:**
 
-- Write and sketch the concept for your own tool
-- Watch Bret Victor's *Inventing on Principle*
 
 #####Week 4:
-*February 18th 2016*
+*February 28th 2017*
 
-- Regular Expressions: [Regex Tools and Tutorials](Lesson_08_Regex.md)
-- Class talks: Present concept for your own tool
 
 **Homework:**
 
-- Prepare a demo for your own tool
 
 ##### Holliday
 
 #####Week 5:
-*March 3rd 2016*
+*March 7th 2017*
 
-- Applescripts
-- Group talks: Present the demo of your own tool
 
 **Homework:**
-
-- Work on Proof of Concept
 
 #####Week 6:
-*March 10th 2016*
+*March 14th 2017*
 
-- (Technical topic)
-- Group talks
 
 **Homework:**
 
+
+#####Week 7:
+*March 21th 2017*
+
+- Evaluation
+
+
+- Collect ideas and concepts for real tool, your own tool
+- Scrape a web page with [Xpath and Google spreadsheets](Lesson_07_Scraping_with_Xpath.md)
+- Write and sketch the concept for your own tool
+- Watch Bret Victor's *Inventing on Principle*
+- Regular Expressions: [Regex Tools and Tutorials](Lesson_08_Regex.md)
+- Class talks: Present concept for your own tool
+- Prepare a demo for your own tool
 - Finalize Proof of Concept and Demo
 - [Write proper documentation for your tool!](HowToWriteGoodDocumentation.md)
 
-#####Week 7:
-*March 17th 2016*
-
-- Evaluation
 
 ##Evaluation
 
@@ -124,14 +107,10 @@ Your *critcal analysis*, *concepts*, *demos* and *proof of concept* will be judg
 
 The final grade for this assignment is constructed from these parts:
 
-- color picker:
-	- concept of color picker (1)
-	- demo of color picker (2)
-- your own tool:
-	- analysis of current status quo & concept for tool (2)
-	- demo of tool (2)
-	- proof of concept (2)
-	- proper documentation about your tool on github (1)
+- analysis of current status quo & concept for tool
+- demo of tool
+- proof of concept
+- proper documentation about your tool on github
 
 ----
 ##Literature

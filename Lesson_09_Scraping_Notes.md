@@ -906,8 +906,8 @@ How to best fix this?
 
 Let's split up our efforts into seperate scripts. Not a "clean" solution, but a very pragmatic one. And it will also help us speed the process.
 
-Make the scrape_wiki_countries only scrape countries and deliver a file countries.json 
-Then use the countries.json to be used in a new script scrape_wiki_cities and deliver a second file cities.json.
+Make the `scrape_wiki_countries` only scrape countries and deliver a file _countries.json_ 
+Then use the _countries.json_ to be used in a new script `scrape_wiki_cities` and deliver a second file _cities.json_.
 
 ----
 
@@ -928,7 +928,7 @@ Then manually fix the countries.json, specifically:
 
 ##### Step 3: scrape the cities
 
-Next is our scrape_wiki_cities script.
+Next is our `scrape_wiki_cities` script.
 
 - We read in the json file
 - Checking for listPage == countryPage, is already done in the first script, so we just need to check for an empty string
@@ -991,14 +991,14 @@ len(mergedTopRows)
 for m in mergedTopRows:
     print m.text
 ```
-	
+
 ```python
 for m in mergedTopRows:
 	text = m.text
     if text.startswith("Population"):
         print m
 ```
-		
+
 Nothing? Well, it turns out there is some white space before`
 
 ```python
@@ -1034,7 +1034,7 @@ tr['class']
 if 'mergedrow' in tr['class']:
     print tr
 ```
-	
+
 ```python
 for tr in merged.findNextSiblings('tr'):
     if 'mergedrow' in tr['class']:
@@ -1145,7 +1145,7 @@ for c in pBarCountries:
 				# Add the info to the city data
 				city['populationInfo'] = pDict
 ```
-							
+
 ##### 9. And save into a new json
 
 Finally: save a file, with all cities by countries
@@ -1175,7 +1175,7 @@ key.replace(u'\xa0', u' ')
 
 More bugs and more bugs:
 
-```
+```python
 Processing Argentina:   3%|████▋
 Traceback (most recent call last):
   File "scrape_wiki_city_population.py", line 71, in <module>
@@ -1194,7 +1194,7 @@ Prevent this bug by adding this extra check:
 
 And another bug:
 
-```
+```python
 Processing Azerbaijan:   5%|███████▏
 Traceback (most recent call last):
   File "scrape_wiki_city_population.py", line 71, in <module>
