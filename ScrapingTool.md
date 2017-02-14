@@ -8,8 +8,6 @@
 ###Assignment #3:
 # Scraping Tool
 
-##### [Group Work Repository](https://github.com/ArtezGDA/Tool-Assignment)
-
 ## Introduction
 
 As a designer you should not only develop the skills and have the obligation to produce your own work, you should also develop the skills and have the obligation to build or repair your **own tools**. Just as a carpenter should know how to sharpen his saw, or build his own workbench, a designer should know how to repair the short comings of Illustrator, or build his/her very own font-generator.
@@ -46,11 +44,12 @@ Establish a critical position towards the status quo of available digital tools,
 
 **Homework:**
 
+
+
 #####Week 2:
 *February 14th 2017*
 
-- What is sketching vs prototyping.
-- Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
+- Regex
 
 **Homework:**
 
@@ -68,12 +67,10 @@ Establish a critical position towards the status quo of available digital tools,
 
 **Homework:**
 
-
-##### Holliday
-
 #####Week 5:
 *March 7th 2017*
 
+- Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
 
 **Homework:**
 
