@@ -1,6 +1,6 @@
 # Scraping with Xpath (and Google Sheets or Python)
 
-###Prerequisites:
+##Prerequisites:
 
 - Use *Google Chrome*
 - Install the **XPather** extension in Google Chrome
@@ -8,7 +8,7 @@
 - ipython (installed through `pip install ipython`)
 - lxml (installed through `pip install lxml`)
 
-### Step 1: Choose a page from which you want to scrape
+## Step 1: Choose a page from which you want to scrape
 
 Unfortunalely, Chrome will crash if you try this on a page with 5000+ links. So we need to find a simpler page to demonstrate this technique as example: https://en.wikipedia.org/wiki/List_of_Walt_Disney_Animation_Studios_films
 
@@ -17,7 +17,7 @@ More specifically we're looking for **all the titles of animated disney movies**
 - **the title**: for the obvious reasons that we use the title to identify the movie.
 - **a wikipedia link**: so we can construct a url, which we can use to scrape further data next.
 
-### Step 2: Inspect the element you want to scrape
+## Step 2: Inspect the element you want to scrape
 
 Use the **Developer Tools Inspector** (cmd + alt + i) (from the View Menu, -> Developer -> Developer Tools).
 
@@ -28,7 +28,7 @@ If we try that with the url above, we find **the anchors of the titles of all th
 
 ![Web Inspector showing the path to the title of a Disney movie](images/disney_path_of_titles.png)
 
-### Step 3: Analyse which parts of the path to this element are unique and which are common for all elements you want to scrape
+## Step 3: Analyse which parts of the path to this element are unique and which are common for all elements you want to scrape
 
 From the path bar (at the bottom of the above screenshot), you see that:
 
@@ -47,7 +47,7 @@ Parts of this information can be used to specifically select only the movie titl
 
 Also note that there are 56 released movies. (Which we can conveniently see from the index number that wikipedia added.) So, if our filter results in 56 entries, that would be a good indication that we're doing it right.
 
-### Step 4: Construct the Xpath
+## Step 4: Construct the Xpath
 
 We can now try and create an Xpath to find only those elements, which we are interested in. By using Xpather in Chrome and playing around with different Xpaths, we can experiment with trial and error until we sharpen our Xpath to be exactly what we're looking for.
 
@@ -109,7 +109,7 @@ Finally we can combine all this into one Xpath that will exactly gives us the ti
 
 `//span[@id="Released"]/following::table[1]//td[@class="summary"]//a`
 
-### Step 5: Usage of the Xpath in Google Sheets
+## Step 5: Usage of the Xpath in Google Sheets
 
 The simplest way to use an XPath to extract data from a webpage would be through Google Sheets.
 
@@ -123,7 +123,7 @@ The simplest way to use an XPath to extract data from a webpage would be through
 
 ![Enter the XPath query](images/enter_xpath_query.png)
 
-*Enter the XPath query*
+*Entering the XPath query*
 
 ----
 
@@ -143,15 +143,15 @@ Additionally, you can add `/@href` to the Xpath to also get the wikipedia links 
 
 ![Titles and Links in Google Sheets](images/titles_and_links_in_sheets.png)
 
-### Step 6: Usage of the Xpath in python
+## Step 6: Usage of the Xpath in python
 
-#### lxml
+### lxml
 
 You willl need the **lxml** module to use XPaths in python:
 
 `pip install lxml`
 
-#### use ipython
+### use ipython
 
 Next, we'll be using ipython, to step by step, create the python code to download and scrape the movie titles and their links:
 
@@ -181,16 +181,49 @@ import requests
 r = requests.get(url)
 ```
 
-##### To be expanded:
+Let's use ipython to find out more about this *request* object r. Type `r` followed by a *tab* ⇥ 
+
+![Inspect the r object](images/ipython_inspect_r.png)
+
+So, as example, we can print the `headers`:
 
 ```python
 r.headers
-html = r.text.encode('utf-8')
-tree = etree.parse(html)
+```
+
+```python
+{
+	'Content-Length': '48496', 'Content-language': 'en', ... , 'Last-Modified': 'Mon, 20 Feb 2017 16:52:52 GMT',
+ ... 'Content-Type': 'text/html; charset=UTF-8', ...
+}
+```
+
+We see here that the charset of this page is `UTF-8`, which might be important information if we want to parse the page correctly.
+
+Now get the html content of this page:
+
+```python
+html = r.text
+```
+
+And use this html to create a *tree* structure, containing the nodes and leaves of all the elements on this page.
+
+```python
 tree = etree.HTML(html)
-tree
-tree.xpath('//span[@id="Released"]/following::table[1]//td[@class="summary"]//a')
+```
+
+Now we can use our XPath to filter to the elements and get only `a` tags which we are interested in, and put the result in a new variable:
+
+```python
 li = tree.xpath('//span[@id="Released"]/following::table[1]//td[@class="summary"]//a')
+```
+
+
+
+
+##### To be expanded:
+
+```python
 len(li)
 li[0]
 e = li[0]
