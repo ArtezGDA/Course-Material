@@ -168,6 +168,66 @@ io.imsave('bw-mandrill.jpg', new)
 
 Check the Finder, and see the new image.
 
+### Intermediate Example: shift the hues of an image
+
+Finally, let's show you an intermediate example, in which we shift the hue of an image. For this we need to convert an `rgb` image to an `hsv` image (hue, saturation, brightness) as this hsv will make it easier to manipulate the colors.
+
+```python
+import skimage.io as io
+# import the rgb2hsv and hsv2rgb functions
+from skimage.color import rgb2hsv, hsv2rgb
+mandrill = io.imread('mandrill.jpg')
+# convert the rgb to hsv
+hsv = rgb2hsv(mandrill)
+```
+
+A pixel in the hsv data is composed of three parts: the hue (h), saturation (s) and brightness or value (v). Each of those are in the range 0.0 - 1.0
+
+```python
+# get the pixel at row 150 and column 150
+hsv[150, 150]
+```
+*>* `array([ 0.09562842,  0.28372093,  0.84313725])`
+
+To shift the hue for each pixel, first we create a simple function that just does the math:
+
+```python
+def shift(hue, amount):
+	hue += amount
+	hue = hue % 1.0
+	return hue
+```
+
+Let's test our function:
+
+```python
+y = 0.1
+shift(y, 0.25)
+```
+*>* `0.35`
+
+```python
+y = 0.9
+shift(y, 0.25)
+```
+*>* `0.14999999999`
+
+So now we can use this function to manipulate all the hue values in our pixel array:
+
+```python
+hsv[:, :, 0] = shift(hsv[:, :, 0], 0.45)
+```
+
+Convert the `hsv` image back to `rgb` and display it:
+
+```python
+rgb = hsv2rgb(hsv)
+io.imshow(rgb)
+io.show()
+```
+
+![step03_hue_shift.png](_tutorial_images/step03_hue_shift.png)
+
 ----
 
 ## Further reading
