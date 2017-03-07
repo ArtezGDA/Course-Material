@@ -155,6 +155,29 @@ paris[mask] = 255
 
 ![step02_mask.png](_tutorial_images/step02_mask.png)
 
+### Counting pixels with the same color
+
+The mask that we just created can also be counted, i.e we can count the number of pixels affected. For this we need the `sum` function from `numpy`.
+
+```python
+import numpy as np
+np.sum(mask)
+```
+*>* `71806`
+
+So this means that there are 71806 pixels darker than 150 in this image.
+
+Or let's narrow this down a bit. Say we would like to count all the pixels which colors are between 150 and 165:
+
+```python
+# select all the pixels between 150 and 165
+greypixels = (paris > 150) * (paris < 165)
+np.sum(greypixels)
+```
+*>* `8619`
+
+
+
 ### Converting color images
 
 Let's convert our color mandrill to black and white. And I'll show you how to save the image too.
