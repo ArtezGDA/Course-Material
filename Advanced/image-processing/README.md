@@ -157,7 +157,7 @@ paris[mask] = 255
 
 ### Counting pixels with the same color
 
-The mask that we just created can also be counted, i.e we can count the number of pixels affected. For this we need the `sum` function from `numpy`.
+The mask that we just created can also be measured, i.e we can count the number of pixels affected. For this we need the `sum` function from `numpy`.
 
 ```python
 import numpy as np
@@ -167,7 +167,7 @@ np.sum(mask)
 
 So this means that there are 71806 pixels darker than 150 in this image.
 
-Or let's narrow this down a bit. Say we would like to count all the pixels which colors are between 150 and 165:
+Or what if we would like to narrow this range of colors down a bit. Say we would like to count all the pixels which colors are between 150 and 165 (i.e. lighter than 150 but not lighter than 165 ):
 
 ```python
 # select all the pixels between 150 and 165
@@ -176,11 +176,9 @@ np.sum(greypixels)
 ```
 *>* `8619`
 
-
-
 ### Converting color images
 
-Let's convert our color mandrill to black and white. And I'll show you how to save the image too.
+Let's convert our color mandrill to black and white. And I'll show you how to *save* the image too.
 
 ```python
 from skimage.color import rgb2gray
@@ -238,6 +236,7 @@ shift(y, 0.25)
 So now we can use this function to manipulate all the hue values in our pixel array:
 
 ```python
+# modify the first color value (the hue) of each pixel and set it to be shifted by 0.45
 hsv[:, :, 0] = shift(hsv[:, :, 0], 0.45)
 ```
 

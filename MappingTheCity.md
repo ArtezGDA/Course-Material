@@ -299,3 +299,5 @@ Finally, to make sure the poster is coded (and not drawn by hand), there is a fo
 #### Extra:	
 - List of possible tools
 	- [list of design tools](http://www.creativebloq.com/design-tools/data-visualization-712402)
+- Next: digital methods initiative
+	- [Summer school Call for Participation](https://wiki.digitalmethods.net/Dmi/SummerSchool2017)
