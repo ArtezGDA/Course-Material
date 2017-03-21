@@ -42,49 +42,40 @@ Establish a critical position towards the status quo of available digital tools,
 
 - Introduction to the **Scraping Tool** assignment
 
-**Homework:**
-
-
-
 #####Week 2:
 *February 14th 2017*
 
 - Regex
 
-**Homework:**
-
-
 #####Week 3:
 *February 21st 2017*
 
-
-**Homework:**
-
+- XPath
 
 #####Week 4:
 *February 28th 2017*
 
-
-**Homework:**
+**Spring Break**
 
 #####Week 5:
 *March 7th 2017*
 
-- Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
-
-**Homework:**
+- Image processing with SciKit-Image
 
 #####Week 6:
 *March 14th 2017*
 
-
-**Homework:**
-
+**Off**
 
 #####Week 7:
 *March 21th 2017*
 
 - Evaluation
+
+#####Next
+
+- Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
+
 
 
 - Collect ideas and concepts for real tool, your own tool
@@ -104,10 +95,13 @@ Your *critcal analysis*, *concepts*, *demos* and *proof of concept* will be judg
 
 The final grade for this assignment is constructed from these parts:
 
-- analysis of current status quo & concept for tool
-- demo of tool
-- proof of concept
-- proper documentation about your tool on github
+```
+    /— + fully working code & installer: 10 —\
+   /—— + hands-on example code:           8 ——\
+  /——— + well documented github page:     6 ———\
+ /———— + convincing demo - prototype:     4 ————\
+/————— just a good concept:               2 —————\
+```
 
 ----
 ##Literature

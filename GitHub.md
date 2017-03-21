@@ -1,4 +1,4 @@
-#GitHub
+# GitHub
 
 The code that you produce in this course is required to be **Open Source** and should be available on GitHub. To make it available on GitHub, follow these steps:
 
