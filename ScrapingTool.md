@@ -45,12 +45,12 @@ Establish a critical position towards the status quo of available digital tools,
 #####Week 2:
 *February 14th 2017*
 
-- Regex
+- Regular Expressions: [Regex Tools and Tutorials](Lesson_08_Regex.md)
 
 #####Week 3:
 *February 21st 2017*
 
-- XPath
+- XPath ([Xpath and Google spreadsheets](Lesson_07_Scraping_with_Xpath.md))
 
 #####Week 4:
 *February 28th 2017*
@@ -70,24 +70,12 @@ Establish a critical position towards the status quo of available digital tools,
 #####Week 7:
 *March 21th 2017*
 
+- [Write proper documentation for your tool!](HowToWriteGoodDocumentation.md)
 - Evaluation
 
 #####Next
 
 - Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
-
-
-
-- Collect ideas and concepts for real tool, your own tool
-- Scrape a web page with [Xpath and Google spreadsheets](Lesson_07_Scraping_with_Xpath.md)
-- Write and sketch the concept for your own tool
-- Watch Bret Victor's *Inventing on Principle*
-- Regular Expressions: [Regex Tools and Tutorials](Lesson_08_Regex.md)
-- Class talks: Present concept for your own tool
-- Prepare a demo for your own tool
-- Finalize Proof of Concept and Demo
-- [Write proper documentation for your tool!](HowToWriteGoodDocumentation.md)
-
 
 ##Evaluation
 
