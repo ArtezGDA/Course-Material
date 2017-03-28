@@ -101,10 +101,8 @@ Acquire a fluency into working with big data research and creating information g
 - Get a sense of what you collected
 - Create a simple graph (histogram / bar chart / plot)
 
-#### Tokyo Week :
-*April 18th 2017*
-
-#### May Holliday:
+### Tokyo & May Holliday Weeks
+*April 18th 2017*  
 *April 25th 2017*
 
 ### Week 4:
