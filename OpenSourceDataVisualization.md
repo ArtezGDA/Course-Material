@@ -8,18 +8,17 @@
 ### Assignment #4:
 # Open Source Data Visualization
 
-##Description
+## Description
 
 1. Watch 3 movies:
-	1.1. Revolution OS (available on youtube)
-	1.2. Everything is a Remix (5 part series)
-	1.3. R.I.P. a Remix Manifesto
-2. - From these movies develop your own opinion, stance and vision on remixing, open source, copyrights and/or patents.
-3. - With this vision and these movies as inspiration, find a rich data source with:
-	 - points in time
-	 - geographical locations
-	 - network of connections
-	 to illustrate your point.
+	- 1.1. Revolution OS (available on youtube)
+	- 1.2. Everything is a Remix (5 part series)
+	- 1.3. R.I.P. a Remix Manifesto
+2. From these movies develop your own opinion, stance and vision on remixing, open source, copyrights and/or patents.
+3. With this vision and these movies as inspiration, find a rich data source with:
+	 - *points in time*
+	 - *geographical locations*
+	 - *network of connections* to illustrate your point.
 4. Parse this data, filter it, mine it, scrape additional data, combine it and refine it, while documenting your process as open source on github.
 5. Make a design that plots the data as a representational map of your story.
 6. Iterate the poster three times.
@@ -59,14 +58,6 @@ Acquire a fluency into working with big data research and creating information g
 ----
 
 ## Planning
-
-- Data formats for storing research data: csv, xml, **json**, database
-- Python: database (sqlite) & SQL
-- Javascript: TileMill / MapBox / Modest Maps
-- Javascript: Illustrator Scripting
-- Extra tools as inspiration:
-	- Graphiz & dot
-	- D3.js
 
 #### Week 1:
 *March 28th 2017*
