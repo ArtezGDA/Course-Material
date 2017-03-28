@@ -11,9 +11,9 @@
 ## Description
 
 1. Watch 3 movies:
-	- 1.1. Revolution OS (available on youtube)
-	- 1.2. Everything is a Remix (5 part series)
-	- 1.3. R.I.P. a Remix Manifesto
+	- 1.1. Revolution OS ([on youtube](https://www.youtube.com/watch?v=jw8K460vx1c))
+	- 1.2. Everything is a Remix ([5 part web series](http://everythingisaremix.info/watch-the-series/))
+	- 1.3. R.I.P. a Remix Manifesto ([on vimeo](https://vimeo.com/8040182))
 2. From these movies develop your own opinion, stance and vision on remixing, open source, copyrights and/or patents.
 3. With this vision and these movies as inspiration, find a rich data source with:
 	 - *points in time*
