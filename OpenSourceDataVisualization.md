@@ -59,7 +59,7 @@ Acquire a fluency into working with big data research and creating information g
 
 ## Planning
 
-#### Week 1:
+### Week 1:
 *March 28th 2017*
 
 - Introduction to the **Open Source Data Visualization** assignment
@@ -70,7 +70,7 @@ Acquire a fluency into working with big data research and creating information g
 - Investigate the data
 - Make an analysis of its structure and properties
 
-#### Week 2:
+### Week 2:
 *April 4th 2017*
 
 - THEORY: Lecture: Scraping: dealing with variability in Wikipedia
@@ -87,7 +87,7 @@ Acquire a fluency into working with big data research and creating information g
 	- your methods and tools to scrape and groom the data
 	- the structured .json files
 
-#### Week 3:
+### Week 3:
 *April 11th 2017*
 
 - Present your data
@@ -107,7 +107,7 @@ Acquire a fluency into working with big data research and creating information g
 #### May Holliday:
 *April 25th 2017*
 
-#### Week 4:
+### Week 4:
 *May 2nd 2017*
 
 - Deadline of iteration 1:
@@ -123,12 +123,12 @@ Acquire a fluency into working with big data research and creating information g
 - Study different types of graps and describe which graph would convey which story
 - Pick type of graph to tell this story best.
 
-#### Week 5:
+### Week 5:
 *May 9th 2017*
 
 - THEORY: [Lesson: Illustrator Scripting](Lesson_10_Illustrator_Scripting.md)
 
-#### Week 6:
+### Week 6:
 *May 16th 2017*
 
 - Deadline of iteration 2:
@@ -141,11 +141,11 @@ Acquire a fluency into working with big data research and creating information g
 - What do you need next? (Other graphs? / More graphs? / More data? )
 - Pick your medium: poster? / 3D print? / movie? / interactive?
 
-#### Week 7:
+### Week 7:
 *May 23rd 2017*
 
 
-#### Week 8:
+### Week 8:
 *May 30th 2017*
 
 - Deadline of iteration 3:
@@ -155,12 +155,12 @@ Acquire a fluency into working with big data research and creating information g
 
 - Finalize the online Documentation on GitHub
 
-#### Week 9: **Evaluation**
+### Week 9: **Evaluation**
 *June 6th 2017*
 
 - Evaluation & Grades
 
-##Evaluation
+## Evaluation
 
 Criteria for judging the work:
 Process, Structure, Insight, Coding Skills, Persuasiveness and Relevance, Truthfulness, Open Source, Quantity of the Data (see below) and Communicating Quality of the Design and Presentation.
