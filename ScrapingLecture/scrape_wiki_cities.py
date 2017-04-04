@@ -40,7 +40,7 @@ def main():
 	#
 	# Then continue getting the cities
 	numberOfCities = 0
-	pBarCountries = tqdm(citiesData, leave=True, nested=True)
+	pBarCountries = tqdm(citiesData, leave=True)
 	for c in pBarCountries:
 		# citiesList must not be an "" empty string
 		country = c['country']
@@ -84,7 +84,7 @@ def main():
 					for link in ol.findAll('a'):
 						possibleCityLinks.append([link])
 			# Find first valid link
-			pBarCities = tqdm(possibleCityLinks, leave=True, nested=True)
+			pBarCities = tqdm(possibleCityLinks, leave=True)
 			for allLinks in pBarCities:
 				# Find first valid link in the links
 				for link in allLinks:
