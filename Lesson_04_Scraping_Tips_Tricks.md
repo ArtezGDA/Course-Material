@@ -45,6 +45,11 @@ The process of scraping can be compared to the process of mine a rare ore:
 
 - Deal with exceptions and anomalies
 
+## Collaborate!
+
+- Collaborate with your peers
+- Ask around
+
 ----
 
 # Tricks
