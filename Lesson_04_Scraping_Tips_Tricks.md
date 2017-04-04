@@ -67,6 +67,11 @@ Python technologies (and lessons) for scraping web sites:
 - Scrape from 1 (top) url -> creates list of urls. Then scrape each and all of them
 	- E.g. paging example
 
+## Convert and validate `json`
+
+- Convert `csv` data to `json` with [Mr Data Converter](https://shancarter.github.io/mr-data-converter/)
+- Validate a `json` file with [JSON Lint](http://jsonlint.com)
+
 ## Normalize data
 
 Examples:
