@@ -224,7 +224,7 @@ If you compress all of the above into one python script, it will be about someth
 		message = gc.message
 		
 		# print the results
-		print "%s - %s: %s" % (time_modified, author_name, message)"
+		print "%s - %s: %s" % (time_modified, author_name, message)
 ```
 
 ### Export it as a .json file

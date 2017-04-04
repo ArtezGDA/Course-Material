@@ -22,21 +22,25 @@ _**Deadline**: October 18th 2016_
 
 [**Pioneers**: Study basic coding concepts in python. + Design a catalogue of human-computer interaction (HCI) pioneers and their inventions](Pioneers.md)
 
-### 2. Text Input Output (IO)
+### 2. Design a Chatbot
 
 *Text in -> Text out*  
 _**Start**: November 1st 2016_  
 _**Deadline**: December 13th 2016_
 
-[**Text-IO**: Create a text-based interactieve questionaire, game or storytelling machine.](#)
+[**Design a Chatbot**: Create a text-based interactieve questionaire, game or storytelling machine.](DesignAChatbot.md)
 
-### 3. To Be Determined
+### 3. Scraping Tool
 
-_Semester 2_
+_Semester 2. Assignment 1_
 
-### 4. To Be Determined
+[**Scraping Tool**: In small teams, build a tool for scraping, that might also help others.](ScrapingTool.md)
 
-_Semester 2_
+### 4. Open Source Data Visualization
+
+_Semester 2. Assignment 2_
+
+[**Open Source Data Visualization**: Scrape open source data and visualize that data in three iterations.](OpenSourceDataVisualization.md)
 
 ## Notes
 

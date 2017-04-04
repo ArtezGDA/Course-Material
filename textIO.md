@@ -94,7 +94,7 @@ Additional to the interactive form the text should be remediated into, create a 
 #####Week 5:
 *December 10th 2015*
 
-- Introduction to [Scraping](Lesson_05_Scraping.md)
+- Introduction to [Scraping with an API](Lesson_05_Scraping_Github_API.md)
 - GitHub API from python __\*\*\*__
 
 **Homework:**
