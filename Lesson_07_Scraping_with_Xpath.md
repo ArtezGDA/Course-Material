@@ -1,6 +1,6 @@
 # Scraping with Xpath (and Google Sheets or Python)
 
-##Prerequisites:
+## Prerequisites:
 
 - Use *Google Chrome*
 - Install the **XPather** extension in Google Chrome
