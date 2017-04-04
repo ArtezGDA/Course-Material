@@ -1,14 +1,5 @@
 # Scraping: Tips & Tricks
 
-## Related code examples and lessons
-
-Python technologies (and lessons) for scraping web sites:
-
-- `Element Tree` (low level): see [scrape Disney's box office from Wikipedia](https://github.com/ArtezGDA/python-web-scraper)
-- `BeautifulSoup`. See [getting list of cities from Wikipedia](Lesson_09_Scraping_Notes.md)
-- Use the `github` API to [scraping all commit messages](Lesson_05_Scraping_Github_API.md)
-- `lxml` with *XPath*. See [Getting box-office numbers from Wikipedia](Lesson_07_Scraping_with_Xpath.md)
-
 ## Overview of the Scraping process
 
 The process of scraping can be compared to the process of mine a rare ore:
@@ -20,15 +11,24 @@ The process of scraping can be compared to the process of mine a rare ore:
 3. **Filter** - Filter the information and only keep what is looked for
 4. **Organize** - Collect these bits of information into a coherent set
 
+## Related code examples and lessons
+
+Python technologies (and lessons) for scraping web sites:
+
+- `Element Tree` (low level): see [scrape Disney's box office from Wikipedia](https://github.com/ArtezGDA/python-web-scraper)
+- `BeautifulSoup`. See [getting list of cities from Wikipedia](Lesson_09_Scraping_Notes.md)
+- Use the `github` API to [scraping all commit messages](Lesson_05_Scraping_Github_API.md)
+- `lxml` with *XPath*. See [Getting box-office numbers from Wikipedia](Lesson_07_Scraping_with_Xpath.md)
+
 # Tips
 
 ###### Tools, Modules and other Setup that will help you
 
 ## `DOM`-elements in python
 
-- `Element Tree`
-- `Beautiful Soup`
-- `lxml`
+- `Element Tree` – [Element Tree documentation](http://effbot.org/zone/element.htm)
+- `Beautiful Soup` – [Beautiful Soup 4 documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- `lxml` – [lxml etree documentation](http://lxml.de/tutorial.html)
 
 ## Setup: apps and windows open:
 
@@ -39,7 +39,7 @@ The process of scraping can be compared to the process of mine a rare ore:
 
 ## Show progress
 
-- Show progress (tqdm)
+- Show progress with `tqdm` ([tqdm documentation](https://github.com/tqdm/tqdm))
 
 ## Deal with exceptions and anomalies
 
