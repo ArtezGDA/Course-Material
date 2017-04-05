@@ -32,8 +32,12 @@
     "citiesList": "List of municipalities of Armenia"
   }, 
   {
+    "country": "Aruba", 
+    "citiesList": "List of cities in Aruba"
+  }, 
+  {
     "country": "Australia", 
-    "citiesList": "List of cities in Australia"
+    "citiesList": "List of cities in Australia by population"
   }, 
   {
     "country": "Austria", 
@@ -93,7 +97,7 @@
   }, 
   {
     "country": "Brazil", 
-    "citiesList": "Municipalities of Brazil"
+    "citiesList": "List of largest cities in Brazil"
   }, 
   {
     "country": "Brunei", 
@@ -205,7 +209,7 @@
   }, 
   {
     "country": "Dominican Republic", 
-    "citiesList": "Municipalities of the Dominican Republic"
+    "citiesList": "List of cities in the Dominican Republic"
   }, 
   {
     "country": "East Timor", 
@@ -390,6 +394,10 @@
   {
     "country": "Japan", 
     "citiesList": "List of cities in Japan"
+  }, 
+  {
+    "country": "Jersey", 
+    "citiesList": ""
   }, 
   {
     "country": "Jordan", 
@@ -736,7 +744,7 @@
     "citiesList": "List of cities, towns and villages in the Solomon Islands"
   }, 
   {
-    "country": "Somalia", 
+    "country": "Federal Republic of Somalia", 
     "citiesList": "List of cities in Somalia"
   }, 
   {
@@ -754,6 +762,10 @@
   {
     "country": "South Ossetia", 
     "citiesList": ""
+  }, 
+  {
+    "country": "Republic of South Sudan", 
+    "citiesList": "List of cities in South Sudan"
   }, 
   {
     "country": "Spain", 
@@ -865,7 +877,7 @@
   }, 
   {
     "country": "United States", 
-    "citiesList": "List of United States cities by population"
+    "citiesList": "List of cities in the United States"
   }, 
   {
     "country": "Uruguay", 
