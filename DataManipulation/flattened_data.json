@@ -1,0 +1,5842 @@
+[
+  {
+    "day": 1, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 890, 
+    "unique": 72, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "contact", 
+    "month": 1, 
+    "pageViews": 98, 
+    "unique": 66, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 729, 
+    "unique": 72, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "contact", 
+    "month": 1, 
+    "pageViews": 778, 
+    "unique": 55, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 861, 
+    "unique": 7, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 126, 
+    "unique": 38, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 192, 
+    "unique": 69, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 831, 
+    "unique": 56, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 758, 
+    "unique": 22, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 591, 
+    "unique": 56, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 72, 
+    "unique": 75, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 306, 
+    "unique": 79, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 342, 
+    "unique": 20, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "faq", 
+    "month": 1, 
+    "pageViews": 391, 
+    "unique": 28, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 114, 
+    "unique": 40, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 984, 
+    "unique": 86, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 135, 
+    "unique": 22, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 422, 
+    "unique": 22, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 699, 
+    "unique": 34, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 955, 
+    "unique": 29, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "contact", 
+    "month": 1, 
+    "pageViews": 895, 
+    "unique": 49, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 236, 
+    "unique": 61, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 240, 
+    "unique": 57, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 608, 
+    "unique": 10, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "contact", 
+    "month": 1, 
+    "pageViews": 390, 
+    "unique": 10, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "faq", 
+    "month": 1, 
+    "pageViews": 41, 
+    "unique": 97, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 591, 
+    "unique": 95, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "faq", 
+    "month": 1, 
+    "pageViews": 488, 
+    "unique": 68, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 331, 
+    "unique": 81, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 564, 
+    "unique": 8, 
+    "year": 2016
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "contact", 
+    "month": 1, 
+    "pageViews": 112, 
+    "unique": 73, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 38, 
+    "unique": 75, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "contact", 
+    "month": 2, 
+    "pageViews": 118, 
+    "unique": 36, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 194, 
+    "unique": 78, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 229, 
+    "unique": 45, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "contact", 
+    "month": 2, 
+    "pageViews": 100, 
+    "unique": 82, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 71, 
+    "unique": 57, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 292, 
+    "unique": 92, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 702, 
+    "unique": 98, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "faq", 
+    "month": 2, 
+    "pageViews": 428, 
+    "unique": 4, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 371, 
+    "unique": 43, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "faq", 
+    "month": 2, 
+    "pageViews": 610, 
+    "unique": 16, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "contact", 
+    "month": 2, 
+    "pageViews": 856, 
+    "unique": 12, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 816, 
+    "unique": 53, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 297, 
+    "unique": 33, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "contact", 
+    "month": 2, 
+    "pageViews": 96, 
+    "unique": 100, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "faq", 
+    "month": 2, 
+    "pageViews": 205, 
+    "unique": 21, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 575, 
+    "unique": 9, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 818, 
+    "unique": 78, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 924, 
+    "unique": 12, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 551, 
+    "unique": 60, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 797, 
+    "unique": 90, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "contact", 
+    "month": 2, 
+    "pageViews": 444, 
+    "unique": 27, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "faq", 
+    "month": 2, 
+    "pageViews": 747, 
+    "unique": 9, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 627, 
+    "unique": 6, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 450, 
+    "unique": 87, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 754, 
+    "unique": 35, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 293, 
+    "unique": 24, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 543, 
+    "unique": 42, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "faq", 
+    "month": 3, 
+    "pageViews": 281, 
+    "unique": 86, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 746, 
+    "unique": 67, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 580, 
+    "unique": 71, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 548, 
+    "unique": 87, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 263, 
+    "unique": 12, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "faq", 
+    "month": 3, 
+    "pageViews": 1, 
+    "unique": 59, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "contact", 
+    "month": 3, 
+    "pageViews": 134, 
+    "unique": 37, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "contact", 
+    "month": 3, 
+    "pageViews": 655, 
+    "unique": 1, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 975, 
+    "unique": 95, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "faq", 
+    "month": 3, 
+    "pageViews": 530, 
+    "unique": 14, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 838, 
+    "unique": 19, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 878, 
+    "unique": 90, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 61, 
+    "unique": 75, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 963, 
+    "unique": 27, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 578, 
+    "unique": 17, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 221, 
+    "unique": 51, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 599, 
+    "unique": 67, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 685, 
+    "unique": 49, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 957, 
+    "unique": 88, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 379, 
+    "unique": 38, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 215, 
+    "unique": 74, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 460, 
+    "unique": 99, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 792, 
+    "unique": 90, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 864, 
+    "unique": 75, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 765, 
+    "unique": 73, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "contact", 
+    "month": 3, 
+    "pageViews": 263, 
+    "unique": 44, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 207, 
+    "unique": 10, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 989, 
+    "unique": 15, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 885, 
+    "unique": 17, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 191, 
+    "unique": 57, 
+    "year": 2016
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "contact", 
+    "month": 3, 
+    "pageViews": 991, 
+    "unique": 81, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 527, 
+    "unique": 8, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 235, 
+    "unique": 60, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 4, 
+    "unique": 10, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "contact", 
+    "month": 4, 
+    "pageViews": 252, 
+    "unique": 66, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "contact", 
+    "month": 4, 
+    "pageViews": 944, 
+    "unique": 73, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 597, 
+    "unique": 42, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 797, 
+    "unique": 40, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 148, 
+    "unique": 21, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 197, 
+    "unique": 6, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "faq", 
+    "month": 4, 
+    "pageViews": 416, 
+    "unique": 98, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 698, 
+    "unique": 32, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 388, 
+    "unique": 1, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 326, 
+    "unique": 1, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 994, 
+    "unique": 80, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "contact", 
+    "month": 4, 
+    "pageViews": 892, 
+    "unique": 12, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 741, 
+    "unique": 80, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 26, 
+    "unique": 12, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 555, 
+    "unique": 32, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "contact", 
+    "month": 4, 
+    "pageViews": 181, 
+    "unique": 93, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 385, 
+    "unique": 87, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "faq", 
+    "month": 4, 
+    "pageViews": 659, 
+    "unique": 88, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "faq", 
+    "month": 4, 
+    "pageViews": 685, 
+    "unique": 63, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 879, 
+    "unique": 27, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 588, 
+    "unique": 78, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 411, 
+    "unique": 59, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 972, 
+    "unique": 48, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 552, 
+    "unique": 18, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 830, 
+    "unique": 97, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 914, 
+    "unique": 40, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 592, 
+    "unique": 94, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 971, 
+    "unique": 47, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 864, 
+    "unique": 2, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "faq", 
+    "month": 5, 
+    "pageViews": 887, 
+    "unique": 2, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "faq", 
+    "month": 5, 
+    "pageViews": 530, 
+    "unique": 97, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "faq", 
+    "month": 5, 
+    "pageViews": 590, 
+    "unique": 52, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 693, 
+    "unique": 99, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 215, 
+    "unique": 37, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 368, 
+    "unique": 30, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 643, 
+    "unique": 100, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 724, 
+    "unique": 23, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 769, 
+    "unique": 25, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "faq", 
+    "month": 5, 
+    "pageViews": 843, 
+    "unique": 84, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "faq", 
+    "month": 5, 
+    "pageViews": 492, 
+    "unique": 58, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 908, 
+    "unique": 56, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 359, 
+    "unique": 30, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 134, 
+    "unique": 56, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "contact", 
+    "month": 5, 
+    "pageViews": 325, 
+    "unique": 42, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 962, 
+    "unique": 63, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 543, 
+    "unique": 93, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 490, 
+    "unique": 46, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 771, 
+    "unique": 72, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 461, 
+    "unique": 73, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 65, 
+    "unique": 58, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 205, 
+    "unique": 81, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 753, 
+    "unique": 92, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 458, 
+    "unique": 46, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 369, 
+    "unique": 61, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 960, 
+    "unique": 41, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 194, 
+    "unique": 32, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 886, 
+    "unique": 32, 
+    "year": 2016
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 379, 
+    "unique": 7, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 503, 
+    "unique": 97, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 614, 
+    "unique": 83, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 221, 
+    "unique": 29, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 635, 
+    "unique": 53, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 799, 
+    "unique": 20, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 897, 
+    "unique": 6, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 348, 
+    "unique": 94, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 327, 
+    "unique": 80, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 195, 
+    "unique": 34, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 996, 
+    "unique": 38, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 839, 
+    "unique": 48, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 308, 
+    "unique": 64, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 960, 
+    "unique": 59, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 637, 
+    "unique": 62, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 978, 
+    "unique": 91, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 691, 
+    "unique": 82, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 514, 
+    "unique": 20, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 49, 
+    "unique": 71, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 47, 
+    "unique": 59, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 299, 
+    "unique": 87, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 521, 
+    "unique": 69, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 994, 
+    "unique": 75, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 485, 
+    "unique": 84, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 321, 
+    "unique": 51, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 381, 
+    "unique": 91, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 98, 
+    "unique": 55, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 917, 
+    "unique": 86, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 964, 
+    "unique": 56, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 977, 
+    "unique": 71, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 577, 
+    "unique": 95, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 792, 
+    "unique": 55, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 204, 
+    "unique": 98, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 695, 
+    "unique": 9, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 853, 
+    "unique": 65, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 556, 
+    "unique": 1, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 33, 
+    "unique": 16, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "faq", 
+    "month": 7, 
+    "pageViews": 391, 
+    "unique": 11, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 950, 
+    "unique": 13, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 511, 
+    "unique": 22, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "faq", 
+    "month": 7, 
+    "pageViews": 741, 
+    "unique": 33, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 368, 
+    "unique": 37, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 417, 
+    "unique": 22, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "faq", 
+    "month": 7, 
+    "pageViews": 572, 
+    "unique": 61, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 342, 
+    "unique": 92, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 783, 
+    "unique": 5, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 960, 
+    "unique": 14, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 195, 
+    "unique": 79, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 903, 
+    "unique": 65, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 53, 
+    "unique": 89, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 765, 
+    "unique": 21, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 200, 
+    "unique": 65, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 245, 
+    "unique": 55, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 469, 
+    "unique": 57, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 117, 
+    "unique": 40, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 28, 
+    "unique": 49, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 543, 
+    "unique": 67, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 726, 
+    "unique": 81, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 116, 
+    "unique": 90, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 776, 
+    "unique": 58, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "faq", 
+    "month": 7, 
+    "pageViews": 990, 
+    "unique": 9, 
+    "year": 2016
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 551, 
+    "unique": 6, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 768, 
+    "unique": 5, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 326, 
+    "unique": 4, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 719, 
+    "unique": 37, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 614, 
+    "unique": 42, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "faq", 
+    "month": 8, 
+    "pageViews": 697, 
+    "unique": 81, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 594, 
+    "unique": 82, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 401, 
+    "unique": 86, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 890, 
+    "unique": 66, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 938, 
+    "unique": 7, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 376, 
+    "unique": 36, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "faq", 
+    "month": 8, 
+    "pageViews": 958, 
+    "unique": 19, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 719, 
+    "unique": 76, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 987, 
+    "unique": 42, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 641, 
+    "unique": 49, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 345, 
+    "unique": 99, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 294, 
+    "unique": 75, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 37, 
+    "unique": 92, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 257, 
+    "unique": 46, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "faq", 
+    "month": 8, 
+    "pageViews": 366, 
+    "unique": 56, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 927, 
+    "unique": 49, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 651, 
+    "unique": 69, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 995, 
+    "unique": 19, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 369, 
+    "unique": 82, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 281, 
+    "unique": 93, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 830, 
+    "unique": 81, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 17, 
+    "unique": 14, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 253, 
+    "unique": 19, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "faq", 
+    "month": 8, 
+    "pageViews": 796, 
+    "unique": 23, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 246, 
+    "unique": 79, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 85, 
+    "unique": 34, 
+    "year": 2016
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 608, 
+    "unique": 35, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 225, 
+    "unique": 57, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 979, 
+    "unique": 74, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 740, 
+    "unique": 70, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "faq", 
+    "month": 9, 
+    "pageViews": 95, 
+    "unique": 68, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 111, 
+    "unique": 5, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 669, 
+    "unique": 8, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "faq", 
+    "month": 9, 
+    "pageViews": 875, 
+    "unique": 63, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "contact", 
+    "month": 9, 
+    "pageViews": 674, 
+    "unique": 71, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 90, 
+    "unique": 52, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 862, 
+    "unique": 89, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 806, 
+    "unique": 14, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 814, 
+    "unique": 7, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 202, 
+    "unique": 35, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 848, 
+    "unique": 13, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 634, 
+    "unique": 2, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 900, 
+    "unique": 16, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 387, 
+    "unique": 4, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "faq", 
+    "month": 9, 
+    "pageViews": 6, 
+    "unique": 32, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "contact", 
+    "month": 9, 
+    "pageViews": 562, 
+    "unique": 13, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 437, 
+    "unique": 38, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 554, 
+    "unique": 74, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 292, 
+    "unique": 65, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 290, 
+    "unique": 59, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 692, 
+    "unique": 95, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 394, 
+    "unique": 38, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 208, 
+    "unique": 92, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 39, 
+    "unique": 48, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 989, 
+    "unique": 25, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 785, 
+    "unique": 21, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 457, 
+    "unique": 20, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 96, 
+    "unique": 11, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 813, 
+    "unique": 24, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "contact", 
+    "month": 10, 
+    "pageViews": 396, 
+    "unique": 97, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 831, 
+    "unique": 39, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 749, 
+    "unique": 20, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 330, 
+    "unique": 21, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 487, 
+    "unique": 82, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 782, 
+    "unique": 92, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 675, 
+    "unique": 33, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 712, 
+    "unique": 41, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 327, 
+    "unique": 27, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 157, 
+    "unique": 82, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 968, 
+    "unique": 20, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 783, 
+    "unique": 46, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 396, 
+    "unique": 63, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "contact", 
+    "month": 10, 
+    "pageViews": 217, 
+    "unique": 6, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 769, 
+    "unique": 48, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 932, 
+    "unique": 63, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 860, 
+    "unique": 50, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 682, 
+    "unique": 71, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 138, 
+    "unique": 2, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 430, 
+    "unique": 84, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 156, 
+    "unique": 28, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 180, 
+    "unique": 53, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 337, 
+    "unique": 32, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 456, 
+    "unique": 6, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 24, 
+    "unique": 57, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 972, 
+    "unique": 61, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 2, 
+    "unique": 36, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 694, 
+    "unique": 28, 
+    "year": 2016
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 364, 
+    "unique": 24, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 913, 
+    "unique": 10, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 413, 
+    "unique": 90, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 247, 
+    "unique": 72, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 951, 
+    "unique": 15, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 236, 
+    "unique": 23, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 728, 
+    "unique": 6, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 794, 
+    "unique": 72, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 163, 
+    "unique": 52, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 489, 
+    "unique": 47, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 201, 
+    "unique": 95, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 820, 
+    "unique": 8, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 869, 
+    "unique": 51, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 334, 
+    "unique": 9, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 527, 
+    "unique": 62, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 876, 
+    "unique": 65, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 379, 
+    "unique": 70, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 287, 
+    "unique": 32, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 584, 
+    "unique": 44, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 394, 
+    "unique": 44, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 938, 
+    "unique": 30, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "contact", 
+    "month": 11, 
+    "pageViews": 381, 
+    "unique": 24, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 75, 
+    "unique": 70, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 297, 
+    "unique": 73, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 728, 
+    "unique": 85, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 828, 
+    "unique": 41, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 815, 
+    "unique": 48, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 917, 
+    "unique": 48, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 299, 
+    "unique": 65, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 138, 
+    "unique": 50, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 609, 
+    "unique": 69, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "news", 
+    "month": 12, 
+    "pageViews": 787, 
+    "unique": 83, 
+    "year": 2016
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 676, 
+    "unique": 53, 
+    "year": 2016
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 471, 
+    "unique": 24, 
+    "year": 2016
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 402, 
+    "unique": 61, 
+    "year": 2016
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 834, 
+    "unique": 19, 
+    "year": 2016
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 904, 
+    "unique": 95, 
+    "year": 2016
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 659, 
+    "unique": 15, 
+    "year": 2016
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 399, 
+    "unique": 100, 
+    "year": 2016
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 168, 
+    "unique": 60, 
+    "year": 2016
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 387, 
+    "unique": 79, 
+    "year": 2016
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 9, 
+    "unique": 94, 
+    "year": 2016
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 15, 
+    "unique": 46, 
+    "year": 2016
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 372, 
+    "unique": 1, 
+    "year": 2016
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 114, 
+    "unique": 37, 
+    "year": 2016
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 677, 
+    "unique": 8, 
+    "year": 2016
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "news", 
+    "month": 12, 
+    "pageViews": 54, 
+    "unique": 38, 
+    "year": 2016
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 548, 
+    "unique": 27, 
+    "year": 2016
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "news", 
+    "month": 12, 
+    "pageViews": 674, 
+    "unique": 46, 
+    "year": 2016
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 467, 
+    "unique": 38, 
+    "year": 2016
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 559, 
+    "unique": 74, 
+    "year": 2016
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 993, 
+    "unique": 63, 
+    "year": 2016
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 734, 
+    "unique": 17, 
+    "year": 2016
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 33, 
+    "unique": 72, 
+    "year": 2016
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 12, 
+    "pageViews": 345, 
+    "unique": 12, 
+    "year": 2016
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 132, 
+    "unique": 92, 
+    "year": 2016
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 291, 
+    "unique": 64, 
+    "year": 2016
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 169, 
+    "unique": 52, 
+    "year": 2016
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "news", 
+    "month": 12, 
+    "pageViews": 396, 
+    "unique": 93, 
+    "year": 2016
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 65, 
+    "unique": 69, 
+    "year": 2016
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 463, 
+    "unique": 81, 
+    "year": 2016
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 959, 
+    "unique": 5, 
+    "year": 2016
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 637, 
+    "unique": 6, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 985, 
+    "unique": 100, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 887, 
+    "unique": 92, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 731, 
+    "unique": 51, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 362, 
+    "unique": 40, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 223, 
+    "unique": 15, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 712, 
+    "unique": 12, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 592, 
+    "unique": 20, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 352, 
+    "unique": 53, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 860, 
+    "unique": 35, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 259, 
+    "unique": 4, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 227, 
+    "unique": 33, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 599, 
+    "unique": 5, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "faq", 
+    "month": 1, 
+    "pageViews": 27, 
+    "unique": 64, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 25, 
+    "unique": 72, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 983, 
+    "unique": 28, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 915, 
+    "unique": 11, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 235, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 169, 
+    "unique": 25, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 264, 
+    "unique": 60, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "faq", 
+    "month": 1, 
+    "pageViews": 691, 
+    "unique": 82, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 117, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 853, 
+    "unique": 54, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 208, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "news", 
+    "month": 1, 
+    "pageViews": 42, 
+    "unique": 88, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 215, 
+    "unique": 21, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 879, 
+    "unique": 99, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "products", 
+    "month": 1, 
+    "pageViews": 109, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "faq", 
+    "month": 1, 
+    "pageViews": 191, 
+    "unique": 77, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 720, 
+    "unique": 92, 
+    "year": 2017
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "home", 
+    "month": 1, 
+    "pageViews": 148, 
+    "unique": 82, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 72, 
+    "unique": 52, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 388, 
+    "unique": 58, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 286, 
+    "unique": 8, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 584, 
+    "unique": 100, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 445, 
+    "unique": 92, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 95, 
+    "unique": 38, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 540, 
+    "unique": 19, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "faq", 
+    "month": 2, 
+    "pageViews": 413, 
+    "unique": 82, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 748, 
+    "unique": 96, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "faq", 
+    "month": 2, 
+    "pageViews": 238, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 189, 
+    "unique": 29, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 183, 
+    "unique": 51, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 162, 
+    "unique": 74, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 458, 
+    "unique": 99, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "contact", 
+    "month": 2, 
+    "pageViews": 854, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 515, 
+    "unique": 90, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 738, 
+    "unique": 43, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 966, 
+    "unique": 56, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 64, 
+    "unique": 94, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 545, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 787, 
+    "unique": 66, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "faq", 
+    "month": 2, 
+    "pageViews": 529, 
+    "unique": 4, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 929, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 389, 
+    "unique": 94, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 838, 
+    "unique": 83, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "home", 
+    "month": 2, 
+    "pageViews": 46, 
+    "unique": 90, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "products", 
+    "month": 2, 
+    "pageViews": 901, 
+    "unique": 68, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "news", 
+    "month": 2, 
+    "pageViews": 716, 
+    "unique": 25, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 9, 
+    "unique": 97, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 615, 
+    "unique": 72, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 822, 
+    "unique": 6, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 464, 
+    "unique": 36, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 212, 
+    "unique": 73, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 595, 
+    "unique": 95, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 567, 
+    "unique": 56, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 605, 
+    "unique": 47, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 293, 
+    "unique": 30, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 799, 
+    "unique": 98, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "faq", 
+    "month": 3, 
+    "pageViews": 947, 
+    "unique": 15, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 218, 
+    "unique": 18, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "faq", 
+    "month": 3, 
+    "pageViews": 959, 
+    "unique": 16, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 365, 
+    "unique": 60, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 548, 
+    "unique": 15, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 262, 
+    "unique": 61, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 165, 
+    "unique": 61, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 759, 
+    "unique": 15, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 194, 
+    "unique": 80, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 476, 
+    "unique": 35, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "faq", 
+    "month": 3, 
+    "pageViews": 142, 
+    "unique": 16, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 289, 
+    "unique": 62, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 101, 
+    "unique": 89, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 949, 
+    "unique": 39, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 372, 
+    "unique": 79, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 765, 
+    "unique": 72, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 925, 
+    "unique": 54, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 831, 
+    "unique": 15, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "products", 
+    "month": 3, 
+    "pageViews": 840, 
+    "unique": 77, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 3, 
+    "pageViews": 411, 
+    "unique": 30, 
+    "year": 2017
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "news", 
+    "month": 3, 
+    "pageViews": 141, 
+    "unique": 56, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 495, 
+    "unique": 61, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "faq", 
+    "month": 4, 
+    "pageViews": 611, 
+    "unique": 73, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 54, 
+    "unique": 38, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 781, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 485, 
+    "unique": 83, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 131, 
+    "unique": 18, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 678, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 140, 
+    "unique": 24, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 748, 
+    "unique": 4, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 972, 
+    "unique": 28, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 29, 
+    "unique": 61, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "faq", 
+    "month": 4, 
+    "pageViews": 796, 
+    "unique": 61, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 519, 
+    "unique": 72, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 340, 
+    "unique": 9, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 731, 
+    "unique": 19, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 98, 
+    "unique": 81, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 757, 
+    "unique": 7, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 137, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 467, 
+    "unique": 24, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 652, 
+    "unique": 30, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 932, 
+    "unique": 9, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 561, 
+    "unique": 76, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 349, 
+    "unique": 86, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 797, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 769, 
+    "unique": 72, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "news", 
+    "month": 4, 
+    "pageViews": 572, 
+    "unique": 3, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 740, 
+    "unique": 24, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 551, 
+    "unique": 81, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "products", 
+    "month": 4, 
+    "pageViews": 49, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 4, 
+    "pageViews": 307, 
+    "unique": 83, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 513, 
+    "unique": 51, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 208, 
+    "unique": 4, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 610, 
+    "unique": 56, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "contact", 
+    "month": 5, 
+    "pageViews": 705, 
+    "unique": 62, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 817, 
+    "unique": 1, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 793, 
+    "unique": 97, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 679, 
+    "unique": 96, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 349, 
+    "unique": 48, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 333, 
+    "unique": 69, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 20, 
+    "unique": 33, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 185, 
+    "unique": 98, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 172, 
+    "unique": 84, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 355, 
+    "unique": 42, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 829, 
+    "unique": 10, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 621, 
+    "unique": 2, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 411, 
+    "unique": 60, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 364, 
+    "unique": 38, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 111, 
+    "unique": 72, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 726, 
+    "unique": 70, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 973, 
+    "unique": 97, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "faq", 
+    "month": 5, 
+    "pageViews": 61, 
+    "unique": 64, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 155, 
+    "unique": 8, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 92, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 178, 
+    "unique": 97, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 590, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "news", 
+    "month": 5, 
+    "pageViews": 165, 
+    "unique": 40, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "faq", 
+    "month": 5, 
+    "pageViews": 157, 
+    "unique": 45, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "contact", 
+    "month": 5, 
+    "pageViews": 661, 
+    "unique": 55, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 710, 
+    "unique": 11, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 5, 
+    "pageViews": 197, 
+    "unique": 45, 
+    "year": 2017
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "products", 
+    "month": 5, 
+    "pageViews": 749, 
+    "unique": 52, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 67, 
+    "unique": 10, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 778, 
+    "unique": 45, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 762, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 458, 
+    "unique": 25, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 858, 
+    "unique": 67, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 549, 
+    "unique": 44, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 986, 
+    "unique": 25, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 819, 
+    "unique": 83, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 286, 
+    "unique": 36, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 511, 
+    "unique": 65, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 47, 
+    "unique": 20, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 597, 
+    "unique": 83, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 846, 
+    "unique": 94, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 525, 
+    "unique": 74, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 258, 
+    "unique": 39, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 423, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 93, 
+    "unique": 34, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "news", 
+    "month": 6, 
+    "pageViews": 754, 
+    "unique": 94, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 261, 
+    "unique": 74, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 864, 
+    "unique": 83, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 132, 
+    "unique": 65, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "faq", 
+    "month": 6, 
+    "pageViews": 75, 
+    "unique": 2, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "products", 
+    "month": 6, 
+    "pageViews": 783, 
+    "unique": 78, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 373, 
+    "unique": 51, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 559, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 679, 
+    "unique": 42, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 121, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 323, 
+    "unique": 21, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 160, 
+    "unique": 76, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 6, 
+    "pageViews": 873, 
+    "unique": 43, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 578, 
+    "unique": 22, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 531, 
+    "unique": 53, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 787, 
+    "unique": 33, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 184, 
+    "unique": 65, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 814, 
+    "unique": 15, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 61, 
+    "unique": 100, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "faq", 
+    "month": 7, 
+    "pageViews": 723, 
+    "unique": 26, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 218, 
+    "unique": 84, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 295, 
+    "unique": 11, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 895, 
+    "unique": 68, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 988, 
+    "unique": 31, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 729, 
+    "unique": 49, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "faq", 
+    "month": 7, 
+    "pageViews": 993, 
+    "unique": 6, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 418, 
+    "unique": 63, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 1000, 
+    "unique": 77, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "news", 
+    "month": 7, 
+    "pageViews": 228, 
+    "unique": 59, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "faq", 
+    "month": 7, 
+    "pageViews": 317, 
+    "unique": 65, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "products", 
+    "month": 7, 
+    "pageViews": 208, 
+    "unique": 22, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 22, 
+    "unique": 42, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 47, 
+    "unique": 45, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 738, 
+    "unique": 94, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 875, 
+    "unique": 26, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 577, 
+    "unique": 67, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 301, 
+    "unique": 96, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 573, 
+    "unique": 2, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 87, 
+    "unique": 91, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 131, 
+    "unique": 4, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 870, 
+    "unique": 44, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "contact", 
+    "month": 7, 
+    "pageViews": 243, 
+    "unique": 10, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 143, 
+    "unique": 60, 
+    "year": 2017
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "home", 
+    "month": 7, 
+    "pageViews": 786, 
+    "unique": 84, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 395, 
+    "unique": 40, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 539, 
+    "unique": 31, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 480, 
+    "unique": 5, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 749, 
+    "unique": 46, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 678, 
+    "unique": 38, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "contact", 
+    "month": 8, 
+    "pageViews": 628, 
+    "unique": 94, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "contact", 
+    "month": 8, 
+    "pageViews": 958, 
+    "unique": 62, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 924, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 346, 
+    "unique": 46, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 565, 
+    "unique": 1, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 446, 
+    "unique": 42, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 765, 
+    "unique": 45, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 170, 
+    "unique": 79, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 904, 
+    "unique": 7, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 698, 
+    "unique": 85, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 621, 
+    "unique": 96, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 241, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 948, 
+    "unique": 69, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 935, 
+    "unique": 17, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "faq", 
+    "month": 8, 
+    "pageViews": 852, 
+    "unique": 88, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 551, 
+    "unique": 73, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 630, 
+    "unique": 31, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 589, 
+    "unique": 9, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 753, 
+    "unique": 57, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 813, 
+    "unique": 91, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 407, 
+    "unique": 22, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "faq", 
+    "month": 8, 
+    "pageViews": 478, 
+    "unique": 18, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "products", 
+    "month": 8, 
+    "pageViews": 65, 
+    "unique": 9, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "home", 
+    "month": 8, 
+    "pageViews": 434, 
+    "unique": 62, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 395, 
+    "unique": 59, 
+    "year": 2017
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "news", 
+    "month": 8, 
+    "pageViews": 856, 
+    "unique": 85, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "contact", 
+    "month": 9, 
+    "pageViews": 894, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 234, 
+    "unique": 52, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 945, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 299, 
+    "unique": 65, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 37, 
+    "unique": 44, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 883, 
+    "unique": 89, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 867, 
+    "unique": 16, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 906, 
+    "unique": 9, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 941, 
+    "unique": 18, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "contact", 
+    "month": 9, 
+    "pageViews": 451, 
+    "unique": 64, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 395, 
+    "unique": 65, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 228, 
+    "unique": 64, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 417, 
+    "unique": 41, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 361, 
+    "unique": 45, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 481, 
+    "unique": 22, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 658, 
+    "unique": 88, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 761, 
+    "unique": 76, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 522, 
+    "unique": 16, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 413, 
+    "unique": 61, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 56, 
+    "unique": 30, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "faq", 
+    "month": 9, 
+    "pageViews": 500, 
+    "unique": 44, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 762, 
+    "unique": 2, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 229, 
+    "unique": 40, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 817, 
+    "unique": 60, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "news", 
+    "month": 9, 
+    "pageViews": 291, 
+    "unique": 74, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 879, 
+    "unique": 76, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "faq", 
+    "month": 9, 
+    "pageViews": 633, 
+    "unique": 50, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "contact", 
+    "month": 9, 
+    "pageViews": 316, 
+    "unique": 92, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "products", 
+    "month": 9, 
+    "pageViews": 636, 
+    "unique": 10, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "home", 
+    "month": 9, 
+    "pageViews": 20, 
+    "unique": 15, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 399, 
+    "unique": 13, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 261, 
+    "unique": 99, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 111, 
+    "unique": 77, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 614, 
+    "unique": 50, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 98, 
+    "unique": 42, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 197, 
+    "unique": 43, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 498, 
+    "unique": 43, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 25, 
+    "unique": 23, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 371, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 282, 
+    "unique": 84, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 941, 
+    "unique": 61, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 824, 
+    "unique": 86, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 322, 
+    "unique": 11, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 357, 
+    "unique": 95, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "contact", 
+    "month": 10, 
+    "pageViews": 50, 
+    "unique": 14, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 8, 
+    "unique": 41, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 703, 
+    "unique": 82, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "contact", 
+    "month": 10, 
+    "pageViews": 945, 
+    "unique": 64, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 111, 
+    "unique": 72, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 474, 
+    "unique": 66, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "faq", 
+    "month": 10, 
+    "pageViews": 616, 
+    "unique": 76, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 274, 
+    "unique": 68, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 949, 
+    "unique": 96, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 508, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 478, 
+    "unique": 82, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 499, 
+    "unique": 30, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 704, 
+    "unique": 83, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 375, 
+    "unique": 13, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "products", 
+    "month": 10, 
+    "pageViews": 306, 
+    "unique": 90, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "news", 
+    "month": 10, 
+    "pageViews": 896, 
+    "unique": 54, 
+    "year": 2017
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "home", 
+    "month": 10, 
+    "pageViews": 723, 
+    "unique": 24, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 173, 
+    "unique": 93, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 897, 
+    "unique": 8, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 226, 
+    "unique": 4, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 707, 
+    "unique": 48, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 61, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 230, 
+    "unique": 57, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 216, 
+    "unique": 41, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 887, 
+    "unique": 63, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 640, 
+    "unique": 16, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 214, 
+    "unique": 24, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 209, 
+    "unique": 41, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 905, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 545, 
+    "unique": 53, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 475, 
+    "unique": 25, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 65, 
+    "unique": 1, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 570, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 753, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "faq", 
+    "month": 11, 
+    "pageViews": 324, 
+    "unique": 51, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 94, 
+    "unique": 66, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 956, 
+    "unique": 38, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 840, 
+    "unique": 52, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 444, 
+    "unique": 99, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 115, 
+    "unique": 37, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 975, 
+    "unique": 16, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 11, 
+    "pageViews": 157, 
+    "unique": 94, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 45, 
+    "unique": 79, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "news", 
+    "month": 11, 
+    "pageViews": 336, 
+    "unique": 50, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "products", 
+    "month": 11, 
+    "pageViews": 86, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "contact", 
+    "month": 11, 
+    "pageViews": 657, 
+    "unique": 33, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "contact", 
+    "month": 11, 
+    "pageViews": 641, 
+    "unique": 35, 
+    "year": 2017
+  }, 
+  {
+    "day": 1, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 419, 
+    "unique": 78, 
+    "year": 2017
+  }, 
+  {
+    "day": 2, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 843, 
+    "unique": 5, 
+    "year": 2017
+  }, 
+  {
+    "day": 3, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 207, 
+    "unique": 84, 
+    "year": 2017
+  }, 
+  {
+    "day": 4, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 796, 
+    "unique": 29, 
+    "year": 2017
+  }, 
+  {
+    "day": 5, 
+    "lastPage": "contact", 
+    "month": 12, 
+    "pageViews": 799, 
+    "unique": 82, 
+    "year": 2017
+  }, 
+  {
+    "day": 6, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 928, 
+    "unique": 22, 
+    "year": 2017
+  }, 
+  {
+    "day": 7, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 416, 
+    "unique": 26, 
+    "year": 2017
+  }, 
+  {
+    "day": 8, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 234, 
+    "unique": 30, 
+    "year": 2017
+  }, 
+  {
+    "day": 9, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 782, 
+    "unique": 87, 
+    "year": 2017
+  }, 
+  {
+    "day": 10, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 832, 
+    "unique": 91, 
+    "year": 2017
+  }, 
+  {
+    "day": 11, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 809, 
+    "unique": 62, 
+    "year": 2017
+  }, 
+  {
+    "day": 12, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 347, 
+    "unique": 38, 
+    "year": 2017
+  }, 
+  {
+    "day": 13, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 113, 
+    "unique": 56, 
+    "year": 2017
+  }, 
+  {
+    "day": 14, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 87, 
+    "unique": 52, 
+    "year": 2017
+  }, 
+  {
+    "day": 15, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 931, 
+    "unique": 48, 
+    "year": 2017
+  }, 
+  {
+    "day": 16, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 250, 
+    "unique": 11, 
+    "year": 2017
+  }, 
+  {
+    "day": 17, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 302, 
+    "unique": 32, 
+    "year": 2017
+  }, 
+  {
+    "day": 18, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 49, 
+    "unique": 75, 
+    "year": 2017
+  }, 
+  {
+    "day": 19, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 58, 
+    "unique": 14, 
+    "year": 2017
+  }, 
+  {
+    "day": 20, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 900, 
+    "unique": 86, 
+    "year": 2017
+  }, 
+  {
+    "day": 21, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 760, 
+    "unique": 41, 
+    "year": 2017
+  }, 
+  {
+    "day": 22, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 989, 
+    "unique": 12, 
+    "year": 2017
+  }, 
+  {
+    "day": 23, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 733, 
+    "unique": 62, 
+    "year": 2017
+  }, 
+  {
+    "day": 24, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 585, 
+    "unique": 69, 
+    "year": 2017
+  }, 
+  {
+    "day": 25, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 294, 
+    "unique": 62, 
+    "year": 2017
+  }, 
+  {
+    "day": 26, 
+    "lastPage": "products", 
+    "month": 12, 
+    "pageViews": 13, 
+    "unique": 36, 
+    "year": 2017
+  }, 
+  {
+    "day": 27, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 702, 
+    "unique": 34, 
+    "year": 2017
+  }, 
+  {
+    "day": 28, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 620, 
+    "unique": 48, 
+    "year": 2017
+  }, 
+  {
+    "day": 29, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 567, 
+    "unique": 52, 
+    "year": 2017
+  }, 
+  {
+    "day": 30, 
+    "lastPage": "faq", 
+    "month": 12, 
+    "pageViews": 288, 
+    "unique": 89, 
+    "year": 2017
+  }, 
+  {
+    "day": 31, 
+    "lastPage": "home", 
+    "month": 12, 
+    "pageViews": 997, 
+    "unique": 32, 
+    "year": 2017
+  }
+]

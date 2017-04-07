@@ -129,6 +129,8 @@ Making sure that your scraping script can cope with all these situations is –e
 
 ## Collaborate!
 
+Scraping data is a touch job. You can spend days just looking a (boring) data and numbers. And in this step of the process, it can still feel very far away from any visual gratifying results. Sometimes it can even feel like working in the dark. And building a scraping script means a lot of debugging and figuring out what the data is and how to work with it. At best the end result is a big `json` file, with lots of *arrays* and / or *dicts*. So you can use every help you get:
+
 - Collaborate with your peers
 - Ask around
 
@@ -148,6 +150,7 @@ Making sure that your scraping script can cope with all these situations is –e
 - Scrape from a list of `url`s
 - Scrape from 1 (top) url -> creates list of urls. Then scrape each and all of them
 	- E.g. paging example
+	- E.g. Scrape list of countries -> for each country scrape list of cities -> for each city scrape the population
 
 ## Convert and validate `json`
 
@@ -158,12 +161,12 @@ Making sure that your scraping script can cope with all these situations is –e
 
 *Normalization* is the process of converting all data values so they can be well compared with each other, or can be combined into one single graph. Examples:
 
-- [normalizing population of cities](ScrapingLecture/filter_populations.py)
-- [normalizing the box office revenue numbers](https://github.com/ArtezGDA/python-web-scraper/blob/master/amount_normalizer.py)
+- [normalizing population of cities](ScrapingLecture/filter_populations.py) (from the scraping of cities example)
+- [normalizing the box office revenue numbers](https://github.com/ArtezGDA/python-web-scraper/blob/master/amount_normalizer.py) (from the Disney movies example)
 
 ## Flatten data
 
-- Flatten data (weather data example ... other)
+- [Flatten data](DataManipulation/README.md#flatten_data)
 
 ## Build a filter list
 
@@ -174,3 +177,5 @@ Making sure that your scraping script can cope with all these situations is –e
 - Compare two datasets. Find the missing / change
 
 ## Merge two sets
+
+- Merge two datasets. Combine into one.
