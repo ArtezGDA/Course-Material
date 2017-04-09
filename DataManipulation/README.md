@@ -131,7 +131,7 @@ The following code shows how to loop through all that data, by using **three** *
 
 Inside the innermost for loop, we take that `data` *dict*, and add the *date* properties to it: the `year`, `month` and `day`.
 
-See the python script [`flatten.py`](#flatten_py) :
+See the python script [`flatten.py`](blob/master/DataManipulation/flatten.py) :
 
 ```python
     # Create an empty list to store the data in
@@ -160,7 +160,111 @@ The rest of the script is just reading the original file  `nested_structure.json
 
 ## Build a filter list
 
-Filter from list of filters
+Another common task when working with data is to filter it. The example I'll be showing you is taking a *list* of *dicts* and is filtering out all the dicts of which a (named) *value* is part of a list of filtered *strings* (words). In this case the source material contains *strings* and the filter is a *list of strings*, but this technique can also be applied to other *types*.
+
+Let's say we have a list of word freqencies from a particular corpus. (A list of word frequencies mean a list of all the words that appear in *Moby Dick* and a count *how often* they appear.) In this case our corpus is the book "*Moby Dick*" by *Melville*.
+
+Also for convenience we've already filtered out common english words. Finally, just for this example I've limited the list to words that occur 100 times or more.
+
+Have a look at the [counting word frequencies](../Advanced/count_word_frequency/README.md) example elsewhere in this repository, to see the complete word frequency list and how to count this from a given text file.
+
+#### Part of source file,`word_freq.json`:
+
+```js
+[
+  {"freq": 1150, "word": "whale"},
+  {"freq": 639, "word": "like"},
+  {"freq": 525, "word": "man"},
+  {"freq": 511, "word": "ahab"},
+  {"freq": 509, "word": "ship"},
+  {"freq": 468, "word": "ye"},
+  {"freq": 446, "word": "old"},
+  {"freq": 437, "word": "sea"},
+  {"freq": 337, "word": "head"},
+  {"freq": 332, "word": "time"},
+  {"freq": 331, "word": "boat"},
+  {"freq": 330, "word": "long"},
+  {"freq": 327, "word": "captain"},
+// [...]
+]
+```
+
+#### List of filter words
+
+As you can see and image from *Moby Dick* a lot of words have to do with the maritime business. Words like "ship", "sea", "boat" and "captain". Let's make a list of all these words, because maybe we don't want to include these maritime words in the frequency list – or the other way around: maybe we are only interested in the martime words. I'll show code for both. But in both cases we first need the list of words that we want to filter:
+
+```python
+filterwords = [
+	"boat",
+	"boats",
+	"captain",
+	"crew",
+	"deck",
+	"fish",
+	"fishermen",
+	"lifevest",
+	"mast",
+	"sail",
+	"sailing",
+	"sea",
+	"ship",
+	"water",
+	"whaling"
+]
+```
+
+#### Code to use the filter to *exclude*
+
+If we want to filter out the words from the list, what we need to do is: make a new list and only add those frequencies that are not in the filter list. The core are **two nested `for` loops**, *the outer* looping all the words in the frequency list, *the inner* looping over all the words to be filtered. Like this:
+
+```python
+    # Create a new list
+    filteredList = []
+    
+    # Loop over all the entries
+    for freqword in freqlist:
+        # Loop over all the words in the filter
+        # We use a boolean `includedInFilter` to keep track of an occasional match
+        # and allow this info to be used to determine if the element should be included in the next query.
+        includedInFilter = False
+        for filterword in filterwords:
+            # Check if the frequency word is for one of the words from the filter
+            if freqword['word'] == filterword:
+                includedInFilter = True
+        # If the frequency word is not part of any filter, add it
+        if not includedInFilter:
+            filteredList.append(freqword)
+```
+
+Look at [`filter_exclude.py`](blob/master/DataManipulation/filter_exclude.py) for the whole code.
+
+#### Code to use the filter to *include*
+
+If we want to do the reverse: only include word frequencies that are also present in the filter list, the only thing is to change the last `if not` to a `if`.
+
+```python
+        # If the frequency word is in fact part included in the filter, add it
+        if includedInFilter:
+            filteredList.append(freqword)
+```
+
+And the result is quite a bit smaller:
+```js
+[
+  {"freq": 509, "word": "ship"},
+  {"freq": 437, "word": "sea"},
+  {"freq": 331, "word": "boat"},
+  {"freq": 327, "word": "captain"},
+  {"freq": 196, "word": "deck"},
+  {"freq": 182, "word": "water"},
+  {"freq": 165, "word": "fish"},
+  {"freq": 143, "word": "boats"},
+  {"freq": 139, "word": "crew"},
+  {"freq": 126, "word": "whaling"},
+  {"freq": 125, "word": "mast"},
+  {"freq": 100, "word": "sail"}
+]
+```
 
 ##  Compare two sets
 
