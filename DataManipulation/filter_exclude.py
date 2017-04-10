@@ -44,7 +44,7 @@ def main():
             if freqword['word'] == filterword:
                 includedInFilter = True
         # If the frequency word is not part of any filter, add it
-        if includedInFilter:
+        if not includedInFilter:
             filteredList.append(freqword)
                 
     # Save the filtered dict as a json file

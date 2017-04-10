@@ -248,10 +248,14 @@ If we want to do the reverse: only include word frequencies that are also presen
             filteredList.append(freqword)
 ```
 
+You can run this include filter yourself by changing just line `47` in [`filter_exclude.py`](filter_exclude.py). (Remove the `not` in that line.)
+
+#### Results
+
 And there you have the two filtered results:
 
 - the frequency list, where are martime words are removed: [`excl_freq.json`](excl_freq.json)
-- the frequency list, with only the martime words: [`incl_freq.json`](incl_freq.json)
+- a much shorter frequency list, this time with only the martime words: [`incl_freq.json`](incl_freq.json)
 
 ##  Compare two sets
 
