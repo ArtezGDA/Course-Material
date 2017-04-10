@@ -166,16 +166,16 @@ Scraping data is a touch job. You can spend days just looking a (boring) data an
 
 ## Flatten data
 
-- [Flatten data](DataManipulation/README.md#flatten_data)
+- [Flatten data](DataManipulation/README.md#flatten-data)
 
 ## Build a filter list
 
-- Filter from list of filters
+- [Build a filter list](DataManipulation/README.md#build-a-filter-list) – Use a list (of words) to filter a dataset
 
 ##  Compare two sets
 
-- Compare two datasets. Find the missing / change
+- [Compare two datasets](#compare-two-sets) – Find the missing / change
 
 ## Merge two sets
 
-- Merge two datasets. Combine into one.
+- [Merge two datasets](#merge-two-sets) – Combine into one.

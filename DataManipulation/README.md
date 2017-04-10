@@ -6,10 +6,10 @@ When dealing with data, often you want to perform (semi-complex) operations on t
 
 ### Table of Contents: the algorithms
 
-- [Flatten data](#flatten_data)
-- [Build a filter list](#build_a_filter_list)
-- [Compare two sets](#compare_two_sets)
-- [Merge two sets](#merge_two_sets)
+- [Flatten data](#flatten-data)
+- [Build a filter list](#build-a-filter-list)
+- [Compare two sets](#compare-two-sets)
+- [Merge two sets](#merge-two-sets)
 
 ## Flatten data
 
@@ -131,7 +131,7 @@ The following code shows how to loop through all that data, by using **three** *
 
 Inside the innermost for loop, we take that `data` *dict*, and add the *date* properties to it: the `year`, `month` and `day`.
 
-See the python script [`flatten.py`](blob/master/DataManipulation/flatten.py) :
+See the python script [`flatten.py`](flatten.py) :
 
 ```python
     # Create an empty list to store the data in
@@ -236,11 +236,11 @@ If we want to filter out the words from the list, what we need to do is: make a 
             filteredList.append(freqword)
 ```
 
-Look at [`filter_exclude.py`](blob/master/DataManipulation/filter_exclude.py) for the whole code.
+Look at [`filter_exclude.py`](filter_exclude.py) for the whole code.
 
 #### Code to use the filter to *include*
 
-If we want to do the reverse: only include word frequencies that are also present in the filter list, the only thing is to change the last `if not` to a `if`.
+If we want to do the reverse: only include word frequencies that are also present in the filter list, the only thing is to change is to remove the **not**, so change the last `if not` to an `if`.
 
 ```python
         # If the frequency word is in fact part included in the filter, add it
@@ -248,23 +248,10 @@ If we want to do the reverse: only include word frequencies that are also presen
             filteredList.append(freqword)
 ```
 
-And the result is quite a bit smaller:
-```js
-[
-  {"freq": 509, "word": "ship"},
-  {"freq": 437, "word": "sea"},
-  {"freq": 331, "word": "boat"},
-  {"freq": 327, "word": "captain"},
-  {"freq": 196, "word": "deck"},
-  {"freq": 182, "word": "water"},
-  {"freq": 165, "word": "fish"},
-  {"freq": 143, "word": "boats"},
-  {"freq": 139, "word": "crew"},
-  {"freq": 126, "word": "whaling"},
-  {"freq": 125, "word": "mast"},
-  {"freq": 100, "word": "sail"}
-]
-```
+And there you have the two filtered results:
+
+- the frequency list, where are martime words are removed: [`excl_freq.json`](excl_freq.json)
+- the frequency list, with only the martime words: [`incl_freq.json`](incl_freq.json)
 
 ##  Compare two sets
 
