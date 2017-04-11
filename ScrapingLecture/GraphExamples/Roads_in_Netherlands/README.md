@@ -8,7 +8,7 @@ To get these examples running:
 
 ### Installing `gdal`
 
-On my machine (with El Capitan), it turned out quite a hassle to install the gdal module into the system's default python installation. Therefor I used Homebrew (http://brew.sh) to first install its own version of python and then gdal.
+On my machine (with El Capitan), it turned out quite a hassle to install the *gdal* module into the system's default python installation. Therefor I used Homebrew (http://brew.sh) to first install its own version of python and then gdal.
 
 `brew install python`
 
