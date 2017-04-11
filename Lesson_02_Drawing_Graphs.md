@@ -12,7 +12,7 @@ Code in [plotdevice](ScrapingLecture/GraphExamples/Word_Frequencies/README.md#me
 
 ### `import plotdevice as pd`
 
-See [longtail.py](ScrapingLecture/GraphExamples/) as an example
+See [`longtail.py`](ScrapingLecture/GraphExamples/longtail.py) as an example
 
 ## Examples
 

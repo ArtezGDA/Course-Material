@@ -1,0 +1,18 @@
+size(512, 512)
+background(1)
+
+import json
+
+with open('word_frequencies.json') as infile:
+    freqData = json.load(infile)
+print len(freqData)
+print freqData[0]
+
+y = 0
+for word in freqData[:20]:
+    y = y + 22
+    fill(0, 0, 0.8)
+    text(word['word'], 10, y)
+    barwidth = word['freq'] / 3
+    fill(0.8, 0, 0)
+    rect(100, y - 22, barwidth, 20)
