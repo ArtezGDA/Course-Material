@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
+# compare.py
+
 import json
 
 def main():
     """Example script that compares two json files"""
     #
     # Load in both sets
-    import json
     #
     with open('setA_fruits.json') as file1:
         dataSetA = json.load(file1)

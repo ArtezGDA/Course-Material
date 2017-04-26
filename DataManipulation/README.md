@@ -424,6 +424,8 @@ unused colors: [u'amber', u'desert']
 
 Now we know what the difference is between our two sets of data, we can try to merge them and combine them into one. Let's take the same example as before with [comparing two sets](#compare-two-sets) : a set of fruits (set A) and a set of colors (set B).
 
+### Solving inconsistencies between the sets
+
 As we seen from the result of the comparison, these two sets are not completely matching. So we need to decide what we we're going to do with the inconsistencies. Roughly speaking there are three ways of dealing with these kinds of problems (when the data sets do not line up exactly):
 
 - **Skip the unmatched fruits**: discard and remove the fruits which colors we could not find.
@@ -437,3 +439,132 @@ For today, we'll be using a default color.
 defaultColor = {"red": 0.0, "green": 0.0, "blue": 0.0}
 ```
 
+### Code
+
+The basic structure of the code to *merge* the two sets is comparible to the structure of the code to *compare* the sets: you'll be loading the two sets of data into variables. Then you'll use a `for` loop to iterate over all the fruits in set A. And inside the `for` loop, you check each color to see *if this color is in the list of colors*. And when it is, –and *here* the code for merging differs from the code for comparing– you add the properties for `red`, `green` and `blue` to the this fruit. Finally you'll save the data as a new `json` file.
+
+#### Get a specific color dict from a color name
+
+One of the challenges is to get a *color dict* (e.g. `{"colorName": "crimson", "red": 0.94, "green": 0.04, "blue": 0.08}`) from the list of colors, from just the color name (e.g. `"crimson"`).
+
+We do this by creating a list of just the color names (the same as we did when comparing the two sets):
+
+```python
+# Create a list of just the colornames from set B
+listOfColorNames = [c["colorName"] for c in dataSetB]
+```
+
+Then, inside the `for` loop, when we know *which color* we're looking for, we first check to see if this color is in the list of color names. Then we use its index (the position in the list where that color name is kept), to look up the *dict* in the original list.
+
+```python
+for fruit in dataSetA:
+    thisColorName = fruit["color"]
+    if thisColorName in listOfColorNames:
+        indexOfColor = listOfColorNames.index(thisColorName)
+        color = dataSetB[indexOfColor]
+```
+
+##### The index of an element in a list
+
+Before I'll continue, let's demonstrate this technique a bit further. Say the original list of colors has 4 colors: white, blue, yellow  and black:
+
+```python
+[{"colorName": "white", "rgb": "fff"}, {"colorName": "blue", "rgb": "00f"}, {"colorName": "yellow", "rgb": "ff0"}, {"colorName": "black", "rgb": "000"}]
+```
+
+Then the `listOfColorNames` (as created with the list comprehension like above) will be the following:
+
+```python
+["white", "blue", "yellow", "black"]
+```
+
+Let's say the color we're looking for is `"yellow"`. As you can see, `"yellow"` is stored at the 3rd position, with index `2`. (Remember: python starts counting with `0`).
+
+The python code to get that number (`2`) is `.index()`
+
+```python
+listOfColorNames.index("yellow")
+```
+
+Returns *`2`*
+
+And because `"yellow"` is stored at index `2` in the list of color names `listOfColorNames`, it is save to assume the full dict for *yellow* (`{"colorName": "yellow", "rgb": "ff0"}`) is also stored at index `2`. So if we know the index of color name in the simplified list, we know the index of the full dict in the original list:
+
+```python
+		indexOfColor = listOfColorNames.index(thisColorName)
+		color = dataSetB[indexOfColor]
+```
+
+#### Using the default color for when the fruit color was not defined in the list of color
+
+We check whether the color name is in the list of colors before we look for its index:
+
+```python
+    if thisColorName in listOfColorNames:
+				# getting the color its the index
+```
+
+But if the color is not in the list of colors, we use a default color. Again, the use of a *default color* is a conscious choice. It might not be the best solution in your case. For this example it will do:
+
+```python
+    else:
+        color = defaultColor
+```
+
+#### Add the *merging* properties to the fruit dict
+
+The actual merge of the data is when we add the properties from an element from *set B*, to the corresponding element from *set A*. In our case the element we found from set B is stored in a variable the `color`. And we iterate over the elements from set A with a for loop where each element is the variable `fruit`.
+
+So we need to add the missing / merged properties, i.e the properties that are in set B, but not in set A. Those are the properties that we want to merge from `color` into `fruit`. In our case these are the color values for `"red"`, `"green"` and `"blue"`.
+
+```python
+		# Set all the color properties which we want to merge
+		fruit["red"] = color["red"]
+		fruit["green"] = color["green"]
+		fruit["blue"] = color["blue"]
+```
+
+Since this list of properties is quite small we're done now. But we would have more properties, we could also shorten this code by putting the keys in a list of strings, and then iterating over that list:
+
+```python
+		# List of the properties which we want to merge
+		mergingProperties = ["red", "green", "blue"]
+		# Add each property
+		for prop in mergingProperties:
+				fruit[prop] = color[prop]
+```
+
+But this will not be included in the final code. I'll leave this as an exercise for you.
+
+### Output
+
+If you run the final script [`merge.py`](merge.py) it creates a new file `merged_setAB.json` with content like this:
+
+```python
+[
+  {
+    "blue": 0.08,
+    "color": "crimson",
+    "fruit": "apple",
+    "green": 0.04,
+    "red": 0.94
+  },
+  {
+    "blue": 0.0,
+    "color": "canary",
+    "fruit": "banana",
+    "green": 0.0,
+    "red": 0.0
+  },
+  {
+    "blue": 0.78,
+    "color": "beige",
+    "fruit": "coconut",
+    "green": 0.92,
+    "red": 0.83
+  },
+  // ...
+]
+```
+
+So this data is a merged set from the fruits with their color names, and the actual color values from the list of colors.

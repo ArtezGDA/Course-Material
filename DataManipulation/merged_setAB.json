@@ -1,0 +1,51 @@
+[
+  {
+    "blue": 0.08, 
+    "color": "crimson", 
+    "fruit": "apple", 
+    "green": 0.04, 
+    "red": 0.94
+  }, 
+  {
+    "blue": 0.0, 
+    "color": "canary", 
+    "fruit": "banana", 
+    "green": 0.0, 
+    "red": 0.0
+  }, 
+  {
+    "blue": 0.78, 
+    "color": "beige", 
+    "fruit": "coconut", 
+    "green": 0.92, 
+    "red": 0.83
+  }, 
+  {
+    "blue": 0.66, 
+    "color": "fuchsia", 
+    "fruit": "dade", 
+    "green": 0.04, 
+    "red": 0.76
+  }, 
+  {
+    "blue": 0.0, 
+    "color": "yellow", 
+    "fruit": "melon", 
+    "green": 0.0, 
+    "red": 0.0
+  }, 
+  {
+    "blue": 0.45, 
+    "color": "emerald", 
+    "fruit": "grape", 
+    "green": 0.68, 
+    "red": 0.21
+  }, 
+  {
+    "blue": 0.0, 
+    "color": "green", 
+    "fruit": "pear", 
+    "green": 0.0, 
+    "red": 0.0
+  }
+]
