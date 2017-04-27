@@ -174,8 +174,8 @@ Scraping data is a touch job. You can spend days just looking a (boring) data an
 
 ##  Compare two sets
 
-- [Compare two datasets](#compare-two-sets) – Find the missing / change
+- [Compare two datasets](DataManipulation/README.md#compare-two-sets) – Find the missing / change
 
 ## Merge two sets
 
-- [Merge two datasets](#merge-two-sets) – Combine into one.
+- [Merge two datasets](DataManipulation/README.md#merge-two-sets) – Combine into one.
