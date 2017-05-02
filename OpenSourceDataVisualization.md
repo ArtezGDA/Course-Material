@@ -215,6 +215,9 @@ Finally, to make sure the poster is coded (and not drawn by hand), there is a fo
 
 - Media For Thinking The Unthinkable
 	 - Bret Victor [video talk & lecture notes](http://worrydream.com/#!/MediaForThinkingTheUnthinkable) (40 min, 2013)
+- Drawing Dynamic Visualizations
+	 - Bret Victor [video talk](http://worrydream.com/#!/DrawingDynamicVisualizationsTalk) (35 min, 2013)
+
 
 #### Books:
 
