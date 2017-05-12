@@ -1,0 +1,30 @@
+size(512, 512)
+background(1)
+
+# [chr(i) for i in range(97, 123)]
+words = ["a", "b", "c", "d", "e", "f", "g", "h", "i",
+        "j", "k", "l", "m", "n", "o", "p", "q", "r",
+        "s", "t", "u", "v", "w", "x", "y", "z", "?", "!"]
+
+margin = 80
+size = 50
+spacing = 5
+
+for x in range(4):
+    for y in range(7):
+        # calculate the position of the circle
+        xpos = margin + ((size + spacing) * x)
+        ypos = margin + ((size + spacing) * y)
+        
+        # get the word from the list
+        w = words[(y * 4) + x]
+        
+        # draw circle
+        fill(None)
+        stroke(0.7)
+        arc(xpos, ypos, size / 2)
+        
+        # draw text
+        fill(0.4)
+        stroke(None)
+        text(w, xpos, ypos + 6, align=CENTER)
