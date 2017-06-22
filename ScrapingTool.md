@@ -1,11 +1,11 @@
-#####Department: Graphic Design
+##### Department: Graphic Design
 
 - Course: **Media Design**
 - Year: 2016-2017, 2nd year
 - Teacher: Dirk van Oosterbosch
 - Semester: 2
 
-###Assignment #3:
+### Assignment #3:
 # Scraping Tool
 
 ## Introduction
@@ -16,7 +16,7 @@ You should realize that when an application designer or developer who works at e
 
 This assignment is all about not taking for granted these apps, operating systems, and plugins thrown at you by the Apple's and Adobe's of this world, but creating your own tools.
 
-##Description
+## Description
 
 - Sketch a concept. Then design and present a prototype.
 
@@ -30,54 +30,54 @@ Produce a prototype of the tool that you can demo.
 Create a proof of concept using code, to demonstrate the main premise of the tool.
 
 ----
-##Learning Goals
+## Learning Goals
 
 Establish a critical position towards the status quo of available digital tools, applications, operating systems and devices. Verbalize the shortcomings, failures, lacks and mismatches of their designed workflow. Develop the skills and insights to create and present a clear, well informed and convincing demo of a non-existing tool. Acquire the technical understanding and skills to code the essence of a workflow-enhancing tool.
 
 ----
-##Planning
+## Planning
 
-#####Week 1:
+##### Week 1:
 *February 7th 2017*
 
 - Introduction to the **Scraping Tool** assignment
 
-#####Week 2:
+##### Week 2:
 *February 14th 2017*
 
 - Regular Expressions: [Regex Tools and Tutorials](Lesson_08_Regex.md)
 
-#####Week 3:
+##### Week 3:
 *February 21st 2017*
 
 - XPath ([Xpath and Google spreadsheets](Lesson_07_Scraping_with_Xpath.md))
 
-#####Week 4:
+##### Week 4:
 *February 28th 2017*
 
 **Spring Break**
 
-#####Week 5:
+##### Week 5:
 *March 7th 2017*
 
 - Image processing with SciKit-Image
 
-#####Week 6:
+##### Week 6:
 *March 14th 2017*
 
 **Off**
 
-#####Week 7:
+##### Week 7:
 *March 21th 2017*
 
 - [Write proper documentation for your tool!](HowToWriteGoodDocumentation.md)
 - Evaluation
 
-#####Next
+##### Next
 
 - Python: modulo, max, min and 'translate'/'map' functions. [Math Lesson](Lesson_06_Math_Functions.md)
 
-##Evaluation
+## Evaluation
 
 Your *critcal analysis*, *concepts*, *demos* and *proof of concept* will be judged according to their **qualities**, the displayed **insights**, the general **applicability** and **usefulness** of the tool and your means to explain, **demonstrate** and examplify its functions and applications.
 
@@ -92,7 +92,7 @@ The final grade for this assignment is constructed from these parts:
 ```
 
 ----
-##Literature
+## Literature
 
 - **Sketching User Experiences**, getting the design right and the right design
 	- *Bill Buxton* (Morgan Kaufmann, 2007)

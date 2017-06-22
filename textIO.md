@@ -1,23 +1,23 @@
-#####Department: Graphic Design
+##### Department: Graphic Design
 
 - Course: **Media Design**
 - Year: 2015-2016, 2nd year
 - Teacher: Dirk van Oosterbosch
 - Semester: 1
 
-###Assignment #2:
-#Text IO
+### Assignment #2:
+# Text IO
 
-##Learning Goals
+## Learning Goals
 
 Develop an understanding of how text is represented and stored in a computer. And acquire the skills of how to manipulate those texts in an automated fashion.  
 Familiarize yourself with operating the computer using a text-based interface, a.k.a. the **CLI** (*command line interface*), a.k.a. **the Terminal**.  
 Gain insight in the limitations, process and effects of remediation. And develop the skills of automating the generation of PDF documents from large text files.
 
 ----
-##Description
+## Description
 
-####Text Input/Output
+#### Text Input/Output
 
 Collect texts from the collective gitHub repository and remediate this into two forms: an interactive text format and an generated PDF booklet.
 
@@ -46,9 +46,9 @@ Additional to the interactive form the text should be remediated into, create a 
 
 
 ----
-##Planning
+## Planning
 
-#####Week 1:
+##### Week 1:
 *October 29th 2015*
 
 - Introduction to the **textIO** assignment
@@ -59,12 +59,12 @@ Additional to the interactive form the text should be remediated into, create a 
 
 [Exercises](Homework_01_Collections.md) with Arrays and Dictionaries
 
-#####Week 2:
+##### Week 2:
 *November 19th 2015*  
 
 - Extended demonstration of collections and datastructures
 
-#####Week 3:
+##### Week 3:
 *November 26th 2015*
 
 - Terminal and the shell __\*\*\*__
@@ -77,7 +77,7 @@ Additional to the interactive form the text should be remediated into, create a 
 - [Exercises with the shell](Homework_03_zsh.md)
 - **Final concept** for a text tool which consumes input and produces output
 
-#####Week 4:
+##### Week 4:
 *December 3rd 2015*
 
 - Group talks discussing the concepts
@@ -91,7 +91,7 @@ Additional to the interactive form the text should be remediated into, create a 
  - Collect texts from sources manually.
  - Make first prototype.
 
-#####Week 5:
+##### Week 5:
 *December 10th 2015*
 
 - Introduction to [Scraping with an API](Lesson_05_Scraping_Github_API.md)
@@ -103,7 +103,7 @@ Additional to the interactive form the text should be remediated into, create a 
 - Make tool into standalone script
 - Finish and publish **Notes about frustrations** and difficulties **with digital tools**
 
-#####Week 6:
+##### Week 6:
 *December 17th 2015*
 
 - Regular Expressions __\*\*\*__ (Postponed)
@@ -115,14 +115,14 @@ Additional to the interactive form the text should be remediated into, create a 
 ----
 ##### Christmas Hollidays
 
-#####Week 7:
+##### Week 7:
 *January 7th 2016*
 
 - Evaluation
 
 __\*\*\*__ : This lesson will deal with an advanced technical topic. Make sure you don't miss this week and prepare yourself well.
 
-##Evaluation
+## Evaluation
 
 Demonstration of text manipulation skills using python and the command line.  
 Applying a succesful process, following these steps:  
@@ -130,7 +130,7 @@ concept, prototype, design, execution, documentation
 Seizure of the creative possibilities within the strict confines of the assignment and the textual and technical medium.
 
 ----
-##Literature
+## Literature
 - **Eerste hulp bij hacken**, Doe het op de command line
 	- *Dimitri Tokmetzis* ([De Correspondent](https://decorrespondent.nl/3322/Eerste-hulp-bij-hacken-Doe-het-op-de-command-line/161771434-63756bb6), 2015)
 - **Remediation**, Understanding New Media

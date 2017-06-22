@@ -1,4 +1,4 @@
-#Rules
+# Rules
 
 #### On Being on time and Presence
 

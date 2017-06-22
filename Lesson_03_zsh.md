@@ -8,8 +8,8 @@ Get the dotfiles from [zsh-dotfiles](https://github.com/irlabs/zsh-dotfiles) on 
 - install the dotfiles
 - enable the alt key as meta key
 
-####General Note:
-#####Avoid spaces in names of files or directories
+#### General Note:
+##### Avoid spaces in names of files or directories
 
 It is good practice to avoid spaces ` ` in names of files or directories. Spaces can be used in the command line by *escaping* them with a `\ `: e.g. `cd Classes/Media\ Design/Homework`. But this is easy to forget and then cause errors. Because real spaces have different behavior: e.g. `touch Media Design` creates **two** files: one called *Media*, the other called *Design*.
 
@@ -194,7 +194,7 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 
 ## Fun examples
 
-#####Show all hidden files
+##### Show all hidden files
 
 `defaults write com.apple.finder AppleShowAllFiles YES`
 
@@ -202,7 +202,7 @@ Instead of spaces, use underscores (`_`), dashes (`-`), or **C**amel**C**asing.
 
 The *defaults* command allows you to see and change application and system preferences. It also allows you to change settings for which there is no interface in the Preferences menu.
 
-#####Star Wars in ASCII-art
+##### Star Wars in ASCII-art
 
 `telnet`  
 `o`  
@@ -211,7 +211,7 @@ The *defaults* command allows you to see and change application and system prefe
 `^]`  
 `quit`
 
-#####Doktor Eliza
+##### Doktor Eliza
 
 `emacs`  
 `(ESC)`  
@@ -220,7 +220,7 @@ The *defaults* command allows you to see and change application and system prefe
 ...  
 `^x^c`  
 
-#####Dunnet Adventure
+##### Dunnet Adventure
 
 `emacs`  
 `(ESC)`  
@@ -236,7 +236,7 @@ For the following you will need **Homebrew**. Install `brew` from the [Homebrew]
 
 ----
 
-#####Fortune
+##### Fortune
 
 Install with  
 
@@ -246,7 +246,7 @@ Use:
 
 `fortune`
 
-#####Cowsay
+##### Cowsay
 
 Install with  
 
@@ -266,7 +266,7 @@ Combine with fortune:
 
 ----
 
-#####Make the computer talk
+##### Make the computer talk
 
 `say "Good morning"`
 

@@ -1,14 +1,14 @@
-#####Department: Graphic Design
+##### Department: Graphic Design
 
 - Course: **Media Design**
 - Year: 2015-2016, 2nd year
 - Teacher: Dirk van Oosterbosch
 - Semester: 1
 
-###Assignment #1:
-#Algorithmic Nature
+### Assignment #1:
+# Algorithmic Nature
 
-##Learning Goals
+## Learning Goals
 
 Develop an understanding of algorithms and how to use them to create procedural drawings. Acquire an insight in the process of producing visuals through computer code. Being able to produce visually interesting works using procedural drawings. Collect a set of techniques that you will able to use in future works.
 
@@ -19,11 +19,11 @@ Develop an understanding of algorithms and how to use them to create procedural 
 (by *Neri Oxman, Christoph Bader & Dominik Kolb*. from https://www.behance.net/gallery/21605971/Neri-Oxman-Wanderers)
 
 ----
-##Description
+## Description
 
 Study the following 5 algorithms and create computer generated sketches and drawings using them. From each of these algorithms an example in code will be given. The assignment is to take this example and experiment with it further, creating unique and interesting drawings / sketches.
 
-####These are the five algorithms
+#### These are the five algorithms
 
 - fibonacci
 - perlin noise
@@ -33,7 +33,7 @@ Study the following 5 algorithms and create computer generated sketches and draw
 
 *(ordered from simple to advanced)*
 
-####Limitations
+#### Limitations
 
 To make the assignment a little more interesting and concrete, these are the limitation the drawings or sketches should adhere to:
 
@@ -54,9 +54,9 @@ To make the assignment a little more interesting and concrete, these are the lim
 (by *Herman de Vries*, 1971-1972, [Kröller-Müller Museum](http://krollermuller.nl/herman-de-vries-toevalstekeningen))
 
 ----
-##Planning
+## Planning
 
-#####Week 1:
+##### Week 1:
 *September 3rd 2015*
 
 - Introduction to the Media Design course.
@@ -72,7 +72,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 - Visit a botanic garden or zoo for inspiration.
 - Watch Vi-Heart's video about Spongebob (see [literature](#literature))
 
-#####Week 2:
+##### Week 2:
 *September 10th 2015*
 
 - Fibonacci
@@ -85,7 +85,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 	- chapter 6 - [Geometry](http://plotdevice.io/tut/Geometry)
 	
 
-#####Week 3:
+##### Week 3:
 *September 17th 2015*  
 *- Lessons are canceled -*
 
@@ -116,7 +116,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 			- `git merge`
 	
 
-#####Week 4:
+##### Week 4:
 *September 24th 2015*
 
 - Working with git
@@ -138,7 +138,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 	- (Have a look at this .e.g. readme of how that's done)
 
 
-#####Week 5:
+##### Week 5:
 *October 1st 2015*
 
 - Perlin Noise
@@ -149,7 +149,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 - Sync all work to GitHub and update your `.md` file accordingly
 - Read chapter 14: [Commands](http://plotdevice.io/tut/Commands)
 
-#####Week 6:
+##### Week 6:
 *October 8th 2015*
 
 - Recursive functions
@@ -159,7 +159,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 - Create 5 new sketches based on Recursive Functions
 - Sync all work to GitHub and update your `.md` file accordingly
 
-#####Week 7:
+##### Week 7:
 *October 15th 2015*
 
 - Evaluation. (One-on-one evaluation)
@@ -167,7 +167,7 @@ To make the assignment a little more interesting and concrete, these are the lim
 ##### Autumn Holliday:
 *No classes*
 
-#####Week 8:
+##### Week 8:
 *Monday 26th of October  2015*
 
 - **Final deadline of this assignment**:
@@ -185,7 +185,7 @@ The grade for this assignment will be composed from the quality of these 5 subta
 
 (So it's relatively easy to get a grade A. 2 + 2 + 2 + 2 + 2 = 10 points :-)
 
-##Evaluation
+## Evaluation
 
 Criteria for judging the work:
 
@@ -202,29 +202,29 @@ Criteria for judging the work:
 (by *Jared Tarbell*, 2003, [www.complexification.net](http://www.complexification.net/gallery/machines/substrate/))
 
 ----
-##Literature
+## Literature
 
-#####Fibonacci
+##### Fibonacci
 - [Vi Heart - SpongeBob's Pineapple (video)](https://www.youtube.com/watch?v=gBxeju8dMho)
 
-#####L-systems
+##### L-systems
 - [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf) (Mathematic Scientific Paper)
 
-#####Nature + Code
+##### Nature + Code
 
 - [**Hello World!**](http://hello-world.cc/?page_id=16) (Documentary 2013) ([Watch on Vimeo](https://vimeo.com/60735314))
 - [**Nature of Code** - Vimeo Video channel by *Daniel Shiffman*](https://vimeo.com/channels/natureofcode)
 
-#####Inspiration
+##### Inspiration
 
 - [**How algorithms shape our world** - *Kevin Slavin*](http://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world?language=en) (TED Talk, 2011)
 - [Blurry-paths Tumbler Blog](http://www.blurrypaths.com/tagged/coding)
 
-#####Coding
+##### Coding
 
 - [PlotDevice Tutorial](http://plotdevice.io/tut/)
 
-#####Git
+##### Git
 
 - Treehouse's [Git for Designers](http://blog.teamtreehouse.com/git-for-designers-part-1) article
 - Tutsplus' [Git for Designers](http://code.tutsplus.com/tutorials/git-for-designers--pre-54689) tutorial

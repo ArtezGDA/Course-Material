@@ -1,12 +1,12 @@
-#####Department: Graphic Design
+##### Department: Graphic Design
 
 - Course: **Media Design**
 - Year: 2015-2016, 2nd year
 - Teacher: Dirk van Oosterbosch
 - Semester: 2
 
-###Assignment #4:
-#Mapping the City
+### Assignment #4:
+# Mapping the City
 
 ##### [Shared Data Repository: MappingTheCity-Data](https://github.com/ArtezGDA/MappingTheCity-Data)
 ##### [Design Work Repository: MappingTheCity-Maps](https://github.com/ArtezGDA/MappingTheCity-Maps)
@@ -15,7 +15,7 @@
 
 For decades there is a global shift going of people moving from rural to urban areas. The same can be said of (digital) information. Cities are a concentration of vast quantaties of ever increasing data. This assigment is about getting a grasp on these vast amounts of data, and being able to use this data to perform research and to tell meaningfull stories and demonstrate analytical insights.
 
-##Description
+## Description
 
 ![Diagram showing the process of scraping and visualizing](images/diagram_process_of_scraping_and_visualizing.png)
 *Diagram showing the process of scraping and visualizing (from Visualizing Data, Ben Fry, O'Reilly 2008)*
@@ -78,7 +78,7 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 	- Graphiz & dot
 	- D3.js
 
-####Week 1:
+#### Week 1:
 *March 24th 2016*
 
 - Introduction to the **Mapping the City** assignment
@@ -91,7 +91,7 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 - Investigate the data
 - Make an analysis of its structure and properties
 
-####Week 2:
+#### Week 2:
 *March 31st 2016*
 
 - Lecture: Scraping: dealing with variability in Wikipedia
@@ -108,7 +108,7 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 	- your methods and tools to scrape and groom the data
 	- the structured .json files
 
-####Week 3:
+#### Week 3:
 *April 7th 2016*
 
 - Plenary Discussion about the found data
@@ -118,7 +118,7 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 
 - Finish homework of last week!
 
-####Week 4:
+#### Week 4:
 *April 14th 2016*
 
 - Group evalutation of the data scraping part of the assignment
@@ -128,7 +128,7 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 
 - Create the first iteration of the poster
 
-####Week 5:
+#### Week 5:
 *April 21st 2016*
 
 - Group presentation of the **first iteration** of the poster
@@ -140,7 +140,7 @@ The complete planning of the next 11 weeks is not final yet, but we will go over
 - Study different types of graps and describe which graph would convey which story
 - Watch Bret Victor's talk
 
-####Week 6:
+#### Week 6:
 *April 28th 2016*
 
 Lesson cancelled
@@ -151,7 +151,7 @@ Lesson cancelled
 
 #### Ascension Day
 
-####Week 7:
+#### Week 7:
 *May 12th 2016*
 
 - Group presentation of the **second iteration** of the poster
@@ -161,7 +161,7 @@ Lesson cancelled
 
 - Work on the poster
 
-####Week 8:
+#### Week 8:
 *May 19th 2016*
 
 - [Lesson: Illustrator Scripting](Lesson_10_Illustrator_Scripting.md)
@@ -170,7 +170,7 @@ Lesson cancelled
 
 - Work on the poster
 
-####Week 9:
+#### Week 9:
 *May 26th 2016*
 
 - Collective coding recap
@@ -180,7 +180,7 @@ Lesson cancelled
 
 - Create the final iteration of the poster
 
-####Week 10:
+#### Week 10:
 *June 2nd 2016*
 
 - Group Presentation of the **third iteration** of the poster (and bring previous iterations)
@@ -190,12 +190,12 @@ Lesson cancelled
 
 - Finalize the online Documentation on GitHub
 
-####Week 11:
+#### Week 11:
 *June 9th 2016*
 
 - Evaluation
 
-##Evaluation
+## Evaluation
 
 Criteria for judging the work:
 Process, Structure, Insight, Coding Skills, Persuasiveness and Relevance, Truthfulness, Open Source, Quantity of the Data (see below) and Communicating Quality of the Design and Presentation.
@@ -246,7 +246,7 @@ Finally, to make sure the poster is coded (and not drawn by hand), there is a fo
 
 ----
 
-##Literature
+## Literature
 
 #### Movies:
 

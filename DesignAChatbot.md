@@ -1,12 +1,12 @@
-#####Department: Graphic Design
+##### Department: Graphic Design
 
 - Course: **Media Design**
 - Year: 2016-2017, 2nd year
 - Teachers: Dirk van Oosterbosch & Coralie Vogelaar
 - Semester: 1
 
-###Assignment #2:
-#Design a Chatbot
+### Assignment #2:
+# Design a Chatbot
 ## _A Text Adventure_
 
 Where a robot used to be programmed by filling in an elaborate if .. , then..  flow chart where every detail had to be written out, nowadays robots learn by themselves by giving them a certain dataset of information. So to learn a robot to recognise an image of a cat, we don’t have to describe all the feature of the cat to the bot, but give the bot a large database of images of a cat. 
@@ -15,7 +15,7 @@ The first chat bot that used this tactic (called deep learning), was http://www.
 
 For this assignment we want you to design a chat bot. We of course don’t expect you to make a deep learning bot, or a believable human being. But we expect you to be inspired by different databases that can feed your bot, like youtube comments, wikipedia wisdoms etc. but can also be another chatbot. In the end even the clunkiest computer chat program can open a little window on human behaviour or introspection on our own behaviour or thinking patterns.
 
-##Inspiratie
+## Inspiratie
 
 #### Movies
 
@@ -52,12 +52,12 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 - **Allo**, Google's new message app and bot
 - [**WeChat** example: chat as universal interface](http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html#chatasui)
 
-##Learning Goals
+## Learning Goals
 
 
-##Planning
+## Planning
 
-#####Week 1:
+##### Week 1:
 *November 8th 2016*
 
 **Lesson 1: Introduction**
@@ -69,7 +69,7 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 
 - Formulate your concept. Give a couple of sentences of an possible conversation scenario.
 
-#####Week 2:
+##### Week 2:
 *November 15th 2016*
 
 **Lesson 2: Terminal**
@@ -84,7 +84,7 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 
 - Excersizes with the Terminal
 
-#####Week 3:
+##### Week 3:
 *November 22nd 2016*
 
 **Lesson 3: Writing a chatbot in python**
@@ -98,7 +98,7 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 **Homework:**
 
 
-#####Week 4:
+##### Week 4:
 *November 29th 2016*
 
 **Lesson 4: AI & the Markov Chain**
@@ -112,7 +112,7 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 
 - ...
 
-#####Week 5:
+##### Week 5:
 *December 6th 2016*
 
 **Lesson 5: Demo & Presentation**
@@ -123,7 +123,7 @@ _First movie written by an AI. Sunspring by Oscar Sharp, Ross Goodwin_
 
 - ...
 
-#####Week 6:
+##### Week 6:
 *December 13th 2016*
 
 **Evaluation**
