@@ -1,20 +1,20 @@
-#####Department: Graphic Design
+##### Department: Graphic Design
 
 - Course: **Media Design**
 - Year: 2016-2017, 2nd year
 - Teacher: Dirk van Oosterbosch
 - Semester: 1
 
-###Assignment #1:
-#Pioneers
+### Assignment #1:
+# Pioneers
 
-##Learning Goals
+## Learning Goals
 
 Learn the basic skills of programming in python. Develop a method of documenting your coding efforts and sketches. Gain insights in the history of human-computer interaction and the people and ideas involved in this research. Develop a vision on structuring and organizing information in the digital age. Being able to produce sketches and a prototype for an information system and structure.
 
 ![Engelbart Demo](images/englebart_demo.jpg)
 
-##Description
+## Description
 
 This assignment consists out of two parts: a **coding** part and a **systems design** part.
 
@@ -62,9 +62,9 @@ The following human-computer interaction pioneers will be studied:
 - Theodore Nelson
 - Bret Victor
 
-##Planning
+## Planning
 
-#####Week 1:
+##### Week 1:
 *August 30th 2016*
 
 **Lesson 0: Introduction**
@@ -80,7 +80,7 @@ The following human-computer interaction pioneers will be studied:
  	- Document your programming efforts, ideas and sketches
 - Read *As we may think* –  Vannevar Bush (see literature below)
 
-#####Week 2:
+##### Week 2:
 *September 6th 2016*
 
 - [Lesson 1](Basics/Lesson_01_ForLoops/README.md): `for` loops 
@@ -92,7 +92,7 @@ The following human-computer interaction pioneers will be studied:
 - Make sketches of a system to collect and organize these notes and concepts
 - Code: [Homework Lesson 01](Basics/Lesson_01_ForLoops/Lesson_01_For_Homework.md)
 
-#####Week 3:
+##### Week 3:
 *September 13th 2016*
 
 - Homework check:
@@ -113,7 +113,7 @@ The following human-computer interaction pioneers will be studied:
 	- [Homework Lesson 02](Basics/Lesson_02_Variables/Lesson_02_Variables_Homework.md)
 - GitHub!
 
-#####Week 4:
+##### Week 4:
 *September 20th 2016*
 
 - Homework check:
@@ -130,7 +130,7 @@ The following human-computer interaction pioneers will be studied:
 - Watch _The computer revolution hasn't happen yet_ talk by **Alan Kay**
 - Code: [Homework Lesson 03](Basics/Lesson_03_If_statements/Lesson_03_If_Homework.md)
 
-#####Week 5:
+##### Week 5:
 *September 27th 2016*
 
 - Homework recap
@@ -143,7 +143,7 @@ The following human-computer interaction pioneers will be studied:
 - Watch _ZigZag demo_ – by **Theodore Nelson**
 - Watch the 2001 version of **Alan Kay**'s _The computer revolution hasn't happen yet_
 
-#####Week 6:
+##### Week 6:
 *October 4th 2016*
 
 - GitHub Homework recap
@@ -160,7 +160,7 @@ The following human-computer interaction pioneers will be studied:
 - Watch _The future of programming_ – by **Bret Victor**
 - Design the prototype for your Catalogue (2 weeks)
 
-#####Week 7:
+##### Week 7:
 *October 11th 2016*
 
 - Homework recap
@@ -174,12 +174,12 @@ The following human-computer interaction pioneers will be studied:
 - Watch _Inventing on Principle_ – by **Bret Victor**
 - Finish the prototype for your Catalogue
 
-#####Week 8:
+##### Week 8:
 *October 18th 2016*
 
 - Evaluation
 
-##Evaluation
+## Evaluation
 
 Criteria for judging the work:
 
@@ -189,14 +189,14 @@ Criteria for judging the work:
 - **demonstration** of understanding and **presentation** of designs for **structures** and **systems** 
 - the process and **workflow** of creating ideas, sketches and a prototype.
 
-##Literature
+## Literature
 
 ####Reading
 
 - [Vannevar Bush - As we may think](reading/Vannevar_Bush-As_We_May_Think.pdf)
 - Manuel Lima - The Book of Trees: Visualizing Branches of Knowledge (the Artez library has a copy)
 
-####Video's
+#### Video's
 
 - [A Computer Glossary - Charles and Ray Eames](http://www.eamesoffice.com/the-work/a-computer-glossary-2/)
 - SketchPad Demo - Ivan Sutherland:
@@ -212,16 +212,16 @@ Criteria for judging the work:
 - [The future of programming](https://vimeo.com/71278954) - Bret Victor
 - [Inventing on Principle](https://vimeo.com/36579366) - Bret Victor
 
-####Inspiration
+#### Inspiration
 
 - [**Hello World!**](http://hello-world.cc/?page_id=16) (Documentary 2013) ([Watch on Vimeo](https://vimeo.com/60735314))
 - [Film Dialogue from 2,000 screenplays, Broken Down by Gender and Age](http://polygraph.cool/films/)
 
-####Coding
+#### Coding
 
 - [PlotDevice Tutorial](http://plotdevice.io/tut/)
 
-####Git
+#### Git
 
 - Treehouse's [Git for Designers](http://blog.teamtreehouse.com/git-for-designers-part-1) article
 - Tutsplus' [Git for Designers](http://code.tutsplus.com/tutorials/git-for-designers--pre-54689) tutorial
